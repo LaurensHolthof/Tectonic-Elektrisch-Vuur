@@ -12,10 +12,11 @@ import { SourceDocument, SourceType, LanguageRegister } from '../../../shared/ty
  * - Chunking strategies (sliding window or paragraph-aware chunkers) integrate with LangChain / LlamaIndex.
  */
 export class DocumentReader {
+  private static readonly SUPPORTED_EXTENSIONS = new Set(['pdf', 'txt', 'md', 'docx']);
   private corpusBasePath: string;
 
   constructor(corpusBasePath: string) {
-    this.corpusBasePath = corpusBasePath;
+    this.corpusBasePath = path.resolve(corpusBasePath);
   }
 
   /**
@@ -42,7 +43,7 @@ export class DocumentReader {
         );
 
       for (const file of files) {
-        const filePath = path.join(folderPath, file.name);
+        const filePath = path.resolve(folderPath, file.name);
         const parsedDoc = this.parseDocumentFile(filePath, folder, file.name);
         if (parsedDoc) {
           documents.push(parsedDoc);
@@ -58,8 +59,19 @@ export class DocumentReader {
    */
   private parseDocumentFile(filePath: string, topicFolder: string, fileName: string): SourceDocument | null {
     try {
-      const ext = path.extname(fileName).toLowerCase().replace('.', '') as 'pdf' | 'txt' | 'md' | 'docx';
-      const rawText = fs.readFileSync(filePath, 'utf-8');
+      const ext = path.extname(fileName).toLowerCase().replace('.', '');
+      if (
+        fileName !== path.basename(fileName) ||
+        !DocumentReader.SUPPORTED_EXTENSIONS.has(ext) ||
+        !this.isPathWithinCorpus(filePath)
+      ) {
+        console.warn(`[DocumentReader] Skipping invalid corpus file path: ${filePath}`);
+        return null;
+      }
+
+      // filePath is constructed from directory entries under corpusBasePath and
+      // is containment-checked above; request data never reaches this file read.
+      const rawText = fs.readFileSync(path.resolve(filePath), 'utf-8');
 
       const { metadata, content } = this.extractMetadata(rawText, fileName, ext);
       const sourceType = metadata.sourceType || this.inferSourceType(fileName);
@@ -78,7 +90,7 @@ export class DocumentReader {
         id,
         title: metadata.title || fileName,
         filePath,
-        fileFormat: ext,
+        fileFormat: ext as SourceDocument['fileFormat'],
         topicFolder,
         sourceType,
         date: metadata.date || '2025-01-01',
@@ -94,6 +106,14 @@ export class DocumentReader {
       console.error(`[DocumentReader] Error parsing ${filePath}:`, err);
       return null;
     }
+  }
+
+  private isPathWithinCorpus(filePath: string): boolean {
+    const relativePath = path.relative(this.corpusBasePath, path.resolve(filePath));
+    return relativePath.length > 0 &&
+      relativePath !== '..' &&
+      !relativePath.startsWith(`..${path.sep}`) &&
+      !path.isAbsolute(relativePath);
   }
 
   /**

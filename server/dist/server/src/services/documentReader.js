@@ -16,9 +16,10 @@ const path_1 = __importDefault(require("path"));
  * - Chunking strategies (sliding window or paragraph-aware chunkers) integrate with LangChain / LlamaIndex.
  */
 class DocumentReader {
+    static SUPPORTED_EXTENSIONS = new Set(['pdf', 'txt', 'md', 'docx']);
     corpusBasePath;
     constructor(corpusBasePath) {
-        this.corpusBasePath = corpusBasePath;
+        this.corpusBasePath = path_1.default.resolve(corpusBasePath);
     }
     /**
      * Scans all topic folders and returns parsed SourceDocument instances.
@@ -39,7 +40,7 @@ class DocumentReader {
                 !dirent.name.startsWith('.') &&
                 dirent.name.toLowerCase() !== 'question.txt');
             for (const file of files) {
-                const filePath = path_1.default.join(folderPath, file.name);
+                const filePath = path_1.default.resolve(folderPath, file.name);
                 const parsedDoc = this.parseDocumentFile(filePath, folder, file.name);
                 if (parsedDoc) {
                     documents.push(parsedDoc);
@@ -54,7 +55,15 @@ class DocumentReader {
     parseDocumentFile(filePath, topicFolder, fileName) {
         try {
             const ext = path_1.default.extname(fileName).toLowerCase().replace('.', '');
-            const rawText = fs_1.default.readFileSync(filePath, 'utf-8');
+            if (fileName !== path_1.default.basename(fileName) ||
+                !DocumentReader.SUPPORTED_EXTENSIONS.has(ext) ||
+                !this.isPathWithinCorpus(filePath)) {
+                console.warn(`[DocumentReader] Skipping invalid corpus file path: ${filePath}`);
+                return null;
+            }
+            // filePath is constructed from directory entries under corpusBasePath and
+            // is containment-checked above; request data never reaches this file read.
+            const rawText = fs_1.default.readFileSync(path_1.default.resolve(filePath), 'utf-8');
             const { metadata, content } = this.extractMetadata(rawText, fileName, ext);
             const sourceType = metadata.sourceType || this.inferSourceType(fileName);
             const countryOfInterest = metadata.countryOfInterest || metadata.jurisdiction || 'Global';
@@ -86,6 +95,13 @@ class DocumentReader {
             console.error(`[DocumentReader] Error parsing ${filePath}:`, err);
             return null;
         }
+    }
+    isPathWithinCorpus(filePath) {
+        const relativePath = path_1.default.relative(this.corpusBasePath, path_1.default.resolve(filePath));
+        return relativePath.length > 0 &&
+            relativePath !== '..' &&
+            !relativePath.startsWith(`..${path_1.default.sep}`) &&
+            !path_1.default.isAbsolute(relativePath);
     }
     /**
      * Extracts YAML-style header metadata if present, or provides default fallback metadata.
