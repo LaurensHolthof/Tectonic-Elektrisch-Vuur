@@ -118,7 +118,12 @@ export class MockSemanticSearchEngine {
       if (searchQuery.filters?.topic && !doc.topicFolder.includes(searchQuery.filters.topic)) {
         continue;
       }
-      if (searchQuery.filters?.jurisdiction && doc.jurisdiction !== searchQuery.filters.jurisdiction && doc.jurisdiction !== 'Global') {
+      const countryOfInterest = doc.countryOfInterest || doc.jurisdiction || 'Global';
+      const requestedCountryOfInterest = searchQuery.filters?.countryOfInterest || searchQuery.filters?.jurisdiction;
+      if (requestedCountryOfInterest && countryOfInterest !== requestedCountryOfInterest && countryOfInterest !== 'Global') {
+        continue;
+      }
+      if (searchQuery.filters?.countryOfOrigin && doc.countryOfOrigin !== searchQuery.filters.countryOfOrigin) {
         continue;
       }
       if (searchQuery.filters?.sourceType && doc.sourceType !== searchQuery.filters.sourceType) {
@@ -151,7 +156,11 @@ export class MockSemanticSearchEngine {
         }
 
         // Compute exact character offset highlights (Yellow = verified, Red = conflicting)
-        const highlights = this.annotator.annotateParagraph(paragraphText, doc, query);
+        const highlights = this.attachConflictSources(
+          this.annotator.annotateParagraph(paragraphText, doc, query),
+          paragraphText,
+          allDocs
+        );
         if (highlights.length === 0) {
           continue;
         }
@@ -176,10 +185,12 @@ export class MockSemanticSearchEngine {
           sourceType: doc.sourceType,
           topic: doc.topicFolder,
           documentDate: doc.date,
-          documentJurisdiction: doc.jurisdiction,
+          documentCountryOfOrigin: doc.countryOfOrigin,
+          documentCountryOfInterest: doc.countryOfInterest || doc.jurisdiction,
+          documentJurisdiction: doc.countryOfInterest || doc.jurisdiction,
           paragraphIndex: focalMatch.paragraphIndex,
           paragraphText: context.text,
-          scoreMetrics: bestMatch.scoreMetrics,
+          scoreMetrics: focalMatch.scoreMetrics,
           highlights: context.highlights
         });
       }
@@ -198,6 +209,83 @@ export class MockSemanticSearchEngine {
       scannedCorpusCount: allDocs.length,
       executionTimeMs
     };
+  }
+
+  /**
+   * Resolves annotator source aliases and adds the verbatim counterpart passage
+   * needed by the client to compare a conflict without leaving the result.
+   */
+  private attachConflictSources(
+    highlights: HighlightSpan[],
+    currentParagraphText: string,
+    allDocuments: SourceDocument[]
+  ): HighlightSpan[] {
+    return highlights.map(highlight => {
+      if (highlight.color !== 'red' || !highlight.conflictSourceIds?.length) {
+        return highlight;
+      }
+
+      const comparisonText = currentParagraphText.slice(highlight.startIndex, highlight.endIndex);
+      const resolvedDocuments = highlight.conflictSourceIds
+        .map(sourceId => allDocuments.find(document =>
+          document.id === sourceId || document.id.endsWith(`__${sourceId}`)
+        ))
+        .filter((document): document is SourceDocument => Boolean(document));
+
+      const conflictSources = resolvedDocuments.map(document => {
+        const paragraphIndex = this.findBestComparisonParagraph(
+          document,
+          `${comparisonText} ${highlight.hoverReason}`
+        );
+
+        return {
+          sourceId: document.id,
+          sourceTitle: document.title,
+          sourceType: document.sourceType,
+          paragraphIndex,
+          paragraphText: document.paragraphs[paragraphIndex] || document.rawContent,
+          countryOfOrigin: document.countryOfOrigin,
+          countryOfInterest: document.countryOfInterest || document.jurisdiction
+        };
+      });
+
+      return {
+        ...highlight,
+        conflictSourceIds: conflictSources.length > 0
+          ? conflictSources.map(source => source.sourceId)
+          : highlight.conflictSourceIds,
+        conflictSources
+      };
+    });
+  }
+
+  private findBestComparisonParagraph(document: SourceDocument, comparisonText: string): number {
+    const comparisonTokens = new Set(this.comparisonTokens(comparisonText));
+    let bestIndex = 0;
+    let bestScore = -1;
+
+    document.paragraphs.forEach((paragraph, index) => {
+      const paragraphTokens = new Set(this.comparisonTokens(`${document.title} ${paragraph}`));
+      const score = Array.from(comparisonTokens)
+        .reduce((total, token) => total + (paragraphTokens.has(token) ? 1 : 0), 0);
+
+      if (score > bestScore) {
+        bestScore = score;
+        bestIndex = index;
+      }
+    });
+
+    return bestIndex;
+  }
+
+  private comparisonTokens(text: string): string[] {
+    const stopWords = new Set([
+      'about', 'after', 'against', 'company', 'complete', 'from', 'have', 'into',
+      'legally', 'must', 'source', 'that', 'their', 'this', 'under', 'with', 'without'
+    ]);
+
+    return (text.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [])
+      .filter(token => token.length > 3 && !stopWords.has(token));
   }
 
   /**

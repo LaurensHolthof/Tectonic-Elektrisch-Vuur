@@ -37,10 +37,13 @@ class ScoringEngine {
             ...(customWeights || {})
         };
         const authority = this.calculateAuthority(document.sourceType);
-        const recency = this.calculateRecency(document.date);
-        const semantic = this.calculateSemanticMatch(semanticContext || paragraphText, document, query);
+        const recencyResult = this.calculateRecency(document.date);
+        const semanticResult = this.calculateSemanticMatch(semanticContext || paragraphText, document, query);
         const register = this.calculateRegister(document.register);
-        const crossVerification = this.calculateCrossVerification(paragraphText, document, corpusParagraphs);
+        const crossVerificationResult = this.calculateCrossVerification(paragraphText, document, corpusParagraphs);
+        const recency = recencyResult.score;
+        const semantic = semanticResult.score;
+        const crossVerification = crossVerificationResult.score;
         const weightedQuality = authority * weights.authority +
             recency * weights.recency +
             semantic * weights.semantic +
@@ -58,7 +61,14 @@ class ScoringEngine {
             crossVerification: Number(crossVerification.toFixed(3)),
             register: Number(register.toFixed(3)),
             totalScore,
-            weightsUsed: weights
+            weightsUsed: weights,
+            evidence: {
+                documentAgeDays: recencyResult.documentAgeDays,
+                matchedQueryTermCount: semanticResult.matchedQueryTermCount,
+                queryTermCount: semanticResult.queryTermCount,
+                corroboratingDocumentCount: crossVerificationResult.corroboratingSourceIds.length,
+                corroboratingSourceIds: crossVerificationResult.corroboratingSourceIds
+            }
         };
     }
     /**
@@ -89,18 +99,19 @@ class ScoringEngine {
      * 2. Recency: Newer > older (exponential half-life decay).
      */
     calculateRecency(dateStr) {
-        try {
-            const docDate = new Date(dateStr);
-            const diffMs = this.referenceDate.getTime() - docDate.getTime();
-            const diffDays = Math.max(0, diffMs / (1000 * 60 * 60 * 24));
-            // Half-life ~ 730 days (2 years). Recent docs (0-30 days) score ~0.98, 2 years ~0.50, 4 years ~0.25
-            const decayConstant = 0.00095;
-            const score = Math.exp(-decayConstant * diffDays);
-            return Math.max(0.12, Math.min(1.0, score));
+        const docDate = new Date(dateStr);
+        if (Number.isNaN(docDate.getTime())) {
+            return { score: 0.5, documentAgeDays: null };
         }
-        catch {
-            return 0.5;
-        }
+        const diffMs = this.referenceDate.getTime() - docDate.getTime();
+        const diffDays = Math.max(0, diffMs / (1000 * 60 * 60 * 24));
+        // Half-life ~ 730 days (2 years). Recent docs (0-30 days) score ~0.98, 2 years ~0.50, 4 years ~0.25
+        const decayConstant = 0.00095;
+        const score = Math.exp(-decayConstant * diffDays);
+        return {
+            score: Math.max(0.12, Math.min(1.0, score)),
+            documentAgeDays: Math.round(diffDays)
+        };
     }
     /**
      * 3. Semantic Match: Simulates dense vector similarity.
@@ -112,14 +123,21 @@ class ScoringEngine {
      * ```
      */
     calculateSemanticMatch(paragraphText, document, query) {
-        const searchableText = [document.title, document.jurisdiction, paragraphText]
+        const searchableText = [
+            document.title,
+            document.countryOfOrigin,
+            document.countryOfInterest,
+            document.jurisdiction,
+            paragraphText
+        ]
             .filter(Boolean)
             .join(' ');
         const cleanP = searchableText.toLowerCase();
         const queryTokens = [...new Set(this.tokenize(query))];
         const paragraphTokens = new Set(this.tokenize(searchableText));
-        if (queryTokens.length === 0)
-            return 0;
+        if (queryTokens.length === 0) {
+            return { score: 0, matchedQueryTermCount: 0, queryTermCount: 0 };
+        }
         const scoreToken = (token) => {
             if (paragraphTokens.has(token)) {
                 return 1;
@@ -130,17 +148,21 @@ class ScoringEngine {
             'germany', 'german', 'deutschland', 'berlin', 'munich', 'hamburg',
             'france', 'french', 'paris',
             'uk', 'united', 'kingdom', 'britain', 'british', 'england', 'london',
+            'spain', 'spanish', 'spanien',
             'eu', 'europe', 'european', 'union', 'emea'
         ]);
         const topicTokens = queryTokens.filter(token => !entityTokens.has(token));
         const topicHits = topicTokens.reduce((total, token) => total + scoreToken(token), 0);
+        const matchedQueryTermCount = queryTokens.filter(token => scoreToken(token) > 0).length;
         // A country or region can narrow the corpus, but it cannot be the only
         // reason a document is considered relevant when the query also has a topic.
-        if (topicTokens.length > 0 && topicHits / topicTokens.length < 0.34)
-            return 0;
+        if (topicTokens.length > 0 && topicHits / topicTokens.length < 0.34) {
+            return { score: 0, matchedQueryTermCount, queryTermCount: queryTokens.length };
+        }
         const hits = queryTokens.reduce((total, token) => total + scoreToken(token), 0);
-        if (hits === 0)
-            return 0;
+        if (hits === 0) {
+            return { score: 0, matchedQueryTermCount: 0, queryTermCount: queryTokens.length };
+        }
         const tokenCoverage = hits / queryTokens.length;
         const normalizedParagraph = this.tokenize(searchableText).join(' ');
         const normalizedQuery = queryTokens.join(' ');
@@ -151,7 +173,11 @@ class ScoringEngine {
             : queryBigrams.length > 0
                 ? matchedBigrams / queryBigrams.length
                 : 1;
-        return Math.min(0.99, 0.82 * tokenCoverage + 0.18 * phraseStrength);
+        return {
+            score: Math.min(0.99, 0.82 * tokenCoverage + 0.18 * phraseStrength),
+            matchedQueryTermCount,
+            queryTermCount: queryTokens.length
+        };
     }
     /**
      * 4. Cross-Verification: Consensus across multiple distinct documents with differing phrasing.
@@ -175,10 +201,17 @@ class ScoringEngine {
             'permanent establishment',
             'inventions',
             'wet-ink',
-            'nachweisgesetz'
+            'nachweisgesetz',
+            'workation',
+            'remote work',
+            'working from abroad',
+            'health insurance',
+            'emergency medical',
+            'line manager'
         ].filter(phrase => lowerP.includes(phrase));
-        if (keyPhrases.length === 0)
-            return 0.40;
+        if (keyPhrases.length === 0) {
+            return { score: 0.35, corroboratingSourceIds: [] };
+        }
         // Find other documents corroborating this topic
         const corroboratingDocs = new Set();
         for (const item of corpusParagraphs) {
@@ -190,14 +223,16 @@ class ScoringEngine {
                 corroboratingDocs.add(item.doc.id);
             }
         }
-        // If verified by 2+ external documents in corpus, award high consensus score
+        // The score remains useful for ranking, while the source IDs are returned
+        // as concrete evidence so the UI can show a real document count.
+        const corroboratingSourceIds = Array.from(corroboratingDocs);
         if (corroboratingDocs.size >= 3)
-            return 0.96;
+            return { score: 0.96, corroboratingSourceIds };
         if (corroboratingDocs.size === 2)
-            return 0.85;
+            return { score: 0.85, corroboratingSourceIds };
         if (corroboratingDocs.size === 1)
-            return 0.68;
-        return 0.35; // single isolated claim without multi-document confirmation
+            return { score: 0.68, corroboratingSourceIds };
+        return { score: 0.35, corroboratingSourceIds }; // single isolated claim
     }
     /**
      * 5. Language Register: Formal/Statutory > informal
@@ -223,8 +258,14 @@ class ScoringEngine {
             severance: ['indemnity', 'indemnité', 'package', 'compensation'],
             parental: ['maternity', 'paternity', 'childcare', 'beeg', 'caregiver'],
             invention: ['patent', 'ip', 'proprietary', 'intellectual property', 'software', 'side project'],
-            remote: ['work-from-anywhere', 'telework', 'relocation', 'abroad', 'disconnect', 'tax'],
-            law: ['statute', 'statutory', 'code', 'bgb', 'act', 'directive', 'nachwg']
+            remote: ['work-from-anywhere', 'telework', 'relocation', 'abroad', 'disconnect', 'tax', 'workation', 'mobiles', 'ausland'],
+            workation: ['remote', 'work-from-anywhere', 'abroad', 'telework', 'spain', 'spanien', 'allowance', 'working days', 'mobiles', 'ausland'],
+            work: ['arbeiten', 'arbeitstage', 'job', 'employment'],
+            remotely: ['ausland', 'mobiles', 'remote', 'telework'],
+            spain: ['spanien', 'valencia'],
+            insurance: ['medical', 'allianz', 'health', 'coverage', 'emergency', 'repatriation', 'krankenversicherung', 'versicherung'],
+            allowance: ['quota', 'entitlement', 'days', 'limit', 'cap', 'anspruch'],
+            law: ['statute', 'statutory', 'code', 'bgb', 'act', 'directive', 'nachwg', 'richtlinie']
         };
         for (const [key, syns] of Object.entries(synonymMap)) {
             if (token === key || syns.includes(token)) {

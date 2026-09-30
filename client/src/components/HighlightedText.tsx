@@ -5,8 +5,9 @@ import { ShieldCheck } from 'lucide-react';
 
 interface HighlightedTextProps {
   text: string;
+  sourceTitle: string;
   highlights: HighlightSpan[];
-  onOpenSourceDoc?: (sourceId: string) => void;
+  onOpenSourceDoc?: (sourceId: string, paragraphIndex?: number) => void;
 }
 
 /**
@@ -16,7 +17,12 @@ interface HighlightedTextProps {
  * Renders Yellow (matching source sentences) and Red (conflicting/risky sentences).
  * Zero string mutation ensures exact alignment with underlying source records.
  */
-export const HighlightedText: React.FC<HighlightedTextProps> = ({ text, highlights, onOpenSourceDoc }) => {
+export const HighlightedText: React.FC<HighlightedTextProps> = ({
+  text,
+  sourceTitle,
+  highlights,
+  onOpenSourceDoc
+}) => {
   const [activeTooltip, setActiveTooltip] = useState<number | null>(null);
 
   if (!highlights || highlights.length === 0) {
@@ -57,7 +63,9 @@ export const HighlightedText: React.FC<HighlightedTextProps> = ({ text, highligh
           }`}
           onClick={(e) => {
             e.stopPropagation();
-            if (hl.conflictSourceIds?.[0] && onOpenSourceDoc) {
+            if (hl.conflictSources?.[0] && onOpenSourceDoc) {
+              onOpenSourceDoc(hl.conflictSources[0].sourceId, hl.conflictSources[0].paragraphIndex);
+            } else if (hl.conflictSourceIds?.[0] && onOpenSourceDoc) {
               onOpenSourceDoc(hl.conflictSourceIds[0]);
             } else if (hl.supportedSourceIds?.[0] && onOpenSourceDoc) {
               onOpenSourceDoc(hl.supportedSourceIds[0]);
@@ -72,7 +80,10 @@ export const HighlightedText: React.FC<HighlightedTextProps> = ({ text, highligh
           isRed ? (
             <ConflictTooltip
               reason={hl.hoverReason}
+              currentText={highlightedChunk}
+              currentSourceTitle={sourceTitle}
               conflictSourceIds={hl.conflictSourceIds}
+              conflictSources={hl.conflictSources}
               onInspectSource={onOpenSourceDoc}
             />
           ) : (

@@ -4,6 +4,7 @@ import { SearchBar } from './components/SearchBar';
 import { ParagraphCard } from './components/ParagraphCard';
 import { EntityRoutingBanner } from './components/EntityRoutingBanner';
 import { DocumentViewerModal } from './components/DocumentViewerModal';
+import { HyliteLogo } from './components/HyliteLogo';
 import { BookOpen, ShieldAlert, ShieldCheck } from 'lucide-react';
 
 type FilterMode = 'all' | 'conflicts' | 'verified';
@@ -80,16 +81,10 @@ export const App: React.FC = () => {
         <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6">
           <a
             href="/"
-            aria-label="LexisHR home"
-            className="flex items-center gap-2.5 rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-blue-500/40"
+            aria-label="Hylite home"
+            className="flex items-center rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-blue-500/40"
           >
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-white">
-              <BookOpen className="h-4 w-4" aria-hidden="true" />
-            </div>
-            <div className="flex items-baseline gap-2">
-              <span className="text-sm font-semibold tracking-tight text-slate-950">LexisHR</span>
-              <span className="hidden text-xs text-slate-400 sm:inline">Workplace knowledge</span>
-            </div>
+            <HyliteLogo size="sm" />
           </a>
           <div className="flex items-center gap-1.5 text-xs text-slate-500">
             <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
@@ -101,10 +96,10 @@ export const App: React.FC = () => {
       <main className="mx-auto w-full max-w-5xl px-4 pb-16 pt-8 sm:px-6 sm:pt-10">
         <section className={searchResponse ? 'mb-5' : 'mx-auto max-w-3xl pb-12 pt-12 text-center sm:pt-20'}>
           {!searchResponse && (
-            <div className="mb-7">
-              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-blue-600">
-                HR knowledge search
-              </p>
+            <div className="mb-8">
+              <div className="mb-5 flex justify-center">
+                <HyliteLogo size="lg" showIcon={false} showTagline={false} />
+              </div>
               <h1 className="text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
                 Find the source, not a summary.
               </h1>

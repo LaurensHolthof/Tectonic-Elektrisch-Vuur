@@ -54,6 +54,9 @@ class DocumentReader {
             const ext = path_1.default.extname(fileName).toLowerCase().replace('.', '');
             const rawText = fs_1.default.readFileSync(filePath, 'utf-8');
             const { metadata, content } = this.extractMetadata(rawText, fileName, ext);
+            const sourceType = metadata.sourceType || this.inferSourceType(fileName);
+            const countryOfInterest = metadata.countryOfInterest || metadata.jurisdiction || 'Global';
+            const countryOfOrigin = metadata.countryOfOrigin || this.inferCountryOfOrigin(sourceType, countryOfInterest);
             // Cleanly split into paragraphs by double newlines, preserving exact paragraph strings
             const paragraphs = content
                 .split(/\r?\n\s*\r?\n/)
@@ -66,9 +69,11 @@ class DocumentReader {
                 filePath,
                 fileFormat: ext,
                 topicFolder,
-                sourceType: metadata.sourceType || this.inferSourceType(fileName),
+                sourceType,
                 date: metadata.date || '2025-01-01',
-                jurisdiction: metadata.jurisdiction || 'Global',
+                countryOfOrigin,
+                countryOfInterest,
+                jurisdiction: countryOfInterest,
                 language: metadata.language || 'en',
                 register: metadata.register || this.inferRegister(metadata.sourceType),
                 rawContent: content,
@@ -104,6 +109,8 @@ class DocumentReader {
                     sourceType: meta.sourceType,
                     date: meta.date,
                     jurisdiction: meta.jurisdiction,
+                    countryOfOrigin: meta.countryOfOrigin,
+                    countryOfInterest: meta.countryOfInterest,
                     language: meta.language,
                     register: meta.register
                 },
@@ -147,6 +154,15 @@ class DocumentReader {
             default:
                 return 'informal_internal';
         }
+    }
+    inferCountryOfOrigin(sourceType, countryOfInterest) {
+        // For national legislation the issuing country is unambiguous. Other
+        // source types need an explicit frontmatter value; their scope alone does
+        // not tell us where the document was produced.
+        if (sourceType === 'statutory_statute' && countryOfInterest !== 'Global') {
+            return countryOfInterest;
+        }
+        return undefined;
     }
 }
 exports.DocumentReader = DocumentReader;

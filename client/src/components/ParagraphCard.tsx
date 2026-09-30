@@ -84,6 +84,7 @@ export const ParagraphCard: React.FC<ParagraphCardProps> = ({ paragraph, onOpenS
       <div className="my-4 text-[15px] leading-7 text-slate-700">
         <HighlightedText
           text={paragraph.paragraphText}
+          sourceTitle={paragraph.sourceTitle}
           highlights={paragraph.highlights}
           onOpenSourceDoc={onOpenSourceDoc}
         />

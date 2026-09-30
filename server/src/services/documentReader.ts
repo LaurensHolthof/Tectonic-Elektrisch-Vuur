@@ -58,6 +58,9 @@ export class DocumentReader {
       const rawText = fs.readFileSync(filePath, 'utf-8');
 
       const { metadata, content } = this.extractMetadata(rawText, fileName, ext);
+      const sourceType = metadata.sourceType || this.inferSourceType(fileName);
+      const countryOfInterest = metadata.countryOfInterest || metadata.jurisdiction || 'Global';
+      const countryOfOrigin = metadata.countryOfOrigin || this.inferCountryOfOrigin(sourceType, countryOfInterest);
 
       // Cleanly split into paragraphs by double newlines, preserving exact paragraph strings
       const paragraphs = content
@@ -73,9 +76,11 @@ export class DocumentReader {
         filePath,
         fileFormat: ext,
         topicFolder,
-        sourceType: metadata.sourceType || this.inferSourceType(fileName),
+        sourceType,
         date: metadata.date || '2025-01-01',
-        jurisdiction: metadata.jurisdiction || 'Global',
+        countryOfOrigin,
+        countryOfInterest,
+        jurisdiction: countryOfInterest,
         language: metadata.language || 'en',
         register: metadata.register || this.inferRegister(metadata.sourceType),
         rawContent: content,
@@ -114,6 +119,8 @@ export class DocumentReader {
           sourceType: meta.sourceType as SourceType,
           date: meta.date,
           jurisdiction: meta.jurisdiction,
+          countryOfOrigin: meta.countryOfOrigin,
+          countryOfInterest: meta.countryOfInterest,
           language: meta.language,
           register: meta.register as LanguageRegister
         },
@@ -154,5 +161,15 @@ export class DocumentReader {
       default:
         return 'informal_internal';
     }
+  }
+
+  private inferCountryOfOrigin(sourceType: SourceType, countryOfInterest: string): string | undefined {
+    // For national legislation the issuing country is unambiguous. Other
+    // source types need an explicit frontmatter value; their scope alone does
+    // not tell us where the document was produced.
+    if (sourceType === 'statutory_statute' && countryOfInterest !== 'Global') {
+      return countryOfInterest;
+    }
+    return undefined;
   }
 }

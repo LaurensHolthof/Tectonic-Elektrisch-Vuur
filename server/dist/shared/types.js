@@ -1,6 +1,6 @@
 "use strict";
 /**
- * Shared TypeScript definitions for Digital HR Paralegal Semantic Search Engine.
+ * Shared TypeScript definitions for Hylite Semantic Search Engine.
  *
  * Strict API Contract: The backend MUST NOT generate new conversational text;
  * it returns exact paragraph excerpts accompanied by character offsets and legal annotations.

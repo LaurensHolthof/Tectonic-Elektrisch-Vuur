@@ -17,9 +17,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({
   const [query, setQuery] = useState(initialQuery);
 
   const sampleQueries = [
-    'Parental leave policy',
-    'Remote work abroad',
-    'Weekend side projects'
+    'Work remotely from Spain for 3 weeks',
+    'International workation policy allowance',
+    'Working from abroad insurance coverage'
   ];
 
   const handleSubmit = (e: React.FormEvent) => {

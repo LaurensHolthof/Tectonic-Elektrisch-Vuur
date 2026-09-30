@@ -37,6 +37,12 @@ export class EntityScopeRouter {
       targetJurisdiction: 'United Kingdom'
     },
     {
+      name: 'Spain',
+      type: 'country',
+      keywords: ['spain', 'spanish', 'valencia', 'madrid', 'barcelona', 'españa'],
+      targetJurisdiction: 'Global'
+    },
+    {
       name: 'European Union',
       type: 'region',
       keywords: ['eu', 'european union', 'europe', 'cross-border', 'a1 certificate', 'emea', 'whistleblower directive'],
@@ -71,8 +77,8 @@ export class EntityScopeRouter {
 
         // Find statutory and legal documents corresponding to this entity
         const entityDocs = allDocuments.filter(doc => 
-          (doc.jurisdiction?.toLowerCase() === rule.targetJurisdiction.toLowerCase() ||
-           doc.jurisdiction === 'Global') &&
+          ((doc.countryOfInterest || doc.jurisdiction)?.toLowerCase() === rule.targetJurisdiction.toLowerCase() ||
+           (doc.countryOfInterest || doc.jurisdiction) === 'Global') &&
           (doc.sourceType === 'statutory_statute' || doc.sourceType === 'master_employment_contract')
         );
 
@@ -99,9 +105,9 @@ export class EntityScopeRouter {
       // Keep documents that match detected jurisdiction OR are Global
       const matchesJurisdiction = detectedEntities.some(entity => {
         const rule = this.entityRules.find(r => r.name === entity.name);
-        return rule && doc.jurisdiction?.toLowerCase() === rule.targetJurisdiction.toLowerCase();
+        return rule && (doc.countryOfInterest || doc.jurisdiction)?.toLowerCase() === rule.targetJurisdiction.toLowerCase();
       });
-      return matchesJurisdiction || doc.jurisdiction === 'Global';
+      return matchesJurisdiction || (doc.countryOfInterest || doc.jurisdiction) === 'Global';
     });
 
     return {

@@ -52,6 +52,8 @@ app.get('/api/documents', async (_req: Request, res: Response) => {
       sourceType: d.sourceType,
       topicFolder: d.topicFolder,
       date: d.date,
+      countryOfOrigin: d.countryOfOrigin,
+      countryOfInterest: d.countryOfInterest || d.jurisdiction,
       jurisdiction: d.jurisdiction,
       paragraphCount: d.paragraphs.length
     })));
@@ -85,9 +87,9 @@ app.get('/api/documents/:id', async (req: Request, res: Response) => {
  * GET /api/health
  */
 app.get('/api/health', (_req: Request, res: Response) => {
-  res.json({ status: 'ok', service: 'HR Paralegal Semantic Search Engine Backend' });
+  res.json({ status: 'ok', service: 'Hylite Semantic Search Engine Backend' });
 });
 
 app.listen(PORT, () => {
-  console.log(`[Server] Paralegal Search Backend running on http://localhost:${PORT}`);
+  console.log(`[Server] Hylite Search Backend running on http://localhost:${PORT}`);
 });

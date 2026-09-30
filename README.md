@@ -1,6 +1,6 @@
-# Digital Personal HR Paralegal — Semantic Search Engine MVP
+# Hylite — Semantic Search & Workplace Knowledge Engine
 
-A full-stack TypeScript & Node.js boilerplate and core logic implementation for an enterprise **HR / Legal Paralegal Search & Verification Engine**. 
+A full-stack TypeScript & Node.js implementation for **Hylite**, an enterprise workplace policy and legal search engine with grounded paragraph annotations and conflict detection.
 
 Designed strictly with an **interface-driven, non-conversational API contract**: it never generates hallucinated LLM prose; it extracts verbatim paragraph excerpts from governing legal sources, computing character-offset inline highlights (**Yellow** for verified clauses, **Red** for legal conflicts) with multi-criteria statutory ranking.
 
@@ -70,27 +70,18 @@ flowchart TD
 
 ### 1. Install Dependencies
 ```bash
-# Install server dependencies
-cd server && npm install
-
-# Install client dependencies
-cd ../client && npm install
+# From the project root
+npm install
+npm run setup
 ```
 
 ### 2. Run the Application
-In two separate terminals:
-
 ```bash
-# Terminal 1: Start Backend (Port 3001)
-cd server
-npm run dev
-
-# Terminal 2: Start Frontend (Port 3000)
-cd client
 npm run dev
 ```
 
-Open your browser at **`http://localhost:3000`**.
+This starts the backend on **`http://localhost:3001`** and the frontend on
+**`http://localhost:3000`**. Open the frontend URL in your browser.
 
 ---
 

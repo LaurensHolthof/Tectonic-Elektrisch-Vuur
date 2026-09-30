@@ -19,6 +19,13 @@ interface ScoreBreakdownTooltipProps {
  */
 export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ metrics }) => {
   const { authority, recency, semantic, crossVerification, register, totalScore, weightsUsed } = metrics;
+  const evidence = metrics.evidence || {
+    documentAgeDays: null,
+    matchedQueryTermCount: 0,
+    queryTermCount: 0,
+    corroboratingDocumentCount: 0,
+    corroboratingSourceIds: []
+  };
   const weightedQuality =
     authority * weightsUsed.authority +
     recency * weightsUsed.recency +
@@ -34,7 +41,8 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
       score: authority,
       weight: weightsUsed.authority,
       color: 'bg-indigo-500',
-      description: 'How dependable and formal the source is'
+      observedValue: `${authority.toFixed(2)} / 1`,
+      description: 'Reliability value assigned to this source type'
     },
     {
       label: 'Semantic Match',
@@ -42,7 +50,8 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
       score: semantic,
       weight: weightsUsed.semantic,
       color: 'bg-blue-500',
-      description: 'Dense vector / literal alignment with query proposition'
+      observedValue: `${evidence.matchedQueryTermCount} of ${evidence.queryTermCount} terms`,
+      description: 'Distinct query terms matched in this document'
     },
     {
       label: 'Cross-Source Support',
@@ -50,7 +59,8 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
       score: crossVerification,
       weight: weightsUsed.crossVerification,
       color: 'bg-emerald-500',
-      description: 'Agreement across multiple independent source files'
+      observedValue: `${evidence.corroboratingDocumentCount} other ${evidence.corroboratingDocumentCount === 1 ? 'document' : 'documents'}`,
+      description: 'Other source files containing the same core claim'
     },
     {
       label: 'Recency Decay',
@@ -58,7 +68,10 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
       score: recency,
       weight: weightsUsed.recency,
       color: 'bg-amber-500',
-      description: 'Exponential half-life decay (newer > 2 years ago)'
+      observedValue: evidence.documentAgeDays === null
+        ? 'Date unknown'
+        : `${evidence.documentAgeDays} ${evidence.documentAgeDays === 1 ? 'day' : 'days'} old`,
+      description: 'Age on the ranking reference date'
     },
     {
       label: 'Document Formality',
@@ -66,13 +79,14 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
       score: register,
       weight: weightsUsed.register,
       color: 'bg-purple-500',
-      description: 'Formal documents score above informal messages'
+      observedValue: `${register.toFixed(2)} / 1`,
+      description: 'Formality value assigned to this document register'
     }
   ];
 
   return (
     <div
-      className="absolute right-0 bottom-full mb-2.5 z-50 w-80 p-3.5 bg-slate-900/95 backdrop-blur text-white rounded-xl shadow-2xl border border-slate-700 text-xs animate-fade-in pointer-events-auto"
+      className="pointer-events-auto absolute bottom-full right-0 z-50 mb-2.5 w-80 rounded-xl border border-slate-700 bg-slate-900/95 p-3.5 text-xs text-white shadow-2xl backdrop-blur animate-fade-in sm:w-96"
       onClick={(e) => e.stopPropagation()}
     >
       {/* Header */}
@@ -97,27 +111,27 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
 
           return (
             <div key={row.label} className="group/row">
-              <div className="flex items-center justify-between text-[11px] mb-1">
+              <div className="mb-1 flex items-center justify-between gap-3 text-[11px]">
                 <div className="flex items-center gap-1 text-slate-300">
                   <Icon className="w-3.5 h-3.5 text-slate-400" />
                   <span>{row.label}</span>
                 </div>
-                <div className="flex items-center gap-1.5 font-mono text-[11px]">
-                  <span className="text-slate-400">×{(row.weight * 100).toFixed(0)}% =</span>
-                  <span className="font-medium text-slate-100">{(row.score * 100).toFixed(0)}%</span>
-                </div>
+                <span className="text-right font-mono font-medium text-slate-100">{row.observedValue}</span>
               </div>
 
               {/* Progress Bar Container */}
               <div className="w-full h-1.5 bg-slate-800 rounded-full overflow-hidden flex">
                 <div
                   className={`h-full ${row.color} transition-all duration-300`}
-                  style={{ width: `${Math.max(5, row.score * 100)}%` }}
+                  style={{ width: `${Math.max(0, row.score * 100)}%` }}
                 />
               </div>
 
-              <div className="hidden group-hover/row:block text-[10px] text-slate-400 mt-0.5 italic">
-                {row.description}
+              <div className="mt-1 flex items-start justify-between gap-3 text-[10px] text-slate-400">
+                <span>{row.description}</span>
+                <span className="shrink-0 font-mono text-slate-500">
+                  {(row.weight * 100).toFixed(0)}% weight · {(weightedContribution * 100).toFixed(1)} pts
+                </span>
               </div>
             </div>
           );

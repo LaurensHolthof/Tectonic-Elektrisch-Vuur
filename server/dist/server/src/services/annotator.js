@@ -22,6 +22,31 @@ class Annotator {
         // Red highlight rules (conflicts, legal liabilities, unenforceable terms)
         const redRules = [
             {
+                pattern: /strictly capped at a maximum of 10 business days per calendar year/i,
+                reason: 'OUTDATED POLICY CONFLICT: The 10-day cap is obsolete. The active 2025 Global Flexible Work Policy expands international workations to 30 working days per rolling 12 months.',
+                conflictSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
+                pattern: /restricted to regular full-time employees who have attained at least twelve \(12\) consecutive months of continuous tenure/i,
+                reason: 'OUTDATED ELIGIBILITY CONFLICT: The 12-month tenure restriction was abolished. Employees are eligible immediately after passing their 3-month probation.',
+                conflictSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
+                pattern: /at least sixty \(60\) calendar days prior to the proposed travel date/i,
+                reason: 'OUTDATED ADVANCE NOTICE CONFLICT: Advance notice requirement was reduced from 60 days to 14 calendar days via Workday self-service.',
+                conflictSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
+                pattern: /from the Department Vice President \(VP\) and the Head of Corporate Risk/i,
+                reason: 'OUTDATED APPROVAL CHAIN: Executive/VP sign-off is no longer required. Standard requests require only Line Manager approval.',
+                conflictSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
+                pattern: /solely responsible for procuring private, comprehensive international health and emergency repatriation insurance/i,
+                reason: 'OUTDATED INSURANCE CONFLICT: The company now provides automatic emergency medical and business travel insurance through Allianz at no cost to the employee.',
+                conflictSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
                 pattern: /2 weeks notice/i,
                 reason: 'CRITICAL CONFLICT: Violates German Civil Code (BGB §622(2)). Statutory notice after 2 years must be at least 1 month to the end of a calendar month. Unilateral reduction to 2 weeks is legally null and void.',
                 conflictSources: ['german-bgb-notice-severance', 'master-employment-contract-template']
@@ -74,6 +99,76 @@ class Annotator {
         ];
         // Yellow highlight rules (verified legal answers & high-trust statutory citations)
         const yellowRules = [
+            {
+                pattern: /up to thirty \(30\) working days \(six calendar weeks\) per rolling 12-month period/i,
+                reason: 'CURRENT VALID POLICY: Active annual international workation entitlement.',
+                supportedSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
+                pattern: /immediately upon successful completion of their statutory or contractual probationary period \(standard 3 months\)/i,
+                reason: 'CURRENT VALID ELIGIBILITY: Full workation eligibility granted immediately following completion of 3-month probation.',
+                supportedSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
+                pattern: /at least fourteen \(14\) calendar days prior to the intended start date of the travel/i,
+                reason: 'CURRENT VALID TIMELINE: Mandatory 14-day advance notice requirement in Workday.',
+                supportedSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
+                pattern: /approval exclusively from the employee's immediate Line Manager/i,
+                reason: 'CURRENT VALID WORKFLOW: Streamlined single-level Line Manager approval without requiring VP sign-off.',
+                supportedSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
+                pattern: /automatically covered under the company’s Global Business Travel and Emergency Medical Assistance insurance program/i,
+                reason: 'CURRENT VALID BENEFIT: Zero-cost emergency medical and hospitalization protection underwritten by Allianz.',
+                supportedSources: ['doc-2-updated-international-workation-policy']
+            },
+            {
+                pattern: /bis zu dreißig \(30\) Arbeitstage \(entspricht sechs Kalenderwochen\) aus einem genehmigten Zielland/i,
+                reason: 'GÜLTIGE REGELUNG: Bestätigter Anspruch auf 30 Arbeitstage Workation pro Jahr.',
+                supportedSources: ['doc-3-german-workation-richtlinie']
+            },
+            {
+                pattern: /unmittelbar nach dem erfolgreichen Bestehen der vertraglichen oder gesetzlichen Probezeit/i,
+                reason: 'GÜLTIGE TEILNAHMEVORAUSSETZUNG: Anspruchsberechtigung nach der Probezeit.',
+                supportedSources: ['doc-3-german-workation-richtlinie']
+            },
+            {
+                pattern: /mindestens vierzehn \(14\) Kalendertage vor dem geplanten Beginn/i,
+                reason: 'GÜLTIGE ANTRAGSFRIST: 14 Kalendertage Vorlaufzeit über das HR-Portal.',
+                supportedSources: ['doc-3-german-workation-richtlinie']
+            },
+            {
+                pattern: /Ausschließlich die Freigabe durch die jeweilige direkte disziplinarische Führungskraft/i,
+                reason: 'GÜLTIGER GENEHMIGUNGSPROZESS: Nur Freigabe durch die direkte Führungskraft erforderlich.',
+                supportedSources: ['doc-3-german-workation-richtlinie']
+            },
+            {
+                pattern: /automatisch und beitragsfrei über die weltweite Auslandsnotfall- und Dienstreisekrankenversicherung/i,
+                reason: 'GÜLTIGER VERSICHERUNGSSCHUTZ: Beitragsfreie Notfall- und Krankenabsicherung über Allianz-Rahmenvertrag.',
+                supportedSources: ['doc-3-german-workation-richtlinie']
+            },
+            {
+                pattern: /tripled our work-from-abroad allowance from 10 days to 30 working days per rolling 12 months/i,
+                reason: 'OPERATIONAL CONFIRMATION: Official People Ops announcement confirming 30-day workation allowance.',
+                supportedSources: ['doc-4-supporting-email-workation']
+            },
+            {
+                pattern: /cleared your initial 3-month probation period and are in good standing, you are eligible to book a workation immediately/i,
+                reason: 'OPERATIONAL CONFIRMATION: Official People Ops confirmation of eligibility post-probation.',
+                supportedSources: ['doc-4-supporting-email-workation']
+            },
+            {
+                pattern: /submit your request in Workday at least 14 days before you depart, and it only needs your direct manager’s approval/i,
+                reason: 'OPERATIONAL CONFIRMATION: Official People Ops confirmation of 14-day notice and manager sign-off.',
+                supportedSources: ['doc-4-supporting-email-workation']
+            },
+            {
+                pattern: /fully covered under our global emergency business medical insurance with Allianz/i,
+                reason: 'OPERATIONAL CONFIRMATION: Official People Ops confirmation of Allianz emergency medical coverage.',
+                supportedSources: ['doc-4-supporting-email-workation']
+            },
             {
                 pattern: /seven weeks before the leave begins, provided the leave is taken for the period up to the child's third birthday/i,
                 reason: 'VERIFIED STATUTE: Governed by German Federal Parental Allowance and Parental Leave Act (BEEG §16(1)).',

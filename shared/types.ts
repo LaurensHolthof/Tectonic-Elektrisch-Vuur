@@ -1,5 +1,5 @@
 /**
- * Shared TypeScript definitions for Digital HR Paralegal Semantic Search Engine.
+ * Shared TypeScript definitions for Hylite Semantic Search Engine.
  * 
  * Strict API Contract: The backend MUST NOT generate new conversational text;
  * it returns exact paragraph excerpts accompanied by character offsets and legal annotations.
@@ -22,12 +22,23 @@ export type LanguageRegister =
 
 export type HighlightColor = 'yellow' | 'red';
 
+export interface ConflictSourceExcerpt {
+  sourceId: string;
+  sourceTitle: string;
+  sourceType: SourceType;
+  paragraphIndex: number;
+  paragraphText: string;
+  countryOfOrigin?: string;
+  countryOfInterest?: string;
+}
+
 export interface HighlightSpan {
   startIndex: number;        // Inclusive character start index within paragraphText
   endIndex: number;          // Exclusive character end index within paragraphText
   color: HighlightColor;     // 'yellow' for verified answers; 'red' for conflicting/problematic terms
   hoverReason: string;       // Legal explanation displayed on hover (e.g. why conflicting or verified)
   conflictSourceIds?: string[]; // IDs of documents presenting conflicting covenants or provisions
+  conflictSources?: ConflictSourceExcerpt[]; // Verbatim passages used for side-by-side conflict comparison
   supportedSourceIds?: string[];// IDs of authoritative documents corroborating this clause
   severity?: 'critical' | 'warning' | 'verified';
 }
@@ -48,6 +59,13 @@ export interface ScoreMetrics {
   register: number;           // 0.0 - 1.0 based on formality of legal register
   totalScore: number;         // 0.0 - 1.0 weighted aggregate composite score
   weightsUsed: ScoreBreakdownWeights;
+  evidence: {
+    documentAgeDays: number | null;
+    matchedQueryTermCount: number;
+    queryTermCount: number;
+    corroboratingDocumentCount: number;
+    corroboratingSourceIds: string[];
+  };
 }
 
 export interface AnnotatedParagraph {
@@ -57,7 +75,9 @@ export interface AnnotatedParagraph {
   sourceType: SourceType;
   topic: string;
   documentDate: string;       // ISO 8601 string (e.g., '2026-04-10')
-  documentJurisdiction?: string; // e.g., 'Germany', 'France', 'United Kingdom', 'California'
+  documentCountryOfOrigin?: string; // Where the source was issued or produced
+  documentCountryOfInterest?: string; // Country/jurisdiction the source concerns or governs
+  documentJurisdiction?: string; // Deprecated compatibility alias for documentCountryOfInterest
   paragraphIndex: number;
   paragraphText: string;      // The EXACT text slice from the source document (NO conversational LLM text)
   scoreMetrics: ScoreMetrics;
@@ -80,6 +100,8 @@ export interface SearchQuery {
   query: string;
   filters?: {
     topic?: string;
+    countryOfOrigin?: string;
+    countryOfInterest?: string;
     jurisdiction?: string;
     sourceType?: SourceType;
   };
@@ -103,9 +125,12 @@ export interface SourceDocument {
   topicFolder: string;
   sourceType: SourceType;
   date: string;               // ISO 8601 string
+  /** @deprecated Use countryOfInterest. */
   jurisdiction?: string;
   language: string;
   register: LanguageRegister;
+  countryOfOrigin?: string;
+  countryOfInterest?: string;
   rawContent: string;
   paragraphs: string[];
 }
