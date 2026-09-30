@@ -73,6 +73,7 @@ flowchart TD
 # From the project root
 npm install
 npm run setup
+npm run build
 ```
 
 ### 2. Run the Application
