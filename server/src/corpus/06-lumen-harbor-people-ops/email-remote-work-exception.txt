@@ -1,0 +1,16 @@
+---
+title: Email Thread — Informal Portugal Remote Work Approval
+sourceType: internal_email
+date: 2026-04-08
+jurisdiction: Global
+language: en
+register: informal_internal
+---
+
+From Team Lead to Analyst: You can work from Portugal for up to 60 days without filing a request because your projects are fully remote.
+
+From Analyst to Team Lead: Thanks, I have not booked yet and wanted to confirm whether Payroll or Security needs to review the dates.
+
+From Team Lead to Analyst: I do not think another approval is necessary, but keep your normal Brussels hours and use the VPN.
+
+From People Operations to Team Lead: Please pause the arrangement because international work is limited to 20 working days and requires the International Work Request before travel.

@@ -11,7 +11,8 @@ import {
   FileText,
   Mail,
   MessageSquare,
-  Scale
+  Scale,
+  UserRound
 } from 'lucide-react';
 
 interface ParagraphCardProps {
@@ -23,6 +24,7 @@ const sourceLabels: Record<SourceType, { label: string; icon: React.ElementType 
   statutory_statute: { label: 'Statutory law', icon: Scale },
   master_employment_contract: { label: 'Master contract', icon: FileCheck },
   internal_hr_policy: { label: 'HR policy', icon: BookOpen },
+  employee_record: { label: 'Employee file', icon: UserRound },
   internal_memo: { label: 'Internal memo', icon: FileText },
   internal_email: { label: 'Internal email', icon: Mail },
   slack_communication: { label: 'Chat log', icon: MessageSquare }
@@ -34,6 +36,10 @@ export const ParagraphCard: React.FC<ParagraphCardProps> = ({ paragraph, onOpenS
   const SourceIcon = source.icon;
   const conflictCount = paragraph.highlights.filter((highlight) => highlight.color === 'red').length;
   const verifiedCount = paragraph.highlights.filter((highlight) => highlight.color === 'yellow').length;
+  const showJurisdiction =
+    paragraph.sourceType !== 'employee_record' &&
+    paragraph.documentJurisdiction &&
+    paragraph.documentJurisdiction !== 'Global';
 
   return (
     <article className="group rounded-xl border border-slate-200 bg-white p-4 transition hover:border-slate-300 hover:shadow-sm sm:p-5">
@@ -51,7 +57,7 @@ export const ParagraphCard: React.FC<ParagraphCardProps> = ({ paragraph, onOpenS
             {paragraph.sourceTitle}
           </button>
           <p className="mt-1 truncate text-xs text-slate-400">
-            {[paragraph.documentJurisdiction, paragraph.documentDate, `Paragraph ${paragraph.paragraphIndex + 1}`]
+            {[showJurisdiction ? paragraph.documentJurisdiction : null, paragraph.documentDate, `Paragraph ${paragraph.paragraphIndex + 1}`]
               .filter(Boolean)
               .join(' · ')}
           </p>

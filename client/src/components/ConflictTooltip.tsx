@@ -21,23 +21,23 @@ export const ConflictTooltip: React.FC<ConflictTooltipProps> = ({
 }) => {
   return (
     <div
-      className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2.5 z-50 w-88 max-w-sm p-3.5 bg-slate-900/95 backdrop-blur text-white rounded-xl shadow-2xl border border-red-500/40 text-xs animate-fade-in pointer-events-auto"
+      className="pointer-events-auto absolute bottom-full left-1/2 z-50 mb-2.5 w-[32rem] max-w-[calc(100vw-2rem)] -translate-x-1/2 rounded-xl border border-red-500/40 bg-slate-900/95 p-4 text-xs text-white shadow-2xl backdrop-blur animate-fade-in"
       onClick={(e) => e.stopPropagation()}
     >
       {/* Header */}
-      <div className="flex items-center gap-2 text-red-400 font-semibold mb-1.5 pb-1.5 border-b border-slate-800">
-        <AlertTriangle className="w-4 h-4 text-red-400 flex-shrink-0 animate-pulse" />
+      <div className="mb-2 flex items-center gap-2 border-b border-slate-800 pb-2 font-semibold text-red-400">
+        <AlertTriangle className="h-4 w-4 flex-shrink-0 text-red-400" />
         <span className="uppercase tracking-wider text-[11px] font-bold">Source conflict / risk</span>
       </div>
 
       {/* Rationale */}
-      <p className="text-slate-200 text-xs leading-relaxed font-normal">
+      <p className="text-sm font-normal leading-6 text-slate-200">
         {reason}
       </p>
 
       {/* Conflicting Source Citing */}
       {conflictSourceIds && conflictSourceIds.length > 0 && (
-        <div className="mt-2.5 pt-2 border-t border-slate-800 flex flex-col gap-1.5">
+        <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-slate-800 pt-3">
           <div className="flex items-center gap-1 text-[11px] text-slate-400">
             <BookOpen className="w-3.5 h-3.5 text-slate-400" />
             <span>Conflicts with:</span>

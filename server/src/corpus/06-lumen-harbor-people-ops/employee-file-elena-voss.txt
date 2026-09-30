@@ -1,0 +1,20 @@
+---
+title: Fictional Employee File — Elena Voss
+sourceType: employee_record
+date: 2026-04-18
+jurisdiction: Germany
+language: en
+register: corporate_standard
+---
+
+Elena Voss is a Senior Product Designer in the Grid Intelligence group, based in Berlin and reporting to Director of Product Amara Bell.
+
+Elena joined Lumen Harbor Technologies on 14 February 2022 and moved to career level P4 on 1 July 2025.
+
+Her current annual base salary is €92,000 with a target bonus of 10 percent and 1,800 unvested employee option units.
+
+The 2025 review records strong facilitation and research quality, with a development goal to delegate more design-system decisions to the wider team.
+
+An approved ergonomic accommodation provides a height-adjustable desk, speech-to-text software, and remote attendance for workshops longer than three hours.
+
+The next documented check-in is scheduled for 15 June 2026, and access to this fictional record is restricted to Elena, her manager, and People Operations.

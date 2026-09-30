@@ -31,14 +31,14 @@ class ScoringEngine {
     /**
      * Calculates complete metrics for a given paragraph within its parent document.
      */
-    scoreParagraph(paragraphText, document, query, corpusParagraphs, customWeights) {
+    scoreParagraph(paragraphText, document, query, corpusParagraphs, customWeights, semanticContext) {
         const weights = {
             ...this.defaultWeights,
             ...(customWeights || {})
         };
         const authority = this.calculateAuthority(document.sourceType);
         const recency = this.calculateRecency(document.date);
-        const semantic = this.calculateSemanticMatch(paragraphText, document, query);
+        const semantic = this.calculateSemanticMatch(semanticContext || paragraphText, document, query);
         const register = this.calculateRegister(document.register);
         const crossVerification = this.calculateCrossVerification(paragraphText, document, corpusParagraphs);
         const weightedQuality = authority * weights.authority +
@@ -73,6 +73,8 @@ class ScoringEngine {
                 return 0.88;
             case 'internal_hr_policy':
                 return 0.70;
+            case 'employee_record':
+                return 0.76;
             case 'internal_memo':
                 return 0.48;
             case 'internal_email':

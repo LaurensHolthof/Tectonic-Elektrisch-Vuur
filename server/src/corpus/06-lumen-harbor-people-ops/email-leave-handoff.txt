@@ -1,0 +1,16 @@
+---
+title: Email Thread — Parental Leave Handoff for Revenue Operations
+sourceType: internal_email
+date: 2026-03-28
+jurisdiction: United Kingdom
+language: en
+register: informal_internal
+---
+
+From Rowan Hale to Revenue Operations: My parental leave begins on 4 May, and the customer renewal calendar is now current through the end of June.
+
+From Rowan Hale to Manager: I have assigned open approvals to Jules, documented the weekly forecast process, and listed the three accounts that may need executive support.
+
+From Manager to Rowan Hale: Thank you, we will use the remaining meetings for handoff questions and will not contact you for routine approvals during leave.
+
+From People Operations to Rowan Hale: Your leave dates and payroll schedule are confirmed in the People Portal, and you do not need to monitor work messages while away.

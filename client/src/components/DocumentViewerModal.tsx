@@ -98,7 +98,7 @@ export const DocumentViewerModal: React.FC<DocumentViewerModalProps> = ({
 
           {document && (
             <div className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-xs text-slate-500">
-              {document.jurisdiction && (
+              {document.jurisdiction && document.jurisdiction !== 'Global' && document.sourceType !== 'employee_record' && (
                 <span className="inline-flex items-center gap-1.5">
                   <MapPin className="h-3.5 w-3.5 text-slate-400" /> {document.jurisdiction}
                 </span>

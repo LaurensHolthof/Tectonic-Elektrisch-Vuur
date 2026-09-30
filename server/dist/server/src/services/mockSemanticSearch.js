@@ -63,7 +63,8 @@ class MockSemanticSearchEngine {
     async initialize() {
         if (!this.cachedDocuments) {
             this.cachedDocuments = await this.documentReader.loadAllDocuments();
-            console.log(`[MockSemanticSearchEngine] Indexed ${this.cachedDocuments.length} documents across 5 topic folders.`);
+            const topicCount = new Set(this.cachedDocuments.map(document => document.topicFolder)).size;
+            console.log(`[MockSemanticSearchEngine] Indexed ${this.cachedDocuments.length} documents across ${topicCount} topic folders.`);
         }
     }
     async getDocuments() {
@@ -117,10 +118,11 @@ class MockSemanticSearchEngine {
             if (searchQuery.filters?.sourceType && doc.sourceType !== searchQuery.filters.sourceType) {
                 continue;
             }
+            const documentMatches = [];
             for (let pIdx = 0; pIdx < doc.paragraphs.length; pIdx++) {
                 const paragraphText = doc.paragraphs[pIdx];
                 // Compute multi-criteria scores
-                const scoreMetrics = this.scoringEngine.scoreParagraph(paragraphText, doc, query, allCorpusParagraphs, searchQuery.weightsOverride);
+                const scoreMetrics = this.scoringEngine.scoreParagraph(paragraphText, doc, query, allCorpusParagraphs, searchQuery.weightsOverride, doc.paragraphs.join(' '));
                 // Query relevance is a hard retrieval requirement. Document authority
                 // can rank matching results, but cannot rescue an unrelated paragraph.
                 if (scoreMetrics.semantic < 0.25) {
@@ -128,52 +130,39 @@ class MockSemanticSearchEngine {
                 }
                 // Compute exact character offset highlights (Yellow = verified, Red = conflicting)
                 const highlights = this.annotator.annotateParagraph(paragraphText, doc, query);
-                const context = this.buildContextExcerpt(doc, pIdx, highlights);
-                // If the paragraph contains critical conflicts (Red highlight), ensure visibility
-                const hasRedConflict = highlights.some(h => h.color === 'red');
-                if (hasRedConflict) {
-                    // Keep conflict visible for paralegal review even if semantic query was broad
+                if (highlights.length === 0) {
+                    continue;
                 }
+                documentMatches.push({ paragraphIndex: pIdx, scoreMetrics, highlights });
+            }
+            if (documentMatches.length > 0) {
+                const bestMatch = documentMatches.reduce((best, match) => match.scoreMetrics.totalScore > best.scoreMetrics.totalScore ? match : best);
+                const conflictMatch = documentMatches.find(match => match.highlights.some(highlight => highlight.color === 'red'));
+                const focalMatch = conflictMatch || bestMatch;
+                const context = this.buildContextExcerpt(doc, documentMatches);
                 candidates.push({
-                    paragraphId: `${doc.id}__p${pIdx}`,
+                    paragraphId: `${doc.id}__p${focalMatch.paragraphIndex}`,
                     sourceId: doc.id,
                     sourceTitle: doc.title,
                     sourceType: doc.sourceType,
                     topic: doc.topicFolder,
                     documentDate: doc.date,
                     documentJurisdiction: doc.jurisdiction,
-                    paragraphIndex: pIdx,
+                    paragraphIndex: focalMatch.paragraphIndex,
                     paragraphText: context.text,
-                    scoreMetrics,
+                    scoreMetrics: bestMatch.scoreMetrics,
                     highlights: context.highlights
                 });
             }
         }
         // Step 3: Sort by Total Composite Score descending
         candidates.sort((a, b) => b.scoreMetrics.totalScore - a.scoreMetrics.totalScore);
-        // Adjacent hits often produce the same context window. Keep one focal
-        // sentence per card instead of repeating the excerpt or highlighting all
-        // of its context. A conflict takes precedence over a regular source match.
-        const deduplicated = new Map();
-        for (const candidate of candidates) {
-            const key = `${candidate.sourceId}\u0000${candidate.paragraphText}`;
-            const existing = deduplicated.get(key);
-            if (!existing) {
-                deduplicated.set(key, candidate);
-                continue;
-            }
-            const existingHasConflict = existing.highlights.some(highlight => highlight.color === 'red');
-            const candidateHasConflict = candidate.highlights.some(highlight => highlight.color === 'red');
-            if (candidateHasConflict && !existingHasConflict)
-                deduplicated.set(key, candidate);
-        }
-        const results = Array.from(deduplicated.values());
         const executionTimeMs = Number((performance.now() - startTime).toFixed(2));
         return {
             query,
             routing: routingInfo,
-            results,
-            totalResults: results.length,
+            results: candidates,
+            totalResults: candidates.length,
             scannedCorpusCount: allDocs.length,
             executionTimeMs
         };
@@ -183,7 +172,7 @@ class MockSemanticSearchEngine {
      * (two to six surrounding sentences when the source has enough context).
      * Highlight offsets are translated into the larger verbatim excerpt.
      */
-    buildContextExcerpt(document, paragraphIndex, highlights) {
+    buildContextExcerpt(document, matches) {
         const separator = ' ';
         const paragraphOffsets = [];
         let documentText = '';
@@ -193,28 +182,27 @@ class MockSemanticSearchEngine {
             if (index < document.paragraphs.length - 1)
                 documentText += separator;
         });
-        const paragraphStart = paragraphOffsets[paragraphIndex];
-        const paragraphEnd = paragraphStart + document.paragraphs[paragraphIndex].length;
-        const globalHighlights = highlights.map(highlight => ({
-            ...highlight,
-            startIndex: paragraphStart + highlight.startIndex,
-            endIndex: paragraphStart + highlight.endIndex
-        }));
-        const targetRanges = globalHighlights.length > 0
-            ? globalHighlights
-            : [{ startIndex: paragraphStart, endIndex: paragraphEnd }];
+        const globalHighlights = matches.flatMap(match => {
+            const paragraphStart = paragraphOffsets[match.paragraphIndex];
+            return match.highlights.map(highlight => ({
+                ...highlight,
+                startIndex: paragraphStart + highlight.startIndex,
+                endIndex: paragraphStart + highlight.endIndex
+            }));
+        });
         const segmenter = new Intl.Segmenter(document.language || undefined, { granularity: 'sentence' });
         const sentences = Array.from(segmenter.segment(documentText))
             .filter(sentence => sentence.segment.trim().length > 0);
         const matchedSentenceIndexes = sentences
             .map((sentence, index) => {
             const sentenceEnd = sentence.index + sentence.segment.length;
-            const overlaps = targetRanges.some(range => sentenceEnd > range.startIndex && sentence.index < range.endIndex);
+            const overlaps = globalHighlights.some(range => sentenceEnd > range.startIndex && sentence.index < range.endIndex);
             return overlaps ? index : -1;
         })
             .filter(index => index >= 0);
         if (matchedSentenceIndexes.length === 0) {
-            return { text: document.paragraphs[paragraphIndex], highlights };
+            const fallback = matches[0];
+            return { text: document.paragraphs[fallback.paragraphIndex], highlights: fallback.highlights };
         }
         const firstMatched = matchedSentenceIndexes[0];
         const lastMatched = matchedSentenceIndexes[matchedSentenceIndexes.length - 1];
@@ -228,11 +216,14 @@ class MockSemanticSearchEngine {
             excerptEnd--;
         return {
             text: documentText.slice(excerptStart, excerptEnd),
-            highlights: globalHighlights.map(highlight => ({
+            highlights: globalHighlights
+                .filter(highlight => highlight.startIndex >= excerptStart && highlight.endIndex <= excerptEnd)
+                .map(highlight => ({
                 ...highlight,
                 startIndex: highlight.startIndex - excerptStart,
                 endIndex: highlight.endIndex - excerptStart
             }))
+                .sort((a, b) => a.startIndex - b.startIndex)
         };
     }
 }

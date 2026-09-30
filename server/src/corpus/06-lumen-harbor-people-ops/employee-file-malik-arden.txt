@@ -1,0 +1,20 @@
+---
+title: Fictional Employee File — Malik Arden
+sourceType: employee_record
+date: 2026-04-22
+jurisdiction: United Kingdom
+language: en
+register: corporate_standard
+---
+
+Malik Arden is a Customer Reliability Engineer in the Enterprise Support group, based in London and reporting to Support Manager Priya Nwosu.
+
+Malik joined Lumen Harbor Technologies on 6 November 2023 and is currently assigned to career level P2.
+
+His current annual base salary is £58,500 with a target bonus of 8 percent and an on-call allowance paid for scheduled rotations.
+
+The latest quarterly check-in notes strong incident ownership and customer communication, with a goal to complete the advanced Kubernetes certification.
+
+Malik has an approved compressed schedule of nine working days per fortnight through 30 September 2026.
+
+The next schedule review is set for 1 September 2026, and this fictional file contains no active performance or conduct cases.

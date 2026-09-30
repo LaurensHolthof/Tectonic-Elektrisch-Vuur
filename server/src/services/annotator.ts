@@ -63,6 +63,21 @@ export class Annotator {
         pattern: /company assumes no liability/i,
         reason: 'CORPORATE TAX MISREPRESENTATION: Employees working remotely abroad for over 183 days trigger unavoidable Corporate Permanent Establishment tax liability and mandatory EU A1 social security obligations under EU Reg 883/2004.',
         conflictSources: ['eu-remote-work-crossborder-tax-guideline']
+      },
+      {
+        pattern: /You can work from Portugal for up to 60 days without filing a request/i,
+        reason: 'POLICY CONFLICT: This informal approval exceeds Lumen Harbor’s 20-working-day limit and skips the required Payroll, Security, and People Operations review.',
+        conflictSources: ['06-lumen-harbor-people-ops__lumen-harbor-hybrid-work-policy']
+      },
+      {
+        pattern: /skip the written improvement plan and move directly to termination/i,
+        reason: 'PROCESS RISK: The request bypasses the documented performance process, including clear expectations, support, employee context, and People Operations review.',
+        conflictSources: ['06-lumen-harbor-people-ops__lumen-harbor-performance-guide']
+      },
+      {
+        pattern: /upload medical documentation to the shared manager folder/i,
+        reason: 'PRIVACY RISK: Medical documentation belongs in the restricted case-management system, not a broadly accessible manager folder.',
+        conflictSources: ['06-lumen-harbor-people-ops__lumen-harbor-accommodation-process']
       }
     ];
 
@@ -147,15 +162,32 @@ export class Annotator {
     // Dynamic source-match highlighter. Relevance filtering happens before this
     // pass, so policies and internal guidance can be surfaced alongside law.
     if (highlights.length === 0) {
-      const queryWords = query.toLowerCase().split(/\s+/).filter(w => w.length > 3);
-      for (const word of queryWords) {
-        const idx = paragraphText.toLowerCase().indexOf(word);
+      const stopWords = new Set(['what', 'when', 'where', 'which', 'with', 'from', 'that', 'this', 'does', 'have']);
+      const queryWords = (query.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [])
+        .filter(word => word.length > 3 && !stopWords.has(word));
+      const titleWords = new Set(doc.title.toLowerCase().match(/[\p{L}\p{N}]+/gu) || []);
+      const topicalWords = queryWords.filter(word => !titleWords.has(word));
+      const highlightWords = topicalWords.length > 0 ? topicalWords : queryWords;
+      const highlightSynonyms: Record<string, string[]> = {
+        role: ['position', 'title', 'designer', 'engineer', 'analyst', 'specialist'],
+        pay: ['salary', 'compensation', 'wage'],
+        manager: ['reporting to', 'supervisor']
+      };
+
+      for (const word of highlightWords) {
+        const lowerParagraph = paragraphText.toLowerCase();
+        let matchedTerm = word;
+        let idx = lowerParagraph.indexOf(word);
+        if (idx === -1) {
+          matchedTerm = (highlightSynonyms[word] || []).find(term => lowerParagraph.includes(term)) || word;
+          idx = lowerParagraph.indexOf(matchedTerm);
+        }
         if (idx > -1) {
           highlights.push({
             startIndex: idx,
-            endIndex: Math.min(paragraphText.length, idx + word.length),
+            endIndex: Math.min(paragraphText.length, idx + matchedTerm.length),
             color: 'yellow',
-            hoverReason: `This source sentence directly matches the search term "${word}".`,
+            hoverReason: `This source sentence matches the search topic "${word}".`,
             supportedSourceIds: [doc.id],
             severity: 'verified'
           });

@@ -38,7 +38,8 @@ export class ScoringEngine {
     document: SourceDocument,
     query: string,
     corpusParagraphs: Array<{ text: string; doc: SourceDocument }>,
-    customWeights?: Partial<ScoreBreakdownWeights>
+    customWeights?: Partial<ScoreBreakdownWeights>,
+    semanticContext?: string
   ): ScoreMetrics {
     const weights: ScoreBreakdownWeights = {
       ...this.defaultWeights,
@@ -47,7 +48,7 @@ export class ScoringEngine {
 
     const authority = this.calculateAuthority(document.sourceType);
     const recency = this.calculateRecency(document.date);
-    const semantic = this.calculateSemanticMatch(paragraphText, document, query);
+    const semantic = this.calculateSemanticMatch(semanticContext || paragraphText, document, query);
     const register = this.calculateRegister(document.register);
     const crossVerification = this.calculateCrossVerification(paragraphText, document, corpusParagraphs);
 
@@ -87,6 +88,8 @@ export class ScoringEngine {
         return 0.88;
       case 'internal_hr_policy':
         return 0.70;
+      case 'employee_record':
+        return 0.76;
       case 'internal_memo':
         return 0.48;
       case 'internal_email':

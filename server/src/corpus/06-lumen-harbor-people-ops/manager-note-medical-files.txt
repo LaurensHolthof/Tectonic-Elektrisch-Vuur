@@ -1,0 +1,14 @@
+---
+title: Manager Note — Proposed Storage for Medical Documents
+sourceType: internal_memo
+date: 2026-04-11
+jurisdiction: Global
+language: en
+register: informal_internal
+---
+
+The team is considering whether to upload medical documentation to the shared manager folder so coverage decisions can be made quickly.
+
+The folder is currently accessible to all department managers and is also used for holiday schedules and staffing plans.
+
+Before any documents are collected, the manager will ask People Operations to confirm the approved confidential storage process and the minimum information needed for scheduling.

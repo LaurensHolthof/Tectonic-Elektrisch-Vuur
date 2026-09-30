@@ -8,7 +8,7 @@ const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 /**
  * Interface-driven document reader.
- * Reads documents from the 5 local topic folders (TXT, MD, DOCX, PDF).
+ * Reads documents from the local topic folders (TXT, MD, DOCX, PDF).
  *
  * In production:
  * - PDF documents are extracted via `pdf-parse` or OCR pipeline (e.g., Unstructured.io, AWS Textract).
@@ -21,7 +21,7 @@ class DocumentReader {
         this.corpusBasePath = corpusBasePath;
     }
     /**
-     * Scans all 5 topic folders and returns parsed SourceDocument instances.
+     * Scans all topic folders and returns parsed SourceDocument instances.
      */
     async loadAllDocuments() {
         const documents = [];
@@ -124,6 +124,8 @@ class DocumentReader {
             return 'statutory_statute';
         if (lower.includes('contract') || lower.includes('agreement') || lower.includes('piia'))
             return 'master_employment_contract';
+        if (lower.includes('employee-file') || lower.includes('employee-record'))
+            return 'employee_record';
         if (lower.includes('policy') || lower.includes('handbook'))
             return 'internal_hr_policy';
         if (lower.includes('memo') || lower.includes('guidelines'))
@@ -139,6 +141,7 @@ class DocumentReader {
             case 'master_employment_contract':
                 return 'formal_contractual';
             case 'internal_hr_policy':
+            case 'employee_record':
             case 'internal_memo':
                 return 'corporate_standard';
             default:

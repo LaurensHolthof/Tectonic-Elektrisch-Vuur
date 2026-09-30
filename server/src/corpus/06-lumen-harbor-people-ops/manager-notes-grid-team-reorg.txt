@@ -1,0 +1,20 @@
+---
+title: Manager Planning Notes — Grid Intelligence Team Reorganisation
+sourceType: internal_memo
+date: 2026-04-14
+jurisdiction: Global
+language: en
+register: corporate_standard
+---
+
+The proposed structure creates separate Forecasting and Market Integrations squads while retaining one shared design and data platform practice.
+
+No roles are currently proposed for elimination, and reporting-line changes remain drafts until leadership and People Operations complete the review.
+
+Managers should not discuss individual placement assumptions before the affected employees receive the same confirmed structure and timeline.
+
+Elena Voss is proposed as design lead across both squads, subject to workload review and her input on the scope.
+
+The communication plan includes a manager briefing, an all-team meeting, individual follow-ups, and a written frequently asked questions page.
+
+Questions about title, compensation, location, or accommodations should be logged for People Operations rather than answered speculatively.

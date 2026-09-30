@@ -4,7 +4,7 @@ import { SourceDocument, SourceType, LanguageRegister } from '../../../shared/ty
 
 /**
  * Interface-driven document reader.
- * Reads documents from the 5 local topic folders (TXT, MD, DOCX, PDF).
+ * Reads documents from the local topic folders (TXT, MD, DOCX, PDF).
  * 
  * In production:
  * - PDF documents are extracted via `pdf-parse` or OCR pipeline (e.g., Unstructured.io, AWS Textract).
@@ -19,7 +19,7 @@ export class DocumentReader {
   }
 
   /**
-   * Scans all 5 topic folders and returns parsed SourceDocument instances.
+   * Scans all topic folders and returns parsed SourceDocument instances.
    */
   public async loadAllDocuments(): Promise<SourceDocument[]> {
     const documents: SourceDocument[] = [];
@@ -134,6 +134,7 @@ export class DocumentReader {
     const lower = fileName.toLowerCase();
     if (lower.includes('statut') || lower.includes('act') || lower.includes('code') || lower.includes('bgb')) return 'statutory_statute';
     if (lower.includes('contract') || lower.includes('agreement') || lower.includes('piia')) return 'master_employment_contract';
+    if (lower.includes('employee-file') || lower.includes('employee-record')) return 'employee_record';
     if (lower.includes('policy') || lower.includes('handbook')) return 'internal_hr_policy';
     if (lower.includes('memo') || lower.includes('guidelines')) return 'internal_memo';
     if (lower.includes('slack') || lower.includes('chat')) return 'slack_communication';
@@ -147,6 +148,7 @@ export class DocumentReader {
       case 'master_employment_contract':
         return 'formal_contractual';
       case 'internal_hr_policy':
+      case 'employee_record':
       case 'internal_memo':
         return 'corporate_standard';
       default:

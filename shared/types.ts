@@ -9,6 +9,7 @@ export type SourceType =
   | 'statutory_statute'        // e.g. German BGB, French Code du Travail, UK Employment Rights Act
   | 'master_employment_contract' // Standard executed bilateral agreements
   | 'internal_hr_policy'       // Official company handbook / global policy
+  | 'employee_record'          // Individual employee file / HR case record
   | 'internal_memo'            // HR memo / department guidelines
   | 'internal_email'           // Informal communications, supervisor emails
   | 'slack_communication';     // Chat logs / instant messages

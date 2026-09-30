@@ -15,7 +15,7 @@ flowchart TD
     
     subgraph Backend Engine
         API --> Router["EntityScopeRouter\n(Detects 'Germany', 'France', 'UK'...)"]
-        Router -->|Autonomous Scope Injection| Corpus[("5 Topic Folders\n(PDF, TXT, MD, DOCX)")]
+        Router -->|Autonomous Scope Injection| Corpus[("6 Topic Folders\n(PDF, TXT, MD, DOCX)")]
         Corpus --> Reader["DocumentReader\n(Paragraph Chunker)"]
         Reader --> Scoring["ScoringEngine\n(Authority + Recency + Semantic + Consensus + Register)"]
         Scoring --> Annotator["Annotator\n(Character Offsets [start, end])"]
@@ -37,7 +37,7 @@ flowchart TD
 ├── server/
 │   ├── src/
 │   │   ├── index.ts                # Express server (/api/search, /api/documents/:id)
-│   │   ├── corpus/                 # 5 Local Topic Folders (17 dummy legal files)
+│   │   ├── corpus/                 # 6 Local Topic Folders (34 fictional legal and workplace sources)
 │   │   │   ├── 01-parental-leave/
 │   │   │   ├── 02-severance-termination/
 │   │   │   ├── 03-remote-work-relocation/
