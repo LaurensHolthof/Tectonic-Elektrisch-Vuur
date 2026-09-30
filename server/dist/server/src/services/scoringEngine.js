@@ -18,9 +18,9 @@ exports.ScoringEngine = void 0;
  */
 class ScoringEngine {
     defaultWeights = {
-        authority: 0.25,
-        recency: 0.15,
-        semantic: 0.35,
+        authority: 0.15,
+        recency: 0.10,
+        semantic: 0.50,
         crossVerification: 0.15,
         register: 0.10
     };
@@ -62,7 +62,8 @@ class ScoringEngine {
         };
     }
     /**
-     * 1. Source Type: Legal docs > internal emails.
+     * 1. Source reliability. This helps order equally relevant material without
+     * turning the experience into a law-only search.
      */
     calculateAuthority(sourceType) {
         switch (sourceType) {

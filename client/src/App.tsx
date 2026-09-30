@@ -4,7 +4,7 @@ import { SearchBar } from './components/SearchBar';
 import { ParagraphCard } from './components/ParagraphCard';
 import { EntityRoutingBanner } from './components/EntityRoutingBanner';
 import { DocumentViewerModal } from './components/DocumentViewerModal';
-import { BookOpen, Scale, ShieldAlert, ShieldCheck } from 'lucide-react';
+import { BookOpen, ShieldAlert, ShieldCheck } from 'lucide-react';
 
 type FilterMode = 'all' | 'conflicts' | 'verified';
 const RESULTS_PAGE_SIZE = 8;
@@ -71,7 +71,7 @@ export const App: React.FC = () => {
   const filters: Array<{ mode: FilterMode; label: string; count: number }> = [
     { mode: 'all', label: 'All', count: allResults.length },
     { mode: 'conflicts', label: 'Conflicts', count: conflictCount },
-    { mode: 'verified', label: 'Verified', count: verifiedCount }
+    { mode: 'verified', label: 'Supported', count: verifiedCount }
   ];
 
   return (
@@ -80,11 +80,11 @@ export const App: React.FC = () => {
         <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-4 sm:px-6">
           <div className="flex items-center gap-2.5">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-slate-900 text-white">
-              <Scale className="h-4 w-4" aria-hidden="true" />
+              <BookOpen className="h-4 w-4" aria-hidden="true" />
             </div>
             <div className="flex items-baseline gap-2">
               <span className="text-sm font-semibold tracking-tight text-slate-950">LexisHR</span>
-              <span className="hidden text-xs text-slate-400 sm:inline">Legal source search</span>
+              <span className="hidden text-xs text-slate-400 sm:inline">Workplace knowledge</span>
             </div>
           </div>
           <div className="flex items-center gap-1.5 text-xs text-slate-500">
@@ -99,19 +99,19 @@ export const App: React.FC = () => {
           {!searchResponse && (
             <div className="mb-7">
               <p className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-blue-600">
-                Grounded HR research
+                HR knowledge search
               </p>
               <h1 className="text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
                 Find the source, not a summary.
               </h1>
               <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-slate-500 sm:text-base">
-                Search employment law and internal policy. Every answer links back to the exact source text.
+                Search policies, handbooks, agreements, and employment guidance. Every result links to its source.
               </p>
             </div>
           )}
 
           {searchResponse && (
-            <h1 className="mb-3 text-lg font-semibold tracking-tight text-slate-950">Search legal sources</h1>
+            <h1 className="mb-3 text-lg font-semibold tracking-tight text-slate-950">Search workplace knowledge</h1>
           )}
 
           <SearchBar
@@ -164,11 +164,11 @@ export const App: React.FC = () => {
             <div className="mb-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-slate-500">
               <span className="inline-flex items-center gap-1.5">
                 <ShieldCheck className="h-3.5 w-3.5 text-amber-600" aria-hidden="true" />
-                Yellow marks verified source text
+                Yellow marks matching source sentences
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <ShieldAlert className="h-3.5 w-3.5 text-red-500" aria-hidden="true" />
-                Red marks a legal conflict
+                Red marks conflicting or risky guidance
               </span>
             </div>
 
@@ -176,11 +176,15 @@ export const App: React.FC = () => {
               <div className="rounded-xl border border-dashed border-slate-300 bg-white px-6 py-14 text-center">
                 <BookOpen className="mx-auto mb-3 h-7 w-7 text-slate-300" aria-hidden="true" />
                 <h3 className="text-sm font-medium text-slate-800">
-                  {filterMode === 'all' ? 'No relevant sources found' : `No ${filterMode} results`}
+                  {filterMode === 'all'
+                    ? 'No relevant sources found'
+                    : filterMode === 'conflicts'
+                      ? 'No conflicts found'
+                      : 'No supported matches'}
                 </h3>
                 {filterMode === 'all' ? (
                   <p className="mx-auto mt-1 max-w-sm text-xs leading-5 text-slate-500">
-                    Try a more specific employment topic, jurisdiction, or legal term.
+                    Try a more specific workplace topic, policy name, team, or region.
                   </p>
                 ) : (
                   <button
@@ -223,7 +227,7 @@ export const App: React.FC = () => {
         {!searchResponse && !isLoading && (
           <section className="mx-auto max-w-3xl border-t border-slate-200 pt-5">
             <div className="flex flex-col gap-3 text-left text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-              <span>Verbatim excerpts only—no generated legal advice.</span>
+              <span>Direct excerpts from your workplace source library.</span>
               <div className="flex items-center gap-4">
                 <span className="inline-flex items-center gap-1.5">
                   <ShieldCheck className="h-3.5 w-3.5 text-slate-400" /> Source citations

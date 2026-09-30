@@ -19,7 +19,7 @@ export const EntityRoutingBanner: React.FC<EntityRoutingBannerProps> = ({ routin
           {routing.detectedEntities.map((entity) => entity.name).join(', ')} detected
         </span>
         <span className="text-slate-400">·</span>
-        <span>{routing.injectedDocumentIds.length} governing sources added</span>
+        <span>{routing.injectedDocumentIds.length} regional sources added</span>
         <ChevronDown className="ml-auto h-3.5 w-3.5 text-slate-400 transition-transform group-open:rotate-180" aria-hidden="true" />
       </summary>
       <div className="border-t border-blue-100 px-9 py-2.5 leading-5 text-slate-500">

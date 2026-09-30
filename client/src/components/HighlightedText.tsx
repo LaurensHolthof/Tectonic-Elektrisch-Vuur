@@ -13,8 +13,8 @@ interface HighlightedTextProps {
  * HighlightedText
  * 
  * Safely slices verbatim paragraph text into [startIndex, endIndex] spans.
- * Renders Yellow (verified literal answers) and Red (conflicting/hazardous clauses).
- * Zero string mutation ensures exact alignment with underlying legal records.
+ * Renders Yellow (matching source sentences) and Red (conflicting/risky sentences).
+ * Zero string mutation ensures exact alignment with underlying source records.
  */
 export const HighlightedText: React.FC<HighlightedTextProps> = ({ text, highlights, onOpenSourceDoc }) => {
   const [activeTooltip, setActiveTooltip] = useState<number | null>(null);
@@ -79,12 +79,12 @@ export const HighlightedText: React.FC<HighlightedTextProps> = ({ text, highligh
             <div className="pointer-events-auto absolute bottom-full left-1/2 z-50 mb-2 w-72 -translate-x-1/2 rounded-lg border border-slate-700 bg-slate-900 p-3 text-xs text-white shadow-xl animate-fade-in sm:w-80">
               <div className="mb-1 flex items-center gap-1.5 font-semibold text-white">
                 <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                <span>Verified provision</span>
+                <span>Matching source sentence</span>
               </div>
               <p className="text-slate-200 leading-snug">{hl.hoverReason}</p>
               {hl.supportedSourceIds && hl.supportedSourceIds.length > 0 && (
                 <div className="mt-2 pt-2 border-t border-slate-800 text-[11px] text-slate-400 flex items-center justify-between">
-                  <span>Authoritative Citation:</span>
+                  <span>Source:</span>
                   <span className="font-mono text-amber-300 truncate max-w-[150px]">
                     {hl.supportedSourceIds[0]}
                   </span>

@@ -4,10 +4,10 @@ exports.Annotator = void 0;
 /**
  * Annotator
  *
- * Computes exact character offsets [startIndex, endIndex] for inline legal highlighting.
+ * Computes exact character offsets [startIndex, endIndex] for inline source highlighting.
  * Generates:
- * - Yellow highlights: Authoritative, verified legal facts & literal answers supported by high-trust sources.
- * - Red highlights: Conflicting, outdated, or legally unenforceable/problematic assertions with detailed paralegal warnings.
+ * - Yellow highlights: Complete source sentences that answer the query.
+ * - Red highlights: Complete sentences containing conflicts, risks, or outdated guidance.
  *
  * Production Second Brain Hook:
  * - In a production system, an LLM paralegal auditor or deterministic rule-engine / claim extractor
@@ -128,20 +128,18 @@ class Annotator {
         for (const rule of yellowRules) {
             this.findAndPushSpans(paragraphText, rule.pattern, 'yellow', rule.reason, rule.supportedSources, highlights);
         }
-        // Dynamic query term highlighter for top-trust legal passages if no rule triggered yet
-        if (highlights.length === 0 && (doc.sourceType === 'statutory_statute' || doc.sourceType === 'master_employment_contract')) {
+        // Dynamic source-match highlighter. Relevance filtering happens before this
+        // pass, so policies and internal guidance can be surfaced alongside law.
+        if (highlights.length === 0) {
             const queryWords = query.toLowerCase().split(/\s+/).filter(w => w.length > 3);
             for (const word of queryWords) {
                 const idx = paragraphText.toLowerCase().indexOf(word);
                 if (idx > -1) {
-                    // highlight word and surrounding phrase
-                    const start = idx;
-                    const end = Math.min(paragraphText.length, idx + word.length);
                     highlights.push({
-                        startIndex: start,
-                        endIndex: end,
+                        startIndex: idx,
+                        endIndex: Math.min(paragraphText.length, idx + word.length),
                         color: 'yellow',
-                        hoverReason: `Direct literal alignment with search keyword "${word}" in governing ${doc.sourceType.replace(/_/g, ' ')}.`,
+                        hoverReason: `This source sentence directly matches the search term "${word}".`,
                         supportedSourceIds: [doc.id],
                         severity: 'verified'
                     });
@@ -149,8 +147,10 @@ class Annotator {
                 }
             }
         }
-        // Sort spans by startIndex and eliminate overlaps to guarantee safe UI slicing
-        return this.resolveOverlappingSpans(highlights);
+        // Every match is expanded to its sentence boundary before overlaps are
+        // resolved. The UI therefore never receives a single-word highlight.
+        const sentenceHighlights = highlights.map(span => this.expandToSentence(paragraphText, span));
+        return this.resolveOverlappingSpans(sentenceHighlights);
     }
     findAndPushSpans(text, pattern, color, reason, sources, highlights) {
         if (typeof pattern === 'string') {
@@ -210,6 +210,28 @@ class Annotator {
             }
         }
         return resolved;
+    }
+    expandToSentence(text, span) {
+        const segmenter = new Intl.Segmenter(undefined, { granularity: 'sentence' });
+        let startIndex;
+        let endIndex;
+        for (const sentence of segmenter.segment(text)) {
+            const sentenceStart = sentence.index;
+            const sentenceEnd = sentence.index + sentence.segment.length;
+            const overlapsMatch = sentenceEnd > span.startIndex && sentenceStart < span.endIndex;
+            if (overlapsMatch) {
+                startIndex ??= sentenceStart;
+                endIndex = sentenceEnd;
+            }
+        }
+        if (startIndex === undefined || endIndex === undefined) {
+            return { ...span, startIndex: 0, endIndex: text.length };
+        }
+        while (startIndex < endIndex && /\s/.test(text[startIndex]))
+            startIndex++;
+        while (endIndex > startIndex && /\s/.test(text[endIndex - 1]))
+            endIndex--;
+        return { ...span, startIndex, endIndex };
     }
 }
 exports.Annotator = Annotator;

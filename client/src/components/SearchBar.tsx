@@ -17,9 +17,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({
   const [query, setQuery] = useState(initialQuery);
 
   const sampleQueries = [
-    'Parental leave in Germany',
-    'Severance calculation in France',
-    'Remote work abroad tax rules'
+    'Parental leave policy',
+    'Remote work abroad',
+    'Weekend side projects'
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -54,8 +54,8 @@ export const SearchBar: React.FC<SearchBarProps> = ({
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search a legal question..."
-            aria-label="Search legal sources"
+            placeholder="Search policies, guidance, and workplace questions..."
+            aria-label="Search workplace knowledge"
             className="w-full rounded-xl bg-transparent py-3.5 pl-12 pr-28 text-sm text-slate-900 outline-none placeholder:text-slate-400 sm:text-base"
           />
 

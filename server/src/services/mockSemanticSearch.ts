@@ -1,5 +1,5 @@
 import path from 'path';
-import { AnnotatedParagraph, SearchQuery, SearchResponse, SourceDocument } from '../../../shared/types';
+import { AnnotatedParagraph, HighlightSpan, SearchQuery, SearchResponse, SourceDocument } from '../../../shared/types';
 import { DocumentReader } from './documentReader';
 import { EntityScopeRouter } from './entityScopeRouter';
 import { ScoringEngine } from './scoringEngine';
@@ -144,6 +144,7 @@ export class MockSemanticSearchEngine {
 
         // Compute exact character offset highlights (Yellow = verified, Red = conflicting)
         const highlights = this.annotator.annotateParagraph(paragraphText, doc, query);
+        const context = this.buildContextExcerpt(doc, pIdx, highlights);
 
         // If the paragraph contains critical conflicts (Red highlight), ensure visibility
         const hasRedConflict = highlights.some(h => h.color === 'red');
@@ -160,9 +161,9 @@ export class MockSemanticSearchEngine {
           documentDate: doc.date,
           documentJurisdiction: doc.jurisdiction,
           paragraphIndex: pIdx,
-          paragraphText, // STRICT: Exact source string preserved
+          paragraphText: context.text,
           scoreMetrics,
-          highlights
+          highlights: context.highlights
         });
       }
     }
@@ -170,15 +171,101 @@ export class MockSemanticSearchEngine {
     // Step 3: Sort by Total Composite Score descending
     candidates.sort((a, b) => b.scoreMetrics.totalScore - a.scoreMetrics.totalScore);
 
+    // Adjacent hits often produce the same context window. Keep one focal
+    // sentence per card instead of repeating the excerpt or highlighting all
+    // of its context. A conflict takes precedence over a regular source match.
+    const deduplicated = new Map<string, AnnotatedParagraph>();
+    for (const candidate of candidates) {
+      const key = `${candidate.sourceId}\u0000${candidate.paragraphText}`;
+      const existing = deduplicated.get(key);
+
+      if (!existing) {
+        deduplicated.set(key, candidate);
+        continue;
+      }
+
+      const existingHasConflict = existing.highlights.some(highlight => highlight.color === 'red');
+      const candidateHasConflict = candidate.highlights.some(highlight => highlight.color === 'red');
+      if (candidateHasConflict && !existingHasConflict) deduplicated.set(key, candidate);
+    }
+
+    const results = Array.from(deduplicated.values());
+
     const executionTimeMs = Number((performance.now() - startTime).toFixed(2));
 
     return {
       query,
       routing: routingInfo,
-      results: candidates,
-      totalResults: candidates.length,
+      results,
+      totalResults: results.length,
       scannedCorpusCount: allDocs.length,
       executionTimeMs
+    };
+  }
+
+  /**
+   * Adds up to three source sentences on either side of the matched sentence
+   * (two to six surrounding sentences when the source has enough context).
+   * Highlight offsets are translated into the larger verbatim excerpt.
+   */
+  private buildContextExcerpt(
+    document: SourceDocument,
+    paragraphIndex: number,
+    highlights: HighlightSpan[]
+  ): { text: string; highlights: HighlightSpan[] } {
+    const separator = ' ';
+    const paragraphOffsets: number[] = [];
+    let documentText = '';
+
+    document.paragraphs.forEach((paragraph, index) => {
+      paragraphOffsets.push(documentText.length);
+      documentText += paragraph;
+      if (index < document.paragraphs.length - 1) documentText += separator;
+    });
+
+    const paragraphStart = paragraphOffsets[paragraphIndex];
+    const paragraphEnd = paragraphStart + document.paragraphs[paragraphIndex].length;
+    const globalHighlights = highlights.map(highlight => ({
+      ...highlight,
+      startIndex: paragraphStart + highlight.startIndex,
+      endIndex: paragraphStart + highlight.endIndex
+    }));
+    const targetRanges = globalHighlights.length > 0
+      ? globalHighlights
+      : [{ startIndex: paragraphStart, endIndex: paragraphEnd }];
+
+    const segmenter = new Intl.Segmenter(document.language || undefined, { granularity: 'sentence' });
+    const sentences = Array.from(segmenter.segment(documentText))
+      .filter(sentence => sentence.segment.trim().length > 0);
+    const matchedSentenceIndexes = sentences
+      .map((sentence, index) => {
+        const sentenceEnd = sentence.index + sentence.segment.length;
+        const overlaps = targetRanges.some(range => sentenceEnd > range.startIndex && sentence.index < range.endIndex);
+        return overlaps ? index : -1;
+      })
+      .filter(index => index >= 0);
+
+    if (matchedSentenceIndexes.length === 0) {
+      return { text: document.paragraphs[paragraphIndex], highlights };
+    }
+
+    const firstMatched = matchedSentenceIndexes[0];
+    const lastMatched = matchedSentenceIndexes[matchedSentenceIndexes.length - 1];
+    const firstContext = Math.max(0, firstMatched - 3);
+    const lastContext = Math.min(sentences.length - 1, lastMatched + 3);
+    let excerptStart = sentences[firstContext].index;
+    let excerptEnd = sentences[lastContext].index + sentences[lastContext].segment.length;
+
+    while (excerptStart < excerptEnd && /\s/.test(documentText[excerptStart])) excerptStart++;
+    while (excerptEnd > excerptStart && /\s/.test(documentText[excerptEnd - 1])) excerptEnd--;
+
+    return {
+      text: documentText.slice(excerptStart, excerptEnd),
+      highlights: globalHighlights.map(highlight => ({
+        ...highlight,
+        startIndex: highlight.startIndex - excerptStart,
+        endIndex: highlight.endIndex - excerptStart
+      }))
     };
   }
 }

@@ -11,10 +11,10 @@ interface ScoreBreakdownTooltipProps {
  * 
  * Displays an interactive breakdown bar-chart showing the exact rating weights
  * and individual metric components:
- * 1. Source Type Authority (Statute > Contract > Email)
+ * 1. Source reliability
  * 2. Recency (Exponential decay based on timestamp)
  * 3. Semantic Match (Relevance to query)
- * 4. Cross-Verification (Consensus across documents)
+ * 4. Cross-source support
  * 5. Language Register (Formality)
  */
 export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ metrics }) => {
@@ -29,12 +29,12 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
 
   const rows = [
     {
-      label: 'Authority (Source Type)',
+      label: 'Source Reliability',
       icon: Award,
       score: authority,
       weight: weightsUsed.authority,
       color: 'bg-indigo-500',
-      description: 'Statute = 1.0 > Contract = 0.88 > Policy = 0.70 > Email = 0.22'
+      description: 'How dependable and formal the source is'
     },
     {
       label: 'Semantic Match',
@@ -45,12 +45,12 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
       description: 'Dense vector / literal alignment with query proposition'
     },
     {
-      label: 'Cross-Verification',
+      label: 'Cross-Source Support',
       icon: CheckCheck,
       score: crossVerification,
       weight: weightsUsed.crossVerification,
       color: 'bg-emerald-500',
-      description: 'Consensus across multiple independent source files'
+      description: 'Agreement across multiple independent source files'
     },
     {
       label: 'Recency Decay',
@@ -61,12 +61,12 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
       description: 'Exponential half-life decay (newer > 2 years ago)'
     },
     {
-      label: 'Language Register',
+      label: 'Document Formality',
       icon: FileCheck2,
       score: register,
       weight: weightsUsed.register,
       color: 'bg-purple-500',
-      description: 'Statutory/Contractual = 1.0 > Informal/Internal = 0.25'
+      description: 'Formal documents score above informal messages'
     }
   ];
 
@@ -79,7 +79,7 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
       <div className="flex items-center justify-between pb-2 border-b border-slate-800 mb-2.5">
         <div className="flex items-center gap-1.5 text-slate-200 font-semibold">
           <BarChart2 className="w-4 h-4 text-blue-400" />
-          <span>Ranking Weights Breakdown</span>
+          <span>Match Score Breakdown</span>
         </div>
         <div className="flex items-baseline gap-1">
           <span className="text-[10px] text-slate-400">Total:</span>

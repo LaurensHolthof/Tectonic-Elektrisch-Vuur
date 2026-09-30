@@ -11,8 +11,8 @@ interface ConflictTooltipProps {
  * ConflictTooltip
  * 
  * Rendered when hovering over a RED highlight.
- * Clearly articulates the statutory or contractual conflict, explains why
- * the phrase is legally problematic/void, and links to the governing contradictory source.
+ * Explains why a sentence conflicts with stronger or more current guidance
+ * and links to the contradictory source.
  */
 export const ConflictTooltip: React.FC<ConflictTooltipProps> = ({
   reason,
@@ -27,7 +27,7 @@ export const ConflictTooltip: React.FC<ConflictTooltipProps> = ({
       {/* Header */}
       <div className="flex items-center gap-2 text-red-400 font-semibold mb-1.5 pb-1.5 border-b border-slate-800">
         <AlertTriangle className="w-4 h-4 text-red-400 flex-shrink-0 animate-pulse" />
-        <span className="uppercase tracking-wider text-[11px] font-bold">Legal Hazard / Contradiction</span>
+        <span className="uppercase tracking-wider text-[11px] font-bold">Source conflict / risk</span>
       </div>
 
       {/* Rationale */}
@@ -40,7 +40,7 @@ export const ConflictTooltip: React.FC<ConflictTooltipProps> = ({
         <div className="mt-2.5 pt-2 border-t border-slate-800 flex flex-col gap-1.5">
           <div className="flex items-center gap-1 text-[11px] text-slate-400">
             <BookOpen className="w-3.5 h-3.5 text-slate-400" />
-            <span>Contradicts Authoritative Document:</span>
+            <span>Conflicts with:</span>
           </div>
           <div className="flex flex-wrap gap-1.5">
             {conflictSourceIds.map(srcId => (

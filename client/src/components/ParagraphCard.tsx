@@ -93,7 +93,7 @@ export const ParagraphCard: React.FC<ParagraphCardProps> = ({ paragraph, onOpenS
         {verifiedCount > 0 && (
           <span className="inline-flex items-center gap-1.5 font-medium text-amber-700">
             <CheckCircle2 className="h-3.5 w-3.5" aria-hidden="true" />
-            {verifiedCount} verified
+            {verifiedCount} {verifiedCount === 1 ? 'source match' : 'source matches'}
           </span>
         )}
         <button
