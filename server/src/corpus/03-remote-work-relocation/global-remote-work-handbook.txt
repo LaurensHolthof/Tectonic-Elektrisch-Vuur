@@ -1,0 +1,15 @@
+---
+title: Global People Ops Remote Work and Work-from-Anywhere Policy
+sourceType: internal_hr_policy
+date: 2025-08-20
+jurisdiction: Global
+language: en
+register: corporate_standard
+format: txt
+---
+
+Employees are permitted to work remotely from any EU member state for up to 90 consecutive calendar days per fiscal year upon manager approval.
+
+Employees working remotely outside their home country must verify their own personal tax obligations and the company assumes no liability.
+
+Equipment allowances of up to €1,000 are disbursed every two years for ergonomic home workstation setup.

@@ -1,0 +1,15 @@
+---
+title: Engineering Leadership Memo: Hackathons and Personal Side Projects
+sourceType: internal_memo
+date: 2024-04-12
+jurisdiction: Global
+language: en
+register: corporate_standard
+format: txt
+---
+
+To safeguard our proprietary intellectual property, all software code, libraries, and open-source contributions created by engineering employees during their tenure are the exclusive property of the company.
+
+Employees are strictly prohibited from contributing to personal side projects or open-source repositories on weekends without prior VP approval, and any such code automatically assigns to the enterprise without compensation.
+
+Any employee violating this disclosure mandate will be subject to immediate summary dismissal.

@@ -1,0 +1,17 @@
+{
+  "name": "digital-hr-paralegal-engine",
+  "version": "1.0.0",
+  "description": "Boilerplate and core logic for a Digital Personal HR Paralegal semantic search engine with grounded paragraph annotations and conflict detection.",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "npm run start:server & npm run dev:client",
+    "build:server": "npm run build --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build:server && npm run build:client",
+    "start:server": "npm run start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
