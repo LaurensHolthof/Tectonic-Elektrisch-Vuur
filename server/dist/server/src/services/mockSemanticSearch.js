@@ -121,8 +121,9 @@ class MockSemanticSearchEngine {
                 const paragraphText = doc.paragraphs[pIdx];
                 // Compute multi-criteria scores
                 const scoreMetrics = this.scoringEngine.scoreParagraph(paragraphText, doc, query, allCorpusParagraphs, searchQuery.weightsOverride);
-                // Threshold filter: only return reasonably relevant paragraphs
-                if (scoreMetrics.semantic < 0.25 && scoreMetrics.totalScore < 0.35) {
+                // Query relevance is a hard retrieval requirement. Document authority
+                // can rank matching results, but cannot rescue an unrelated paragraph.
+                if (scoreMetrics.semantic < 0.25) {
                     continue;
                 }
                 // Compute exact character offset highlights (Yellow = verified, Red = conflicting)

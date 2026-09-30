@@ -19,6 +19,13 @@ interface ScoreBreakdownTooltipProps {
  */
 export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ metrics }) => {
   const { authority, recency, semantic, crossVerification, register, totalScore, weightsUsed } = metrics;
+  const weightedQuality =
+    authority * weightsUsed.authority +
+    recency * weightsUsed.recency +
+    semantic * weightsUsed.semantic +
+    crossVerification * weightsUsed.crossVerification +
+    register * weightsUsed.register;
+  const relevanceGate = 0.2 + 0.8 * semantic;
 
   const rows = [
     {
@@ -118,8 +125,9 @@ export const ScoreBreakdownTooltip: React.FC<ScoreBreakdownTooltipProps> = ({ me
       </div>
 
       {/* Bottom Formula Footer */}
-      <div className="mt-3 pt-2 border-t border-slate-800 text-[10px] text-slate-400 font-mono text-center">
-        Total = Σ (Score × Weight) = {(totalScore).toFixed(3)}
+      <div className="mt-3 border-t border-slate-800 pt-2 text-center text-[10px] text-slate-400">
+        Weighted quality {(weightedQuality * 100).toFixed(0)}% × relevance gate {(relevanceGate * 100).toFixed(0)}%
+        <span className="ml-1 font-mono text-slate-300">= {totalScore.toFixed(3)}</span>
       </div>
 
       {/* Arrow */}

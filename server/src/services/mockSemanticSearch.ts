@@ -136,8 +136,9 @@ export class MockSemanticSearchEngine {
           searchQuery.weightsOverride
         );
 
-        // Threshold filter: only return reasonably relevant paragraphs
-        if (scoreMetrics.semantic < 0.25 && scoreMetrics.totalScore < 0.35) {
+        // Query relevance is a hard retrieval requirement. Document authority
+        // can rank matching results, but cannot rescue an unrelated paragraph.
+        if (scoreMetrics.semantic < 0.25) {
           continue;
         }
 

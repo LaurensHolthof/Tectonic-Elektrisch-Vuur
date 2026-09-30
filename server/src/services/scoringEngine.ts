@@ -47,19 +47,22 @@ export class ScoringEngine {
 
     const authority = this.calculateAuthority(document.sourceType);
     const recency = this.calculateRecency(document.date);
-    const semantic = this.calculateSemanticMatch(paragraphText, query);
+    const semantic = this.calculateSemanticMatch(paragraphText, document, query);
     const register = this.calculateRegister(document.register);
     const crossVerification = this.calculateCrossVerification(paragraphText, document, corpusParagraphs);
 
-    const totalScore = Number(
-      (
-        authority * weights.authority +
-        recency * weights.recency +
-        semantic * weights.semantic +
-        crossVerification * weights.crossVerification +
-        register * weights.register
-      ).toFixed(3)
-    );
+    const weightedQuality =
+      authority * weights.authority +
+      recency * weights.recency +
+      semantic * weights.semantic +
+      crossVerification * weights.crossVerification +
+      register * weights.register;
+
+    // Authority and recency help rank relevant matches, but must not make an
+    // unrelated paragraph look like a confident answer. Semantic relevance is
+    // therefore a gate on the composite document-quality score.
+    const relevanceGate = 0.2 + 0.8 * semantic;
+    const totalScore = Number((weightedQuality * relevanceGate).toFixed(3));
 
     return {
       authority: Number(authority.toFixed(3)),
@@ -121,36 +124,52 @@ export class ScoringEngine {
    * const score = cosineSimilarity(queryEmbedding, paragraphEmbedding);
    * ```
    */
-  private calculateSemanticMatch(paragraphText: string, query: string): number {
-    const cleanP = paragraphText.toLowerCase();
-    const cleanQ = query.toLowerCase();
+  private calculateSemanticMatch(paragraphText: string, document: SourceDocument, query: string): number {
+    const searchableText = [document.title, document.jurisdiction, paragraphText]
+      .filter(Boolean)
+      .join(' ');
+    const cleanP = searchableText.toLowerCase();
+    const queryTokens = [...new Set(this.tokenize(query))];
+    const paragraphTokens = new Set(this.tokenize(searchableText));
 
-    // Query tokens
-    const queryTokens = cleanQ
-      .split(/[\s,.;:!?()]+/)
-      .filter(w => w.length > 2 && !['the', 'and', 'for', 'are', 'with', 'from', 'what', 'how', 'when', 'does'].includes(w));
+    if (queryTokens.length === 0) return 0;
 
-    if (queryTokens.length === 0) return 0.5;
-
-    let hits = 0;
-    queryTokens.forEach(token => {
-      if (cleanP.includes(token)) {
-        hits += 1.0;
-      } else {
-        // Legal synonym expansion
-        if (this.hasSynonymMatch(token, cleanP)) {
-          hits += 0.8;
-        }
+    const scoreToken = (token: string): number => {
+      if (paragraphTokens.has(token)) {
+        return 1;
       }
-    });
+      return this.hasSynonymMatch(token, cleanP) ? 0.8 : 0;
+    };
 
-    const tokenOverlap = hits / queryTokens.length;
+    const entityTokens = new Set([
+      'germany', 'german', 'deutschland', 'berlin', 'munich', 'hamburg',
+      'france', 'french', 'paris',
+      'uk', 'united', 'kingdom', 'britain', 'british', 'england', 'london',
+      'eu', 'europe', 'european', 'union', 'emea'
+    ]);
+    const topicTokens = queryTokens.filter(token => !entityTokens.has(token));
+    const topicHits = topicTokens.reduce((total, token) => total + scoreToken(token), 0);
 
-    // Check for exact phrase or strong bi-gram matches
-    const phraseBonus = cleanP.includes(cleanQ) ? 0.35 : 0;
-    const baseScore = 0.35 + 0.50 * tokenOverlap + phraseBonus;
+    // A country or region can narrow the corpus, but it cannot be the only
+    // reason a document is considered relevant when the query also has a topic.
+    if (topicTokens.length > 0 && topicHits / topicTokens.length < 0.34) return 0;
 
-    return Math.min(0.99, Math.max(0.15, baseScore));
+    const hits = queryTokens.reduce((total, token) => total + scoreToken(token), 0);
+
+    if (hits === 0) return 0;
+
+    const tokenCoverage = hits / queryTokens.length;
+    const normalizedParagraph = this.tokenize(searchableText).join(' ');
+    const normalizedQuery = queryTokens.join(' ');
+    const queryBigrams = queryTokens.slice(0, -1).map((token, index) => `${token} ${queryTokens[index + 1]}`);
+    const matchedBigrams = queryBigrams.filter(bigram => normalizedParagraph.includes(bigram)).length;
+    const phraseStrength = normalizedParagraph.includes(normalizedQuery)
+      ? 1
+      : queryBigrams.length > 0
+        ? matchedBigrams / queryBigrams.length
+        : 1;
+
+    return Math.min(0.99, 0.82 * tokenCoverage + 0.18 * phraseStrength);
   }
 
   /**
@@ -241,5 +260,22 @@ export class ScoringEngine {
       }
     }
     return false;
+  }
+
+  private tokenize(text: string): string[] {
+    const stopWords = new Set([
+      'a', 'an', 'and', 'are', 'at', 'be', 'by', 'do', 'does', 'for', 'from',
+      'how', 'in', 'is', 'of', 'on', 'or', 'the', 'to', 'what', 'when', 'with'
+    ]);
+
+    return (text.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [])
+      .filter(token => token.length > 1 && !stopWords.has(token))
+      .map(token => this.normalizeToken(token));
+  }
+
+  private normalizeToken(token: string): string {
+    if (token.length > 4 && token.endsWith('ies')) return `${token.slice(0, -3)}y`;
+    if (token.length > 4 && token.endsWith('s') && !token.endsWith('ss')) return token.slice(0, -1);
+    return token;
   }
 }

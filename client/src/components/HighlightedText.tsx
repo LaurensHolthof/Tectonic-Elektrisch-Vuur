@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { HighlightSpan } from '../types';
 import { ConflictTooltip } from './ConflictTooltip';
-import { ShieldCheck, Info } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
 
 interface HighlightedTextProps {
   text: string;
@@ -50,10 +50,10 @@ export const HighlightedText: React.FC<HighlightedTextProps> = ({ text, highligh
         onMouseLeave={() => setActiveTooltip(null)}
       >
         <mark
-          className={`px-1 py-0.5 rounded transition-all duration-150 cursor-pointer ${
+          className={`cursor-pointer rounded-sm px-0.5 py-0.5 transition-colors ${
             isRed
-              ? 'bg-red-100 text-red-950 font-medium border-b-2 border-red-500 hover:bg-red-200'
-              : 'bg-yellow-100 text-amber-950 font-medium border-b-2 border-amber-400 hover:bg-yellow-200'
+              ? 'bg-red-100 text-red-950 underline decoration-red-400 decoration-2 underline-offset-2 hover:bg-red-200'
+              : 'bg-amber-100 text-amber-950 underline decoration-amber-400 decoration-2 underline-offset-2 hover:bg-amber-200'
           }`}
           onClick={(e) => {
             e.stopPropagation();
@@ -76,10 +76,10 @@ export const HighlightedText: React.FC<HighlightedTextProps> = ({ text, highligh
               onInspectSource={onOpenSourceDoc}
             />
           ) : (
-            <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-2 z-50 w-80 p-3 bg-slate-900 text-white rounded-lg shadow-xl text-xs animate-fade-in pointer-events-auto border border-slate-700">
-              <div className="flex items-center gap-1.5 text-amber-300 font-semibold mb-1">
+            <div className="pointer-events-auto absolute bottom-full left-1/2 z-50 mb-2 w-72 -translate-x-1/2 rounded-lg border border-slate-700 bg-slate-900 p-3 text-xs text-white shadow-xl animate-fade-in sm:w-80">
+              <div className="mb-1 flex items-center gap-1.5 font-semibold text-white">
                 <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                <span>Verified Legal Provision</span>
+                <span>Verified provision</span>
               </div>
               <p className="text-slate-200 leading-snug">{hl.hoverReason}</p>
               {hl.supportedSourceIds && hl.supportedSourceIds.length > 0 && (
