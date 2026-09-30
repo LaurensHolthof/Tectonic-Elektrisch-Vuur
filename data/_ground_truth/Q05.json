@@ -1,0 +1,63 @@
+{
+ "id": "Q05",
+ "question": "Is Emma Vandenberghe's harassment complaint against Bart Willems substantiated?",
+ "verdict": "substantiated",
+ "expected_answer": "Substantiated. Repeated, similar abusive conduct over about six months (public belittling, exclusion from a project, late-night demands) undermining her dignity meets the definition of moral harassment (art. 32ter Law 1996); the clothing remark can be unwanted conduct with a sexual connotation. The prevention adviser's formal opinion (independent statutory procedure) and contemporaneous Teams logs, corroborated by Yasmine, outweigh Bart's statement and the informal HR note. Dries's statement carries little weight (absent from 2 of 3 meetings, long-time colleague). The employer must implement the recommended measures.",
+ "key_facts": [
+  "Formal request 18/11/2025 (REC-Q05-01)",
+  "Teams DMs Apr–Oct 2025 (CHAT-Q05-01) and channel messages (CHAT-Q05-02)",
+  "Adviser opinion 10/02/2026: harassment (INV-Q05-01)",
+  "HR note calls Emma 'sensitive' and suggests mediation (INV-Q05-02)"
+ ],
+ "conflicts": [
+  {
+   "issue": "Jokes / performance management or harassment?",
+   "sides": {
+    "STM-Q05-02": "jokes, normal feedback",
+    "CHAT-Q05-01": "repeated demeaning messages",
+    "STM-Q05-03": "witness corroborates",
+    "INV-Q05-01": "adviser concludes harassment"
+   },
+   "resolution": "Harassment.",
+   "winning_docs": [
+    "INV-Q05-01",
+    "CHAT-Q05-01",
+    "STM-Q05-03"
+   ],
+   "why": "Independent statutory opinion + contemporaneous records vs statement of the accused."
+  },
+  {
+   "issue": "Weight of HR's informal view and of the second witness",
+   "sides": {
+    "INV-Q05-02": "Emma sensitive, Bart top performer",
+    "STM-Q05-04": "noticed nothing"
+   },
+   "resolution": "Low weight.",
+   "winning_docs": [
+    "INV-Q05-01"
+   ],
+   "why": "HR note is informal, biased and bypassed the statutory procedure (see superseded 2017 procedure); Dries was absent."
+  }
+ ],
+ "focus_docs": [
+  "LAW-BE-1996-HARASS-DEF-FR",
+  "INV-Q05-01",
+  "STM-Q05-02",
+  "CHAT-Q05-01"
+ ],
+ "supporting_docs": [
+  "POL-ANTIHARASSMENT-2024",
+  "POL-WORKREG-2025-NL",
+  "POL-ANTIHARASSMENT-2017",
+  "CTR-E1080-CONTRACT",
+  "REC-Q05-01",
+  "INV-Q05-02",
+  "STM-Q05-01",
+  "STM-Q05-03",
+  "STM-Q05-04",
+  "EML-Q05-01",
+  "EML-Q05-02",
+  "CHAT-Q05-02",
+  "PERF-Q09-01"
+ ]
+}

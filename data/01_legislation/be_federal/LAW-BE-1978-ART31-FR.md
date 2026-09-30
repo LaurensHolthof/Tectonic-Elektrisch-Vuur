@@ -1,0 +1,49 @@
+# Loi du 3 juillet 1978 – art. 31 (incapacité de travail, certificat médical)
+
+- Source: https://www.ejustice.just.fgov.be/eli/loi/1978/07/03/1978070303/justel
+- Issuer: SPF Justice – Moniteur belge / Justel
+- Jurisdiction: BE | Language: fr
+- Retrieved: 2026-09-30
+
+---
+Art. 31.<L 1999-06-13/61, art. 8, 043; En vigueur : 01-12-2002> § 1er. L'impossibilité pour le travailleur de fournir son travail par suite de maladie ou d'accident suspend l'exécution du contrat.
+ § 2. Le travailleur doit avertir immédiatement son employeur de son incapacité de travail.
+ Si une convention collective de travail ou le règlement de travail le prescrit, ou, à défaut d'une telle prescription, si l'employeur l'y invite, le travailleur produit à ce dernier un certificat médical. Le certificat médical mentionne l'incapacité de travail ainsi que la durée probable de celle-ci et si, en vue d'un contrôle, le travailleur peut se rendre éventuellement à un autre endroit.
+ Sauf dans les cas de force majeure, le travailleur envoie le certificat médical ou le remet à l'entreprise dans les deux jours ouvrables à compter du jour de l'incapacité ou du jour de la réception de l'invitation, à moins qu'un autre délai ne soit fixé par une convention collective de travail ou le règlement de travail. ['>1 ...]'>1
+ ['>2 § 2/1. Par dérogation au § 2, alinéas 2 et 3, le travailleur n'est pas tenu, ['>3 deux fois]'>3 par année calendrier, de produire un certificat médical pour le premier jour d'une incapacité de travail. Le cas échéant, il communique immédiatement à l'employeur l'adresse où il séjourne durant ce premier jour d'incapacité de travail, à moins que cette adresse correspond à sa résidence habituelle connue de l'employeur.
+ Les entreprises qui occupent moins de 50 travailleurs au 1er janvier de l'année calendrier au cours de laquelle survient l'incapacité de travail, peuvent déroger à l'alinéa 1er par convention collective de travail ou par règlement de travail.]'>2
+ § 3. En outre, le travailleur ne peut refuser de recevoir un médecin délégué et rémunéré par l'employeur et satisfaisant aux dispositions de la loi du 13 juin 1999 relative à la médecine de contrôle, ci-après dénommé médecin-contrôleur, ni de se laisser examiner par celui-ci. A moins que celui qui a délivré le certificat médical au travailleur n'estime que son état de santé ne lui permet pas de se déplacer, le travailleur doit, s'il y est invité, se présenter chez le médecin-contrôleur. Les frais de déplacement du travailleur sont à charge de l'employeur.
+ ['>1 Une convention collective de travail conclue, soit au sein d'une commission ou d'une sous-commission paritaire, soit en dehors d'un organe paritaire, ou le règlement de travail peut déterminer une période de la journée de maximum 4 heures consécutives se situant entre 7 et 20 heures, durant laquelle le travailleur se tient à disposition pour une visite du médecin-contrôleur à son domicile ou à une résidence communiquée à l'employeur.]'>1
+ Le médecin-contrôleur examine la réalité de l'incapacité de travail, vérifie la durée probable de l'incapacité de travail et, le cas échéant, les autres données médicales pour autant que celles-ci soient nécessaires à l'application des dispositions de la présente loi; toutes autres constatations demeurent couvertes par le secret professionnel.
+ Le médecin-contrôleur exerce sa mission conformément aux dispositions de l'article 3 de la loi du 13 juin 1999 relative à la médecine de contrôle.
+ ['>1 § 3/1. Le travailleur qui :
+ - en violation du paragraphe 2, alinéa 1er, sauf cas de force majeure, n'informe pas son employeur immédiatement de son incapacité de travail ou;
+ - en violation du paragraphe 2, alinéa 3, ne produit pas le certificat médical dans le délai prescrit ou;
+ - en violation du paragraphe 3 et sans motif légitime se soustrait au contrôle,
+ peut se voir refuser le bénéfice de la rémunération visée aux articles 52, 70, 71 et 112 pour les jours d'incapacité qui précèdent le jour de cet avertissement, de cette remise ou du contrôle.]'>1
+ § 4. Le médecin-contrôleur remet aussi rapidement que possible, éventuellement après consultation de celui qui délivre le certificat médical visé au § 2, ses constatations écrites au travailleur. Si le travailleur ne peut à ce moment marquer son accord avec les constatations du médecin-contrôleur, ceci sera acté par ce dernier sur l'écrit précité. A partir de la date du premier examen médical de contrôle pour lequel le travailleur a été convoqué ou de la date de la première visite à domicile du médecin-contrôleur, le travailleur peut se voir refuser le bénéfice de la rémunération visée aux articles 52, 70, 71, 112, 119.10 et 119.12, à l'exception de la période d'incapacité de travail pour laquelle il n'y a pas de contestation.
+ § 5. Sans préjudice de la compétence des cours et tribunaux, les litiges d'ordre médical survenant entre le travailleur et le médecin-contrôleur sont résolus par procédure d'arbitrage. La décision qui découle de cette procédure d'arbitrage est définitive et lie les parties.
+ Dans les deux jours ouvrables après la remise des constatations visées au § 4 par le médecin-contrôleur, la partie la plus diligente peut, en vue de trancher le litige médical, désigner un médecin-arbitre, qui satisfait aux dispositions de la loi du 13 juin 1999 relative à la médecine de contrôle et qui, dans la mesure où un accord sur la désignation du médecin-arbitre ne peut être atteint dans le délai précité, se trouve dans la liste établie en exécution de la loi précitée. L'employeur peut donner au médecin-contrôleur et le travailleur peut donner à celui qui a rédigé le certificat médical un mandat exprès pour la désignation du médecin-arbitre.
+ Le médecin-arbitre effectue l'examen médical et statue sur le litige médical dans les trois jours ouvrables qui suivent sa désignation. Toutes autres constatations demeurent couvertes par le secret professionnel.
+ Les frais de cette procédure, ainsi que les éventuels frais de déplacement du travailleur, sont à charge de la partie perdante. Le Roi fixe les frais de la procédure.
+ Le médecin-arbitre porte sa décision à la connaissance de celui qui a délivré le certificat médical et du médecin-contrôleur. L'employeur et le travailleur en sont avertis par écrit, par lettre recommandée à la poste.
+ § 6. Sans préjudice de la disposition prévue au § 4, la rémunération prévue aux articles 52, 70, 71, 112, 119.10 et 119.12 est due pour la période d'incapacité de travail du travailleur reconnue suite à la résolution du litige.
+ § 7. Le Roi peut, après avis de l'organe paritaire compétent, fixer une procédure d'arbitrage qui déroge aux dispositions du § 5.
+ § 8. Pour les employeurs et leurs travailleurs qui ne relèvent pas du champ d'application de la loi du 5 décembre 1968 sur les conventions collectives de travail et les commissions paritaires, le Roi peut fixer une procédure qui déroge aux dispositions du § 2.
+ ----------
+ (1)<L 2013-12-26/08, art. 61, 080; En vigueur : 01-01-2014> 
+ (2)<L 2022-10-30/03, art. 2, 107; En vigueur : 28-11-2022> 
+ (3)<L 2025-12-19/20, art. 33, 118; En vigueur : 01-01-2026>
+
+Art. 31/1. ['>1 § 1er. L'exécution du contrat de travail n'est pas suspendue lorsque le travailleur, reconnu comme étant incapable de travailler en vertu de l'article 100, § 2, de la loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994, et autorisé à reprendre le travail en vertu de ces dispositions, reprend temporairement, en accord avec l'employeur, un travail adapté ou un autre travail.
+ § 2. La relation de travail en vigueur avant l'exécution du travail adapté ou de l'autre travail est de manière réfragable présumée maintenue, nonobstant ladite exécution ou la conclusion ou l'exécution de l'avenant visé au paragraphe 3.
+ Durant l'exécution du travail adapté ou de l'autre travail, le travailleur conserve tous les avantages acquis auprès de l'employeur qui sont liés à la relation de travail visée à l'alinéa 1er, sauf dispositions contraires convenues entre l'employeur et le travailleur en application du paragraphe 3.
+ § 3. Pour la période de l'exécution du travail adapté ou de l'autre travail, le travailleur et l'employeur peuvent conclure un avenant contenant, s'il y a lieu, les modalités dont ils ont convenu, notamment sur les points qui suivent :
+ - le volume du travail adapté ou de l'autre travail;
+ - les horaires du travail adapté ou de l'autre travail;
+ - la nature du travail adapté ou de l'autre travail;
+ - la rémunération pour le travail adapté ou l'autre travail;
+ - la durée de validité de l'avenant.
+ L'avenant prend immédiatement fin lorsque le travailleur cesse de satisfaire aux conditions prévues à l'article 100, § 2, de la loi relative à l'assurance obligatoire soins de santé et indemnités, coordonnée le 14 juillet 1994. Dès que le travailleur ne satisfait plus à ces conditions, il informe son employeur de cette situation.]'>1
+ ----------
+ (1)<Inséré par L 2016-12-20/03, art. 2, 084; En vigueur : 09-01-2017>

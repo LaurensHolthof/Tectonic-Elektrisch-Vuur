@@ -1,0 +1,7 @@
+alert_id,timestamp,user,rule,severity,object,destination,records_or_size,status,reviewed_by,reviewed_at
+DLP-88412,2026-03-02 11:20:04,y.elamrani,R2 external forward,low,Proposal_Scheldt_v3.docx,client domain (whitelisted),220 KB,dismissed – false positive,k.janssens,2026-03-02 14:02
+DLP-88457,2026-03-04 16:41:37,s.lefevre,R1 personal cloud,medium,Board_deck_Q1_draft.pptx,onedrive.live.com,4.1 MB,closed – personal OneDrive of CFO authorised,k.janssens,2026-03-05 08:55
+DLP-88490,2026-03-05 18:12:09,m.dubois,R3 CRM mass export,high,CRM export contacts_all.csv,drive.google.com (personal),4312 records,escalated to HR,k.janssens,2026-03-06 09:10
+DLP-88491,2026-03-05 18:14:52,m.dubois,R1 personal cloud,high,Pricing_2026_confidential.xlsx,drive.google.com (personal),1.2 MB,escalated to HR,k.janssens,2026-03-06 09:10
+DLP-88492,2026-03-05 18:19:30,m.dubois,R2 external forward,high,Pricing_2026_confidential.xlsx,marc.dubois84@gmail.com,1.2 MB,escalated to HR,k.janssens,2026-03-06 09:10
+DLP-88503,2026-03-06 10:47:15,j.martens,R2 external forward,low,Offer_Brabo.pdf,client domain (whitelisted),310 KB,dismissed – false positive,k.janssens,2026-03-06 11:30

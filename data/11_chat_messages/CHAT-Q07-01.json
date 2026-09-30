@@ -1,0 +1,17 @@
+{
+ "_dataset_note": "Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.",
+ "platform": "WhatsApp",
+ "chat": "Luc Schmit – Olivier Lambert",
+ "messages": [
+  {
+   "ts": "2026-09-07T07:55:40+02:00",
+   "from": "Luc Schmit",
+   "text": "Comme dit au tel, je suis malade (fièvre). Je vais chez le médecin aujourd'hui et j'envoie le certificat."
+  },
+  {
+   "ts": "2026-09-07T08:30:02+02:00",
+   "from": "Olivier Lambert",
+   "text": "Ok. Envoie vite le certificat."
+  }
+ ]
+}

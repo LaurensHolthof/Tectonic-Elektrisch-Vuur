@@ -1,0 +1,45 @@
+{
+ "id": "Q03",
+ "question": "Can Pieter De Smet work remotely from Lyon (France) from 1 October 2026 to 31 January 2027?",
+ "themes": [
+  "T3"
+ ],
+ "focus_docs": [
+  {
+   "id": "CCT-BE-085",
+   "path": "03_collective_agreements/CCT-BE-085.pdf",
+   "final_weight": 0.9,
+   "legal_rank": 2
+  },
+  {
+   "id": "POL-TELEWORK-v2-2026",
+   "path": "05_company_policies/POL-TELEWORK-v2-2026.pdf",
+   "final_weight": 0.935,
+   "legal_rank": 6
+  },
+  {
+   "id": "EU-REG-2004-883-SOCSEC",
+   "path": "01_legislation/eu/EU-REG-2004-883-SOCSEC.md",
+   "final_weight": 0.9,
+   "legal_rank": 1
+  },
+  {
+   "id": "CHAT-Q03-01",
+   "path": "11_chat_messages/CHAT-Q03-01.json",
+   "final_weight": 0.4,
+   "legal_rank": null
+  }
+ ],
+ "supporting_docs": [
+  "CCT-TEC-2025-TELEWORK",
+  "POL-HOMEOFFICE-ALLOWANCE-2025",
+  "POL-TELEWORK-v1-2023",
+  "CTR-E1063-TELEWORK-ANNEX",
+  "REC-Q03-01",
+  "INV-Q03-01",
+  "STM-Q03-01",
+  "EML-Q03-01",
+  "EML-Q03-02",
+  "PERF-E1063-2025"
+ ]
+}

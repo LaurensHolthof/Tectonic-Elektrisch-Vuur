@@ -1,0 +1,67 @@
+{
+ "id": "Q03",
+ "question": "Can Pieter De Smet work remotely from Lyon (France) from 1 October 2026 to 31 January 2027?",
+ "verdict": "not_as_requested",
+ "expected_answer": "Not as requested. The HRBP's Teams message is not a valid approval: policy v2 requires the HR Director's written approval. ≈83 working days exceed the 60-day annual cap (derogation only by the HR Director with an amended telework annex; CCT 85 and his annex fix Uccle as place of telework). Working 100% in France means French social security applies (art. 11(3)(a) Reg. 883/2004) unless an A1 posting certificate (art. 12) is obtained before departure; the company CCT forbids starting without this check. Tax likely stays Belgian (<183 days, Belgian employer, no French PE) but must be checked. Workable answer: up to 60 working days in 2026 with A1, the rest only via formal derogation. The archived v1 ban no longer applies.",
+ "key_facts": [
+  "Request 01/10/2026–31/01/2027, ≈83 working days, A1 not requested (REC-Q03-01)",
+  "Tom: 'Sure, go ahead' (CHAT-Q03-01); Legal: do not confirm (EML-Q03-02, INV-Q03-01)",
+  "Pieter already signed a lease relying on Tom's message (STM-Q03-01)"
+ ],
+ "conflicts": [
+  {
+   "issue": "Was the request approved?",
+   "sides": {
+    "CHAT-Q03-01": "HRBP says go ahead",
+    "POL-TELEWORK-v2-2026": "HR Director written approval required"
+   },
+   "resolution": "No valid approval.",
+   "winning_docs": [
+    "POL-TELEWORK-v2-2026"
+   ],
+   "why": "An informal chat by a non-competent person cannot override the approval procedure (though it may create an expectation to handle fairly)."
+  },
+  {
+   "issue": "Is working abroad allowed at all?",
+   "sides": {
+    "POL-TELEWORK-v1-2023": "working abroad banned",
+    "POL-TELEWORK-v2-2026": "up to 60 days/year"
+   },
+   "resolution": "v2 applies since 01/02/2026.",
+   "winning_docs": [
+    "POL-TELEWORK-v2-2026"
+   ],
+   "why": "Superseded document."
+  },
+  {
+   "issue": "Applicable social security",
+   "sides": {
+    "EU-REG-2004-883-SOCSEC": "lex loci laboris unless posting",
+    "CTR-E1063-TELEWORK-ANNEX": "place of telework is Uccle"
+   },
+   "resolution": "French social security unless A1.",
+   "winning_docs": [
+    "EU-REG-2004-883-SOCSEC"
+   ],
+   "why": "EU regulation is directly applicable mandatory law."
+  }
+ ],
+ "focus_docs": [
+  "CCT-BE-085",
+  "POL-TELEWORK-v2-2026",
+  "EU-REG-2004-883-SOCSEC",
+  "CHAT-Q03-01"
+ ],
+ "supporting_docs": [
+  "CCT-TEC-2025-TELEWORK",
+  "POL-HOMEOFFICE-ALLOWANCE-2025",
+  "POL-TELEWORK-v1-2023",
+  "CTR-E1063-TELEWORK-ANNEX",
+  "REC-Q03-01",
+  "INV-Q03-01",
+  "STM-Q03-01",
+  "EML-Q03-01",
+  "EML-Q03-02",
+  "PERF-E1063-2025"
+ ]
+}

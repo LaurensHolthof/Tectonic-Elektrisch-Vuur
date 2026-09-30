@@ -1,0 +1,48 @@
+{
+ "id": "Q05",
+ "question": "Is Emma Vandenberghe's harassment complaint against Bart Willems substantiated?",
+ "themes": [
+  "T5"
+ ],
+ "focus_docs": [
+  {
+   "id": "LAW-BE-1996-HARASS-DEF-FR",
+   "path": "01_legislation/be_federal/LAW-BE-1996-HARASS-DEF-FR.md",
+   "final_weight": 1.0,
+   "legal_rank": 1
+  },
+  {
+   "id": "INV-Q05-01",
+   "path": "08_investigations/INV-Q05-01.pdf",
+   "final_weight": 0.924,
+   "legal_rank": null
+  },
+  {
+   "id": "STM-Q05-02",
+   "path": "09_statements/STM-Q05-02.md",
+   "final_weight": 0.385,
+   "legal_rank": null
+  },
+  {
+   "id": "CHAT-Q05-01",
+   "path": "11_chat_messages/CHAT-Q05-01.json",
+   "final_weight": 0.4,
+   "legal_rank": null
+  }
+ ],
+ "supporting_docs": [
+  "POL-ANTIHARASSMENT-2024",
+  "POL-WORKREG-2025-NL",
+  "POL-ANTIHARASSMENT-2017",
+  "CTR-E1080-CONTRACT",
+  "REC-Q05-01",
+  "INV-Q05-02",
+  "STM-Q05-01",
+  "STM-Q05-03",
+  "STM-Q05-04",
+  "EML-Q05-01",
+  "EML-Q05-02",
+  "CHAT-Q05-02",
+  "PERF-Q09-01"
+ ]
+}

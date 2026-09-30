@@ -1,0 +1,46 @@
+{
+ "id": "Q10",
+ "question": "Can Lina Haddad's 2026 mid-year rating (and bonus) be lowered because of reduced availability during parental leave?",
+ "themes": [
+  "T4",
+  "T5"
+ ],
+ "focus_docs": [
+  {
+   "id": "EU-DIR-2019-1158-WLB",
+   "path": "01_legislation/eu/EU-DIR-2019-1158-WLB.md",
+   "final_weight": 1.0,
+   "legal_rank": 1
+  },
+  {
+   "id": "PERF-Q10-01",
+   "path": "12_performance/PERF-Q10-01.md",
+   "final_weight": 0.455,
+   "legal_rank": null
+  },
+  {
+   "id": "REC-Q10-01",
+   "path": "07_official_records/REC-Q10-01.csv",
+   "final_weight": 0.825,
+   "legal_rank": null
+  },
+  {
+   "id": "CHAT-Q10-01",
+   "path": "11_chat_messages/CHAT-Q10-01.json",
+   "final_weight": 0.28,
+   "legal_rank": null
+  }
+ ],
+ "supporting_docs": [
+  "POL-DIVERSITY-2024",
+  "POL-LEAVE-v2-2025",
+  "POL-PERFORMANCE-BONUS-2025",
+  "CTR-E1071-AMD-PARENTAL",
+  "CTR-E1071-CONTRACT",
+  "REC-Q10-02",
+  "STM-Q10-01",
+  "EML-Q04-04",
+  "EML-Q10-01",
+  "PERF-E1071-2025"
+ ]
+}

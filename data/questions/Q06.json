@@ -1,0 +1,46 @@
+{
+ "id": "Q06",
+ "question": "Was HR/IT allowed to read Jan Peeters' e-mails in June 2026, and can they use what they found?",
+ "themes": [
+  "T6"
+ ],
+ "focus_docs": [
+  {
+   "id": "CCT-BE-081",
+   "path": "03_collective_agreements/CCT-BE-081.pdf",
+   "final_weight": 0.9,
+   "legal_rank": 2
+  },
+  {
+   "id": "POL-IT-2024",
+   "path": "05_company_policies/POL-IT-2024.pdf",
+   "final_weight": 0.935,
+   "legal_rank": 6
+  },
+  {
+   "id": "GUI-BE-APD-SURVEILLANCE",
+   "path": "04_official_guidance/GUI-BE-APD-SURVEILLANCE.md",
+   "final_weight": 0.8,
+   "legal_rank": null
+  },
+  {
+   "id": "CTR-Q06-01",
+   "path": "06_contracts/CTR-Q06-01.pdf",
+   "final_weight": 0.935,
+   "legal_rank": 4
+  }
+ ],
+ "supporting_docs": [
+  "LAW-BE-2005-SECRECY-FR",
+  "POL-CONFIDENTIALITY-2024",
+  "POL-PRIVACY-NOTICE-EMPLOYEES-2025",
+  "POL-IT-2019",
+  "REC-Q06-01",
+  "INV-Q06-01",
+  "STM-Q06-01",
+  "EML-Q06-01",
+  "EML-Q06-02",
+  "CHAT-Q06-01",
+  "PERF-E1090-2025"
+ ]
+}

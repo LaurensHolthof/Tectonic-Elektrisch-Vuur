@@ -1,0 +1,22 @@
+{
+ "_dataset_note": "Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.",
+ "platform": "Microsoft Teams",
+ "chat": "1:1 Kristof Janssens – Sarah Lefèvre",
+ "messages": [
+  {
+   "ts": "2026-06-02T09:50:31+02:00",
+   "from": "Kristof Janssens",
+   "text": "In his Private folder now. Reading everything as you asked. Feels a bit wrong tbh"
+  },
+  {
+   "ts": "2026-06-02T09:51:12+02:00",
+   "from": "Sarah Lefèvre",
+   "text": "Policy says we can inspect any mailbox. Keep going."
+  },
+  {
+   "ts": "2026-06-02T11:48:00+02:00",
+   "from": "Kristof Janssens",
+   "text": "Done. Nothing with the budget file itself. Sending summary."
+  }
+ ]
+}

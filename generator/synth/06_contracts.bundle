@@ -1,0 +1,476 @@
+@@@ FILE CTR-E1042-CONTRACT
+---
+folder: 06_contracts
+format: pdf
+title: Contrat de travail d'employé à durée indéterminée – Marc Dubois
+doc_type: employment_contract
+author: Tectonic Solutions SA / Marc Dubois
+author_role: employer and employee (signed by both)
+date: 2017-08-21
+effective_from: 2017-09-01
+jurisdiction: BE
+language: fr
+themes: [T1, T6]
+status: active
+signed: true
+formality: written_individual_contract
+related_employees: [E1042]
+related_questions: [Q01]
+---
+# Contrat de travail d'employé à durée indéterminée
+
+**Entre** Tectonic Solutions SA, Rue des Tanneurs 58, 1000 Bruxelles, BCE 0799.451.237, représentée par Mme Catherine Lemaire, HR Director (ci-après « l'employeur »),
+
+**et** M. Marc Dubois, domicilié à 1180 Uccle, né le 14/02/1984 (ci-après « l'employé »).
+
+**Art. 1 – Fonction.** L'employé est engagé en qualité d'Account Manager (depuis le 01/01/2021 : Senior Account Manager), au sein du département Sales, sous l'autorité du Sales Director.
+
+**Art. 2 – Durée.** Le contrat prend cours le 1er septembre 2017 pour une durée indéterminée.
+
+**Art. 3 – Lieu de travail.** Siège de Bruxelles, avec déplacements chez les clients et télétravail selon la politique en vigueur.
+
+**Art. 4 – Durée du travail.** 38 heures par semaine, selon le règlement de travail.
+
+**Art. 5 – Rémunération.** Rémunération mensuelle brute de 4.200 EUR (au 01/01/2026 : 5.850 EUR), commission sur ventes selon le plan commercial annuel, voiture de société, chèques-repas.
+
+**Art. 6 – Confidentialité.** L'employé s'engage à ne pas divulguer, pendant et après l'exécution du contrat, les informations confidentielles de l'employeur et de ses clients (listes de clients, conditions tarifaires, données CRM). Il s'interdit de conserver ou de transférer ces informations sur des supports ou comptes personnels.
+
+**Art. 7 – Outils informatiques.** L'employé déclare avoir reçu la charte informatique et accepte que l'usage des outils fasse l'objet d'un contrôle conformément à la CCT n° 81.
+
+**Art. 8 – Clause de non-concurrence.** Néant (rémunération inférieure au seuil légal à la date de signature).
+
+**Art. 9 – Règlement de travail.** L'employé reconnaît avoir reçu un exemplaire du règlement de travail.
+
+Fait à Bruxelles, le 21 août 2017, en deux exemplaires.
+
+Pour l'employeur : Catherine Lemaire – L'employé : Marc Dubois (lu et approuvé)
+
+@@@ FILE LTR-Q01-01
+---
+folder: 06_contracts
+format: pdf
+title: Notification du congé pour motif grave – Marc Dubois (16/03/2026)
+doc_type: dismissal_letter
+author: Catherine Lemaire
+author_role: HR Director
+date: 2026-03-16
+jurisdiction: BE
+language: fr
+themes: [T1]
+status: final
+signed: true
+formality: signed_letter
+related_employees: [E1042]
+related_questions: [Q01]
+---
+Bruxelles, le 16 mars 2026
+
+**Remis en mains propres contre accusé de réception**
+
+Monsieur Marc Dubois
+
+**Objet : congé pour motif grave**
+
+Monsieur,
+
+Par la présente, nous vous notifions notre décision de mettre fin à votre contrat de travail avec effet immédiat, sans préavis ni indemnité, pour motif grave au sens de l'article 35 de la loi du 3 juillet 1978 relative aux contrats de travail.
+
+Les faits constitutifs du motif grave vous seront notifiés par lettre recommandée dans les trois jours ouvrables.
+
+Vos documents sociaux (C4, attestation de vacances, compte individuel) vous seront transmis dans les délais légaux. Nous vous prions de restituer immédiatement votre ordinateur portable, votre badge et votre voiture de société.
+
+Veuillez agréer, Monsieur, nos salutations distinguées.
+
+Catherine Lemaire, HR Director
+
+Pour réception, le 16/03/2026 à 10h05 : M. Dubois (« sous réserve de tous droits »)
+
+@@@ FILE LTR-Q01-02
+---
+folder: 06_contracts
+format: pdf
+title: Lettre recommandée – motifs du congé pour motif grave – Marc Dubois (19/03/2026)
+doc_type: dismissal_reasons_letter
+author: Catherine Lemaire
+author_role: HR Director
+date: 2026-03-19
+jurisdiction: BE
+language: fr
+themes: [T1, T6]
+status: final
+signed: true
+formality: registered_letter
+related_employees: [E1042]
+related_questions: [Q01]
+---
+Bruxelles, le 19 mars 2026
+
+**Par recommandé**
+
+Monsieur Marc Dubois
+
+**Objet : notification des motifs du congé pour motif grave du 16 mars 2026**
+
+Monsieur,
+
+Conformément à l'article 35, alinéa 4, de la loi du 3 juillet 1978, nous vous notifions les faits qui constituent le motif grave ayant justifié votre licenciement du 16 mars 2026.
+
+1. Le jeudi 5 mars 2026 à 18h12, vous avez exporté 4.312 contacts de notre CRM ainsi que le fichier « Pricing_2026_confidential.xlsx » vers un espace de stockage Google Drive personnel, et transféré ce même fichier vers votre adresse Gmail privée.
+
+2. Ces informations sont classées « Confidentiel » (Confidential Information Policy) et leur transfert vers un stockage privé est expressément interdit par l'article 12 du règlement de travail et l'article 6 de votre contrat, et cité comme motif grave à l'article 18 du règlement de travail.
+
+3. L'enquête interne a révélé que vous étiez en contact avec la société DataNova, concurrente directe, en vue d'un engagement.
+
+4. Lors de l'audition du 12 mars 2026, vous avez reconnu les transferts. Votre explication (problèmes de VPN) ne justifie ni l'export complet du CRM ni l'envoi vers une adresse privée.
+
+5. **La direction a acquis la certitude des faits et de leur gravité le vendredi 13 mars 2026, à l'issue de l'enquête et de votre audition.** Le congé a donc été notifié dans le délai de trois jours ouvrables.
+
+Ces faits rendent immédiatement et définitivement impossible toute collaboration professionnelle.
+
+Catherine Lemaire, HR Director
+
+@@@ FILE CTR-E1057-CONTRACT
+---
+folder: 06_contracts
+format: pdf
+title: Arbeidsovereenkomst voor bedienden van onbepaalde duur – Sofie Claes
+doc_type: employment_contract
+author: Tectonic Solutions NV / Sofie Claes
+author_role: employer and employee
+date: 2019-01-28
+effective_from: 2019-02-11
+jurisdiction: BE
+language: nl
+themes: [T2]
+status: active
+signed: true
+formality: written_individual_contract
+related_employees: [E1057]
+related_questions: [Q02]
+---
+# Arbeidsovereenkomst voor bedienden van onbepaalde duur
+
+**Tussen** Tectonic Solutions NV, KBO 0799.451.237, vertegenwoordigd door Catherine Lemaire, HR Director (de werkgever),
+
+**en** mevrouw Sofie Claes, wonende te 2600 Berchem (de werknemer).
+
+**Art. 1 – Functie.** De werknemer wordt aangeworven als Project Consultant in het departement Delivery (Antwerpen), onder leiding van de Delivery Manager.
+
+**Art. 2 – Aanvang.** 11 februari 2019, onbepaalde duur.
+
+**Art. 3 – Arbeidsduur.** Voltijds, 38 uur per week, volgens het uurrooster van het arbeidsreglement. De werknemer registreert haar prestaties dagelijks in het tijdsregistratiesysteem.
+
+**Art. 4 – Loon.** Bruto maandloon 3.350 EUR, maaltijdcheques, hospitalisatieverzekering, groepsverzekering.
+
+**Art. 5 – Overuren.** Overuren worden vergoed of gerecupereerd overeenkomstig de Arbeidswet van 16 maart 1971 en het beleid van de onderneming.
+
+**Art. 6 – Arbeidsreglement.** De werknemer verklaart een exemplaar van het arbeidsreglement te hebben ontvangen.
+
+Antwerpen, 28 januari 2019. Voor de werkgever: Catherine Lemaire – De werknemer: Sofie Claes
+
+@@@ FILE CTR-E1057-AMD-2026
+---
+folder: 06_contracts
+format: pdf
+title: Bijlage bij de arbeidsovereenkomst – promotie Project Lead (M1) – Sofie Claes
+doc_type: contract_amendment
+author: Tectonic Solutions NV / Sofie Claes
+author_role: employer and employee
+date: 2025-12-15
+effective_from: 2026-01-01
+jurisdiction: BE
+language: nl
+themes: [T2]
+status: active
+signed: true
+formality: written_individual_contract
+related_employees: [E1057, E1011]
+related_questions: [Q02]
+---
+# Bijlage 2 bij de arbeidsovereenkomst van 28 januari 2019
+
+**Werknemer:** Sofie Claes (E1057)
+
+**1. Functie.** Vanaf 1 januari 2026 oefent de werknemer de functie uit van **Project Lead – graad M1** in het departement Delivery (Antwerpen). Zij rapporteert aan de Delivery Manager, dhr. Jeroen Maes.
+
+**2. Taken.** Coördinatie van 2 à 3 klantprojecten; opvolging van de planning en rapportering aan de Delivery Manager; eerste aanspreekpunt voor de klant. De werknemer heeft **geen hiërarchisch gezag** over andere werknemers; de teamsamenstelling en planning worden bepaald door de Delivery Manager. Uitgaven boven 500 EUR vereisen voorafgaand akkoord van de Delivery Manager.
+
+**3. Vertrouwenspost.** Partijen komen overeen dat de functie van Project Lead een **vertrouwenspost** is en dat de werknemer bijgevolg niet onder de bepalingen inzake arbeidsduur valt. Het loon omvat een forfaitaire vergoeding voor eventuele bijkomende prestaties.
+
+**4. Loon.** Bruto maandloon 4.553 EUR (+3%) vanaf 1 januari 2026.
+
+**5.** Alle andere bepalingen van de arbeidsovereenkomst blijven ongewijzigd.
+
+Antwerpen, 15 december 2025. Voor de werkgever: Tom Verhaegen, HR Business Partner – De werknemer: Sofie Claes
+
+@@@ FILE CTR-E1063-TELEWORK-ANNEX
+---
+folder: 06_contracts
+format: docx
+title: Structural Telework Annex (CCT n° 85) – Pieter De Smet
+doc_type: telework_annex
+author: Tectonic Solutions SA / Pieter De Smet
+author_role: employer and employee
+date: 2024-03-18
+effective_from: 2024-04-01
+jurisdiction: BE
+language: en
+themes: [T3]
+status: active
+signed: true
+formality: written_individual_contract
+related_employees: [E1063, E1012]
+related_questions: [Q03]
+---
+# Structural Telework Annex to the Employment Contract (CCT n° 85)
+
+**Employee:** Pieter De Smet (E1063), Senior Software Engineer, Engineering (Brussels)
+
+1. **Place of telework:** the employee's home address, Rue Vanderkindere 212, 1180 Uccle, Belgium. **Any change of the place of telework requires a written amendment of this annex.**
+2. **Frequency:** 3 days per week (Monday, Wednesday, Friday). Tuesday and Thursday at the Brussels office.
+3. **Working time and availability:** 38 hours per week according to the work regulations; reachable during core hours 9:30–12:00 and 14:00–16:00.
+4. **Equipment:** laptop, screen, headset provided by the employer; home-office allowance according to the Home Office Allowance Policy.
+5. **Data protection:** VPN mandatory; no storage of company data on private devices.
+6. **Accidents:** accidents during telework at the place of telework are presumed to be work accidents under the legal conditions.
+7. **Termination of telework:** either party may end structural telework with one month's notice; the employee then returns to the office full-time.
+8. **Reference:** CCT n° 85 of 9 November 2005 on telework.
+
+Brussels, 18 March 2024. For the employer: Elke Wouters (Engineering Manager), Catherine Lemaire (HR Director). Employee: Pieter De Smet.
+
+@@@ FILE CTR-E1071-CONTRACT
+---
+folder: 06_contracts
+format: pdf
+title: Contrat de travail d'employée – Lina Haddad
+doc_type: employment_contract
+author: Tectonic Solutions SA / Lina Haddad
+author_role: employer and employee
+date: 2021-02-15
+effective_from: 2021-03-01
+jurisdiction: BE
+language: fr
+themes: [T4]
+status: active
+signed: true
+formality: written_individual_contract
+related_employees: [E1071, E1013]
+related_questions: [Q04, Q10]
+---
+# Contrat de travail d'employée à durée indéterminée
+
+**Entre** Tectonic Solutions SA (l'employeur) **et** Mme Lina Haddad, domiciliée à 4020 Liège (l'employée).
+
+**Art. 1 – Fonction.** Marketing Specialist, siège de Liège, sous l'autorité du Marketing & Regional Manager.
+
+**Art. 2 – Durée.** Indéterminée, à partir du 1er mars 2021.
+
+**Art. 3 – Durée du travail.** Temps plein, 38 heures par semaine.
+
+**Art. 4 – Rémunération.** 3.100 EUR bruts par mois (au 01/01/2026 : 3.780 EUR), bonus annuel selon la Performance Management & Bonus Policy (plan CCT 90).
+
+**Art. 5 – Divers.** Le règlement de travail et les politiques de l'entreprise s'appliquent.
+
+Fait à Liège, le 15 février 2021. Pour l'employeur : Catherine Lemaire – L'employée : Lina Haddad
+
+@@@ FILE CTR-E1071-AMD-PARENTAL
+---
+folder: 06_contracts
+format: pdf
+title: Avenant – réduction des prestations d'1/5 (congé parental) – Lina Haddad
+doc_type: contract_amendment
+author: Catherine Lemaire / Lina Haddad
+author_role: employer and employee
+date: 2026-04-30
+effective_from: 2026-06-01
+jurisdiction: BE
+language: fr
+themes: [T4]
+status: active
+signed: true
+formality: written_individual_contract
+related_employees: [E1071, E1001]
+related_questions: [Q04, Q10]
+---
+# Avenant au contrat de travail – congé parental sous forme de réduction d'1/5
+
+**Employée :** Lina Haddad (E1071)
+
+1. En application de l'arrêté royal du 29 octobre 1997, l'employée réduit ses prestations d'un cinquième dans le cadre du congé parental, **du 1er juin 2026 au 31 janvier 2028** (20 mois).
+2. Jour de congé : **le mercredi**. Horaire : lundi, mardi, jeudi, vendredi, 7h36 par jour.
+3. La rémunération est réduite à 4/5. L'employée sollicite l'allocation d'interruption auprès de l'ONEM.
+4. Les parties constatent que la demande initiale visait un début au 11 mai 2026 ; le début est fixé au 1er juin 2026 « d'un commun accord suite à la réorganisation de la campagne de printemps ».
+5. L'employée bénéficie de la protection contre le licenciement prévue par la réglementation.
+
+Liège, le 30 avril 2026. Pour l'employeur : Catherine Lemaire, HR Director – L'employée : Lina Haddad
+
+@@@ FILE CTR-E1080-CONTRACT
+---
+folder: 06_contracts
+format: pdf
+title: Arbeidsovereenkomst voor bedienden – Emma Vandenberghe
+doc_type: employment_contract
+author: Tectonic Solutions NV / Emma Vandenberghe
+author_role: employer and employee
+date: 2023-08-14
+effective_from: 2023-09-04
+jurisdiction: BE
+language: nl
+themes: [T5]
+status: terminated
+signed: true
+formality: written_individual_contract
+related_employees: [E1080]
+related_questions: [Q05, Q09]
+---
+# Arbeidsovereenkomst voor bedienden van onbepaalde duur
+
+**Tussen** Tectonic Solutions NV (de werkgever) **en** mevrouw Emma Vandenberghe, wonende te 2018 Antwerpen (de werknemer).
+
+**Art. 1 – Functie.** Junior Consultant, team Consulting (Antwerpen).
+**Art. 2 – Aanvang.** 4 september 2023, onbepaalde duur.
+**Art. 3 – Arbeidsduur.** Voltijds, 38 uur per week.
+**Art. 4 – Loon.** Bruto maandloon 2.950 EUR (op 01/01/2026: 3.150 EUR), maaltijdcheques, bonusplan.
+**Art. 5 – Arbeidsreglement.** De werknemer verklaart het arbeidsreglement en het beleid inzake psychosociale risico's te hebben ontvangen.
+
+Antwerpen, 14 augustus 2023. Voor de werkgever: Tom Verhaegen – De werknemer: Emma Vandenberghe
+
+@@@ FILE CTR-Q09-01
+---
+folder: 06_contracts
+format: pdf
+title: Ontslagbrief met opzegging – Emma Vandenberghe (31/08/2026)
+doc_type: dismissal_letter
+author: Tom Verhaegen
+author_role: HR Business Partner
+date: 2026-08-31
+jurisdiction: BE
+language: nl
+themes: [T5, T1]
+status: final
+signed: true
+formality: registered_letter
+related_employees: [E1080, E1002]
+related_questions: [Q09]
+---
+Antwerpen, 31 augustus 2026
+
+**Aangetekend**
+
+Mevrouw Emma Vandenberghe
+
+**Betreft: beëindiging van de arbeidsovereenkomst met opzegging**
+
+Mevrouw,
+
+Wij delen u mee dat wij de arbeidsovereenkomst van onbepaalde duur die u met Tectonic Solutions NV verbindt, beëindigen met inachtneming van een **opzeggingstermijn van 12 weken**, overeenkomstig artikel 37/2 van de wet van 3 juli 1978. De opzeggingstermijn begint te lopen op **maandag 7 september 2026**.
+
+De beslissing is ingegeven door de **herstructurering van het team Consulting** in Antwerpen en door **prestaties die onder de verwachtingen blijven**.
+
+U hebt het recht om binnen twee maanden na het einde van de arbeidsovereenkomst de concrete redenen van uw ontslag te vragen overeenkomstig cao nr. 109.
+
+U kunt tijdens de opzeggingstermijn afwezig zijn met behoud van loon om een nieuwe betrekking te zoeken, volgens de wettelijke regels. U hebt recht op outplacementbegeleiding.
+
+Met vriendelijke groeten,
+
+Tom Verhaegen, HR Business Partner, namens Tectonic Solutions NV
+
+@@@ FILE CTR-Q06-01
+---
+folder: 06_contracts
+format: pdf
+title: IT Charter – signed contract annex – Jan Peeters
+doc_type: contract_annex
+author: Tectonic Solutions SA / Jan Peeters
+author_role: employer and employee
+date: 2021-01-04
+effective_from: 2021-01-04
+jurisdiction: BE
+language: en
+themes: [T6]
+status: active
+signed: true
+formality: written_individual_contract
+related_employees: [E1090]
+related_questions: [Q06]
+---
+# Annex 3 to the employment contract – IT Charter (acknowledgement)
+
+**Employee:** Jan Peeters (E1090), Finance Controller
+
+I, the undersigned, acknowledge that:
+
+1. The IT tools (laptop, smartphone, e-mail, Teams, network drives) are provided for professional purposes; limited private use is tolerated.
+2. The employer may control electronic communication data **in accordance with CCT n° 81 of 26 April 2002**, for the purposes listed in that agreement, and following the individualisation procedures it provides. I have been informed of these purposes and procedures.
+3. Private e-mails must be clearly identified as such (e.g. "private" in the subject line) or stored in a folder named "Private".
+4. The employer will not access the **content** of my communications without prior information, except where the law allows otherwise.
+5. Confidential company information may not be disclosed to third parties, including the press.
+
+Brussels, 4 January 2021. Employee: Jan Peeters (read and approved). For the employer: Catherine Lemaire, HR Director.
+
+@@@ FILE CTR-E1095-CONTRACT
+---
+folder: 06_contracts
+format: pdf
+title: Contrat de travail d'employé – Luc Schmit (travailleur frontalier)
+doc_type: employment_contract
+author: Tectonic Solutions SA / Luc Schmit
+author_role: employer and employee
+date: 2022-04-11
+effective_from: 2022-05-02
+jurisdiction: BE
+language: fr
+themes: [T3, T4]
+status: active
+signed: true
+formality: written_individual_contract
+related_employees: [E1095, E1013]
+related_questions: [Q07]
+---
+# Contrat de travail d'employé à durée indéterminée
+
+**Entre** Tectonic Solutions SA (l'employeur) **et** M. Luc Schmit, domicilié rue de l'Alzette 87, L-4011 Esch-sur-Alzette, Grand-Duché de Luxembourg (l'employé).
+
+**Art. 1 – Fonction.** Sales Engineer, siège de Liège, sous l'autorité du Marketing & Regional Manager.
+
+**Art. 2 – Durée.** Indéterminée, à partir du 2 mai 2022.
+
+**Art. 3 – Lieu de travail.** Siège de Liège. Télétravail possible au domicile au Luxembourg à concurrence de 2 jours par semaine au maximum, dans le respect des seuils fiscaux et de sécurité sociale applicables aux travailleurs frontaliers ; l'employé tient un relevé de ses jours de télétravail.
+
+**Art. 4 – Droit applicable.** Le contrat est régi par le droit belge. L'employé est assujetti à la sécurité sociale belge (certificat A1 pour le télétravail au Luxembourg).
+
+**Art. 5 – Rémunération.** 4.100 EUR bruts par mois (au 01/01/2026 : 4.650 EUR), commissions.
+
+**Art. 6 – Absences.** L'employé respecte la procédure prévue par le règlement de travail en cas d'incapacité de travail.
+
+Fait à Liège, le 11 avril 2022. Pour l'employeur : Catherine Lemaire – L'employé : Luc Schmit
+
+@@@ FILE CTR-E1102-ONCALL-ANNEX
+---
+folder: 06_contracts
+format: pdf
+title: Avenant – participation au rôle de garde (on-call) – Ahmed Karimi
+doc_type: contract_amendment
+author: Tectonic Solutions SA / Ahmed Karimi
+author_role: employer and employee
+date: 2025-01-27
+effective_from: 2025-02-01
+jurisdiction: BE
+language: fr
+themes: [T2]
+status: active
+signed: true
+formality: written_individual_contract
+related_employees: [E1102, E1016]
+related_questions: [Q08]
+---
+# Avenant au contrat de travail – rôle de garde
+
+**Employé :** Ahmed Karimi (E1102), Support Engineer
+
+1. À partir du 1er février 2025, l'employé participe au rôle de garde de l'équipe Support, à raison d'une semaine sur cinq, conformément à l'On-call & Stand-by Policy (2025).
+2. Pendant la garde, l'employé doit être joignable par téléphone et **pouvoir commencer une intervention à distance dans les 30 minutes**.
+3. Il perçoit une **indemnité forfaitaire d'astreinte de 150 EUR bruts par semaine** de garde.
+4. **Le temps d'intervention effective est du temps de travail** et est enregistré dans la feuille de temps.
+5. Les autres dispositions du contrat restent inchangées.
+
+Bruxelles, le 27 janvier 2025. Pour l'employeur : Nicolas Hubert, Support Manager ; Catherine Lemaire, HR Director – L'employé : Ahmed Karimi

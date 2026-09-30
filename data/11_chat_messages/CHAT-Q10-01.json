@@ -1,0 +1,22 @@
+{
+ "_dataset_note": "Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.",
+ "platform": "Microsoft Teams",
+ "chat": "1:1 Olivier Lambert – Maxime Renard",
+ "messages": [
+  {
+   "ts": "2026-07-14T18:10:05+02:00",
+   "from": "Olivier Lambert",
+   "text": "Je prépare les évaluations. Honnêtement, depuis que Lina est à 4/5 elle a décroché."
+  },
+  {
+   "ts": "2026-07-14T18:11:40+02:00",
+   "from": "Maxime Renard",
+   "text": "Ah bon ? Ses campagnes tournent bien pourtant"
+  },
+  {
+   "ts": "2026-07-14T18:12:22+02:00",
+   "from": "Olivier Lambert",
+   "text": "oui mais le mercredi il n'y a personne. C'est un choix, elle doit l'assumer."
+  }
+ ]
+}

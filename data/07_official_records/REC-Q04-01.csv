@@ -1,0 +1,4 @@
+request_id,employee_id,employee,leave_type,requested_start,requested_end,received_on,channel,acknowledged_by,acknowledged_on,decision,decision_by,decision_on,comment
+PL-2026-007,E1071,Lina Haddad,Parental leave 1/5 (Wednesday),2026-05-11,2027-01-10,2026-03-10,e-mail to HR + manager,n.benali,2026-03-11,refused,o.lambert,2026-04-20,"spring campaign – peak period"
+PL-2026-007,E1071,Lina Haddad,Parental leave 1/5 (Wednesday),2026-06-01,2028-01-31,2026-03-10,e-mail to HR + manager,n.benali,2026-03-11,approved (overrules previous decision),c.lemaire,2026-04-28,"start moved to 01/06/2026, 20 months"
+PL-2026-009,E1122,Sam Kaya,Parental leave full-time,2026-07-01,2026-07-31,2026-04-22,registered letter,n.benali,2026-04-23,approved,c.lemaire,2026-04-24,

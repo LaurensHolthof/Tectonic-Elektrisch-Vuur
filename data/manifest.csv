@@ -1,0 +1,209 @@
+id,path,folder,doc_type,title,language,jurisdiction,date,themes,status,synthetic,credibility_weight,legal_rank,applicability,final_weight,related_questions
+LAW-BE-1968-ART51-FR,01_legislation/be_federal/LAW-BE-1968-ART51-FR.md,01_legislation,legislation,Loi du 5 décembre 1968 sur les CCT – art. 51 (hiérarchie des sources),fr,BE,1968-12-05,T1;T2;T3;T4;T5;T6,in_force,False,1.0,1,1.0,1.0,
+LAW-BE-1971-HOLIDAYS-FR,01_legislation/be_federal/LAW-BE-1971-HOLIDAYS-FR.md,01_legislation,legislation,Lois coordonnées du 28 juin 1971 relatives aux vacances annuelles – art. 2 à 5,fr,BE,1971-06-28,T4,in_force,False,1.0,1,1.0,1.0,
+LAW-BE-1971-HOURS-FR,01_legislation/be_federal/LAW-BE-1971-HOURS-FR.md,01_legislation,legislation,Loi du 16 mars 1971 sur le travail – art. 19 à 22 (durée du travail),fr,BE,1971-03-16,T2,in_force,False,1.0,1,1.0,1.0,
+LAW-BE-1971-OVERTIME-FR,01_legislation/be_federal/LAW-BE-1971-OVERTIME-FR.md,01_legislation,legislation,"Loi du 16 mars 1971 sur le travail – art. 25 à 29 (heures supplémentaires, sursalaire)",fr,BE,1971-03-16,T2,in_force,False,1.0,1,1.0,1.0,Q02
+LAW-BE-1971-OVERTIME-NL,01_legislation/be_federal/LAW-BE-1971-OVERTIME-NL.md,01_legislation,legislation,"Arbeidswet van 16 maart 1971 – art. 26bis en 29 (overuren, overloon)",nl,BE,1971-03-16,T2,in_force,False,1.0,1,1.0,1.0,
+LAW-BE-1978-ART16-20-FR,01_legislation/be_federal/LAW-BE-1978-ART16-20-FR.md,01_legislation,legislation,"Loi du 3 juillet 1978 – art. 16, 17, 20 (obligations des parties)",fr,BE,1978-07-03,T1;T6,in_force,False,1.0,1,1.0,1.0,
+LAW-BE-1978-ART31-FR,01_legislation/be_federal/LAW-BE-1978-ART31-FR.md,01_legislation,legislation,"Loi du 3 juillet 1978 – art. 31 (incapacité de travail, certificat médical)",fr,BE,1978-07-03,T4,in_force,False,1.0,1,1.0,1.0,Q07
+LAW-BE-1978-ART35-FR,01_legislation/be_federal/LAW-BE-1978-ART35-FR.md,01_legislation,legislation,Loi du 3 juillet 1978 relative aux contrats de travail – art. 35 (motif grave),fr,BE,1978-07-03,T1,in_force,False,1.0,1,1.0,1.0,Q01;Q07
+LAW-BE-1978-ART35-NL,01_legislation/be_federal/LAW-BE-1978-ART35-NL.md,01_legislation,legislation,Wet van 3 juli 1978 betreffende de arbeidsovereenkomsten – art. 35 (dringende reden),nl,BE,1978-07-03,T1,in_force,False,1.0,1,1.0,1.0,
+LAW-BE-1978-ART37-39-FR,01_legislation/be_federal/LAW-BE-1978-ART37-39-FR.md,01_legislation,legislation,"Loi du 3 juillet 1978 – art. 37, 37/2, 39 (préavis et indemnité de rupture)",fr,BE,1978-07-03,T1,in_force,False,1.0,1,1.0,1.0,
+LAW-BE-1996-HARASS-DEF-FR,01_legislation/be_federal/LAW-BE-1996-HARASS-DEF-FR.md,01_legislation,legislation,"Loi du 4 août 1996 relative au bien-être – art. 32bis, 32ter (définitions harcèlement)",fr,BE,1996-08-04,T5,in_force,False,1.0,1,1.0,1.0,Q05
+LAW-BE-1996-HARASS-DEF-NL,01_legislation/be_federal/LAW-BE-1996-HARASS-DEF-NL.md,01_legislation,legislation,"Welzijnswet van 4 augustus 1996 – art. 32bis, 32ter (definities pesterijen)",nl,BE,1996-08-04,T5,in_force,False,1.0,1,1.0,1.0,
+LAW-BE-1996-PROCEDURE-FR,01_legislation/be_federal/LAW-BE-1996-PROCEDURE-FR.md,01_legislation,legislation,Loi du 4 août 1996 – art. 32quater à 32septies (mesures et procédure),fr,BE,1996-08-04,T5,in_force,False,1.0,1,1.0,1.0,
+LAW-BE-1996-RETALIATION-FR,01_legislation/be_federal/LAW-BE-1996-RETALIATION-FR.md,01_legislation,legislation,Loi du 4 août 1996 – art. 32tredecies (Justel : 32terdecies) – protection contre les représailles,fr,BE,1996-08-04,T5;T1,in_force,False,1.0,1,1.0,1.0,Q09
+LAW-BE-2005-SECRECY-FR,01_legislation/be_federal/LAW-BE-2005-SECRECY-FR.md,01_legislation,legislation,"Loi du 13 juin 2005 relative aux communications électroniques – art. 124, 125 (secret des communications)",fr,BE,2005-06-13,T6,in_force,False,1.0,1,1.0,1.0,Q06
+LAW-BE-2007-DISCRIM-FR,01_legislation/be_federal/LAW-BE-2007-DISCRIM-FR.md,01_legislation,legislation,"Loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination – art. 3 à 5, 14",fr,BE,2007-05-10,T5,in_force,False,1.0,1,1.0,1.0,
+RD-BE-1965-TRUST-FR,01_legislation/be_federal/RD-BE-1965-TRUST-FR.md,01_legislation,legislation,Arrêté royal du 10 février 1965 désignant les personnes investies d'un poste de direction ou de confiance,fr,BE,1965-02-10,T2,in_force,False,1.0,1,1.0,1.0,Q02
+RD-BE-1997-PARENTAL-FR,01_legislation/be_federal/RD-BE-1997-PARENTAL-FR.md,01_legislation,legislation,Arrêté royal du 29 octobre 1997 relatif au congé parental,fr,BE,1997-10-29,T4,in_force,False,1.0,1,1.0,1.0,Q04
+EU-CHARTER-2012,01_legislation/eu/EU-CHARTER-2012.md,01_legislation,legislation,Charter of Fundamental Rights of the European Union (extract),en,EU,2012-10-26,T1;T2;T4;T6,in_force,False,1.0,1,1.0,1.0,
+EU-DIR-2000-78-EQUAL,01_legislation/eu/EU-DIR-2000-78-EQUAL.md,01_legislation,legislation,Directive 2000/78/EC – equal treatment in employment and occupation,en,EU,2000-11-27,T5,in_force,False,1.0,1,1.0,1.0,
+EU-DIR-2003-88-WTD,01_legislation/eu/EU-DIR-2003-88-WTD.md,01_legislation,legislation,Directive 2003/88/EC – organisation of working time,en,EU,2003-11-04,T2;T4,in_force,False,1.0,1,1.0,1.0,Q08
+EU-DIR-2006-54-GENDER,01_legislation/eu/EU-DIR-2006-54-GENDER.md,01_legislation,legislation,Directive 2006/54/EC – equal treatment of men and women (recast),en,EU,2006-07-05,T5;T4,in_force,False,1.0,1,1.0,1.0,
+EU-DIR-2019-1158-WLB,01_legislation/eu/EU-DIR-2019-1158-WLB.md,01_legislation,legislation,Directive (EU) 2019/1158 – work-life balance for parents and carers,en,EU,2019-06-20,T4;T5,in_force,False,1.0,1,1.0,1.0,Q10
+EU-REG-2004-883-SOCSEC,01_legislation/eu/EU-REG-2004-883-SOCSEC.md,01_legislation,legislation,Regulation (EC) No 883/2004 – coordination of social security systems (applicable legislation),en,EU,2004-04-29,T3,in_force,False,0.9,1,1.0,0.9,Q03
+EU-REG-2008-593-ROME1,01_legislation/eu/EU-REG-2008-593-ROME1.md,01_legislation,legislation,Regulation (EC) No 593/2008 – law applicable to contractual obligations (Rome I),en,EU,2008-06-17,T3,in_force,False,1.0,1,1.0,1.0,
+EU-REG-2016-679-GDPR,01_legislation/eu/EU-REG-2016-679-GDPR.md,01_legislation,legislation,Regulation (EU) 2016/679 – General Data Protection Regulation (extract),en,EU,2016-04-27,T6,in_force,False,1.0,1,1.0,1.0,Q08
+LAW-DE-ARBZG,01_legislation/foreign/de/LAW-DE-ARBZG.md,01_legislation,legislation,Arbeitszeitgesetz (ArbZG) – §§ 1-7,de,DE,1994-06-06,T2,in_force,False,1.0,1,0.3,0.3,
+LAW-DE-BEEG-18,01_legislation/foreign/de/LAW-DE-BEEG-18.md,01_legislation,legislation,BEEG § 18 – Kündigungsschutz während der Elternzeit,de,DE,2006-12-05,T4,in_force,False,1.0,1,0.3,0.3,
+LAW-DE-BGB-626,01_legislation/foreign/de/LAW-DE-BGB-626.md,01_legislation,legislation,BGB § 626 – Fristlose Kündigung aus wichtigem Grund,de,DE,2002-01-02,T1,in_force,False,1.0,1,0.3,0.3,
+LAW-FR-L1152-1,01_legislation/foreign/fr/LAW-FR-L1152-1.md,01_legislation,legislation,Code du travail (FR) – art. L1152-1 (harcèlement moral),fr,FR,2012-08-08,T5,in_force,False,1.0,1,0.3,0.3,
+LAW-FR-L1222-9,01_legislation/foreign/fr/LAW-FR-L1222-9.md,01_legislation,legislation,Code du travail (FR) – art. L1222-9 (télétravail),fr,FR,2018-03-29,T3,in_force,False,1.0,1,0.3,0.3,
+LAW-FR-L1234-1,01_legislation/foreign/fr/LAW-FR-L1234-1.md,01_legislation,legislation,"Code du travail (FR) – art. L1234-1 (préavis, faute grave)",fr,FR,2008-05-01,T1,in_force,False,1.0,1,0.3,0.3,
+LAW-NL-ATW,01_legislation/foreign/nl/LAW-NL-ATW.md,01_legislation,legislation,Arbeidstijdenwet – hoofdstuk 5 (arbeids- en rusttijden),nl,NL,1995-12-23,T2,in_force,False,1.0,1,0.3,0.3,
+LAW-NL-BW7-678,01_legislation/foreign/nl/LAW-NL-BW7-678.md,01_legislation,legislation,Burgerlijk Wetboek Boek 7 – art. 7:677-7:678 (dringende reden),nl,NL,2024-01-01,T1,in_force,False,1.0,1,0.3,0.3,
+LAW-NL-WFW,01_legislation/foreign/nl/LAW-NL-WFW.md,01_legislation,legislation,Wet flexibel werken – art. 2 (verzoek aanpassing arbeidsplaats),nl,NL,2000-02-19,T3,in_force,False,1.0,1,0.3,0.3,
+LAW-UK-EQA-26,01_legislation/foreign/uk/LAW-UK-EQA-26.md,01_legislation,legislation,Equality Act 2010 – s. 26 (harassment),en,UK,2010-04-08,T5,in_force,False,1.0,1,0.3,0.3,
+LAW-UK-ERA-98,01_legislation/foreign/uk/LAW-UK-ERA-98.md,01_legislation,legislation,Employment Rights Act 1996 – s. 98 (fairness of dismissal),en,UK,1996-05-22,T1,in_force,False,1.0,1,0.3,0.3,
+LAW-UK-WTR-4,01_legislation/foreign/uk/LAW-UK-WTR-4.md,01_legislation,legislation,Working Time Regulations 1998 – reg. 4 (maximum weekly working time),en,UK,1998-10-01,T2,in_force,False,1.0,1,0.3,0.3,
+CJEU-C-116-08-MEERTS,02_case_law/CJEU-C-116-08-MEERTS.md,02_case_law,case_law,CJEU C-116/08 Meerts v Proost (parental leave & dismissal indemnity),en,EU,2009-10-22,T4;T1,published,False,0.9,,1.0,0.9,
+CJEU-C-17-19-BOUYGUES,02_case_law/CJEU-C-17-19-BOUYGUES.md,02_case_law,case_law,CJEU C-17/19 Bouygues travaux publics (A1 certificates),en,EU,2020-05-14,T3,published,False,0.9,,1.0,0.9,
+CJEU-C-518-15-MATZAK,02_case_law/CJEU-C-518-15-MATZAK.md,02_case_law,case_law,CJEU C-518/15 Ville de Nivelles v Matzak (stand-by time),en,EU,2018-02-21,T2,published,False,0.9,,1.0,0.9,Q08
+CJEU-C-55-18-CCOO,02_case_law/CJEU-C-55-18-CCOO.md,02_case_law,case_law,CJEU C-55/18 CCOO v Deutsche Bank (time recording),en,EU,2019-05-14,T2,published,False,0.9,,1.0,0.9,
+CJEU-C-580-19-OFFENBACH,02_case_law/CJEU-C-580-19-OFFENBACH.md,02_case_law,case_law,CJEU C-580/19 RJ v Stadt Offenbach am Main (stand-by time),en,EU,2021-03-09,T2,published,False,0.9,,1.0,0.9,Q08
+CJEU-C-610-18-AFMB,02_case_law/CJEU-C-610-18-AFMB.md,02_case_law,case_law,"CJEU C-610/18 AFMB (identification of employer, Reg. 883/2004)",en,EU,2020-07-16,T3,published,False,0.9,,1.0,0.9,
+CJEU-C-684-16-MAXPLANCK,02_case_law/CJEU-C-684-16-MAXPLANCK.md,02_case_law,case_law,CJEU C-684/16 Max-Planck-Gesellschaft v Shimizu (annual leave),en,EU,2018-11-06,T4,published,False,0.9,,1.0,0.9,
+CJEU-C-7-12-RIEZNIECE,02_case_law/CJEU-C-7-12-RIEZNIECE.md,02_case_law,case_law,CJEU C-7/12 Riežniece (assessment of worker returning from parental leave),en,EU,2013-06-20,T4;T5,published,False,0.9,,1.0,0.9,
+ECHR-1874-13-LOPEZ-RIBALDA,02_case_law/ECHR-1874-13-LOPEZ-RIBALDA.docx,02_case_law,case_law,"ECtHR (GC) López Ribalda and Others v. Spain, nos. 1874/13 and 8567/13",en,COE,2019-10-17,T6,published,False,0.9,,1.0,0.9,
+ECHR-61496-08-BARBULESCU,02_case_law/ECHR-61496-08-BARBULESCU.docx,02_case_law,case_law,"ECtHR (GC) Bărbulescu v. Romania, no. 61496/08",en,COE,2017-09-05,T6,published,False,0.9,,1.0,0.9,
+CCT-BE-025,03_collective_agreements/CCT-BE-025.pdf,03_collective_agreements,collective_agreement,CCT n° 25 – égalité des rémunérations hommes/femmes,fr,BE,1975-10-15,T5,in_force,False,0.9,2,1.0,0.9,
+CCT-BE-038,03_collective_agreements/CCT-BE-038.pdf,03_collective_agreements,collective_agreement,CCT n° 38 – recrutement et sélection (non-discrimination),fr,BE,1983-12-06,T5,in_force,False,0.9,2,1.0,0.9,
+CCT-BE-045,03_collective_agreements/CCT-BE-045.pdf,03_collective_agreements,collective_agreement,CCT n° 45 – congé pour raisons impérieuses,fr,BE,1989-03-19,T4,in_force,False,0.9,2,1.0,0.9,
+CCT-BE-064,03_collective_agreements/CCT-BE-064.pdf,03_collective_agreements,collective_agreement,CCT n° 64 – congé parental,fr,BE,1997-04-29,T4,in_force,False,0.9,2,1.0,0.9,
+CCT-BE-081,03_collective_agreements/CCT-BE-081.pdf,03_collective_agreements,collective_agreement,CCT n° 81 – contrôle des données de communication électroniques en réseau,fr,BE,2002-04-26,T6,in_force,False,0.9,2,1.0,0.9,Q01;Q06
+CCT-BE-085,03_collective_agreements/CCT-BE-085.pdf,03_collective_agreements,collective_agreement,CCT n° 85 – télétravail,fr,BE,2005-11-09,T3,in_force,False,0.9,2,1.0,0.9,Q03
+CCT-BE-100,03_collective_agreements/CCT-BE-100.pdf,03_collective_agreements,collective_agreement,CCT n° 100 – politique préventive en matière d'alcool et de drogues,fr,BE,2009-04-01,T5,in_force,False,0.9,2,1.0,0.9,
+CCT-BE-109,03_collective_agreements/CCT-BE-109.pdf,03_collective_agreements,collective_agreement,CCT n° 109 – motivation du licenciement,fr,BE,2014-02-12,T1,in_force,False,0.9,2,1.0,0.9,
+CCT-BE-149,03_collective_agreements/CCT-BE-149.pdf,03_collective_agreements,collective_agreement,CCT n° 149 – télétravail recommandé ou obligatoire,fr,BE,2021-01-26,T3,in_force,False,0.9,2,1.0,0.9,
+CCT-TEC-2023-DISCONNECT,03_collective_agreements/CCT-TEC-2023-DISCONNECT.pdf,03_collective_agreements,collective_agreement,CCT d'entreprise du 14 mars 2023 – droit à la déconnexion,fr,BE,2023-03-14,T2,active,True,0.99,3,1.0,0.99,Q02;Q08
+CCT-TEC-2024-WORKTIME,03_collective_agreements/CCT-TEC-2024-WORKTIME.pdf,03_collective_agreements,collective_agreement,CCT d'entreprise du 18 janvier 2024 – horaires flexibles et heures supplémentaires,fr,BE,2024-01-18,T2,active,True,0.99,3,1.0,0.99,Q02;Q08
+CCT-TEC-2025-TELEWORK,03_collective_agreements/CCT-TEC-2025-TELEWORK.pdf,03_collective_agreements,collective_agreement,CCT d'entreprise du 5 décembre 2025 – télétravail structurel et indemnité de bureau,fr,BE,2025-12-05,T3,active,True,0.99,3,1.0,0.99,Q03;Q07
+GUI-BE-APD-SURVEILLANCE,04_official_guidance/GUI-BE-APD-SURVEILLANCE.md,04_official_guidance,official_guidance,APD – Vie privée au travail : la surveillance de l'employeur,fr,BE,2026-09-30,T6,published,False,0.8,,1.0,0.8,Q06
+GUI-BE-APD-TRAVAIL,04_official_guidance/GUI-BE-APD-TRAVAIL.md,04_official_guidance,official_guidance,APD – Vie privée sur le lieu de travail,fr,BE,2026-09-30,T6,published,False,0.8,,1.0,0.8,
+GUI-BE-EMPLOI-CONGE-PARENTAL,04_official_guidance/GUI-BE-EMPLOI-CONGE-PARENTAL.md,04_official_guidance,official_guidance,SPF Emploi – Congé parental,fr,BE,2026-09-30,T4,published,False,0.8,,1.0,0.8,
+GUI-BE-EMPLOI-DUREE,04_official_guidance/GUI-BE-EMPLOI-DUREE.md,04_official_guidance,official_guidance,SPF Emploi – Durée du travail (secteur privé),fr,BE,2026-09-30,T2,published,False,0.8,,1.0,0.8,
+GUI-BE-EMPLOI-LICENCIEMENT,04_official_guidance/GUI-BE-EMPLOI-LICENCIEMENT.md,04_official_guidance,official_guidance,SPF Emploi – Fin du contrat à durée indéterminée : licenciement,fr,BE,2014-01-01,T1,published,False,0.64,,1.0,0.64,
+GUI-BE-EMPLOI-REGLEMENT,04_official_guidance/GUI-BE-EMPLOI-REGLEMENT.md,04_official_guidance,official_guidance,SPF Emploi – Règlement de travail,fr,BE,2026-09-30,T1;T4;T6,published,False,0.8,,1.0,0.8,
+GUI-BE-EMPLOI-REPOS,04_official_guidance/GUI-BE-EMPLOI-REPOS.md,04_official_guidance,official_guidance,SPF Emploi – Intervalles de repos,fr,BE,2026-09-30,T2,published,False,0.8,,1.0,0.8,
+GUI-BE-EMPLOI-RPS-ACTION,04_official_guidance/GUI-BE-EMPLOI-RPS-ACTION.md,04_official_guidance,official_guidance,SPF Emploi – Risques psychosociaux : moyens d'action du travailleur,fr,BE,2026-09-30,T5,published,False,0.8,,1.0,0.8,
+GUI-BE-EMPLOI-RPS-REPRESAILLES,04_official_guidance/GUI-BE-EMPLOI-RPS-REPRESAILLES.md,04_official_guidance,official_guidance,SPF Emploi – Protection contre les représailles,fr,BE,2026-09-30,T5;T1,published,False,0.8,,1.0,0.8,
+GUI-BE-EMPLOI-SUSPENSION,04_official_guidance/GUI-BE-EMPLOI-SUSPENSION.md,04_official_guidance,official_guidance,SPF Emploi – Suspension du contrat de travail (incapacité),fr,BE,2026-09-30,T4,published,False,0.8,,1.0,0.8,
+GUI-BE-EMPLOI-TELETRAVAIL,04_official_guidance/GUI-BE-EMPLOI-TELETRAVAIL.md,04_official_guidance,official_guidance,SPF Emploi – Télétravail occasionnel,fr,BE,2026-09-30,T3,published,False,0.8,,1.0,0.8,
+GUI-BE-ONSS-TELEWORK,04_official_guidance/GUI-BE-ONSS-TELEWORK.md,04_official_guidance,official_guidance,ONSS – Instructions DmfA : télétravail (cas particuliers),fr,BE,2026-09-30,T3,published,False,0.8,,1.0,0.8,
+POL-ANTIHARASSMENT-2024,05_company_policies/POL-ANTIHARASSMENT-2024.pdf,05_company_policies,policy,Psychosocial Risk Prevention & Anti-Harassment Policy,en,BE,2024-09-16,T5,active,True,0.935,6,1.0,0.935,Q05;Q09
+POL-CONFIDENTIALITY-2024,05_company_policies/POL-CONFIDENTIALITY-2024.md,05_company_policies,policy,Confidential Information Policy,en,BE,2024-01-22,T1;T6,active,True,0.85,6,1.0,0.85,Q01;Q06
+POL-DISCIPLINARY-2024,05_company_policies/POL-DISCIPLINARY-2024.pdf,05_company_policies,policy,Disciplinary Procedure,en,BE,2024-05-02,T1,active,True,0.935,6,1.0,0.935,Q01;Q07
+POL-DIVERSITY-2024,05_company_policies/POL-DIVERSITY-2024.md,05_company_policies,policy,Diversity & Non-Discrimination Policy,en,BE,2024-03-08,T5;T4,active,True,0.85,6,1.0,0.85,Q10
+POL-DLP-2025,05_company_policies/POL-DLP-2025.md,05_company_policies,standard,Data Loss Prevention (DLP) Standard,en,BE,2025-06-02,T6;T1,active,True,0.85,6,1.0,0.85,Q01
+POL-HANDBOOK-v3-2026,05_company_policies/POL-HANDBOOK-v3-2026.docx,05_company_policies,handbook,Employee Handbook – version 3 (2026),en,BE,2026-01-15,T2;T4;T1,active,True,0.765,6,1.0,0.765,Q02;Q07
+POL-HOMEOFFICE-ALLOWANCE-2025,05_company_policies/POL-HOMEOFFICE-ALLOWANCE-2025.md,05_company_policies,policy,Home Office Allowance Policy,en,BE,2025-01-06,T3,active,True,0.85,6,1.0,0.85,Q03
+POL-HYBRID-DISCONNECT-2023,05_company_policies/POL-HYBRID-DISCONNECT-2023.md,05_company_policies,guideline,Hybrid Work & Disconnection Guidelines,en,BE,2023-04-03,T2;T3,active,True,0.765,6,1.0,0.765,Q02;Q08
+POL-IT-2024,05_company_policies/POL-IT-2024.pdf,05_company_policies,policy,IT Acceptable Use & Monitoring Policy,en,BE,2024-04-15,T6,active,True,0.935,6,1.0,0.935,Q06;Q01;Q08
+POL-LEAVE-v2-2025,05_company_policies/POL-LEAVE-v2-2025.pdf,05_company_policies,policy,Leave Policy – v2,en,BE,2025-01-13,T4,active,True,0.935,6,1.0,0.935,Q04;Q10
+POL-ONCALL-2025,05_company_policies/POL-ONCALL-2025.pdf,05_company_policies,policy,On-call & Stand-by Policy (Support),en,BE,2025-01-20,T2,active,True,0.935,6,1.0,0.935,Q08
+POL-OVERTIME-2024,05_company_policies/POL-OVERTIME-2024.pdf,05_company_policies,policy,Overtime & Working Time Policy,en,BE,2024-02-12,T2,active,True,0.935,6,1.0,0.935,Q02;Q08
+POL-PERFORMANCE-BONUS-2025,05_company_policies/POL-PERFORMANCE-BONUS-2025.pdf,05_company_policies,policy,Performance Management & Bonus Policy,en,BE,2025-01-06,T5;T4,active,True,0.935,6,1.0,0.935,Q09;Q10
+POL-PRIVACY-NOTICE-EMPLOYEES-2025,05_company_policies/POL-PRIVACY-NOTICE-EMPLOYEES-2025.pdf,05_company_policies,privacy_notice,Employee Privacy Notice (GDPR),en,BE,2025-05-20,T6,active,True,0.85,6,1.0,0.85,Q06;Q08
+POL-SICKNESS-2025,05_company_policies/POL-SICKNESS-2025.md,05_company_policies,procedure,Sickness Absence Procedure,en,BE,2025-03-01,T4,active,True,0.85,6,1.0,0.85,Q07
+POL-TELEWORK-v2-2026,05_company_policies/POL-TELEWORK-v2-2026.pdf,05_company_policies,policy,Telework & International Remote Work Policy – v2,en,BE,2026-02-01,T3,active,True,0.935,6,1.0,0.935,Q03;Q07
+POL-WORKREG-2025-FR,05_company_policies/POL-WORKREG-2025-FR.pdf,05_company_policies,work_regulations,Règlement de travail – Tectonic Solutions SA (version 2025),fr,BE,2025-03-01,T1;T2;T4;T6,active,True,0.935,5,1.0,0.935,Q01;Q07;Q02
+POL-WORKREG-2025-NL,05_company_policies/POL-WORKREG-2025-NL.pdf,05_company_policies,work_regulations,Arbeidsreglement – Tectonic Solutions NV (versie 2025),nl,BE,2025-03-01,T1;T2;T4;T6,active,True,0.935,5,1.0,0.935,Q02;Q05;Q07
+POL-ANTIHARASSMENT-2017,05_company_policies/archive/POL-ANTIHARASSMENT-2017.md,05_company_policies,procedure,Anti-Harassment Procedure (2017) [SUPERSEDED],en,BE,2017-02-01,T5,superseded,True,0.36,6,1.0,0.36,Q05
+POL-HANDBOOK-v2-2024,05_company_policies/archive/POL-HANDBOOK-v2-2024.docx,05_company_policies,handbook,Employee Handbook – version 2 (2024) [SUPERSEDED],en,BE,2024-01-15,T2;T4,superseded,True,0.36,6,1.0,0.36,Q02;Q07
+POL-IT-2019,05_company_policies/archive/POL-IT-2019.md,05_company_policies,policy,IT Charter (2019) [SUPERSEDED],en,BE,2019-03-01,T6,superseded,True,0.36,6,1.0,0.36,Q06
+POL-LEAVE-v1-2022,05_company_policies/archive/POL-LEAVE-v1-2022.pdf,05_company_policies,policy,Leave Policy – v1 (2022) [SUPERSEDED],en,BE,2022-01-10,T4,superseded,True,0.44,6,1.0,0.44,Q04
+POL-TELEWORK-v1-2023,05_company_policies/archive/POL-TELEWORK-v1-2023.pdf,05_company_policies,policy,Telework Policy – v1 (2023) [SUPERSEDED],en,BE,2023-01-09,T3,superseded,True,0.44,6,1.0,0.44,Q03
+POL-WORKREG-2019-FR,05_company_policies/archive/POL-WORKREG-2019-FR.pdf,05_company_policies,work_regulations,Règlement de travail – Tectonic Solutions SA (version 2019) [REMPLACÉ],fr,BE,2019-06-01,T1;T4,superseded,True,0.44,5,1.0,0.44,Q01;Q07
+CTR-E1042-CONTRACT,06_contracts/CTR-E1042-CONTRACT.pdf,06_contracts,employment_contract,Contrat de travail d'employé à durée indéterminée – Marc Dubois,fr,BE,2017-08-21,T1;T6,active,True,0.935,4,1.0,0.935,Q01
+CTR-E1057-AMD-2026,06_contracts/CTR-E1057-AMD-2026.pdf,06_contracts,contract_amendment,Bijlage bij de arbeidsovereenkomst – promotie Project Lead (M1) – Sofie Claes,nl,BE,2025-12-15,T2,active,True,0.935,4,1.0,0.935,Q02
+CTR-E1057-CONTRACT,06_contracts/CTR-E1057-CONTRACT.pdf,06_contracts,employment_contract,Arbeidsovereenkomst voor bedienden van onbepaalde duur – Sofie Claes,nl,BE,2019-01-28,T2,active,True,0.935,4,1.0,0.935,Q02
+CTR-E1063-TELEWORK-ANNEX,06_contracts/CTR-E1063-TELEWORK-ANNEX.docx,06_contracts,telework_annex,Structural Telework Annex (CCT n° 85) – Pieter De Smet,en,BE,2024-03-18,T3,active,True,0.935,4,1.0,0.935,Q03
+CTR-E1071-AMD-PARENTAL,06_contracts/CTR-E1071-AMD-PARENTAL.pdf,06_contracts,contract_amendment,Avenant – réduction des prestations d'1/5 (congé parental) – Lina Haddad,fr,BE,2026-04-30,T4,active,True,0.935,4,1.0,0.935,Q04;Q10
+CTR-E1071-CONTRACT,06_contracts/CTR-E1071-CONTRACT.pdf,06_contracts,employment_contract,Contrat de travail d'employée – Lina Haddad,fr,BE,2021-02-15,T4,active,True,0.935,4,1.0,0.935,Q04;Q10
+CTR-E1080-CONTRACT,06_contracts/CTR-E1080-CONTRACT.pdf,06_contracts,employment_contract,Arbeidsovereenkomst voor bedienden – Emma Vandenberghe,nl,BE,2023-08-14,T5,terminated,True,0.935,4,1.0,0.935,Q05;Q09
+CTR-E1095-CONTRACT,06_contracts/CTR-E1095-CONTRACT.pdf,06_contracts,employment_contract,Contrat de travail d'employé – Luc Schmit (travailleur frontalier),fr,BE,2022-04-11,T3;T4,active,True,0.935,4,1.0,0.935,Q07
+CTR-E1102-ONCALL-ANNEX,06_contracts/CTR-E1102-ONCALL-ANNEX.pdf,06_contracts,contract_amendment,Avenant – participation au rôle de garde (on-call) – Ahmed Karimi,fr,BE,2025-01-27,T2,active,True,0.935,4,1.0,0.935,Q08
+CTR-Q06-01,06_contracts/CTR-Q06-01.pdf,06_contracts,contract_annex,IT Charter – signed contract annex – Jan Peeters,en,BE,2021-01-04,T6,active,True,0.935,4,1.0,0.935,Q06
+CTR-Q09-01,06_contracts/CTR-Q09-01.pdf,06_contracts,dismissal_letter,Ontslagbrief met opzegging – Emma Vandenberghe (31/08/2026),nl,BE,2026-08-31,T5;T1,final,True,0.935,,1.0,0.935,Q09
+LTR-Q01-01,06_contracts/LTR-Q01-01.pdf,06_contracts,dismissal_letter,Notification du congé pour motif grave – Marc Dubois (16/03/2026),fr,BE,2026-03-16,T1,final,True,0.935,,1.0,0.935,Q01
+LTR-Q01-02,06_contracts/LTR-Q01-02.pdf,06_contracts,dismissal_reasons_letter,Lettre recommandée – motifs du congé pour motif grave – Marc Dubois (19/03/2026),fr,BE,2026-03-19,T1;T6,final,True,0.935,,1.0,0.935,Q01
+REC-Q01-01,07_official_records/REC-Q01-01.csv,07_official_records,security_log,DLP alert log – week 10/2026 (extract),en,BE,2026-03-06,T1;T6,final,True,0.825,,1.0,0.825,Q01
+REC-Q01-02,07_official_records/REC-Q01-02.json,07_official_records,it_ticket,IT service desk ticket INC-20931 – VPN instability (Marc Dubois),en,BE,2026-03-02,T1,final,True,0.825,,1.0,0.825,Q01
+REC-Q02-01,07_official_records/REC-Q02-01.csv,07_official_records,timesheet,Timesheet export H1 2026 – Sofie Claes (E1057),en,BE,2026-07-06,T2,final,True,0.825,,1.0,0.825,Q02
+REC-Q02-02,07_official_records/REC-Q02-02.csv,07_official_records,badge_log,Badge access log Antwerp office H1 2026 – E1057,en,BE,2026-07-06,T2,final,True,0.825,,1.0,0.825,Q02
+REC-Q02-03,07_official_records/REC-Q02-03.csv,07_official_records,payroll,Payroll summary H1 2026 – Sofie Claes,en,BE,2026-07-02,T2,final,True,0.825,,1.0,0.825,Q02
+REC-Q03-01,07_official_records/REC-Q03-01.pdf,07_official_records,hr_form,Form HR-INT-01 – International remote work request – Pieter De Smet,en,BE,2026-08-20,T3,submitted,True,0.825,,1.0,0.825,Q03
+REC-Q04-01,07_official_records/REC-Q04-01.csv,07_official_records,hris_log,HRIS leave request register – parental leave 2026 (extract),en,BE,2026-05-02,T4,final,True,0.825,,1.0,0.825,Q04
+REC-Q05-01,07_official_records/REC-Q05-01.pdf,07_official_records,receipt,Accusé de réception – demande d'intervention psychosociale formelle (PreviSafe),nl,BE,2025-11-18,T5,final,True,0.825,,1.0,0.825,Q05;Q09
+REC-Q06-01,07_official_records/REC-Q06-01.csv,07_official_records,security_log,Exchange mailbox audit log – mailbox j.peeters – 02/06/2026,en,BE,2026-06-03,T6,final,True,0.825,,1.0,0.825,Q06
+REC-Q07-01,07_official_records/REC-Q07-01.png,07_official_records,medical_certificate,Certificat médical d'incapacité de travail – Luc Schmit (scan),fr,LU,2026-09-07,T4,final,True,0.825,,1.0,0.825,Q07
+REC-Q07-02,07_official_records/REC-Q07-02.csv,07_official_records,hris_log,Absence register 2026 – Luc Schmit (E1095),en,BE,2026-09-11,T4,final,True,0.825,,1.0,0.825,Q07
+REC-Q07-03,07_official_records/REC-Q07-03.csv,07_official_records,phone_log,Company mobile call log – Olivier Lambert – 07/09/2026,en,BE,2026-09-10,T4,final,True,0.825,,1.0,0.825,Q07
+REC-Q07-04,07_official_records/REC-Q07-04.pdf,07_official_records,written_warning,Avertissement écrit – Luc Schmit (16/02/2026),fr,BE,2026-02-16,T4;T1,final,True,0.825,,1.0,0.825,Q07
+REC-Q08-01,07_official_records/REC-Q08-01.csv,07_official_records,security_log,VPN connection log (GlobalProtect) – a.karimi – on-call weeks Apr–Jun 2026,en,BE,2026-07-10,T2;T6,final,True,0.825,,1.0,0.825,Q08
+REC-Q08-02,07_official_records/REC-Q08-02.csv,07_official_records,timesheet,Timesheet corrections log – on-call weeks – Ahmed Karimi,en,BE,2026-07-01,T2,final,True,0.825,,1.0,0.825,Q08
+REC-Q09-01,07_official_records/REC-Q09-01.json,07_official_records,hiring_requisition,Hiring requisition REQ-2026-044 – Junior Consultant Antwerp,en,BE,2026-08-12,T5;T1,approved,True,0.825,,1.0,0.825,Q09
+REC-Q10-01,07_official_records/REC-Q10-01.csv,07_official_records,kpi_export,Marketing KPI export Jan–Jun 2026 – Liège team,en,BE,2026-07-20,T4;T5,final,True,0.825,,1.0,0.825,Q10
+REC-Q10-02,07_official_records/REC-Q10-02.csv,07_official_records,payroll,Bonus calculation 2026 (mid-year component) – Marketing Liège,en,BE,2026-07-25,T5;T4,draft,True,0.495,,1.0,0.495,Q10
+INV-Q01-01,08_investigations/INV-Q01-01.pdf,08_investigations,investigation_report,HR investigation report – data transfer by Marc Dubois,en,BE,2026-03-13,T1;T6,final,True,0.539,,1.0,0.539,Q01
+INV-Q01-02,08_investigations/INV-Q01-02.pdf,08_investigations,forensic_report,IT forensic report – account m.dubois,en,BE,2026-03-11,T1;T6,final,True,0.77,,1.0,0.77,Q01
+INV-Q01-03,08_investigations/INV-Q01-03.docx,08_investigations,hearing_minutes,Procès-verbal d'audition – Marc Dubois (12/03/2026),fr,BE,2026-03-12,T1,final,True,0.7,,1.0,0.7,Q01
+INV-Q02-01,08_investigations/INV-Q02-01.md,08_investigations,hr_review,HR review – overtime claim Sofie Claes,en,BE,2026-07-08,T2,final,True,0.49,,1.0,0.49,Q02
+INV-Q03-01,08_investigations/INV-Q03-01.pdf,08_investigations,legal_memo,Legal memo – international remote work request P. De Smet (Lyon),en,BE,2026-08-27,T3,final,True,0.77,,1.0,0.77,Q03
+INV-Q04-01,08_investigations/INV-Q04-01.md,08_investigations,hr_review,HR Director review – parental leave refusal L. Haddad,en,BE,2026-04-28,T4,final,True,0.77,,1.0,0.77,Q04
+INV-Q05-01,08_investigations/INV-Q05-01.pdf,08_investigations,prevention_adviser_opinion,Advies van de preventieadviseur psychosociale aspecten – formeel verzoek E. Vandenberghe,nl,BE,2026-02-10,T5,final,True,0.924,,1.0,0.924,Q05;Q09
+INV-Q05-02,08_investigations/INV-Q05-02.md,08_investigations,hr_note,HR note – Emma / Bart situation,en,BE,2025-10-09,T5,informal,True,0.392,,1.0,0.392,Q05
+INV-Q06-01,08_investigations/INV-Q06-01.pdf,08_investigations,internal_memo,Internal memo – press leak of budget figures,en,BE,2026-06-04,T6,final,True,0.539,,1.0,0.539,Q06
+INV-Q09-01,08_investigations/INV-Q09-01.pdf,08_investigations,legal_memo,Legal memo – proposed dismissal of E. Vandenberghe,en,BE,2026-08-20,T5;T1,final,True,0.77,,1.0,0.77,Q09
+STM-Q01-01,09_statements/STM-Q01-01.docx,09_statements,employee_statement,Déclaration écrite – Marc Dubois (contestation du licenciement),fr,BE,2026-03-24,T1,final,True,0.385,,1.0,0.385,Q01
+STM-Q01-02,09_statements/STM-Q01-02.md,09_statements,witness_statement,Witness statement – Julie Martens,en,BE,2026-03-11,T1,final,True,0.55,,1.0,0.55,Q01
+STM-Q02-01,09_statements/STM-Q02-01.pdf,09_statements,grievance_letter,Klachtbrief overuren – Sofie Claes,nl,BE,2026-07-01,T2,final,True,0.385,,1.0,0.385,Q02
+STM-Q03-01,09_statements/STM-Q03-01.md,09_statements,employee_statement,Motivation letter – remote work from Lyon – Pieter De Smet,en,BE,2026-08-20,T3,final,True,0.385,,1.0,0.385,Q03
+STM-Q04-01,09_statements/STM-Q04-01.md,09_statements,employee_statement,Réclamation – refus du congé parental – Lina Haddad,fr,BE,2026-04-22,T4,final,True,0.385,,1.0,0.385,Q04
+STM-Q05-01,09_statements/STM-Q05-01.md,09_statements,employee_statement,Verklaring van de verzoeker – Emma Vandenberghe,nl,BE,2025-11-25,T5,final,True,0.385,,1.0,0.385,Q05
+STM-Q05-02,09_statements/STM-Q05-02.md,09_statements,employee_statement,Verklaring van de betrokken persoon – Bart Willems,nl,BE,2025-12-02,T5,final,True,0.385,,1.0,0.385,Q05
+STM-Q05-03,09_statements/STM-Q05-03.md,09_statements,witness_statement,Getuigenverklaring – Yasmine El Amrani,nl,BE,2025-12-04,T5,final,True,0.55,,1.0,0.55,Q05
+STM-Q05-04,09_statements/STM-Q05-04.md,09_statements,witness_statement,Getuigenverklaring – Dries Hermans,nl,BE,2025-12-09,T5,final,True,0.385,,1.0,0.385,Q05
+STM-Q06-01,09_statements/STM-Q06-01.md,09_statements,employee_statement,Statement – Jan Peeters,en,BE,2026-06-08,T6,final,True,0.385,,1.0,0.385,Q06
+STM-Q07-01,09_statements/STM-Q07-01.md,09_statements,employee_statement,Déclaration – Luc Schmit,fr,BE,2026-09-21,T4,final,True,0.385,,1.0,0.385,Q07
+STM-Q10-01,09_statements/STM-Q10-01.md,09_statements,employee_statement,Contestation de l'évaluation mi-année – Lina Haddad,fr,BE,2026-07-24,T4;T5,final,True,0.385,,1.0,0.385,Q10
+EML-NOISE-01,10_emails/EML-NOISE-01.eml,10_emails,email,Team lunch Friday,en,BE,2026-05-20,,sent,True,0.55,,1.0,0.55,
+EML-NOISE-02,10_emails/EML-NOISE-02.eml,10_emails,email,Planned maintenance – VPN gateway,en,BE,2026-04-14,,sent,True,0.55,,1.0,0.55,
+EML-NOISE-03,10_emails/EML-NOISE-03.eml,10_emails,email,Newsletter – social elections & new canteen,en,BE,2026-02-02,,sent,True,0.55,,1.0,0.55,
+EML-Q01-01,10_emails/EML-Q01-01.eml,10_emails,email,DLP alert – m.dubois – CRM export to personal Google Drive,en,BE,2026-03-06,T1;T6,sent,True,0.55,,1.0,0.55,Q01
+EML-Q01-02,10_emails/EML-Q01-02.eml,10_emails,email,RE: DLP alert – m.dubois,en,BE,2026-03-06,T1,sent,True,0.385,,1.0,0.385,Q01
+EML-Q01-03,10_emails/EML-Q01-03.eml,10_emails,email,Marc – timing,en,BE,2026-03-09,T1,sent,True,0.385,,1.0,0.385,Q01
+EML-Q01-04,10_emails/EML-Q01-04.eml,10_emails,email,Convocation à une audition – 12 mars 2026,fr,BE,2026-03-10,T1,sent,True,0.55,,1.0,0.55,Q01
+EML-Q02-01,10_emails/EML-Q02-01.eml,10_emails,email,RE: Sofie – overtime claim,en,BE,2026-07-03,T2,sent,True,0.385,,1.0,0.385,Q02
+EML-Q02-02,10_emails/EML-Q02-02.eml,10_emails,email,Go-live Scheldt Energy – weekend,en,BE,2026-03-12,T2,sent,True,0.55,,1.0,0.55,Q02
+EML-Q03-01,10_emails/EML-Q03-01.eml,10_emails,email,Request – working from Lyon Oct–Jan,en,BE,2026-08-20,T3,sent,True,0.55,,1.0,0.55,Q03
+EML-Q03-02,10_emails/EML-Q03-02.eml,10_emails,email,Pieter De Smet – Lyon – please do not confirm yet,en,BE,2026-08-27,T3,sent,True,0.55,,1.0,0.55,Q03
+EML-Q04-01,10_emails/EML-Q04-01.eml,10_emails,email,Demande de congé parental 1/5,fr,BE,2026-03-10,T4,sent,True,0.55,,1.0,0.55,Q04
+EML-Q04-02,10_emails/EML-Q04-02.eml,10_emails,email,RE: Demande de congé parental 1/5,fr,BE,2026-03-11,T4,sent,True,0.55,,1.0,0.55,Q04
+EML-Q04-03,10_emails/EML-Q04-03.eml,10_emails,email,Ton congé parental,fr,BE,2026-04-20,T4,sent,True,0.385,,1.0,0.385,Q04
+EML-Q04-04,10_emails/EML-Q04-04.eml,10_emails,email,Congé parental Lina – décision,fr,BE,2026-04-28,T4,sent,True,0.55,,1.0,0.55,Q04;Q10
+EML-Q05-01,10_emails/EML-Q05-01.eml,10_emails,email,Situation with Bart,en,BE,2025-10-06,T5,sent,True,0.55,,1.0,0.55,Q05
+EML-Q05-02,10_emails/EML-Q05-02.eml,10_emails,email,tomorrow,en,BE,2025-09-16,T5;T2,sent,True,0.55,,1.0,0.55,Q05
+EML-Q06-01,10_emails/EML-Q06-01.eml,10_emails,email,Jan – mailbox,en,BE,2026-06-01,T6,sent,True,0.385,,1.0,0.385,Q06
+EML-Q06-02,10_emails/EML-Q06-02.eml,10_emails,email,RE: Jan – mailbox – results,en,BE,2026-06-02,T6,sent,True,0.55,,1.0,0.55,Q06
+EML-Q07-01,10_emails/EML-Q07-01.eml,10_emails,email,Luc Schmit – encore,fr,BE,2026-09-10,T4;T1,sent,True,0.385,,1.0,0.385,Q07
+EML-Q07-02,10_emails/EML-Q07-02.eml,10_emails,email,Certificat médical – Luc Schmit,fr,BE,2026-09-09,T4,sent,True,0.55,,1.0,0.55,Q07
+EML-Q08-01,10_emails/EML-Q08-01.eml,10_emails,email,Your on-call timesheets,en,BE,2026-07-01,T2,sent,True,0.385,,1.0,0.385,Q08
+EML-Q08-02,10_emails/EML-Q08-02.eml,10_emails,email,Request for my VPN logs (on-call Apr–Jun),en,BE,2026-07-06,T2;T6,sent,True,0.55,,1.0,0.55,Q08
+EML-Q08-03,10_emails/EML-Q08-03.eml,10_emails,email,RE: Request for my VPN logs (on-call Apr–Jun),en,BE,2026-07-07,T6;T2,sent,True,0.55,,1.0,0.55,Q08
+EML-Q09-01,10_emails/EML-Q09-01.eml,10_emails,email,Emma V. – proposal,en,BE,2026-08-10,T5;T1,sent,True,0.385,,1.0,0.385,Q09
+EML-Q09-02,10_emails/EML-Q09-02.eml,10_emails,email,Junior Consultant opening – replacement for Emma's seat,en,BE,2026-08-13,T5;T1,sent,True,0.55,,1.0,0.55,Q09
+EML-Q10-01,10_emails/EML-Q10-01.eml,10_emails,email,Mid-year ratings Liège,en,BE,2026-07-16,T5;T4,sent,True,0.385,,1.0,0.385,Q10
+CHAT-Q01-01,11_chat_messages/CHAT-Q01-01.json,11_chat_messages,chat,Teams chat – Marc Dubois / Julie Martens – VPN,fr,BE,2026-03-05,T1,final,True,0.4,,1.0,0.4,Q01
+CHAT-Q02-01,11_chat_messages/CHAT-Q02-01.json,11_chat_messages,chat,Teams chat – Jeroen Maes / Sofie Claes – weekend work,nl,BE,2026-06-12,T2,final,True,0.4,,1.0,0.4,Q02
+CHAT-Q03-01,11_chat_messages/CHAT-Q03-01.json,11_chat_messages,chat,Teams chat – Tom Verhaegen / Pieter De Smet – Lyon,en,BE,2026-08-22,T3,final,True,0.4,,1.0,0.4,Q03
+CHAT-Q05-01,11_chat_messages/CHAT-Q05-01.json,11_chat_messages,chat,"Teams DMs – Bart Willems → Emma Vandenberghe (Apr–Oct 2025, extract submitted to prevention adviser)",en,BE,2025-11-18,T5,final,True,0.4,,1.0,0.4,Q05
+CHAT-Q05-02,11_chat_messages/CHAT-Q05-02.json,11_chat_messages,chat,Teams channel – Consulting Antwerp stand-up (extract),en,BE,2025-09-17,T5,final,True,0.4,,1.0,0.4,Q05
+CHAT-Q06-01,11_chat_messages/CHAT-Q06-01.json,11_chat_messages,chat,Teams chat – Kristof Janssens / Sarah Lefèvre – mailbox review,en,BE,2026-06-02,T6,final,True,0.4,,1.0,0.4,Q06
+CHAT-Q07-01,11_chat_messages/CHAT-Q07-01.json,11_chat_messages,chat,WhatsApp – Luc Schmit → Olivier Lambert – 07/09/2026,fr,BE,2026-09-07,T4,final,True,0.4,,1.0,0.4,Q07
+CHAT-Q08-01,11_chat_messages/CHAT-Q08-01.json,11_chat_messages,chat,Teams channel – Support on-call pages (Apr–Jun 2026 extract),en,BE,2026-06-28,T2,final,True,0.4,,1.0,0.4,Q08
+CHAT-Q09-01,11_chat_messages/CHAT-Q09-01.json,11_chat_messages,chat,Teams chat – Tom Verhaegen / Bart Willems,nl,BE,2026-08-11,T5;T1,final,True,0.28,,1.0,0.28,Q09
+CHAT-Q10-01,11_chat_messages/CHAT-Q10-01.json,11_chat_messages,chat,Teams chat – Olivier Lambert / Maxime Renard,fr,BE,2026-07-14,T4;T5,final,True,0.28,,1.0,0.28,Q10
+PERF-E1042-2025,12_performance/PERF-E1042-2025.md,12_performance,performance_review,Annual review 2025 – Marc Dubois,en,BE,2026-01-20,T1,final,True,0.715,,1.0,0.715,Q01
+PERF-E1057-2025,12_performance/PERF-E1057-2025.md,12_performance,performance_review,Jaarevaluatie 2025 – Sofie Claes,nl,BE,2026-01-14,T2,final,True,0.715,,1.0,0.715,Q02
+PERF-E1063-2025,12_performance/PERF-E1063-2025.md,12_performance,performance_review,Annual review 2025 – Pieter De Smet,en,BE,2026-01-19,T3,final,True,0.715,,1.0,0.715,Q03
+PERF-E1071-2025,12_performance/PERF-E1071-2025.md,12_performance,performance_review,Évaluation annuelle 2025 – Lina Haddad,fr,BE,2026-01-22,T4;T5,final,True,0.715,,1.0,0.715,Q10
+PERF-E1080-2024,12_performance/PERF-E1080-2024.md,12_performance,performance_review,Jaarevaluatie 2024 – Emma Vandenberghe,nl,BE,2025-01-15,T5,final,True,0.715,,1.0,0.715,Q09
+PERF-E1080-2026,12_performance/PERF-E1080-2026.md,12_performance,performance_review,Mid-year review 2026 – Emma Vandenberghe (by Annelies Goossens),en,BE,2026-07-10,T5,final,True,0.715,,1.0,0.715,Q09
+PERF-E1090-2025,12_performance/PERF-E1090-2025.md,12_performance,performance_review,Annual review 2025 – Jan Peeters,en,BE,2026-01-21,T6,final,True,0.715,,1.0,0.715,Q06
+PERF-E1095-2025,12_performance/PERF-E1095-2025.md,12_performance,performance_review,Évaluation annuelle 2025 – Luc Schmit,fr,BE,2026-01-23,T4,final,True,0.715,,1.0,0.715,Q07
+PERF-Q09-01,12_performance/PERF-Q09-01.md,12_performance,performance_review,Mid-year review 2025 – Emma Vandenberghe (by Bart Willems),en,BE,2025-06-30,T5,final,True,0.455,,1.0,0.455,Q09;Q05
+PERF-Q10-01,12_performance/PERF-Q10-01.md,12_performance,performance_review,Mid-year review 2026 – Lina Haddad,en,BE,2026-07-15,T4;T5,final,True,0.455,,1.0,0.455,Q10
+EXT-ACERTA-DRINGENDE-REDEN,13_external_secondary/EXT-ACERTA-DRINGENDE-REDEN.md,13_external_secondary,secondary_article,Acerta – Een werknemer om dringende redenen ontslaan zonder opzeg noch vergoeding: kan dat?,nl,BE,2026-09-30,T1,published,False,0.35,,1.0,0.35,
+EXT-ACERTA-GRENSARBEID,13_external_secondary/EXT-ACERTA-GRENSARBEID.md,13_external_secondary,secondary_article,Acerta – Buitenlandse werknemer en grensarbeid,nl,BE,2026-09-30,T3,published,False,0.35,,1.0,0.35,
+EXT-ACERTA-OUDERSCHAPSVERLOF,13_external_secondary/EXT-ACERTA-OUDERSCHAPSVERLOF.md,13_external_secondary,secondary_article,Acerta – Ouderschapsverlof,nl,BE,2026-09-30,T4,published,False,0.35,,1.0,0.35,
+EXT-ACERTA-OVERUREN,13_external_secondary/EXT-ACERTA-OVERUREN.md,13_external_secondary,secondary_article,Acerta – Wetgeving overuren,nl,BE,2026-09-30,T2,published,False,0.35,,1.0,0.35,
+EXT-LIANTIS-DECONNECTIE,13_external_secondary/EXT-LIANTIS-DECONNECTIE.md,13_external_secondary,secondary_article,Liantis – Arbeidsdeal: deconnectie voor ondernemingen met minstens 20 werknemers,nl,BE,2026-09-30,T2,published,False,0.35,,1.0,0.35,
+EXT-LIANTIS-HARCELEMENT-2022,13_external_secondary/EXT-LIANTIS-HARCELEMENT-2022.md,13_external_secondary,secondary_article,Liantis – Un collaborateur sur 7 encore confronté au harcèlement,fr,BE,2026-09-30,T5,published,False,0.35,,1.0,0.35,
+EXT-LIANTIS-HARCELEMENT,13_external_secondary/EXT-LIANTIS-HARCELEMENT.md,13_external_secondary,secondary_article,Liantis – Conseils : semaine contre le harcèlement,fr,BE,2026-09-30,T5,published,False,0.35,,1.0,0.35,
+EXT-SDWORX-TELEWERK-BUITENLAND-2021,13_external_secondary/EXT-SDWORX-TELEWERK-BUITENLAND-2021.md,13_external_secondary,secondary_article,SD Worx (2021) – Telewerken vanuit het buitenland: op reis met je laptop?,nl,BE,2021-06-29,T3,published,False,0.28,,1.0,0.28,
+EXT-SDWORX-TELEWERK-BUITENLAND,13_external_secondary/EXT-SDWORX-TELEWERK-BUITENLAND.md,13_external_secondary,secondary_article,SD Worx – Telewerk vanuit het buitenland: de belangrijkste regels,nl,BE,2026-09-30,T3,published,False,0.35,,1.0,0.35,
+EXT-SECUREX-CAMERAS,13_external_secondary/EXT-SECUREX-CAMERAS.md,13_external_secondary,secondary_article,Securex – Caméras sur votre lieu de travail : respectez les règles vie privée,fr,BE,2026-09-30,T6,published,False,0.35,,1.0,0.35,
+EXT-UCM-CAMERAS,13_external_secondary/EXT-UCM-CAMERAS.md,13_external_secondary,secondary_article,UCM – Caméras de surveillance : marche à suivre,fr,BE,2026-09-30,T6,published,False,0.35,,1.0,0.35,
+EXT-UCM-CONGE-PARENTAL-ACCUEIL,13_external_secondary/EXT-UCM-CONGE-PARENTAL-ACCUEIL.md,13_external_secondary,secondary_article,UCM – Congé d'adoption et congé parental d'accueil : extension depuis 2025,fr,BE,2026-09-30,T4,published,False,0.35,,1.0,0.35,

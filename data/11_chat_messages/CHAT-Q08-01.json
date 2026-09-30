@@ -1,0 +1,47 @@
+{
+ "_dataset_note": "Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.",
+ "platform": "Microsoft Teams",
+ "channel": "Support – on-call",
+ "messages": [
+  {
+   "ts": "2026-04-08T22:14:00+02:00",
+   "from": "PagerBot",
+   "text": "P1 – Brabo Retail BI – ETL failed. On-call: Ahmed Karimi"
+  },
+  {
+   "ts": "2026-04-08T22:31:10+02:00",
+   "from": "Ahmed Karimi",
+   "text": "On it, connected."
+  },
+  {
+   "ts": "2026-04-09T01:05:44+02:00",
+   "from": "Ahmed Karimi",
+   "text": "Fixed, root cause = expired certificate. Going to bed."
+  },
+  {
+   "ts": "2026-05-30T06:02:00+02:00",
+   "from": "PagerBot",
+   "text": "P2 – Scheldt Energy API latency. On-call: Ahmed Karimi"
+  },
+  {
+   "ts": "2026-05-30T06:20:11+02:00",
+   "from": "Ahmed Karimi",
+   "text": "Looking."
+  },
+  {
+   "ts": "2026-06-24T23:40:00+02:00",
+   "from": "PagerBot",
+   "text": "P1 – Antwerp Port Data Lake – ingestion down. On-call: Ahmed Karimi"
+  },
+  {
+   "ts": "2026-06-25T03:12:30+02:00",
+   "from": "Ahmed Karimi",
+   "text": "Back up. 3.5h on this one 😴"
+  },
+  {
+   "ts": "2026-06-25T08:05:02+02:00",
+   "from": "Nicolas Hubert",
+   "text": "Thanks Ahmed 🙏 great job"
+  }
+ ]
+}

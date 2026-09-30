@@ -1,0 +1,141 @@
+date,weekday,project,hours,note_location,manager_validation
+2026-01-01,Thu,,0.00,public holiday,validated
+2026-01-02,Fri,PRJ-2231 Antwerp Port Data Lake,9.00,home,validated
+2026-01-05,Mon,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-01-06,Tue,PRJ-2240 Brabo Retail BI,10.00,office,validated
+2026-01-07,Wed,PRJ-2240 Brabo Retail BI,9.00,office,validated
+2026-01-08,Thu,PRJ-2240 Brabo Retail BI,8.75,office,validated
+2026-01-09,Fri,PRJ-2240 Brabo Retail BI,9.25,home,validated
+2026-01-12,Mon,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-01-13,Tue,PRJ-2254 Scheldt Energy Migration,8.00,office,validated
+2026-01-14,Wed,PRJ-2254 Scheldt Energy Migration,9.75,office,validated
+2026-01-15,Thu,PRJ-2254 Scheldt Energy Migration,8.25,office,validated
+2026-01-16,Fri,PRJ-2254 Scheldt Energy Migration,10.00,home,validated
+2026-01-19,Mon,PRJ-2254 Scheldt Energy Migration,9.25,home,validated
+2026-01-20,Tue,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-01-21,Wed,PRJ-2254 Scheldt Energy Migration,10.00,office,validated
+2026-01-22,Thu,PRJ-2231 Antwerp Port Data Lake,9.00,office,validated
+2026-01-23,Fri,PRJ-2231 Antwerp Port Data Lake,9.50,home,validated
+2026-01-24,Sat,PRJ-2231 Antwerp Port Data Lake,6.75,weekend go-live / delivery,validated
+2026-01-25,Sun,PRJ-2231 Antwerp Port Data Lake,6.75,weekend go-live / delivery,validated
+2026-01-26,Mon,PRJ-2231 Antwerp Port Data Lake,10.00,home,validated
+2026-01-27,Tue,PRJ-2231 Antwerp Port Data Lake,9.25,office,validated
+2026-01-28,Wed,PRJ-2231 Antwerp Port Data Lake,10.25,office,validated
+2026-01-29,Thu,PRJ-2231 Antwerp Port Data Lake,9.75,office,validated
+2026-01-30,Fri,PRJ-2231 Antwerp Port Data Lake,10.00,home,validated
+2026-02-02,Mon,PRJ-2240 Brabo Retail BI,9.50,home,validated
+2026-02-03,Tue,PRJ-2240 Brabo Retail BI,9.75,office,validated
+2026-02-04,Wed,PRJ-2240 Brabo Retail BI,10.25,office,validated
+2026-02-05,Thu,PRJ-2240 Brabo Retail BI,10.00,office,validated
+2026-02-06,Fri,PRJ-2240 Brabo Retail BI,7.50,home,validated
+2026-02-09,Mon,PRJ-2254 Scheldt Energy Migration,9.75,home,validated
+2026-02-10,Tue,PRJ-2254 Scheldt Energy Migration,9.75,office,validated
+2026-02-11,Wed,PRJ-2254 Scheldt Energy Migration,9.00,office,validated
+2026-02-12,Thu,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-02-13,Fri,PRJ-2254 Scheldt Energy Migration,8.00,home,validated
+2026-02-16,Mon,,0.00,annual leave,validated
+2026-02-17,Tue,,0.00,annual leave,validated
+2026-02-18,Wed,,0.00,annual leave,validated
+2026-02-19,Thu,,0.00,annual leave,validated
+2026-02-20,Fri,,0.00,annual leave,validated
+2026-02-23,Mon,PRJ-2231 Antwerp Port Data Lake,10.00,home,validated
+2026-02-24,Tue,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-02-25,Wed,PRJ-2231 Antwerp Port Data Lake,8.25,office,validated
+2026-02-26,Thu,PRJ-2231 Antwerp Port Data Lake,10.25,office,validated
+2026-02-27,Fri,PRJ-2240 Brabo Retail BI,9.25,home,validated
+2026-02-28,Sat,PRJ-2240 Brabo Retail BI,6.50,weekend go-live / delivery,validated
+2026-03-02,Mon,PRJ-2240 Brabo Retail BI,9.50,home,validated
+2026-03-03,Tue,PRJ-2240 Brabo Retail BI,7.75,office,validated
+2026-03-04,Wed,PRJ-2240 Brabo Retail BI,9.75,office,validated
+2026-03-05,Thu,PRJ-2240 Brabo Retail BI,9.00,office,validated
+2026-03-06,Fri,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-03-09,Mon,PRJ-2254 Scheldt Energy Migration,9.00,home,validated
+2026-03-10,Tue,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-03-11,Wed,PRJ-2254 Scheldt Energy Migration,9.00,office,validated
+2026-03-12,Thu,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-03-13,Fri,PRJ-2254 Scheldt Energy Migration,9.00,home,validated
+2026-03-14,Sat,PRJ-2254 Scheldt Energy Migration,7.00,weekend go-live / delivery,validated
+2026-03-15,Sun,PRJ-2254 Scheldt Energy Migration,5.50,weekend go-live / delivery,validated
+2026-03-16,Mon,PRJ-2254 Scheldt Energy Migration,9.00,home,validated
+2026-03-17,Tue,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-03-18,Wed,PRJ-2231 Antwerp Port Data Lake,10.25,office,validated
+2026-03-19,Thu,PRJ-2231 Antwerp Port Data Lake,9.00,office,validated
+2026-03-20,Fri,PRJ-2231 Antwerp Port Data Lake,9.25,home,validated
+2026-03-23,Mon,PRJ-2231 Antwerp Port Data Lake,8.25,home,validated
+2026-03-24,Tue,PRJ-2231 Antwerp Port Data Lake,7.75,office,validated
+2026-03-25,Wed,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-03-26,Thu,PRJ-2240 Brabo Retail BI,9.75,office,validated
+2026-03-27,Fri,PRJ-2240 Brabo Retail BI,9.00,home,validated
+2026-03-28,Sat,PRJ-2240 Brabo Retail BI,7.00,weekend go-live / delivery,validated
+2026-03-30,Mon,PRJ-2240 Brabo Retail BI,9.25,home,validated
+2026-03-31,Tue,PRJ-2240 Brabo Retail BI,8.75,office,validated
+2026-04-01,Wed,PRJ-2240 Brabo Retail BI,9.75,office,validated
+2026-04-02,Thu,PRJ-2240 Brabo Retail BI,8.25,office,validated
+2026-04-03,Fri,PRJ-2240 Brabo Retail BI,9.00,home,validated
+2026-04-06,Mon,,0.00,public holiday,validated
+2026-04-07,Tue,PRJ-2254 Scheldt Energy Migration,8.75,office,validated
+2026-04-08,Wed,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-04-09,Thu,PRJ-2254 Scheldt Energy Migration,10.00,office,validated
+2026-04-10,Fri,PRJ-2254 Scheldt Energy Migration,9.75,home,validated
+2026-04-13,Mon,PRJ-2231 Antwerp Port Data Lake,10.00,home,validated
+2026-04-14,Tue,PRJ-2231 Antwerp Port Data Lake,9.25,office,validated
+2026-04-15,Wed,PRJ-2231 Antwerp Port Data Lake,7.75,office,validated
+2026-04-16,Thu,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-04-17,Fri,PRJ-2231 Antwerp Port Data Lake,9.75,home,validated
+2026-04-18,Sat,PRJ-2231 Antwerp Port Data Lake,8.00,weekend go-live / delivery,validated
+2026-04-20,Mon,PRJ-2231 Antwerp Port Data Lake,10.25,home,validated
+2026-04-21,Tue,PRJ-2231 Antwerp Port Data Lake,9.75,office,validated
+2026-04-22,Wed,PRJ-2240 Brabo Retail BI,10.00,office,validated
+2026-04-23,Thu,PRJ-2240 Brabo Retail BI,9.50,office,validated
+2026-04-24,Fri,PRJ-2240 Brabo Retail BI,9.00,home,validated
+2026-04-27,Mon,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-04-28,Tue,PRJ-2240 Brabo Retail BI,10.00,office,validated
+2026-04-29,Wed,PRJ-2240 Brabo Retail BI,9.25,office,validated
+2026-04-30,Thu,PRJ-2240 Brabo Retail BI,9.00,office,validated
+2026-05-01,Fri,,0.00,public holiday,validated
+2026-05-04,Mon,PRJ-2254 Scheldt Energy Migration,9.25,home,validated
+2026-05-05,Tue,PRJ-2254 Scheldt Energy Migration,7.75,office,validated
+2026-05-06,Wed,PRJ-2254 Scheldt Energy Migration,8.75,office,validated
+2026-05-07,Thu,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-05-08,Fri,PRJ-2254 Scheldt Energy Migration,8.75,home,validated
+2026-05-09,Sat,PRJ-2254 Scheldt Energy Migration,7.75,weekend go-live / delivery,validated
+2026-05-11,Mon,PRJ-2231 Antwerp Port Data Lake,9.25,home,validated
+2026-05-12,Tue,PRJ-2231 Antwerp Port Data Lake,10.00,office,validated
+2026-05-13,Wed,PRJ-2231 Antwerp Port Data Lake,9.25,office,validated
+2026-05-14,Thu,,0.00,public holiday,validated
+2026-05-15,Fri,,0.00,annual leave,validated
+2026-05-18,Mon,PRJ-2231 Antwerp Port Data Lake,9.50,home,validated
+2026-05-19,Tue,PRJ-2240 Brabo Retail BI,9.25,office,validated
+2026-05-20,Wed,PRJ-2240 Brabo Retail BI,9.00,office,validated
+2026-05-21,Thu,PRJ-2240 Brabo Retail BI,8.00,office,validated
+2026-05-22,Fri,PRJ-2240 Brabo Retail BI,9.25,home,validated
+2026-05-25,Mon,,0.00,public holiday,validated
+2026-05-26,Tue,,0.00,annual leave,validated
+2026-05-27,Wed,,0.00,annual leave,validated
+2026-05-28,Thu,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-05-29,Fri,PRJ-2254 Scheldt Energy Migration,9.75,home,validated
+2026-05-30,Sat,PRJ-2254 Scheldt Energy Migration,5.50,weekend go-live / delivery,validated
+2026-06-01,Mon,PRJ-2254 Scheldt Energy Migration,10.00,home,validated
+2026-06-02,Tue,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-06-03,Wed,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-06-04,Thu,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-06-05,Fri,PRJ-2254 Scheldt Energy Migration,9.25,home,validated
+2026-06-08,Mon,PRJ-2231 Antwerp Port Data Lake,9.50,home,validated
+2026-06-09,Tue,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-06-10,Wed,PRJ-2231 Antwerp Port Data Lake,9.75,office,validated
+2026-06-11,Thu,PRJ-2231 Antwerp Port Data Lake,10.25,office,validated
+2026-06-12,Fri,PRJ-2231 Antwerp Port Data Lake,8.75,home,validated
+2026-06-13,Sat,PRJ-2231 Antwerp Port Data Lake,5.00,weekend go-live / delivery,validated
+2026-06-14,Sun,PRJ-2231 Antwerp Port Data Lake,5.50,weekend go-live / delivery,validated
+2026-06-15,Mon,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-06-16,Tue,PRJ-2240 Brabo Retail BI,7.75,office,validated
+2026-06-17,Wed,PRJ-2240 Brabo Retail BI,9.25,office,validated
+2026-06-18,Thu,PRJ-2240 Brabo Retail BI,9.25,office,validated
+2026-06-19,Fri,PRJ-2240 Brabo Retail BI,9.00,home,validated
+2026-06-22,Mon,PRJ-2240 Brabo Retail BI,10.25,home,validated
+2026-06-23,Tue,PRJ-2240 Brabo Retail BI,7.75,office,validated
+2026-06-24,Wed,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-06-25,Thu,PRJ-2254 Scheldt Energy Migration,9.75,office,validated
+2026-06-26,Fri,PRJ-2254 Scheldt Energy Migration,9.50,home,validated
+2026-06-29,Mon,PRJ-2254 Scheldt Energy Migration,8.75,home,validated
+2026-06-30,Tue,PRJ-2254 Scheldt Energy Migration,9.50,office,validated

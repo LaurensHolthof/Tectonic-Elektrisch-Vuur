@@ -1,0 +1,10 @@
+timestamp,actor,operation,mailbox,folder,item_subject,logon_type
+2026-06-02 09:03:11,k.janssens,FullAccessGranted,j.peeters,,,Admin
+2026-06-02 09:05:40,k.janssens,FolderBind,j.peeters,Inbox,,Delegate
+2026-06-02 09:12:02,k.janssens,MessageBind,j.peeters,Inbox,RE: Budget 2027 – draft figures,Delegate
+2026-06-02 09:26:57,k.janssens,MessageBind,j.peeters,Sent Items,FW: Budget 2027 – draft figures,Delegate
+2026-06-02 09:48:13,k.janssens,MessageBind,j.peeters,Private,PRIVÉ – rendez-vous jeudi,Delegate
+2026-06-02 10:02:30,k.janssens,MessageBind,j.peeters,Private,PRIVÉ – RE: ton article,Delegate
+2026-06-02 10:40:05,k.janssens,MessageBind,j.peeters,Inbox,Vacation plans – family,Delegate
+2026-06-02 11:15:48,k.janssens,SearchQueryInitiated,j.peeters,All,"journalist OR budget OR De Tijd",Delegate
+2026-06-02 11:47:21,k.janssens,FullAccessRemoved,j.peeters,,,Admin

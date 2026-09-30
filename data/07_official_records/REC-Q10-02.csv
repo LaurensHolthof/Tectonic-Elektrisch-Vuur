@@ -1,0 +1,7 @@
+employee_id,name,annual_gross_eur,target_bonus_pct,midyear_rating,rating_factor,midyear_weight,midyear_bonus_eur,note
+E1071,Lina Haddad,45360,8,2 (Partially meets),0.5,0.4,725.76,"4/5 parental leave since 06/2026 – objectives not pro-rated (to check with HR, policy 2.2)"
+E1120,Maxime Renard,44100,8,3 (Meets),1.0,0.4,1411.20,
+E1121,Chloé Dethier,41580,8,4 (Meets+),1.1,0.4,1463.62,
+E1122,Sam Kaya,43200,8,3 (Meets),1.0,0.4,1382.40,"parental leave July 2026 – objectives pro-rated"
+E1123,Aurélie Gilson,40320,8,3 (Meets),1.0,0.4,1290.24,
+E1124,Noah Lejeune,39600,8,3 (Meets),1.0,0.4,1267.20,

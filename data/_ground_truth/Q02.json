@@ -1,0 +1,83 @@
+{
+ "id": "Q02",
+ "question": "Is Sofie Claes entitled to payment for overtime worked in the first half of 2026?",
+ "verdict": "entitled",
+ "expected_answer": "Likely entitled. The 'position of trust' label in the 2026 amendment and handbook v3 is not decisive: the RD of 10/02/1965 covers genuine management/trust functions, the work regulations (annex 2) and the company CCT of 2024 limit such functions to the Management Committee, and Sofie has no subordinates, budget or control over her planning. Working-time rules and overtime pay (+50%, +100% on Sundays; art. 29 Law 1971) apply. Overtime requested or knowingly accepted (Teams requests, weekly validation) must be paid or recovered regardless of the internal prior-approval rule. Timesheets, badge logs and chats outweigh the manager's later e-mail. About 264 hours above the normal 38-h week in H1 2026, none paid.",
+ "key_facts": [
+  "Average 48.2 h per full week, 11 weekend days incl. 3 Sundays (REC-Q02-01, REC-Q02-02)",
+  "Payroll shows 0 overtime paid (REC-Q02-03)",
+  "Jeroen asked for weekend work (CHAT-Q02-01, EML-Q02-02) but later wrote he never requested overtime (EML-Q02-01)",
+  "Amendment: no hierarchical authority, expenses >€500 need approval (CTR-E1057-AMD-2026)"
+ ],
+ "conflicts": [
+  {
+   "issue": "Is Sofie excluded from working-time rules as a person of trust?",
+   "sides": {
+    "CTR-E1057-AMD-2026": "contract calls the function a position of trust",
+    "POL-HANDBOOK-v3-2026": "M1+ exempt from overtime compensation",
+    "POL-WORKREG-2025-FR": "only Management Committee functions (annex 2)",
+    "CCT-TEC-2024-WORKTIME": "only Management Committee functions",
+    "RD-BE-1965-TRUST-FR": "exhaustive statutory list of management/trust functions"
+   },
+   "resolution": "Not a person of trust; working-time rules apply.",
+   "winning_docs": [
+    "RD-BE-1965-TRUST-FR",
+    "CCT-TEC-2024-WORKTIME"
+   ],
+   "why": "Law and company CCT rank above contract clauses and a handbook; facts (no authority) matter over labels."
+  },
+  {
+   "issue": "Were the hours worked and requested?",
+   "sides": {
+    "EML-Q02-01": "manager never requested overtime",
+    "REC-Q02-01": "validated timesheets",
+    "CHAT-Q02-01": "manager asked for weekend work"
+   },
+   "resolution": "Hours were requested and knowingly accepted.",
+   "winning_docs": [
+    "REC-Q02-01",
+    "REC-Q02-02",
+    "CHAT-Q02-01"
+   ],
+   "why": "Corroborated contemporaneous records beat a later statement by an interested party."
+  },
+  {
+   "issue": "Prior written approval rule",
+   "sides": {
+    "POL-OVERTIME-2024": "unapproved overtime not compensated",
+    "CCT-TEC-2024-WORKTIME": "overtime with employer's even tacit agreement is overtime"
+   },
+   "resolution": "Tacit agreement suffices.",
+   "winning_docs": [
+    "CCT-TEC-2024-WORKTIME",
+    "LAW-BE-1971-OVERTIME-FR"
+   ],
+   "why": "Company CCT and law rank above the policy."
+  }
+ ],
+ "focus_docs": [
+  "RD-BE-1965-TRUST-FR",
+  "POL-HANDBOOK-v3-2026",
+  "REC-Q02-01",
+  "EML-Q02-01"
+ ],
+ "supporting_docs": [
+  "LAW-BE-1971-OVERTIME-FR",
+  "CCT-TEC-2023-DISCONNECT",
+  "CCT-TEC-2024-WORKTIME",
+  "POL-HYBRID-DISCONNECT-2023",
+  "POL-OVERTIME-2024",
+  "POL-WORKREG-2025-FR",
+  "POL-WORKREG-2025-NL",
+  "POL-HANDBOOK-v2-2024",
+  "CTR-E1057-AMD-2026",
+  "CTR-E1057-CONTRACT",
+  "REC-Q02-02",
+  "REC-Q02-03",
+  "INV-Q02-01",
+  "STM-Q02-01",
+  "EML-Q02-02",
+  "CHAT-Q02-01",
+  "PERF-E1057-2025"
+ ]
+}

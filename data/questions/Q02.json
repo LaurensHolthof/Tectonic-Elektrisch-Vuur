@@ -1,0 +1,52 @@
+{
+ "id": "Q02",
+ "question": "Is Sofie Claes entitled to payment for overtime worked in the first half of 2026?",
+ "themes": [
+  "T2"
+ ],
+ "focus_docs": [
+  {
+   "id": "RD-BE-1965-TRUST-FR",
+   "path": "01_legislation/be_federal/RD-BE-1965-TRUST-FR.md",
+   "final_weight": 1.0,
+   "legal_rank": 1
+  },
+  {
+   "id": "POL-HANDBOOK-v3-2026",
+   "path": "05_company_policies/POL-HANDBOOK-v3-2026.docx",
+   "final_weight": 0.765,
+   "legal_rank": 6
+  },
+  {
+   "id": "REC-Q02-01",
+   "path": "07_official_records/REC-Q02-01.csv",
+   "final_weight": 0.825,
+   "legal_rank": null
+  },
+  {
+   "id": "EML-Q02-01",
+   "path": "10_emails/EML-Q02-01.eml",
+   "final_weight": 0.385,
+   "legal_rank": null
+  }
+ ],
+ "supporting_docs": [
+  "LAW-BE-1971-OVERTIME-FR",
+  "CCT-TEC-2023-DISCONNECT",
+  "CCT-TEC-2024-WORKTIME",
+  "POL-HYBRID-DISCONNECT-2023",
+  "POL-OVERTIME-2024",
+  "POL-WORKREG-2025-FR",
+  "POL-WORKREG-2025-NL",
+  "POL-HANDBOOK-v2-2024",
+  "CTR-E1057-AMD-2026",
+  "CTR-E1057-CONTRACT",
+  "REC-Q02-02",
+  "REC-Q02-03",
+  "INV-Q02-01",
+  "STM-Q02-01",
+  "EML-Q02-02",
+  "CHAT-Q02-01",
+  "PERF-E1057-2025"
+ ]
+}

@@ -1,0 +1,1478 @@
+[
+ {
+  "id": "LAW-BE-1978-ART35-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1978-ART35-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 3 juillet 1978 relative aux contrats de travail – art. 35 (motif grave)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "date": "1978-07-03",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1978/07/03/1978070303/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1978-ART35-NL",
+  "path": "01_legislation/be_federal/LAW-BE-1978-ART35-NL.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Wet van 3 juli 1978 betreffende de arbeidsovereenkomsten – art. 35 (dringende reden)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T1"
+  ],
+  "date": "1978-07-03",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/wet/1978/07/03/1978070303/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1978-ART37-39-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1978-ART37-39-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 3 juillet 1978 – art. 37, 37/2, 39 (préavis et indemnité de rupture)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "date": "1978-07-03",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1978/07/03/1978070303/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1978-ART31-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1978-ART31-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 3 juillet 1978 – art. 31 (incapacité de travail, certificat médical)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "date": "1978-07-03",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1978/07/03/1978070303/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1978-ART16-20-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1978-ART16-20-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 3 juillet 1978 – art. 16, 17, 20 (obligations des parties)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1",
+   "T6"
+  ],
+  "date": "1978-07-03",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1978/07/03/1978070303/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1971-HOURS-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1971-HOURS-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 16 mars 1971 sur le travail – art. 19 à 22 (durée du travail)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T2"
+  ],
+  "date": "1971-03-16",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1971/03/16/1971031602/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1971-OVERTIME-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1971-OVERTIME-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 16 mars 1971 sur le travail – art. 25 à 29 (heures supplémentaires, sursalaire)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T2"
+  ],
+  "date": "1971-03-16",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1971/03/16/1971031602/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1971-OVERTIME-NL",
+  "path": "01_legislation/be_federal/LAW-BE-1971-OVERTIME-NL.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Arbeidswet van 16 maart 1971 – art. 26bis en 29 (overuren, overloon)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T2"
+  ],
+  "date": "1971-03-16",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/wet/1971/03/16/1971031602/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "RD-BE-1965-TRUST-FR",
+  "path": "01_legislation/be_federal/RD-BE-1965-TRUST-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Arrêté royal du 10 février 1965 désignant les personnes investies d'un poste de direction ou de confiance",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T2"
+  ],
+  "date": "1965-02-10",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/arrete/1965/02/10/1965021001/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1996-HARASS-DEF-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1996-HARASS-DEF-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 4 août 1996 relative au bien-être – art. 32bis, 32ter (définitions harcèlement)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "1996-08-04",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1996/08/04/1996012650/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1996-HARASS-DEF-NL",
+  "path": "01_legislation/be_federal/LAW-BE-1996-HARASS-DEF-NL.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Welzijnswet van 4 augustus 1996 – art. 32bis, 32ter (definities pesterijen)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5"
+  ],
+  "date": "1996-08-04",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/wet/1996/08/04/1996012650/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1996-PROCEDURE-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1996-PROCEDURE-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 4 août 1996 – art. 32quater à 32septies (mesures et procédure)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "1996-08-04",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1996/08/04/1996012650/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1968-ART51-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1968-ART51-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 5 décembre 1968 sur les CCT – art. 51 (hiérarchie des sources)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1",
+   "T2",
+   "T3",
+   "T4",
+   "T5",
+   "T6"
+  ],
+  "date": "1968-12-05",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1968/12/05/1968120503/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-2007-DISCRIM-FR",
+  "path": "01_legislation/be_federal/LAW-BE-2007-DISCRIM-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 10 mai 2007 tendant à lutter contre certaines formes de discrimination – art. 3 à 5, 14",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "2007-05-10",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/2007/05/10/2007002099/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-2005-SECRECY-FR",
+  "path": "01_legislation/be_federal/LAW-BE-2005-SECRECY-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 13 juin 2005 relative aux communications électroniques – art. 124, 125 (secret des communications)",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T6"
+  ],
+  "date": "2005-06-13",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/2005/06/13/2005011238/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-BE-1971-HOLIDAYS-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1971-HOLIDAYS-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Lois coordonnées du 28 juin 1971 relatives aux vacances annuelles – art. 2 à 5",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "date": "1971-06-28",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1971/06/28/1971062850/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "RD-BE-1997-PARENTAL-FR",
+  "path": "01_legislation/be_federal/RD-BE-1997-PARENTAL-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Arrêté royal du 29 octobre 1997 relatif au congé parental",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "date": "1997-10-29",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/arrete/1997/10/29/1997012760/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "CJEU-C-116-08-MEERTS",
+  "path": "02_case_law/CJEU-C-116-08-MEERTS.md",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "CJEU C-116/08 Meerts v Proost (parental leave & dismissal indemnity)",
+  "issuer": "Court of Justice of the European Union",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T4",
+   "T1"
+  ],
+  "date": "2009-10-22",
+  "status": "published",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62008CJ0116",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CJEU-C-7-12-RIEZNIECE",
+  "path": "02_case_law/CJEU-C-7-12-RIEZNIECE.md",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "CJEU C-7/12 Riežniece (assessment of worker returning from parental leave)",
+  "issuer": "Court of Justice of the European Union",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T4",
+   "T5"
+  ],
+  "date": "2013-06-20",
+  "status": "published",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62012CJ0007",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "ECHR-61496-08-BARBULESCU",
+  "path": "02_case_law/ECHR-61496-08-BARBULESCU.docx",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "ECtHR (GC) Bărbulescu v. Romania, no. 61496/08",
+  "issuer": "European Court of Human Rights",
+  "jurisdiction": "COE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "date": "2017-09-05",
+  "status": "published",
+  "source_url": "https://hudoc.echr.coe.int/eng?i=001-177082",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "ECHR-1874-13-LOPEZ-RIBALDA",
+  "path": "02_case_law/ECHR-1874-13-LOPEZ-RIBALDA.docx",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "ECtHR (GC) López Ribalda and Others v. Spain, nos. 1874/13 and 8567/13",
+  "issuer": "European Court of Human Rights",
+  "jurisdiction": "COE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "date": "2019-10-17",
+  "status": "published",
+  "source_url": "https://hudoc.echr.coe.int/eng?i=001-197098",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CCT-BE-109",
+  "path": "03_collective_agreements/CCT-BE-109.pdf",
+  "folder": "03_collective_agreements",
+  "doc_type": "collective_agreement",
+  "title": "CCT n° 109 – motivation du licenciement",
+  "issuer": "Conseil National du Travail (CNT/NAR)",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "date": "2014-02-12",
+  "status": "in_force",
+  "source_url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-109.pdf",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CCT-BE-081",
+  "path": "03_collective_agreements/CCT-BE-081.pdf",
+  "folder": "03_collective_agreements",
+  "doc_type": "collective_agreement",
+  "title": "CCT n° 81 – contrôle des données de communication électroniques en réseau",
+  "issuer": "Conseil National du Travail (CNT/NAR)",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T6"
+  ],
+  "date": "2002-04-26",
+  "status": "in_force",
+  "source_url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-081.pdf",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CCT-BE-085",
+  "path": "03_collective_agreements/CCT-BE-085.pdf",
+  "folder": "03_collective_agreements",
+  "doc_type": "collective_agreement",
+  "title": "CCT n° 85 – télétravail",
+  "issuer": "Conseil National du Travail (CNT/NAR)",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T3"
+  ],
+  "date": "2005-11-09",
+  "status": "in_force",
+  "source_url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-085.pdf",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CCT-BE-149",
+  "path": "03_collective_agreements/CCT-BE-149.pdf",
+  "folder": "03_collective_agreements",
+  "doc_type": "collective_agreement",
+  "title": "CCT n° 149 – télétravail recommandé ou obligatoire",
+  "issuer": "Conseil National du Travail (CNT/NAR)",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T3"
+  ],
+  "date": "2021-01-26",
+  "status": "in_force",
+  "source_url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-149.pdf",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CCT-BE-064",
+  "path": "03_collective_agreements/CCT-BE-064.pdf",
+  "folder": "03_collective_agreements",
+  "doc_type": "collective_agreement",
+  "title": "CCT n° 64 – congé parental",
+  "issuer": "Conseil National du Travail (CNT/NAR)",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "date": "1997-04-29",
+  "status": "in_force",
+  "source_url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-064.pdf",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CCT-BE-045",
+  "path": "03_collective_agreements/CCT-BE-045.pdf",
+  "folder": "03_collective_agreements",
+  "doc_type": "collective_agreement",
+  "title": "CCT n° 45 – congé pour raisons impérieuses",
+  "issuer": "Conseil National du Travail (CNT/NAR)",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "date": "1989-03-19",
+  "status": "in_force",
+  "source_url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-045.pdf",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CCT-BE-100",
+  "path": "03_collective_agreements/CCT-BE-100.pdf",
+  "folder": "03_collective_agreements",
+  "doc_type": "collective_agreement",
+  "title": "CCT n° 100 – politique préventive en matière d'alcool et de drogues",
+  "issuer": "Conseil National du Travail (CNT/NAR)",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "2009-04-01",
+  "status": "in_force",
+  "source_url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-100.pdf",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CCT-BE-025",
+  "path": "03_collective_agreements/CCT-BE-025.pdf",
+  "folder": "03_collective_agreements",
+  "doc_type": "collective_agreement",
+  "title": "CCT n° 25 – égalité des rémunérations hommes/femmes",
+  "issuer": "Conseil National du Travail (CNT/NAR)",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "1975-10-15",
+  "status": "in_force",
+  "source_url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-025.pdf",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CCT-BE-038",
+  "path": "03_collective_agreements/CCT-BE-038.pdf",
+  "folder": "03_collective_agreements",
+  "doc_type": "collective_agreement",
+  "title": "CCT n° 38 – recrutement et sélection (non-discrimination)",
+  "issuer": "Conseil National du Travail (CNT/NAR)",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "1983-12-06",
+  "status": "in_force",
+  "source_url": "https://cnt-nar.be/sites/default/files/documents/CCT-COORD/cct-038.pdf",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "LAW-DE-BGB-626",
+  "path": "01_legislation/foreign/de/LAW-DE-BGB-626.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "BGB § 626 – Fristlose Kündigung aus wichtigem Grund",
+  "issuer": "Bundesministerium der Justiz",
+  "jurisdiction": "DE",
+  "language": "de",
+  "themes": [
+   "T1"
+  ],
+  "date": "2002-01-02",
+  "status": "in_force",
+  "source_url": "https://www.gesetze-im-internet.de/bgb/__626.html",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-DE-ARBZG",
+  "path": "01_legislation/foreign/de/LAW-DE-ARBZG.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Arbeitszeitgesetz (ArbZG) – §§ 1-7",
+  "issuer": "Bundesministerium der Justiz",
+  "jurisdiction": "DE",
+  "language": "de",
+  "themes": [
+   "T2"
+  ],
+  "date": "1994-06-06",
+  "status": "in_force",
+  "source_url": "https://www.gesetze-im-internet.de/arbzg/BJNR117100994.html",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-DE-BEEG-18",
+  "path": "01_legislation/foreign/de/LAW-DE-BEEG-18.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "BEEG § 18 – Kündigungsschutz während der Elternzeit",
+  "issuer": "Bundesministerium der Justiz",
+  "jurisdiction": "DE",
+  "language": "de",
+  "themes": [
+   "T4"
+  ],
+  "date": "2006-12-05",
+  "status": "in_force",
+  "source_url": "https://www.gesetze-im-internet.de/beeg/__18.html",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-NL-BW7-678",
+  "path": "01_legislation/foreign/nl/LAW-NL-BW7-678.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Burgerlijk Wetboek Boek 7 – art. 7:677-7:678 (dringende reden)",
+  "issuer": "Overheid.nl",
+  "jurisdiction": "NL",
+  "language": "nl",
+  "themes": [
+   "T1"
+  ],
+  "date": "2024-01-01",
+  "status": "in_force",
+  "source_url": "https://wetten.overheid.nl/BWBR0005290/2024-01-01/0/Boek7/Titeldeel10/Afdeling9/Artikel678",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-NL-ATW",
+  "path": "01_legislation/foreign/nl/LAW-NL-ATW.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Arbeidstijdenwet – hoofdstuk 5 (arbeids- en rusttijden)",
+  "issuer": "Overheid.nl",
+  "jurisdiction": "NL",
+  "language": "nl",
+  "themes": [
+   "T2"
+  ],
+  "date": "1995-12-23",
+  "status": "in_force",
+  "source_url": "https://wetten.overheid.nl/BWBR0007671/",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-NL-WFW",
+  "path": "01_legislation/foreign/nl/LAW-NL-WFW.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Wet flexibel werken – art. 2 (verzoek aanpassing arbeidsplaats)",
+  "issuer": "Overheid.nl",
+  "jurisdiction": "NL",
+  "language": "nl",
+  "themes": [
+   "T3"
+  ],
+  "date": "2000-02-19",
+  "status": "in_force",
+  "source_url": "https://wetten.overheid.nl/BWBR0011173/",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-FR-L1222-9",
+  "path": "01_legislation/foreign/fr/LAW-FR-L1222-9.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Code du travail (FR) – art. L1222-9 (télétravail)",
+  "issuer": "Ministère du Travail (FR)",
+  "jurisdiction": "FR",
+  "language": "fr",
+  "themes": [
+   "T3"
+  ],
+  "date": "2018-03-29",
+  "status": "in_force",
+  "source_url": "https://code.travail.gouv.fr/code-du-travail/l1222-9",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-FR-L1234-1",
+  "path": "01_legislation/foreign/fr/LAW-FR-L1234-1.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Code du travail (FR) – art. L1234-1 (préavis, faute grave)",
+  "issuer": "Ministère du Travail (FR)",
+  "jurisdiction": "FR",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "date": "2008-05-01",
+  "status": "in_force",
+  "source_url": "https://code.travail.gouv.fr/code-du-travail/l1234-1",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-FR-L1152-1",
+  "path": "01_legislation/foreign/fr/LAW-FR-L1152-1.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Code du travail (FR) – art. L1152-1 (harcèlement moral)",
+  "issuer": "Ministère du Travail (FR)",
+  "jurisdiction": "FR",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "2012-08-08",
+  "status": "in_force",
+  "source_url": "https://code.travail.gouv.fr/code-du-travail/l1152-1",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-UK-ERA-98",
+  "path": "01_legislation/foreign/uk/LAW-UK-ERA-98.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Employment Rights Act 1996 – s. 98 (fairness of dismissal)",
+  "issuer": "legislation.gov.uk",
+  "jurisdiction": "UK",
+  "language": "en",
+  "themes": [
+   "T1"
+  ],
+  "date": "1996-05-22",
+  "status": "in_force",
+  "source_url": "https://www.legislation.gov.uk/ukpga/1996/18/section/98",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-UK-WTR-4",
+  "path": "01_legislation/foreign/uk/LAW-UK-WTR-4.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Working Time Regulations 1998 – reg. 4 (maximum weekly working time)",
+  "issuer": "legislation.gov.uk",
+  "jurisdiction": "UK",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "date": "1998-10-01",
+  "status": "in_force",
+  "source_url": "https://www.legislation.gov.uk/uksi/1998/1833/regulation/4",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "LAW-UK-EQA-26",
+  "path": "01_legislation/foreign/uk/LAW-UK-EQA-26.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Equality Act 2010 – s. 26 (harassment)",
+  "issuer": "legislation.gov.uk",
+  "jurisdiction": "UK",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "date": "2010-04-08",
+  "status": "in_force",
+  "source_url": "https://www.legislation.gov.uk/ukpga/2010/15/section/26",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "GUI-BE-EMPLOI-LICENCIEMENT",
+  "path": "04_official_guidance/GUI-BE-EMPLOI-LICENCIEMENT.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "SPF Emploi – Fin du contrat à durée indéterminée : licenciement",
+  "issuer": "SPF Emploi, Travail et Concertation sociale",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "date": "2014-01-01",
+  "status": "published",
+  "source_url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/fin-du-contrat-de-travail/fin-du-contrat-duree-indeterminee-licenciement",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-EMPLOI-REGLEMENT",
+  "path": "04_official_guidance/GUI-BE-EMPLOI-REGLEMENT.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "SPF Emploi – Règlement de travail",
+  "issuer": "SPF Emploi, Travail et Concertation sociale",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1",
+   "T4",
+   "T6"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/reglement-de-travail",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-EMPLOI-DUREE",
+  "path": "04_official_guidance/GUI-BE-EMPLOI-DUREE.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "SPF Emploi – Durée du travail (secteur privé)",
+  "issuer": "SPF Emploi, Travail et Concertation sociale",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T2"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/duree-du-travail-et-temps-de-repos/duree-du-travail-dans-le",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-EMPLOI-REPOS",
+  "path": "04_official_guidance/GUI-BE-EMPLOI-REPOS.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "SPF Emploi – Intervalles de repos",
+  "issuer": "SPF Emploi, Travail et Concertation sociale",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T2"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://emploi.belgique.be/fr/themes/reglementation-du-travail/duree-du-travail-et-temps-de-repos/intervalles-de-repos",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-EMPLOI-TELETRAVAIL",
+  "path": "04_official_guidance/GUI-BE-EMPLOI-TELETRAVAIL.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "SPF Emploi – Télétravail occasionnel",
+  "issuer": "SPF Emploi, Travail et Concertation sociale",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T3"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/teletravail/teletravail-occasionnel",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-ONSS-TELEWORK",
+  "path": "04_official_guidance/GUI-BE-ONSS-TELEWORK.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "ONSS – Instructions DmfA : télétravail (cas particuliers)",
+  "issuer": "ONSS / RSZ",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T3"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.socialsecurity.be/employer/instructions/dmfa/fr/latest/instructions/special_cases/telework.html",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-EMPLOI-CONGE-PARENTAL",
+  "path": "04_official_guidance/GUI-BE-EMPLOI-CONGE-PARENTAL.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "SPF Emploi – Congé parental",
+  "issuer": "SPF Emploi, Travail et Concertation sociale",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://emploi.belgique.be/fr/themes/jours-feries-et-conges/conge-parental",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-EMPLOI-SUSPENSION",
+  "path": "04_official_guidance/GUI-BE-EMPLOI-SUSPENSION.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "SPF Emploi – Suspension du contrat de travail (incapacité)",
+  "issuer": "SPF Emploi, Travail et Concertation sociale",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://emploi.belgique.be/fr/themes/contrats-de-travail/suspension-du-contrat-de-travail",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-EMPLOI-RPS-ACTION",
+  "path": "04_official_guidance/GUI-BE-EMPLOI-RPS-ACTION.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "SPF Emploi – Risques psychosociaux : moyens d'action du travailleur",
+  "issuer": "SPF Emploi, Travail et Concertation sociale",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://emploi.belgique.be/fr/themes/bien-etre-au-travail/risques-psychosociaux-au-travail/moyens-daction-du-travailleur-la",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-EMPLOI-RPS-REPRESAILLES",
+  "path": "04_official_guidance/GUI-BE-EMPLOI-RPS-REPRESAILLES.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "SPF Emploi – Protection contre les représailles",
+  "issuer": "SPF Emploi, Travail et Concertation sociale",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5",
+   "T1"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://emploi.belgique.be/fr/themes/bien-etre-au-travail/risques-psychosociaux-au-travail/protection-contre-les-represailles",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "GUI-BE-APD-TRAVAIL",
+  "path": "04_official_guidance/GUI-BE-APD-TRAVAIL.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "APD – Vie privée sur le lieu de travail",
+  "issuer": "Autorité de protection des données",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T6"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.autoriteprotectiondonnees.be/citoyen/themes/vie-privee-sur-le-lieu-du-travail",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "EXT-LIANTIS-DECONNECTIE",
+  "path": "13_external_secondary/EXT-LIANTIS-DECONNECTIE.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "Liantis – Arbeidsdeal: deconnectie voor ondernemingen met minstens 20 werknemers",
+  "issuer": "Liantis",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T2"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.liantis.be/nl/nieuws/arbeidsdeal-deconnectie-voor-ondernemingen-met-minstens-20-werknemers",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-ACERTA-OVERUREN",
+  "path": "13_external_secondary/EXT-ACERTA-OVERUREN.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "Acerta – Wetgeving overuren",
+  "issuer": "Acerta",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T2"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.acerta.be/nl/werkgevers/verlonen-en-belonen/loonadministratie/wetgeving-overuren",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-SDWORX-TELEWERK-BUITENLAND",
+  "path": "13_external_secondary/EXT-SDWORX-TELEWERK-BUITENLAND.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "SD Worx – Telewerk vanuit het buitenland: de belangrijkste regels",
+  "issuer": "SD Worx",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T3"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.sdworx.be/nl-be/nieuws-inspiratie/strategisch-duurzaam-hr/telewerk-vanuit-het-buitenland-de-belangrijkste-regels",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-ACERTA-GRENSARBEID",
+  "path": "13_external_secondary/EXT-ACERTA-GRENSARBEID.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "Acerta – Buitenlandse werknemer en grensarbeid",
+  "issuer": "Acerta",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T3"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.acerta.be/nl/werkgevers/aanwerven/vaste-tewerkstelling/buitenlandse-werknemer-en-grensarbeid",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-ACERTA-OUDERSCHAPSVERLOF",
+  "path": "13_external_secondary/EXT-ACERTA-OUDERSCHAPSVERLOF.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "Acerta – Ouderschapsverlof",
+  "issuer": "Acerta",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T4"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.acerta.be/nl/werkgevers/vakantie-en-verlofregeling/bijzondere-verlofstelsels/ouderschapsverlof",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-LIANTIS-HARCELEMENT",
+  "path": "13_external_secondary/EXT-LIANTIS-HARCELEMENT.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "Liantis – Conseils : semaine contre le harcèlement",
+  "issuer": "Liantis",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.liantis.be/fr/nouvelles/conseils-semaine-contre-harcelement",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-LIANTIS-HARCELEMENT-2022",
+  "path": "13_external_secondary/EXT-LIANTIS-HARCELEMENT-2022.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "Liantis – Un collaborateur sur 7 encore confronté au harcèlement",
+  "issuer": "Liantis",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.liantis.be/fr/nouvelles/un-collaborateur-sur-7-encore-confronte-au-harcelement-en-2022",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-SECUREX-CAMERAS",
+  "path": "13_external_secondary/EXT-SECUREX-CAMERAS.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "Securex – Caméras sur votre lieu de travail : respectez les règles vie privée",
+  "issuer": "Securex",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T6"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.securex.be/fr/lex4you/employeur/actualites/cameras-sur-votre-lieu-de-travail-respectez-les-regles-en-matiere-de-vie-privee",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-UCM-CAMERAS",
+  "path": "13_external_secondary/EXT-UCM-CAMERAS.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "UCM – Caméras de surveillance : marche à suivre",
+  "issuer": "UCM",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T6"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.ucm.be/actualites/cameras-de-surveillance-marche-suivre",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "LAW-BE-1996-RETALIATION-FR",
+  "path": "01_legislation/be_federal/LAW-BE-1996-RETALIATION-FR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Loi du 4 août 1996 – art. 32tredecies (Justel : 32terdecies) – protection contre les représailles",
+  "issuer": "SPF Justice – Moniteur belge / Justel",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T5",
+   "T1"
+  ],
+  "date": "1996-08-04",
+  "status": "in_force",
+  "source_url": "https://www.ejustice.just.fgov.be/eli/loi/1996/08/04/1996012650/justel",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "EU-DIR-2003-88-WTD",
+  "path": "01_legislation/eu/EU-DIR-2003-88-WTD.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Directive 2003/88/EC – organisation of working time",
+  "issuer": "Publications Office of the European Union (EUR-Lex / CELLAR)",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T2",
+   "T4"
+  ],
+  "date": "2003-11-04",
+  "status": "in_force",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0088",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "EU-DIR-2019-1158-WLB",
+  "path": "01_legislation/eu/EU-DIR-2019-1158-WLB.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Directive (EU) 2019/1158 – work-life balance for parents and carers",
+  "issuer": "Publications Office of the European Union (EUR-Lex / CELLAR)",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T4",
+   "T5"
+  ],
+  "date": "2019-06-20",
+  "status": "in_force",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019L1158",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "EU-REG-2016-679-GDPR",
+  "path": "01_legislation/eu/EU-REG-2016-679-GDPR.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Regulation (EU) 2016/679 – General Data Protection Regulation (extract)",
+  "issuer": "Publications Office of the European Union (EUR-Lex / CELLAR)",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "date": "2016-04-27",
+  "status": "in_force",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "EU-REG-2004-883-SOCSEC",
+  "path": "01_legislation/eu/EU-REG-2004-883-SOCSEC.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Regulation (EC) No 883/2004 – coordination of social security systems (applicable legislation)",
+  "issuer": "Publications Office of the European Union (EUR-Lex / CELLAR)",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "date": "2004-04-29",
+  "status": "in_force",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32004R0883",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "EU-REG-2008-593-ROME1",
+  "path": "01_legislation/eu/EU-REG-2008-593-ROME1.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Regulation (EC) No 593/2008 – law applicable to contractual obligations (Rome I)",
+  "issuer": "Publications Office of the European Union (EUR-Lex / CELLAR)",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "date": "2008-06-17",
+  "status": "in_force",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R0593",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "EU-DIR-2000-78-EQUAL",
+  "path": "01_legislation/eu/EU-DIR-2000-78-EQUAL.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Directive 2000/78/EC – equal treatment in employment and occupation",
+  "issuer": "Publications Office of the European Union (EUR-Lex / CELLAR)",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "date": "2000-11-27",
+  "status": "in_force",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32000L0078",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "EU-DIR-2006-54-GENDER",
+  "path": "01_legislation/eu/EU-DIR-2006-54-GENDER.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Directive 2006/54/EC – equal treatment of men and women (recast)",
+  "issuer": "Publications Office of the European Union (EUR-Lex / CELLAR)",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T4"
+  ],
+  "date": "2006-07-05",
+  "status": "in_force",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0054",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "EU-CHARTER-2012",
+  "path": "01_legislation/eu/EU-CHARTER-2012.md",
+  "folder": "01_legislation",
+  "doc_type": "legislation",
+  "title": "Charter of Fundamental Rights of the European Union (extract)",
+  "issuer": "Publications Office of the European Union (EUR-Lex / CELLAR)",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T1",
+   "T2",
+   "T4",
+   "T6"
+  ],
+  "date": "2012-10-26",
+  "status": "in_force",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT",
+  "synthetic": false,
+  "base_weight": 1.0
+ },
+ {
+  "id": "CJEU-C-55-18-CCOO",
+  "path": "02_case_law/CJEU-C-55-18-CCOO.md",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "CJEU C-55/18 CCOO v Deutsche Bank (time recording)",
+  "issuer": "Court of Justice of the European Union",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "date": "2019-05-14",
+  "status": "published",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0055",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CJEU-C-518-15-MATZAK",
+  "path": "02_case_law/CJEU-C-518-15-MATZAK.md",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "CJEU C-518/15 Ville de Nivelles v Matzak (stand-by time)",
+  "issuer": "Court of Justice of the European Union",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "date": "2018-02-21",
+  "status": "published",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62015CJ0518",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CJEU-C-580-19-OFFENBACH",
+  "path": "02_case_law/CJEU-C-580-19-OFFENBACH.md",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "CJEU C-580/19 RJ v Stadt Offenbach am Main (stand-by time)",
+  "issuer": "Court of Justice of the European Union",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "date": "2021-03-09",
+  "status": "published",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62019CJ0580",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CJEU-C-684-16-MAXPLANCK",
+  "path": "02_case_law/CJEU-C-684-16-MAXPLANCK.md",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "CJEU C-684/16 Max-Planck-Gesellschaft v Shimizu (annual leave)",
+  "issuer": "Court of Justice of the European Union",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T4"
+  ],
+  "date": "2018-11-06",
+  "status": "published",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62016CJ0684",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CJEU-C-610-18-AFMB",
+  "path": "02_case_law/CJEU-C-610-18-AFMB.md",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "CJEU C-610/18 AFMB (identification of employer, Reg. 883/2004)",
+  "issuer": "Court of Justice of the European Union",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "date": "2020-07-16",
+  "status": "published",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0610",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "CJEU-C-17-19-BOUYGUES",
+  "path": "02_case_law/CJEU-C-17-19-BOUYGUES.md",
+  "folder": "02_case_law",
+  "doc_type": "case_law",
+  "title": "CJEU C-17/19 Bouygues travaux publics (A1 certificates)",
+  "issuer": "Court of Justice of the European Union",
+  "jurisdiction": "EU",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "date": "2020-05-14",
+  "status": "published",
+  "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62019CJ0017",
+  "synthetic": false,
+  "base_weight": 0.9
+ },
+ {
+  "id": "GUI-BE-APD-SURVEILLANCE",
+  "path": "04_official_guidance/GUI-BE-APD-SURVEILLANCE.md",
+  "folder": "04_official_guidance",
+  "doc_type": "official_guidance",
+  "title": "APD – Vie privée au travail : la surveillance de l'employeur",
+  "issuer": "Autorité de protection des données",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T6"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.autoriteprotectiondonnees.be/citoyen/themes/vie-privee-sur-le-lieu-du-travail/surveillance-de-l-employeur-",
+  "synthetic": false,
+  "base_weight": 0.8
+ },
+ {
+  "id": "EXT-SDWORX-TELEWERK-BUITENLAND-2021",
+  "path": "13_external_secondary/EXT-SDWORX-TELEWERK-BUITENLAND-2021.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "SD Worx (2021) – Telewerken vanuit het buitenland: op reis met je laptop?",
+  "issuer": "SD Worx",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T3"
+  ],
+  "date": "2021-06-29",
+  "status": "published",
+  "source_url": "https://www.sdworx.be/nl-be/over-sd-worx/pers/2021-06-29-telewerken-vanuit-het-buitenland-op-reis-met-je-laptop-check-de-meest",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-UCM-CONGE-PARENTAL-ACCUEIL",
+  "path": "13_external_secondary/EXT-UCM-CONGE-PARENTAL-ACCUEIL.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "UCM – Congé d'adoption et congé parental d'accueil : extension depuis 2025",
+  "issuer": "UCM",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.ucm.be/actualites/conge-dadoption-et-conge-parental-daccueil-extension-depuis-le-1er-janvier-2025",
+  "synthetic": false,
+  "base_weight": 0.35
+ },
+ {
+  "id": "EXT-ACERTA-DRINGENDE-REDEN",
+  "path": "13_external_secondary/EXT-ACERTA-DRINGENDE-REDEN.md",
+  "folder": "13_external_secondary",
+  "doc_type": "secondary_article",
+  "title": "Acerta – Een werknemer om dringende redenen ontslaan zonder opzeg noch vergoeding: kan dat?",
+  "issuer": "Acerta",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T1"
+  ],
+  "date": "2026-09-30",
+  "status": "published",
+  "source_url": "https://www.acerta.be/nl/inspiratie/een-werknemer-om-dringende-redenen-ontslaan-zonder-opzeg-noch-vergoeding-kan-dat",
+  "synthetic": false,
+  "base_weight": 0.35
+ }
+]

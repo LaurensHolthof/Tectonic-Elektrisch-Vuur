@@ -1,0 +1,25 @@
+{
+ "_dataset_note": "Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.",
+ "requisition": "REQ-2026-044",
+ "created": "2026-08-12",
+ "created_by": "t.verhaegen",
+ "hiring_manager": "a.goossens",
+ "position": "Junior Consultant",
+ "team": "Consulting – Antwerp",
+ "headcount": 1,
+ "type": "replacement",
+ "replaces": "E1080 (seat to be vacated Q4 2026)",
+ "budget_status": "within approved 2026 headcount – no reduction",
+ "target_start": "2026-11-02",
+ "approvals": [
+  {
+   "by": "a.goossens",
+   "on": "2026-08-13"
+  },
+  {
+   "by": "c.lemaire",
+   "on": "2026-08-14"
+  }
+ ],
+ "published": "2026-09-02"
+}

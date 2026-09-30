@@ -1,0 +1,13 @@
+From: IT Service Desk <servicedesk@tectonic-solutions.be>
+To: all-staff@tectonic-solutions.be
+Date: Tue, 14 Apr 2026 15:00:00 +0200
+Subject: Planned maintenance – VPN gateway
+Message-ID: <noise-02@tectonic-solutions.be>
+X-Dataset-Note: Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+The VPN gateway GlobalProtect-BXL will be unavailable on Saturday 18 April from 06:00 to 08:00 for a firmware upgrade. On-call engineers: use the backup gateway ANT.
+
+IT Service Desk

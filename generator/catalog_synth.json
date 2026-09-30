@@ -1,0 +1,3471 @@
+[
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "Règlement de travail – Tectonic Solutions SA (version 2025)",
+  "doc_type": "work_regulations",
+  "author": "Tectonic Solutions SA – Direction des Ressources Humaines",
+  "author_role": "employer (adopted per Law of 8 April 1965)",
+  "date": "2025-03-01",
+  "effective_from": "2025-03-01",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1",
+   "T2",
+   "T4",
+   "T6"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "work_regulations",
+  "supersedes": "POL-WORKREG-2019-FR",
+  "related_questions": [
+   "Q01",
+   "Q07",
+   "Q02"
+  ],
+  "id": "POL-WORKREG-2025-FR",
+  "path": "05_company_policies/POL-WORKREG-2025-FR.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "Arbeidsreglement – Tectonic Solutions NV (versie 2025)",
+  "doc_type": "work_regulations",
+  "author": "Tectonic Solutions NV – Directie Human Resources",
+  "author_role": "employer (adopted per Law of 8 April 1965)",
+  "date": "2025-03-01",
+  "effective_from": "2025-03-01",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T1",
+   "T2",
+   "T4",
+   "T6"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "work_regulations",
+  "related_questions": [
+   "Q02",
+   "Q05",
+   "Q07"
+  ],
+  "id": "POL-WORKREG-2025-NL",
+  "path": "05_company_policies/POL-WORKREG-2025-NL.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "docx",
+  "title": "Employee Handbook – version 3 (2026)",
+  "doc_type": "handbook",
+  "author": "HR Department (Tom Verhaegen, editor)",
+  "author_role": "HR Business Partner",
+  "date": "2026-01-15",
+  "effective_from": "2026-01-15",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2",
+   "T4",
+   "T1"
+  ],
+  "status": "active",
+  "signed": false,
+  "formality": "internal_guideline",
+  "supersedes": "POL-HANDBOOK-v2-2024",
+  "related_questions": [
+   "Q02",
+   "Q07"
+  ],
+  "id": "POL-HANDBOOK-v3-2026",
+  "path": "05_company_policies/POL-HANDBOOK-v3-2026.docx",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "Disciplinary Procedure",
+  "doc_type": "policy",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2024-05-02",
+  "effective_from": "2024-06-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "related_questions": [
+   "Q01",
+   "Q07"
+  ],
+  "id": "POL-DISCIPLINARY-2024",
+  "path": "05_company_policies/POL-DISCIPLINARY-2024.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "Overtime & Working Time Policy",
+  "doc_type": "policy",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2024-02-12",
+  "effective_from": "2024-03-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "related_questions": [
+   "Q02",
+   "Q08"
+  ],
+  "id": "POL-OVERTIME-2024",
+  "path": "05_company_policies/POL-OVERTIME-2024.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "On-call & Stand-by Policy (Support)",
+  "doc_type": "policy",
+  "author": "Nicolas Hubert",
+  "author_role": "Support Manager (approved by HR Director)",
+  "date": "2025-01-20",
+  "effective_from": "2025-02-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "related_questions": [
+   "Q08"
+  ],
+  "id": "POL-ONCALL-2025",
+  "path": "05_company_policies/POL-ONCALL-2025.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "md",
+  "title": "Hybrid Work & Disconnection Guidelines",
+  "doc_type": "guideline",
+  "author": "HR Department",
+  "author_role": "HR",
+  "date": "2023-04-03",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2",
+   "T3"
+  ],
+  "status": "active",
+  "signed": false,
+  "formality": "internal_guideline",
+  "related_questions": [
+   "Q02",
+   "Q08"
+  ],
+  "id": "POL-HYBRID-DISCONNECT-2023",
+  "path": "05_company_policies/POL-HYBRID-DISCONNECT-2023.md",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "Telework & International Remote Work Policy – v2",
+  "doc_type": "policy",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2026-02-01",
+  "effective_from": "2026-02-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "supersedes": "POL-TELEWORK-v1-2023",
+  "related_questions": [
+   "Q03",
+   "Q07"
+  ],
+  "id": "POL-TELEWORK-v2-2026",
+  "path": "05_company_policies/POL-TELEWORK-v2-2026.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "md",
+  "title": "Home Office Allowance Policy",
+  "doc_type": "policy",
+  "author": "Nadia Benali",
+  "author_role": "HR & Payroll Officer",
+  "date": "2025-01-06",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "active",
+  "signed": false,
+  "formality": "policy_approved_by_management",
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "POL-HOMEOFFICE-ALLOWANCE-2025",
+  "path": "05_company_policies/POL-HOMEOFFICE-ALLOWANCE-2025.md",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "Leave Policy – v2",
+  "doc_type": "policy",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2025-01-13",
+  "effective_from": "2025-02-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T4"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "supersedes": "POL-LEAVE-v1-2022",
+  "related_questions": [
+   "Q04",
+   "Q10"
+  ],
+  "id": "POL-LEAVE-v2-2025",
+  "path": "05_company_policies/POL-LEAVE-v2-2025.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "md",
+  "title": "Sickness Absence Procedure",
+  "doc_type": "procedure",
+  "author": "Nadia Benali",
+  "author_role": "HR & Payroll Officer",
+  "date": "2025-03-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T4"
+  ],
+  "status": "active",
+  "signed": false,
+  "formality": "procedure_implementing_work_regulations",
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "POL-SICKNESS-2025",
+  "path": "05_company_policies/POL-SICKNESS-2025.md",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "Psychosocial Risk Prevention & Anti-Harassment Policy",
+  "doc_type": "policy",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director (after opinion of the CPPT)",
+  "date": "2024-09-16",
+  "effective_from": "2024-10-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "supersedes": "POL-ANTIHARASSMENT-2017",
+  "related_questions": [
+   "Q05",
+   "Q09"
+  ],
+  "id": "POL-ANTIHARASSMENT-2024",
+  "path": "05_company_policies/POL-ANTIHARASSMENT-2024.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "md",
+  "title": "Diversity & Non-Discrimination Policy",
+  "doc_type": "policy",
+  "author": "HR Department",
+  "author_role": "HR",
+  "date": "2024-03-08",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T4"
+  ],
+  "status": "active",
+  "signed": false,
+  "formality": "policy_approved_by_management",
+  "related_questions": [
+   "Q10"
+  ],
+  "id": "POL-DIVERSITY-2024",
+  "path": "05_company_policies/POL-DIVERSITY-2024.md",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "Performance Management & Bonus Policy",
+  "doc_type": "policy",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2025-01-06",
+  "effective_from": "2025-01-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T4"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "related_questions": [
+   "Q09",
+   "Q10"
+  ],
+  "id": "POL-PERFORMANCE-BONUS-2025",
+  "path": "05_company_policies/POL-PERFORMANCE-BONUS-2025.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "IT Acceptable Use & Monitoring Policy",
+  "doc_type": "policy",
+  "author": "Kristof Janssens",
+  "author_role": "IT Security Manager",
+  "date": "2024-04-15",
+  "effective_from": "2024-05-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "supersedes": "POL-IT-2019",
+  "related_questions": [
+   "Q06",
+   "Q01",
+   "Q08"
+  ],
+  "id": "POL-IT-2024",
+  "path": "05_company_policies/POL-IT-2024.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "md",
+  "title": "Data Loss Prevention (DLP) Standard",
+  "doc_type": "standard",
+  "author": "Kristof Janssens",
+  "author_role": "IT Security Manager",
+  "date": "2025-06-02",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6",
+   "T1"
+  ],
+  "status": "active",
+  "signed": false,
+  "formality": "technical_standard",
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "POL-DLP-2025",
+  "path": "05_company_policies/POL-DLP-2025.md",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "md",
+  "title": "Confidential Information Policy",
+  "doc_type": "policy",
+  "author": "Isabelle Moreau",
+  "author_role": "Legal Counsel",
+  "date": "2024-01-22",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1",
+   "T6"
+  ],
+  "status": "active",
+  "signed": false,
+  "formality": "policy_approved_by_management",
+  "related_questions": [
+   "Q01",
+   "Q06"
+  ],
+  "id": "POL-CONFIDENTIALITY-2024",
+  "path": "05_company_policies/POL-CONFIDENTIALITY-2024.md",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies",
+  "format": "pdf",
+  "title": "Employee Privacy Notice (GDPR)",
+  "doc_type": "privacy_notice",
+  "author": "Isabelle Moreau",
+  "author_role": "Legal Counsel / privacy contact",
+  "date": "2025-05-20",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "active",
+  "signed": false,
+  "formality": "legal_notice",
+  "related_questions": [
+   "Q06",
+   "Q08"
+  ],
+  "id": "POL-PRIVACY-NOTICE-EMPLOYEES-2025",
+  "path": "05_company_policies/POL-PRIVACY-NOTICE-EMPLOYEES-2025.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies/archive",
+  "format": "pdf",
+  "title": "Leave Policy – v1 (2022) [SUPERSEDED]",
+  "doc_type": "policy",
+  "author": "HR Department",
+  "author_role": "HR",
+  "date": "2022-01-10",
+  "effective_from": "2022-01-10",
+  "effective_to": "2025-01-31",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T4"
+  ],
+  "status": "superseded",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "superseded_by": "POL-LEAVE-v2-2025",
+  "related_questions": [
+   "Q04"
+  ],
+  "id": "POL-LEAVE-v1-2022",
+  "path": "05_company_policies/archive/POL-LEAVE-v1-2022.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies/archive",
+  "format": "pdf",
+  "title": "Telework Policy – v1 (2023) [SUPERSEDED]",
+  "doc_type": "policy",
+  "author": "HR Department",
+  "author_role": "HR",
+  "date": "2023-01-09",
+  "effective_from": "2023-01-09",
+  "effective_to": "2026-01-31",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "superseded",
+  "signed": true,
+  "formality": "policy_approved_by_management",
+  "superseded_by": "POL-TELEWORK-v2-2026",
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "POL-TELEWORK-v1-2023",
+  "path": "05_company_policies/archive/POL-TELEWORK-v1-2023.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies/archive",
+  "format": "docx",
+  "title": "Employee Handbook – version 2 (2024) [SUPERSEDED]",
+  "doc_type": "handbook",
+  "author": "HR Department",
+  "author_role": "HR",
+  "date": "2024-01-15",
+  "effective_from": "2024-01-15",
+  "effective_to": "2026-01-14",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2",
+   "T4"
+  ],
+  "status": "superseded",
+  "signed": false,
+  "formality": "internal_guideline",
+  "superseded_by": "POL-HANDBOOK-v3-2026",
+  "related_questions": [
+   "Q02",
+   "Q07"
+  ],
+  "id": "POL-HANDBOOK-v2-2024",
+  "path": "05_company_policies/archive/POL-HANDBOOK-v2-2024.docx",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies/archive",
+  "format": "pdf",
+  "title": "Règlement de travail – Tectonic Solutions SA (version 2019) [REMPLACÉ]",
+  "doc_type": "work_regulations",
+  "author": "Tectonic Solutions SA",
+  "author_role": "employer",
+  "date": "2019-06-01",
+  "effective_from": "2019-06-01",
+  "effective_to": "2025-02-28",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1",
+   "T4"
+  ],
+  "status": "superseded",
+  "signed": true,
+  "formality": "work_regulations",
+  "superseded_by": "POL-WORKREG-2025-FR",
+  "related_questions": [
+   "Q01",
+   "Q07"
+  ],
+  "id": "POL-WORKREG-2019-FR",
+  "path": "05_company_policies/archive/POL-WORKREG-2019-FR.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies/archive",
+  "format": "md",
+  "title": "IT Charter (2019) [SUPERSEDED]",
+  "doc_type": "policy",
+  "author": "IT Department",
+  "author_role": "IT",
+  "date": "2019-03-01",
+  "effective_to": "2024-04-30",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "superseded",
+  "signed": false,
+  "formality": "internal_guideline",
+  "superseded_by": "POL-IT-2024",
+  "related_questions": [
+   "Q06"
+  ],
+  "id": "POL-IT-2019",
+  "path": "05_company_policies/archive/POL-IT-2019.md",
+  "synthetic": true
+ },
+ {
+  "folder": "05_company_policies/archive",
+  "format": "md",
+  "title": "Anti-Harassment Procedure (2017) [SUPERSEDED]",
+  "doc_type": "procedure",
+  "author": "HR Department",
+  "author_role": "HR",
+  "date": "2017-02-01",
+  "effective_to": "2024-09-30",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "status": "superseded",
+  "signed": false,
+  "formality": "internal_guideline",
+  "superseded_by": "POL-ANTIHARASSMENT-2024",
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "POL-ANTIHARASSMENT-2017",
+  "path": "05_company_policies/archive/POL-ANTIHARASSMENT-2017.md",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Contrat de travail d'employé à durée indéterminée – Marc Dubois",
+  "doc_type": "employment_contract",
+  "author": "Tectonic Solutions SA / Marc Dubois",
+  "author_role": "employer and employee (signed by both)",
+  "date": "2017-08-21",
+  "effective_from": "2017-09-01",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1",
+   "T6"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "CTR-E1042-CONTRACT",
+  "path": "06_contracts/CTR-E1042-CONTRACT.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Notification du congé pour motif grave – Marc Dubois (16/03/2026)",
+  "doc_type": "dismissal_letter",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2026-03-16",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_letter",
+  "related_employees": [
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "LTR-Q01-01",
+  "path": "06_contracts/LTR-Q01-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Lettre recommandée – motifs du congé pour motif grave – Marc Dubois (19/03/2026)",
+  "doc_type": "dismissal_reasons_letter",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2026-03-19",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1",
+   "T6"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "registered_letter",
+  "related_employees": [
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "LTR-Q01-02",
+  "path": "06_contracts/LTR-Q01-02.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Arbeidsovereenkomst voor bedienden van onbepaalde duur – Sofie Claes",
+  "doc_type": "employment_contract",
+  "author": "Tectonic Solutions NV / Sofie Claes",
+  "author_role": "employer and employee",
+  "date": "2019-01-28",
+  "effective_from": "2019-02-11",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T2"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1057"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "CTR-E1057-CONTRACT",
+  "path": "06_contracts/CTR-E1057-CONTRACT.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Bijlage bij de arbeidsovereenkomst – promotie Project Lead (M1) – Sofie Claes",
+  "doc_type": "contract_amendment",
+  "author": "Tectonic Solutions NV / Sofie Claes",
+  "author_role": "employer and employee",
+  "date": "2025-12-15",
+  "effective_from": "2026-01-01",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T2"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1057",
+   "E1011"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "CTR-E1057-AMD-2026",
+  "path": "06_contracts/CTR-E1057-AMD-2026.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "docx",
+  "title": "Structural Telework Annex (CCT n° 85) – Pieter De Smet",
+  "doc_type": "telework_annex",
+  "author": "Tectonic Solutions SA / Pieter De Smet",
+  "author_role": "employer and employee",
+  "date": "2024-03-18",
+  "effective_from": "2024-04-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1063",
+   "E1012"
+  ],
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "CTR-E1063-TELEWORK-ANNEX",
+  "path": "06_contracts/CTR-E1063-TELEWORK-ANNEX.docx",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Contrat de travail d'employée – Lina Haddad",
+  "doc_type": "employment_contract",
+  "author": "Tectonic Solutions SA / Lina Haddad",
+  "author_role": "employer and employee",
+  "date": "2021-02-15",
+  "effective_from": "2021-03-01",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1071",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q04",
+   "Q10"
+  ],
+  "id": "CTR-E1071-CONTRACT",
+  "path": "06_contracts/CTR-E1071-CONTRACT.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Avenant – réduction des prestations d'1/5 (congé parental) – Lina Haddad",
+  "doc_type": "contract_amendment",
+  "author": "Catherine Lemaire / Lina Haddad",
+  "author_role": "employer and employee",
+  "date": "2026-04-30",
+  "effective_from": "2026-06-01",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1071",
+   "E1001"
+  ],
+  "related_questions": [
+   "Q04",
+   "Q10"
+  ],
+  "id": "CTR-E1071-AMD-PARENTAL",
+  "path": "06_contracts/CTR-E1071-AMD-PARENTAL.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Arbeidsovereenkomst voor bedienden – Emma Vandenberghe",
+  "doc_type": "employment_contract",
+  "author": "Tectonic Solutions NV / Emma Vandenberghe",
+  "author_role": "employer and employee",
+  "date": "2023-08-14",
+  "effective_from": "2023-09-04",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5"
+  ],
+  "status": "terminated",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1080"
+  ],
+  "related_questions": [
+   "Q05",
+   "Q09"
+  ],
+  "id": "CTR-E1080-CONTRACT",
+  "path": "06_contracts/CTR-E1080-CONTRACT.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Ontslagbrief met opzegging – Emma Vandenberghe (31/08/2026)",
+  "doc_type": "dismissal_letter",
+  "author": "Tom Verhaegen",
+  "author_role": "HR Business Partner",
+  "date": "2026-08-31",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5",
+   "T1"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "registered_letter",
+  "related_employees": [
+   "E1080",
+   "E1002"
+  ],
+  "related_questions": [
+   "Q09"
+  ],
+  "id": "CTR-Q09-01",
+  "path": "06_contracts/CTR-Q09-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "IT Charter – signed contract annex – Jan Peeters",
+  "doc_type": "contract_annex",
+  "author": "Tectonic Solutions SA / Jan Peeters",
+  "author_role": "employer and employee",
+  "date": "2021-01-04",
+  "effective_from": "2021-01-04",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1090"
+  ],
+  "related_questions": [
+   "Q06"
+  ],
+  "id": "CTR-Q06-01",
+  "path": "06_contracts/CTR-Q06-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Contrat de travail d'employé – Luc Schmit (travailleur frontalier)",
+  "doc_type": "employment_contract",
+  "author": "Tectonic Solutions SA / Luc Schmit",
+  "author_role": "employer and employee",
+  "date": "2022-04-11",
+  "effective_from": "2022-05-02",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T3",
+   "T4"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1095",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "CTR-E1095-CONTRACT",
+  "path": "06_contracts/CTR-E1095-CONTRACT.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "06_contracts",
+  "format": "pdf",
+  "title": "Avenant – participation au rôle de garde (on-call) – Ahmed Karimi",
+  "doc_type": "contract_amendment",
+  "author": "Tectonic Solutions SA / Ahmed Karimi",
+  "author_role": "employer and employee",
+  "date": "2025-01-27",
+  "effective_from": "2025-02-01",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T2"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "written_individual_contract",
+  "related_employees": [
+   "E1102",
+   "E1016"
+  ],
+  "related_questions": [
+   "Q08"
+  ],
+  "id": "CTR-E1102-ONCALL-ANNEX",
+  "path": "06_contracts/CTR-E1102-ONCALL-ANNEX.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "DLP alert log – week 10/2026 (extract)",
+  "doc_type": "security_log",
+  "author": "Microsoft Purview DLP – export by IT Security",
+  "author_role": "system_record",
+  "date": "2026-03-06",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1",
+   "T6"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1042",
+   "E1005"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "REC-Q01-01",
+  "path": "07_official_records/REC-Q01-01.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "json",
+  "title": "IT service desk ticket INC-20931 – VPN instability (Marc Dubois)",
+  "doc_type": "it_ticket",
+  "author": "ServiceDesk (ITSM) – export",
+  "author_role": "system_record",
+  "date": "2026-03-02",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "REC-Q01-02",
+  "path": "07_official_records/REC-Q01-02.json",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "pdf",
+  "title": "Form HR-INT-01 – International remote work request – Pieter De Smet",
+  "doc_type": "hr_form",
+  "author": "Pieter De Smet",
+  "author_role": "employee (form submitted on HR portal)",
+  "date": "2026-08-20",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "submitted",
+  "signed": true,
+  "formality": "hr_form",
+  "related_employees": [
+   "E1063",
+   "E1012",
+   "E1002"
+  ],
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "REC-Q03-01",
+  "path": "07_official_records/REC-Q03-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "HRIS leave request register – parental leave 2026 (extract)",
+  "doc_type": "hris_log",
+  "author": "HRIS (Workday-style system) – export by HR",
+  "author_role": "system_record",
+  "date": "2026-05-02",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T4"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1071",
+   "E1003",
+   "E1013",
+   "E1001"
+  ],
+  "related_questions": [
+   "Q04"
+  ],
+  "id": "REC-Q04-01",
+  "path": "07_official_records/REC-Q04-01.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "png",
+  "title": "Certificat médical d'incapacité de travail – Luc Schmit (scan)",
+  "doc_type": "medical_certificate",
+  "author": "Dr. Anne Weber, médecin généraliste, Esch-sur-Alzette (LU)",
+  "author_role": "physician (external)",
+  "date": "2026-09-07",
+  "jurisdiction": "LU",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "medical_certificate",
+  "letterhead": false,
+  "related_employees": [
+   "E1095"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "REC-Q07-01",
+  "path": "07_official_records/REC-Q07-01.png",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "Absence register 2026 – Luc Schmit (E1095)",
+  "doc_type": "hris_log",
+  "author": "HRIS – export by HR",
+  "author_role": "system_record",
+  "date": "2026-09-11",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T4"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1095"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "REC-Q07-02",
+  "path": "07_official_records/REC-Q07-02.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "Company mobile call log – Olivier Lambert – 07/09/2026",
+  "doc_type": "phone_log",
+  "author": "Mobile operator business portal – export",
+  "author_role": "system_record",
+  "date": "2026-09-10",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T4"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1013",
+   "E1095"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "REC-Q07-03",
+  "path": "07_official_records/REC-Q07-03.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "pdf",
+  "title": "Avertissement écrit – Luc Schmit (16/02/2026)",
+  "doc_type": "written_warning",
+  "author": "Olivier Lambert / Tom Verhaegen",
+  "author_role": "manager and HR Business Partner",
+  "date": "2026-02-16",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4",
+   "T1"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_letter",
+  "related_employees": [
+   "E1095",
+   "E1013",
+   "E1002"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "REC-Q07-04",
+  "path": "07_official_records/REC-Q07-04.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "json",
+  "title": "Hiring requisition REQ-2026-044 – Junior Consultant Antwerp",
+  "doc_type": "hiring_requisition",
+  "author": "HRIS recruitment module – export",
+  "author_role": "system_record",
+  "date": "2026-08-12",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T1"
+  ],
+  "status": "approved",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1080",
+   "E1017",
+   "E1002"
+  ],
+  "related_questions": [
+   "Q09"
+  ],
+  "id": "REC-Q09-01",
+  "path": "07_official_records/REC-Q09-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "Bonus calculation 2026 (mid-year component) – Marketing Liège",
+  "doc_type": "payroll",
+  "author": "HR – Nadia Benali",
+  "author_role": "HR & Payroll Officer",
+  "date": "2026-07-25",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T4"
+  ],
+  "status": "draft",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1071",
+   "E1013",
+   "E1003"
+  ],
+  "related_questions": [
+   "Q10"
+  ],
+  "id": "REC-Q10-02",
+  "path": "07_official_records/REC-Q10-02.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "Exchange mailbox audit log – mailbox j.peeters – 02/06/2026",
+  "doc_type": "security_log",
+  "author": "Microsoft 365 unified audit log – export by IT Security",
+  "author_role": "system_record",
+  "date": "2026-06-03",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1090",
+   "E1005",
+   "E1015"
+  ],
+  "related_questions": [
+   "Q06"
+  ],
+  "id": "REC-Q06-01",
+  "path": "07_official_records/REC-Q06-01.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "pdf",
+  "title": "Accusé de réception – demande d'intervention psychosociale formelle (PreviSafe)",
+  "doc_type": "receipt",
+  "author": "PreviSafe Services – prevention adviser psychosocial aspects",
+  "author_role": "external prevention adviser",
+  "date": "2025-11-18",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "official_receipt",
+  "letterhead": false,
+  "related_employees": [
+   "E1080",
+   "E1014"
+  ],
+  "related_questions": [
+   "Q05",
+   "Q09"
+  ],
+  "id": "REC-Q05-01",
+  "path": "07_official_records/REC-Q05-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "Timesheet export H1 2026 – Sofie Claes (E1057)",
+  "doc_type": "timesheet",
+  "author": "Timesheet tool (TimeTrack) – export by HR",
+  "author_role": "system_record",
+  "date": "2026-07-06",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1057",
+   "E1011"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "REC-Q02-01",
+  "path": "07_official_records/REC-Q02-01.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "Badge access log Antwerp office H1 2026 – E1057",
+  "doc_type": "badge_log",
+  "author": "Access control system (Facility)",
+  "author_role": "system_record",
+  "date": "2026-07-06",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1057"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "REC-Q02-02",
+  "path": "07_official_records/REC-Q02-02.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "Payroll summary H1 2026 – Sofie Claes",
+  "doc_type": "payroll",
+  "author": "Paycore Social Secretariat",
+  "author_role": "system_record",
+  "date": "2026-07-02",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1057"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "REC-Q02-03",
+  "path": "07_official_records/REC-Q02-03.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "VPN connection log (GlobalProtect) – a.karimi – on-call weeks Apr–Jun 2026",
+  "doc_type": "security_log",
+  "author": "IT Security – GlobalProtect gateway",
+  "author_role": "system_record",
+  "date": "2026-07-10",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2",
+   "T6"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1102",
+   "E1005"
+  ],
+  "related_questions": [
+   "Q08"
+  ],
+  "id": "REC-Q08-01",
+  "path": "07_official_records/REC-Q08-01.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "Timesheet corrections log – on-call weeks – Ahmed Karimi",
+  "doc_type": "timesheet",
+  "author": "Timesheet tool (TimeTrack) – audit trail",
+  "author_role": "system_record",
+  "date": "2026-07-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1102",
+   "E1016"
+  ],
+  "related_questions": [
+   "Q08"
+  ],
+  "id": "REC-Q08-02",
+  "path": "07_official_records/REC-Q08-02.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "07_official_records",
+  "format": "csv",
+  "title": "Marketing KPI export Jan–Jun 2026 – Liège team",
+  "doc_type": "kpi_export",
+  "author": "Marketing automation platform – export by HR",
+  "author_role": "system_record",
+  "date": "2026-07-20",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T4",
+   "T5"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "system_record",
+  "related_employees": [
+   "E1071",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q10"
+  ],
+  "id": "REC-Q10-01",
+  "path": "07_official_records/REC-Q10-01.csv",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "pdf",
+  "title": "HR investigation report – data transfer by Marc Dubois",
+  "doc_type": "investigation_report",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director (competent to dismiss)",
+  "date": "2026-03-13",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1",
+   "T6"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_report",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1042",
+   "E1001",
+   "E1010",
+   "E1005"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "INV-Q01-01",
+  "path": "08_investigations/INV-Q01-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "pdf",
+  "title": "IT forensic report – account m.dubois",
+  "doc_type": "forensic_report",
+  "author": "Kristof Janssens",
+  "author_role": "IT Security Manager",
+  "date": "2026-03-11",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1",
+   "T6"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_report",
+  "related_employees": [
+   "E1042",
+   "E1005"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "INV-Q01-02",
+  "path": "08_investigations/INV-Q01-02.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "docx",
+  "title": "Procès-verbal d'audition – Marc Dubois (12/03/2026)",
+  "doc_type": "hearing_minutes",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2026-03-12",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "minutes_not_signed_by_employee",
+  "related_employees": [
+   "E1042",
+   "E1001",
+   "E1043"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "INV-Q01-03",
+  "path": "08_investigations/INV-Q01-03.docx",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "pdf",
+  "title": "Advies van de preventieadviseur psychosociale aspecten – formeel verzoek E. Vandenberghe",
+  "doc_type": "prevention_adviser_opinion",
+  "author": "Karen Dewolf (PreviSafe Services)",
+  "author_role": "external prevention adviser psychosocial aspects",
+  "date": "2026-02-10",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "statutory_opinion",
+  "letterhead": false,
+  "related_employees": [
+   "E1080",
+   "E1014",
+   "E1081",
+   "E1082"
+  ],
+  "related_questions": [
+   "Q05",
+   "Q09"
+  ],
+  "id": "INV-Q05-01",
+  "path": "08_investigations/INV-Q05-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "md",
+  "title": "HR note – Emma / Bart situation",
+  "doc_type": "hr_note",
+  "author": "Tom Verhaegen",
+  "author_role": "HR Business Partner",
+  "date": "2025-10-09",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "status": "informal",
+  "signed": false,
+  "formality": "informal_note",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1080",
+   "E1014",
+   "E1002"
+  ],
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "INV-Q05-02",
+  "path": "08_investigations/INV-Q05-02.md",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "pdf",
+  "title": "Internal memo – press leak of budget figures",
+  "doc_type": "internal_memo",
+  "author": "Sarah Lefèvre",
+  "author_role": "CFO",
+  "date": "2026-06-04",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "internal_memo",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1090",
+   "E1015",
+   "E1005"
+  ],
+  "related_questions": [
+   "Q06"
+  ],
+  "id": "INV-Q06-01",
+  "path": "08_investigations/INV-Q06-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "md",
+  "title": "HR review – overtime claim Sofie Claes",
+  "doc_type": "hr_review",
+  "author": "Tom Verhaegen",
+  "author_role": "HR Business Partner",
+  "date": "2026-07-08",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "internal_memo",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1057",
+   "E1011",
+   "E1002"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "INV-Q02-01",
+  "path": "08_investigations/INV-Q02-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "pdf",
+  "title": "Legal memo – international remote work request P. De Smet (Lyon)",
+  "doc_type": "legal_memo",
+  "author": "Isabelle Moreau",
+  "author_role": "Legal Counsel",
+  "date": "2026-08-27",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "legal_opinion",
+  "related_employees": [
+   "E1063",
+   "E1002",
+   "E1001"
+  ],
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "INV-Q03-01",
+  "path": "08_investigations/INV-Q03-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "md",
+  "title": "HR Director review – parental leave refusal L. Haddad",
+  "doc_type": "hr_review",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2026-04-28",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T4"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "internal_memo",
+  "related_employees": [
+   "E1071",
+   "E1013",
+   "E1003"
+  ],
+  "related_questions": [
+   "Q04"
+  ],
+  "id": "INV-Q04-01",
+  "path": "08_investigations/INV-Q04-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "08_investigations",
+  "format": "pdf",
+  "title": "Legal memo – proposed dismissal of E. Vandenberghe",
+  "doc_type": "legal_memo",
+  "author": "Isabelle Moreau",
+  "author_role": "Legal Counsel",
+  "date": "2026-08-20",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T1"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "legal_opinion",
+  "related_employees": [
+   "E1080",
+   "E1002",
+   "E1014",
+   "E1017"
+  ],
+  "related_questions": [
+   "Q09"
+  ],
+  "id": "INV-Q09-01",
+  "path": "08_investigations/INV-Q09-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "docx",
+  "title": "Déclaration écrite – Marc Dubois (contestation du licenciement)",
+  "doc_type": "employee_statement",
+  "author": "Marc Dubois",
+  "author_role": "dismissed employee",
+  "date": "2026-03-24",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "STM-Q01-01",
+  "path": "09_statements/STM-Q01-01.docx",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Witness statement – Julie Martens",
+  "doc_type": "witness_statement",
+  "author": "Julie Martens",
+  "author_role": "colleague (Account Manager)",
+  "date": "2026-03-11",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "related_employees": [
+   "E1043",
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "STM-Q01-02",
+  "path": "09_statements/STM-Q01-02.md",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Verklaring van de verzoeker – Emma Vandenberghe",
+  "doc_type": "employee_statement",
+  "author": "Emma Vandenberghe",
+  "author_role": "complainant",
+  "date": "2025-11-25",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1080",
+   "E1014"
+  ],
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "STM-Q05-01",
+  "path": "09_statements/STM-Q05-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Verklaring van de betrokken persoon – Bart Willems",
+  "doc_type": "employee_statement",
+  "author": "Bart Willems",
+  "author_role": "accused person (Team Lead)",
+  "date": "2025-12-02",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1014",
+   "E1080"
+  ],
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "STM-Q05-02",
+  "path": "09_statements/STM-Q05-02.md",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Getuigenverklaring – Yasmine El Amrani",
+  "doc_type": "witness_statement",
+  "author": "Yasmine El Amrani",
+  "author_role": "witness (Consultant)",
+  "date": "2025-12-04",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "related_employees": [
+   "E1081",
+   "E1080",
+   "E1014"
+  ],
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "STM-Q05-03",
+  "path": "09_statements/STM-Q05-03.md",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Getuigenverklaring – Dries Hermans",
+  "doc_type": "witness_statement",
+  "author": "Dries Hermans",
+  "author_role": "witness (Senior Consultant, long-time colleague of B. Willems)",
+  "date": "2025-12-09",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1082",
+   "E1014",
+   "E1080"
+  ],
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "STM-Q05-04",
+  "path": "09_statements/STM-Q05-04.md",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "pdf",
+  "title": "Klachtbrief overuren – Sofie Claes",
+  "doc_type": "grievance_letter",
+  "author": "Sofie Claes",
+  "author_role": "employee",
+  "date": "2026-07-01",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T2"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_letter",
+  "conflict_of_interest": true,
+  "letterhead": false,
+  "related_employees": [
+   "E1057",
+   "E1011"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "STM-Q02-01",
+  "path": "09_statements/STM-Q02-01.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Statement – Jan Peeters",
+  "doc_type": "employee_statement",
+  "author": "Jan Peeters",
+  "author_role": "employee under investigation",
+  "date": "2026-06-08",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1090"
+  ],
+  "related_questions": [
+   "Q06"
+  ],
+  "id": "STM-Q06-01",
+  "path": "09_statements/STM-Q06-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Déclaration – Luc Schmit",
+  "doc_type": "employee_statement",
+  "author": "Luc Schmit",
+  "author_role": "employee",
+  "date": "2026-09-21",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1095",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "STM-Q07-01",
+  "path": "09_statements/STM-Q07-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Motivation letter – remote work from Lyon – Pieter De Smet",
+  "doc_type": "employee_statement",
+  "author": "Pieter De Smet",
+  "author_role": "employee",
+  "date": "2026-08-20",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1063"
+  ],
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "STM-Q03-01",
+  "path": "09_statements/STM-Q03-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Réclamation – refus du congé parental – Lina Haddad",
+  "doc_type": "employee_statement",
+  "author": "Lina Haddad",
+  "author_role": "employee",
+  "date": "2026-04-22",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1071",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q04"
+  ],
+  "id": "STM-Q04-01",
+  "path": "09_statements/STM-Q04-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "09_statements",
+  "format": "md",
+  "title": "Contestation de l'évaluation mi-année – Lina Haddad",
+  "doc_type": "employee_statement",
+  "author": "Lina Haddad",
+  "author_role": "employee",
+  "date": "2026-07-24",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4",
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "signed_statement",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1071",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q10"
+  ],
+  "id": "STM-Q10-01",
+  "path": "09_statements/STM-Q10-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "DLP alert – m.dubois – CRM export to personal Google Drive",
+  "doc_type": "email",
+  "author": "Kristof Janssens",
+  "author_role": "IT Security Manager",
+  "date": "2026-03-06",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1",
+   "T6"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1005",
+   "E1010",
+   "E1001",
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "EML-Q01-01",
+  "path": "10_emails/EML-Q01-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "RE: DLP alert – m.dubois",
+  "doc_type": "email",
+  "author": "Laurent Mertens",
+  "author_role": "Sales Director",
+  "date": "2026-03-06",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1010",
+   "E1001",
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "EML-Q01-02",
+  "path": "10_emails/EML-Q01-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Marc – timing",
+  "doc_type": "email",
+  "author": "Laurent Mertens",
+  "author_role": "Sales Director",
+  "date": "2026-03-09",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1010",
+   "E1001",
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "EML-Q01-03",
+  "path": "10_emails/EML-Q01-03.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Convocation à une audition – 12 mars 2026",
+  "doc_type": "email",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2026-03-10",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1001",
+   "E1042"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "EML-Q01-04",
+  "path": "10_emails/EML-Q01-04.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "RE: Sofie – overtime claim",
+  "doc_type": "email",
+  "author": "Jeroen Maes",
+  "author_role": "Delivery Manager",
+  "date": "2026-07-03",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1011",
+   "E1002",
+   "E1057"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "EML-Q02-01",
+  "path": "10_emails/EML-Q02-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Go-live Scheldt Energy – weekend",
+  "doc_type": "email",
+  "author": "Jeroen Maes",
+  "author_role": "Delivery Manager",
+  "date": "2026-03-12",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1011",
+   "E1057"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "EML-Q02-02",
+  "path": "10_emails/EML-Q02-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Request – working from Lyon Oct–Jan",
+  "doc_type": "email",
+  "author": "Pieter De Smet",
+  "author_role": "Senior Software Engineer",
+  "date": "2026-08-20",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1063",
+   "E1012",
+   "E1002"
+  ],
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "EML-Q03-01",
+  "path": "10_emails/EML-Q03-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Pieter De Smet – Lyon – please do not confirm yet",
+  "doc_type": "email",
+  "author": "Isabelle Moreau",
+  "author_role": "Legal Counsel",
+  "date": "2026-08-27",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1006",
+   "E1002",
+   "E1001",
+   "E1063"
+  ],
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "EML-Q03-02",
+  "path": "10_emails/EML-Q03-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Demande de congé parental 1/5",
+  "doc_type": "email",
+  "author": "Lina Haddad",
+  "author_role": "Marketing Specialist",
+  "date": "2026-03-10",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1071",
+   "E1003",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q04"
+  ],
+  "id": "EML-Q04-01",
+  "path": "10_emails/EML-Q04-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "RE: Demande de congé parental 1/5",
+  "doc_type": "email",
+  "author": "Nadia Benali",
+  "author_role": "HR & Payroll Officer",
+  "date": "2026-03-11",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1003",
+   "E1071",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q04"
+  ],
+  "id": "EML-Q04-02",
+  "path": "10_emails/EML-Q04-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Ton congé parental",
+  "doc_type": "email",
+  "author": "Olivier Lambert",
+  "author_role": "Marketing & Regional Manager",
+  "date": "2026-04-20",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1013",
+   "E1071"
+  ],
+  "related_questions": [
+   "Q04"
+  ],
+  "id": "EML-Q04-03",
+  "path": "10_emails/EML-Q04-03.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Congé parental Lina – décision",
+  "doc_type": "email",
+  "author": "Catherine Lemaire",
+  "author_role": "HR Director",
+  "date": "2026-04-28",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1001",
+   "E1013",
+   "E1071"
+  ],
+  "related_questions": [
+   "Q04",
+   "Q10"
+  ],
+  "id": "EML-Q04-04",
+  "path": "10_emails/EML-Q04-04.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Situation with Bart",
+  "doc_type": "email",
+  "author": "Emma Vandenberghe",
+  "author_role": "Junior Consultant",
+  "date": "2025-10-06",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1080",
+   "E1002",
+   "E1014"
+  ],
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "EML-Q05-01",
+  "path": "10_emails/EML-Q05-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "tomorrow",
+  "doc_type": "email",
+  "author": "Bart Willems",
+  "author_role": "Team Lead",
+  "date": "2025-09-16",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T2"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1014",
+   "E1080"
+  ],
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "EML-Q05-02",
+  "path": "10_emails/EML-Q05-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Jan – mailbox",
+  "doc_type": "email",
+  "author": "Sarah Lefèvre",
+  "author_role": "CFO",
+  "date": "2026-06-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1015",
+   "E1005",
+   "E1090"
+  ],
+  "related_questions": [
+   "Q06"
+  ],
+  "id": "EML-Q06-01",
+  "path": "10_emails/EML-Q06-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "RE: Jan – mailbox – results",
+  "doc_type": "email",
+  "author": "Kristof Janssens",
+  "author_role": "IT Security Manager",
+  "date": "2026-06-02",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1005",
+   "E1015",
+   "E1090"
+  ],
+  "related_questions": [
+   "Q06"
+  ],
+  "id": "EML-Q06-02",
+  "path": "10_emails/EML-Q06-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Luc Schmit – encore",
+  "doc_type": "email",
+  "author": "Olivier Lambert",
+  "author_role": "Marketing & Regional Manager",
+  "date": "2026-09-10",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4",
+   "T1"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1013",
+   "E1002",
+   "E1095"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "EML-Q07-01",
+  "path": "10_emails/EML-Q07-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Certificat médical – Luc Schmit",
+  "doc_type": "email",
+  "author": "Luc Schmit",
+  "author_role": "Sales Engineer",
+  "date": "2026-09-09",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1095",
+   "E1003"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "EML-Q07-02",
+  "path": "10_emails/EML-Q07-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Your on-call timesheets",
+  "doc_type": "email",
+  "author": "Nicolas Hubert",
+  "author_role": "Support Manager",
+  "date": "2026-07-01",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1016",
+   "E1102"
+  ],
+  "related_questions": [
+   "Q08"
+  ],
+  "id": "EML-Q08-01",
+  "path": "10_emails/EML-Q08-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Request for my VPN logs (on-call Apr–Jun)",
+  "doc_type": "email",
+  "author": "Ahmed Karimi",
+  "author_role": "Support Engineer",
+  "date": "2026-07-06",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2",
+   "T6"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1102",
+   "E1005",
+   "E1003"
+  ],
+  "related_questions": [
+   "Q08"
+  ],
+  "id": "EML-Q08-02",
+  "path": "10_emails/EML-Q08-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "RE: Request for my VPN logs (on-call Apr–Jun)",
+  "doc_type": "email",
+  "author": "Kristof Janssens",
+  "author_role": "IT Security Manager",
+  "date": "2026-07-07",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6",
+   "T2"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1005",
+   "E1102"
+  ],
+  "related_questions": [
+   "Q08"
+  ],
+  "id": "EML-Q08-03",
+  "path": "10_emails/EML-Q08-03.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Emma V. – proposal",
+  "doc_type": "email",
+  "author": "Tom Verhaegen",
+  "author_role": "HR Business Partner",
+  "date": "2026-08-10",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T1"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1002",
+   "E1001",
+   "E1080"
+  ],
+  "related_questions": [
+   "Q09"
+  ],
+  "id": "EML-Q09-01",
+  "path": "10_emails/EML-Q09-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Junior Consultant opening – replacement for Emma's seat",
+  "doc_type": "email",
+  "author": "Annelies Goossens",
+  "author_role": "Team Lead Consulting",
+  "date": "2026-08-13",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T1"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_employees": [
+   "E1017",
+   "E1002",
+   "E1080"
+  ],
+  "related_questions": [
+   "Q09"
+  ],
+  "id": "EML-Q09-02",
+  "path": "10_emails/EML-Q09-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Mid-year ratings Liège",
+  "doc_type": "email",
+  "author": "Olivier Lambert",
+  "author_role": "Marketing & Regional Manager",
+  "date": "2026-07-16",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5",
+   "T4"
+  ],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1013",
+   "E1003",
+   "E1071"
+  ],
+  "related_questions": [
+   "Q10"
+  ],
+  "id": "EML-Q10-01",
+  "path": "10_emails/EML-Q10-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Team lunch Friday",
+  "doc_type": "email",
+  "author": "Julie Martens",
+  "author_role": "Account Manager",
+  "date": "2026-05-20",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_questions": [],
+  "id": "EML-NOISE-01",
+  "path": "10_emails/EML-NOISE-01.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Planned maintenance – VPN gateway",
+  "doc_type": "email",
+  "author": "IT Service Desk",
+  "author_role": "IT",
+  "date": "2026-04-14",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_questions": [],
+  "id": "EML-NOISE-02",
+  "path": "10_emails/EML-NOISE-02.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "10_emails",
+  "format": "eml",
+  "title": "Newsletter – social elections & new canteen",
+  "doc_type": "email",
+  "author": "Communications",
+  "author_role": "Internal communications",
+  "date": "2026-02-02",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [],
+  "status": "sent",
+  "signed": false,
+  "formality": "email",
+  "related_questions": [],
+  "id": "EML-NOISE-03",
+  "path": "10_emails/EML-NOISE-03.eml",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "Teams chat – Tom Verhaegen / Pieter De Smet – Lyon",
+  "doc_type": "chat",
+  "author": "Microsoft Teams export",
+  "author_role": "system_record",
+  "date": "2026-08-22",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "related_employees": [
+   "E1002",
+   "E1063"
+  ],
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "CHAT-Q03-01",
+  "path": "11_chat_messages/CHAT-Q03-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "Teams DMs – Bart Willems → Emma Vandenberghe (Apr–Oct 2025, extract submitted to prevention adviser)",
+  "doc_type": "chat",
+  "author": "Microsoft Teams export (submitted by E. Vandenberghe)",
+  "author_role": "system_record",
+  "date": "2025-11-18",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "related_employees": [
+   "E1014",
+   "E1080"
+  ],
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "CHAT-Q05-01",
+  "path": "11_chat_messages/CHAT-Q05-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "Teams channel – Consulting Antwerp stand-up (extract)",
+  "doc_type": "chat",
+  "author": "Microsoft Teams export",
+  "author_role": "system_record",
+  "date": "2025-09-17",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "related_employees": [
+   "E1014",
+   "E1080",
+   "E1081",
+   "E1082"
+  ],
+  "related_questions": [
+   "Q05"
+  ],
+  "id": "CHAT-Q05-02",
+  "path": "11_chat_messages/CHAT-Q05-02.json",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "Teams chat – Jeroen Maes / Sofie Claes – weekend work",
+  "doc_type": "chat",
+  "author": "Microsoft Teams export",
+  "author_role": "system_record",
+  "date": "2026-06-12",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T2"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "related_employees": [
+   "E1011",
+   "E1057"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "CHAT-Q02-01",
+  "path": "11_chat_messages/CHAT-Q02-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "Teams chat – Olivier Lambert / Maxime Renard",
+  "doc_type": "chat",
+  "author": "Microsoft Teams export",
+  "author_role": "system_record",
+  "date": "2026-07-14",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4",
+   "T5"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1013",
+   "E1071"
+  ],
+  "related_questions": [
+   "Q10"
+  ],
+  "id": "CHAT-Q10-01",
+  "path": "11_chat_messages/CHAT-Q10-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "Teams chat – Marc Dubois / Julie Martens – VPN",
+  "doc_type": "chat",
+  "author": "Microsoft Teams export",
+  "author_role": "system_record",
+  "date": "2026-03-05",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T1"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "related_employees": [
+   "E1042",
+   "E1043"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "CHAT-Q01-01",
+  "path": "11_chat_messages/CHAT-Q01-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "Teams channel – Support on-call pages (Apr–Jun 2026 extract)",
+  "doc_type": "chat",
+  "author": "Microsoft Teams export / PagerBot",
+  "author_role": "system_record",
+  "date": "2026-06-28",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T2"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "related_employees": [
+   "E1102",
+   "E1016"
+  ],
+  "related_questions": [
+   "Q08"
+  ],
+  "id": "CHAT-Q08-01",
+  "path": "11_chat_messages/CHAT-Q08-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "Teams chat – Kristof Janssens / Sarah Lefèvre – mailbox review",
+  "doc_type": "chat",
+  "author": "Microsoft Teams export",
+  "author_role": "system_record",
+  "date": "2026-06-02",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "related_employees": [
+   "E1005",
+   "E1015",
+   "E1090"
+  ],
+  "related_questions": [
+   "Q06"
+  ],
+  "id": "CHAT-Q06-01",
+  "path": "11_chat_messages/CHAT-Q06-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "WhatsApp – Luc Schmit → Olivier Lambert – 07/09/2026",
+  "doc_type": "chat",
+  "author": "WhatsApp export (provided by L. Schmit)",
+  "author_role": "system_record",
+  "date": "2026-09-07",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "related_employees": [
+   "E1095",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "CHAT-Q07-01",
+  "path": "11_chat_messages/CHAT-Q07-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "11_chat_messages",
+  "format": "json",
+  "title": "Teams chat – Tom Verhaegen / Bart Willems",
+  "doc_type": "chat",
+  "author": "Microsoft Teams export",
+  "author_role": "system_record",
+  "date": "2026-08-11",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5",
+   "T1"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "chat_message",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1002",
+   "E1014",
+   "E1080"
+  ],
+  "related_questions": [
+   "Q09"
+  ],
+  "id": "CHAT-Q09-01",
+  "path": "11_chat_messages/CHAT-Q09-01.json",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Annual review 2025 – Marc Dubois",
+  "doc_type": "performance_review",
+  "author": "Laurent Mertens",
+  "author_role": "Sales Director",
+  "date": "2026-01-20",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T1"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "performance_review",
+  "related_employees": [
+   "E1042",
+   "E1010"
+  ],
+  "related_questions": [
+   "Q01"
+  ],
+  "id": "PERF-E1042-2025",
+  "path": "12_performance/PERF-E1042-2025.md",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Jaarevaluatie 2025 – Sofie Claes",
+  "doc_type": "performance_review",
+  "author": "Jeroen Maes",
+  "author_role": "Delivery Manager",
+  "date": "2026-01-14",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T2"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "performance_review",
+  "related_employees": [
+   "E1057",
+   "E1011"
+  ],
+  "related_questions": [
+   "Q02"
+  ],
+  "id": "PERF-E1057-2025",
+  "path": "12_performance/PERF-E1057-2025.md",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Annual review 2025 – Pieter De Smet",
+  "doc_type": "performance_review",
+  "author": "Elke Wouters",
+  "author_role": "Engineering Manager",
+  "date": "2026-01-19",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T3"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "performance_review",
+  "related_employees": [
+   "E1063",
+   "E1012"
+  ],
+  "related_questions": [
+   "Q03"
+  ],
+  "id": "PERF-E1063-2025",
+  "path": "12_performance/PERF-E1063-2025.md",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Évaluation annuelle 2025 – Lina Haddad",
+  "doc_type": "performance_review",
+  "author": "Olivier Lambert",
+  "author_role": "Marketing & Regional Manager",
+  "date": "2026-01-22",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4",
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "performance_review",
+  "related_employees": [
+   "E1071",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q10"
+  ],
+  "id": "PERF-E1071-2025",
+  "path": "12_performance/PERF-E1071-2025.md",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Mid-year review 2026 – Lina Haddad",
+  "doc_type": "performance_review",
+  "author": "Olivier Lambert",
+  "author_role": "Marketing & Regional Manager",
+  "date": "2026-07-15",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T4",
+   "T5"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "performance_review",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1071",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q10"
+  ],
+  "id": "PERF-Q10-01",
+  "path": "12_performance/PERF-Q10-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Jaarevaluatie 2024 – Emma Vandenberghe",
+  "doc_type": "performance_review",
+  "author": "Annelies Goossens (then Senior Consultant, acting lead)",
+  "author_role": "previous lead",
+  "date": "2025-01-15",
+  "jurisdiction": "BE",
+  "language": "nl",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "performance_review",
+  "related_employees": [
+   "E1080"
+  ],
+  "related_questions": [
+   "Q09"
+  ],
+  "id": "PERF-E1080-2024",
+  "path": "12_performance/PERF-E1080-2024.md",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Mid-year review 2025 – Emma Vandenberghe (by Bart Willems)",
+  "doc_type": "performance_review",
+  "author": "Bart Willems",
+  "author_role": "Team Lead (accused person in PS-2025-1187)",
+  "date": "2025-06-30",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": false,
+  "formality": "performance_review",
+  "conflict_of_interest": true,
+  "related_employees": [
+   "E1080",
+   "E1014"
+  ],
+  "related_questions": [
+   "Q09",
+   "Q05"
+  ],
+  "id": "PERF-Q09-01",
+  "path": "12_performance/PERF-Q09-01.md",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Mid-year review 2026 – Emma Vandenberghe (by Annelies Goossens)",
+  "doc_type": "performance_review",
+  "author": "Annelies Goossens",
+  "author_role": "Team Lead Consulting",
+  "date": "2026-07-10",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T5"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "performance_review",
+  "related_employees": [
+   "E1080",
+   "E1017"
+  ],
+  "related_questions": [
+   "Q09"
+  ],
+  "id": "PERF-E1080-2026",
+  "path": "12_performance/PERF-E1080-2026.md",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Évaluation annuelle 2025 – Luc Schmit",
+  "doc_type": "performance_review",
+  "author": "Olivier Lambert",
+  "author_role": "Marketing & Regional Manager",
+  "date": "2026-01-23",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T4"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "performance_review",
+  "related_employees": [
+   "E1095",
+   "E1013"
+  ],
+  "related_questions": [
+   "Q07"
+  ],
+  "id": "PERF-E1095-2025",
+  "path": "12_performance/PERF-E1095-2025.md",
+  "synthetic": true
+ },
+ {
+  "folder": "12_performance",
+  "format": "md",
+  "title": "Annual review 2025 – Jan Peeters",
+  "doc_type": "performance_review",
+  "author": "Sarah Lefèvre",
+  "author_role": "CFO",
+  "date": "2026-01-21",
+  "jurisdiction": "BE",
+  "language": "en",
+  "themes": [
+   "T6"
+  ],
+  "status": "final",
+  "signed": true,
+  "formality": "performance_review",
+  "related_employees": [
+   "E1090",
+   "E1015"
+  ],
+  "related_questions": [
+   "Q06"
+  ],
+  "id": "PERF-E1090-2025",
+  "path": "12_performance/PERF-E1090-2025.md",
+  "synthetic": true
+ },
+ {
+  "folder": "03_collective_agreements",
+  "format": "pdf",
+  "title": "CCT d'entreprise du 14 mars 2023 – droit à la déconnexion",
+  "doc_type": "collective_agreement",
+  "author": "Tectonic Solutions SA and union delegations (SETCa/BBTK, CNE, ACLVB/CGSLB)",
+  "author_role": "company-level collective agreement",
+  "date": "2023-03-14",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T2"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "company_cct",
+  "related_questions": [
+   "Q02",
+   "Q08"
+  ],
+  "id": "CCT-TEC-2023-DISCONNECT",
+  "path": "03_collective_agreements/CCT-TEC-2023-DISCONNECT.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "03_collective_agreements",
+  "format": "pdf",
+  "title": "CCT d'entreprise du 18 janvier 2024 – horaires flexibles et heures supplémentaires",
+  "doc_type": "collective_agreement",
+  "author": "Tectonic Solutions SA and union delegations",
+  "author_role": "company-level collective agreement",
+  "date": "2024-01-18",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T2"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "company_cct",
+  "related_questions": [
+   "Q02",
+   "Q08"
+  ],
+  "id": "CCT-TEC-2024-WORKTIME",
+  "path": "03_collective_agreements/CCT-TEC-2024-WORKTIME.pdf",
+  "synthetic": true
+ },
+ {
+  "folder": "03_collective_agreements",
+  "format": "pdf",
+  "title": "CCT d'entreprise du 5 décembre 2025 – télétravail structurel et indemnité de bureau",
+  "doc_type": "collective_agreement",
+  "author": "Tectonic Solutions SA and union delegations",
+  "author_role": "company-level collective agreement",
+  "date": "2025-12-05",
+  "jurisdiction": "BE",
+  "language": "fr",
+  "themes": [
+   "T3"
+  ],
+  "status": "active",
+  "signed": true,
+  "formality": "company_cct",
+  "related_questions": [
+   "Q03",
+   "Q07"
+  ],
+  "id": "CCT-TEC-2025-TELEWORK",
+  "path": "03_collective_agreements/CCT-TEC-2025-TELEWORK.pdf",
+  "synthetic": true
+ }
+]

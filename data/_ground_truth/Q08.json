@@ -1,0 +1,76 @@
+{
+ "id": "Q08",
+ "question": "Must Ahmed Karimi be paid for his on-call interventions, and may he use VPN logs to prove his hours?",
+ "verdict": "partly_yes",
+ "expected_answer": "Yes for the active interventions: 41.5 h over 23 interventions (VPN logs, on-call channel) are working time and must be paid or recovered as overtime. The policy's rule that interventions under 60 minutes are covered by the allowance (which would reduce this to 21.0 h) is contrary to the law, to the company CCT on the right to disconnect (art. 2) and to Ahmed's signed on-call annex, which prevails over the policy. The manager cannot unilaterally erase recorded hours (company CCT 2024 art. 3; C-55/18 time-recording duty). Passive stand-by with a 30-minute remote response time from home is probably not working time under Matzak/Offenbach criteria, so the €150 flat allowance can cover that part. Ahmed is entitled to his own VPN logs under GDPR art. 15; 'privacy' is not a reason to refuse the data subject.",
+ "key_facts": [
+  "23 interventions, 41.5 h, 9 under 60 min (REC-Q08-01)",
+  "Timesheets reset to 38 h 'not approved' (REC-Q08-02, EML-Q08-01)",
+  "Access request refused (EML-Q08-02, EML-Q08-03)"
+ ],
+ "conflicts": [
+  {
+   "issue": "Are interventions working time?",
+   "sides": {
+    "POL-ONCALL-2025": "first 60 min covered by allowance",
+    "CTR-E1102-ONCALL-ANNEX": "all intervention time is working time",
+    "CCT-TEC-2023-DISCONNECT": "on-call work is working time",
+    "EML-Q08-01": "allowance covers everything"
+   },
+   "resolution": "All active intervention time counts.",
+   "winning_docs": [
+    "CTR-E1102-ONCALL-ANNEX",
+    "CCT-TEC-2023-DISCONNECT",
+    "EU-DIR-2003-88-WTD"
+   ],
+   "why": "Law, company CCT and contract rank above the policy and a manager's e-mail."
+  },
+  {
+   "issue": "Is passive stand-by working time?",
+   "sides": {
+    "CJEU-C-518-15-MATZAK": "stand-by with heavy constraints = working time",
+    "CJEU-C-580-19-OFFENBACH": "depends on intensity of constraints"
+   },
+   "resolution": "30 min from home: likely not.",
+   "winning_docs": [
+    "CJEU-C-580-19-OFFENBACH"
+   ],
+   "why": "Constraints are moderate."
+  },
+  {
+   "issue": "Access to VPN logs",
+   "sides": {
+    "POL-IT-2024": "logs confidential, not shared",
+    "EU-REG-2016-679-GDPR": "art. 15 right of access",
+    "POL-PRIVACY-NOTICE-EMPLOYEES-2025": "right to a copy of logs relating to you"
+   },
+   "resolution": "Must be provided.",
+   "winning_docs": [
+    "EU-REG-2016-679-GDPR"
+   ],
+   "why": "EU regulation prevails."
+  }
+ ],
+ "focus_docs": [
+  "CJEU-C-518-15-MATZAK",
+  "POL-ONCALL-2025",
+  "REC-Q08-01",
+  "EML-Q08-01"
+ ],
+ "supporting_docs": [
+  "EU-DIR-2003-88-WTD",
+  "EU-REG-2016-679-GDPR",
+  "CJEU-C-580-19-OFFENBACH",
+  "CCT-TEC-2023-DISCONNECT",
+  "CCT-TEC-2024-WORKTIME",
+  "POL-HYBRID-DISCONNECT-2023",
+  "POL-IT-2024",
+  "POL-OVERTIME-2024",
+  "POL-PRIVACY-NOTICE-EMPLOYEES-2025",
+  "CTR-E1102-ONCALL-ANNEX",
+  "REC-Q08-02",
+  "EML-Q08-02",
+  "EML-Q08-03",
+  "CHAT-Q08-01"
+ ]
+}

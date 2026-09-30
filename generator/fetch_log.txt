@@ -1,0 +1,223 @@
+[fetch_justel] LAW-BE-1978-ART35-FR
+   -> 01_legislation/be_federal/LAW-BE-1978-ART35-FR.md (1341 chars)
+[fetch_justel] LAW-BE-1978-ART35-NL
+   -> 01_legislation/be_federal/LAW-BE-1978-ART35-NL.md (1462 chars)
+[fetch_justel] LAW-BE-1978-ART37-39-FR
+   -> 01_legislation/be_federal/LAW-BE-1978-ART37-39-FR.md (10674 chars)
+[fetch_justel] LAW-BE-1978-ART31-FR
+   -> 01_legislation/be_federal/LAW-BE-1978-ART31-FR.md (8760 chars)
+[fetch_justel] LAW-BE-1978-ART16-20-FR
+   -> 01_legislation/be_federal/LAW-BE-1978-ART16-20-FR.md (2856 chars)
+[fetch_justel] LAW-BE-1971-HOURS-FR
+   -> 01_legislation/be_federal/LAW-BE-1971-HOURS-FR.md (9735 chars)
+[fetch_justel] LAW-BE-1971-OVERTIME-FR
+   -> 01_legislation/be_federal/LAW-BE-1971-OVERTIME-FR.md (9340 chars)
+[fetch_justel] LAW-BE-1971-OVERTIME-NL
+   -> 01_legislation/be_federal/LAW-BE-1971-OVERTIME-NL.md (7800 chars)
+[fetch_justel] RD-BE-1965-TRUST-FR
+   -> 01_legislation/be_federal/RD-BE-1965-TRUST-FR.md (6278 chars)
+[fetch_justel] LAW-BE-1996-HARASS-DEF-FR
+   -> 01_legislation/be_federal/LAW-BE-1996-HARASS-DEF-FR.md (4617 chars)
+[fetch_justel] LAW-BE-1996-HARASS-DEF-NL
+   -> 01_legislation/be_federal/LAW-BE-1996-HARASS-DEF-NL.md (4420 chars)
+[fetch_justel] LAW-BE-1996-PROCEDURE-FR
+   -> 01_legislation/be_federal/LAW-BE-1996-PROCEDURE-FR.md (10380 chars)
+[fetch_justel] LAW-BE-1996-RETALIATION-FR
+   !! missing articles ['32tredecies']
+   FAILED: no articles extracted
+[fetch_justel] LAW-BE-1968-ART51-FR
+   -> 01_legislation/be_federal/LAW-BE-1968-ART51-FR.md (1371 chars)
+[fetch_justel] LAW-BE-2007-DISCRIM-FR
+   -> 01_legislation/be_federal/LAW-BE-2007-DISCRIM-FR.md (13261 chars)
+[fetch_justel] LAW-BE-2005-SECRECY-FR
+   -> 01_legislation/be_federal/LAW-BE-2005-SECRECY-FR.md (4681 chars)
+[fetch_justel] LAW-BE-1971-HOLIDAYS-FR
+   -> 01_legislation/be_federal/LAW-BE-1971-HOLIDAYS-FR.md (3057 chars)
+[fetch_justel] RD-BE-1997-PARENTAL-FR
+   -> 01_legislation/be_federal/RD-BE-1997-PARENTAL-FR.md (17254 chars)
+[fetch_eu] EU-DIR-2003-88-WTD
+   status 200 (363 B), retry 1
+   status 200 (363 B), retry 2
+   status 200 (363 B), retry 3
+   status 200 (363 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_eu] EU-DIR-2019-1158-WLB
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_eu] EU-REG-2016-679-GDPR
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_eu] EU-REG-2004-883-SOCSEC
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_eu] EU-REG-2008-593-ROME1
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_eu] EU-DIR-2000-78-EQUAL
+   status 200 (363 B), retry 1
+   status 200 (363 B), retry 2
+   status 200 (363 B), retry 3
+   status 200 (363 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_eu] EU-DIR-2006-54-GENDER
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_eu] EU-CHARTER-2012
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_cjeu] CJEU-C-55-18-CCOO
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_cjeu] CJEU-C-518-15-MATZAK
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_cjeu] CJEU-C-580-19-OFFENBACH
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_cjeu] CJEU-C-684-16-MAXPLANCK
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_cjeu] CJEU-C-116-08-MEERTS
+   -> 02_case_law/CJEU-C-116-08-MEERTS.md (31999 chars)
+[fetch_cjeu] CJEU-C-7-12-RIEZNIECE
+   -> 02_case_law/CJEU-C-7-12-RIEZNIECE.md (31738 chars)
+[fetch_cjeu] CJEU-C-610-18-AFMB
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_cjeu] CJEU-C-17-19-BOUYGUES
+   status 200 (364 B), retry 1
+   status 200 (364 B), retry 2
+   status 200 (364 B), retry 3
+   status 200 (364 B), retry 4
+   FAILED: failed: https://publications.europa.eu/webapi/rdf/sparql
+[fetch_hudoc] ECHR-61496-08-BARBULESCU
+   -> 02_case_law/ECHR-61496-08-BARBULESCU.docx (136162 B)
+[fetch_hudoc] ECHR-1874-13-LOPEZ-RIBALDA
+   -> 02_case_law/ECHR-1874-13-LOPEZ-RIBALDA.docx (132227 B)
+[fetch_cnt] CCT-BE-109
+   -> 03_collective_agreements/CCT-BE-109.pdf (129710 B)
+[fetch_cnt] CCT-BE-081
+   -> 03_collective_agreements/CCT-BE-081.pdf (261935 B)
+[fetch_cnt] CCT-BE-085
+   -> 03_collective_agreements/CCT-BE-085.pdf (120135 B)
+[fetch_cnt] CCT-BE-149
+   -> 03_collective_agreements/CCT-BE-149.pdf (50450 B)
+[fetch_cnt] CCT-BE-064
+   -> 03_collective_agreements/CCT-BE-064.pdf (111847 B)
+[fetch_cnt] CCT-BE-045
+   -> 03_collective_agreements/CCT-BE-045.pdf (29462 B)
+[fetch_cnt] CCT-BE-100
+   -> 03_collective_agreements/CCT-BE-100.pdf (173989 B)
+[fetch_cnt] CCT-BE-025
+   -> 03_collective_agreements/CCT-BE-025.pdf (114940 B)
+[fetch_cnt] CCT-BE-038
+   -> 03_collective_agreements/CCT-BE-038.pdf (166626 B)
+[fetch_web] LAW-DE-BGB-626
+   -> 01_legislation/foreign/de/LAW-DE-BGB-626.md (1027 chars)
+[fetch_web] LAW-DE-ARBZG
+   -> 01_legislation/foreign/de/LAW-DE-ARBZG.md (11747 chars)
+[fetch_web] LAW-DE-BEEG-18
+   -> 01_legislation/foreign/de/LAW-DE-BEEG-18.md (1455 chars)
+[fetch_web] LAW-NL-BW7-678
+   error HTTPSConnectionPool(host='wetten.overheid.nl', port=443): Read timed out. (read timeout=60), retry 1
+   !! span start 'Artikel 677' not found, keeping full text
+   -> 01_legislation/foreign/nl/LAW-NL-BW7-678.md (864 chars)
+[fetch_web] LAW-NL-ATW
+   !! span start 'Artikel 5:3' not found, keeping full text
+   -> 01_legislation/foreign/nl/LAW-NL-ATW.md (855 chars)
+[fetch_web] LAW-NL-WFW
+   !! span start 'Artikel 2' not found, keeping full text
+   -> 01_legislation/foreign/nl/LAW-NL-WFW.md (858 chars)
+[fetch_web] LAW-FR-L1222-9
+   -> 01_legislation/foreign/fr/LAW-FR-L1222-9.md (3494 chars)
+[fetch_web] LAW-FR-L1234-1
+   -> 01_legislation/foreign/fr/LAW-FR-L1234-1.md (1268 chars)
+[fetch_web] LAW-FR-L1152-1
+   -> 01_legislation/foreign/fr/LAW-FR-L1152-1.md (637 chars)
+[fetch_web] LAW-UK-ERA-98
+   -> 01_legislation/foreign/uk/LAW-UK-ERA-98.md (20326 chars)
+[fetch_web] LAW-UK-WTR-4
+   -> 01_legislation/foreign/uk/LAW-UK-WTR-4.md (8273 chars)
+[fetch_web] LAW-UK-EQA-26
+   -> 01_legislation/foreign/uk/LAW-UK-EQA-26.md (10483 chars)
+[fetch_web] GUI-BE-EMPLOI-LICENCIEMENT
+   -> 04_official_guidance/GUI-BE-EMPLOI-LICENCIEMENT.md (2279 chars)
+[fetch_web] GUI-BE-EMPLOI-REGLEMENT
+   -> 04_official_guidance/GUI-BE-EMPLOI-REGLEMENT.md (21422 chars)
+[fetch_web] GUI-BE-EMPLOI-DUREE
+   -> 04_official_guidance/GUI-BE-EMPLOI-DUREE.md (6876 chars)
+[fetch_web] GUI-BE-EMPLOI-REPOS
+   -> 04_official_guidance/GUI-BE-EMPLOI-REPOS.md (6175 chars)
+[fetch_web] GUI-BE-EMPLOI-TELETRAVAIL
+   -> 04_official_guidance/GUI-BE-EMPLOI-TELETRAVAIL.md (4967 chars)
+[fetch_web] GUI-BE-ONSS-TELEWORK
+   -> 04_official_guidance/GUI-BE-ONSS-TELEWORK.md (15372 chars)
+[fetch_web] GUI-BE-EMPLOI-CONGE-PARENTAL
+   -> 04_official_guidance/GUI-BE-EMPLOI-CONGE-PARENTAL.md (20147 chars)
+[fetch_web] GUI-BE-EMPLOI-SUSPENSION
+   -> 04_official_guidance/GUI-BE-EMPLOI-SUSPENSION.md (498 chars)
+[fetch_web] GUI-BE-EMPLOI-RPS-ACTION
+   -> 04_official_guidance/GUI-BE-EMPLOI-RPS-ACTION.md (5101 chars)
+[fetch_web] GUI-BE-EMPLOI-RPS-REPRESAILLES
+   -> 04_official_guidance/GUI-BE-EMPLOI-RPS-REPRESAILLES.md (18883 chars)
+[fetch_web] GUI-BE-APD-TRAVAIL
+   -> 04_official_guidance/GUI-BE-APD-TRAVAIL.md (4679 chars)
+[fetch_web] GUI-BE-APD-CAMERAS
+   FAILED: page text too short (330)
+[fetch_web] EXT-LIANTIS-DECONNECTIE
+   -> 13_external_secondary/EXT-LIANTIS-DECONNECTIE.md (2668 chars)
+[fetch_web] EXT-ACERTA-OVERUREN
+   -> 13_external_secondary/EXT-ACERTA-OVERUREN.md (6271 chars)
+[fetch_web] EXT-SDWORX-TELEWERK-BUITENLAND
+   -> 13_external_secondary/EXT-SDWORX-TELEWERK-BUITENLAND.md (6232 chars)
+[fetch_web] EXT-ACERTA-GRENSARBEID
+   -> 13_external_secondary/EXT-ACERTA-GRENSARBEID.md (8685 chars)
+[fetch_web] EXT-GROUPS-FRONTALIERS-COVID
+   FAILED: page text too short (246)
+[fetch_web] EXT-ACERTA-OUDERSCHAPSVERLOF
+   -> 13_external_secondary/EXT-ACERTA-OUDERSCHAPSVERLOF.md (11019 chars)
+[fetch_web] EXT-GROUPS-CONGE-PARENTAL-ACCUEIL
+   FAILED: page text too short (196)
+[fetch_web] EXT-LIANTIS-HARCELEMENT
+   -> 13_external_secondary/EXT-LIANTIS-HARCELEMENT.md (3613 chars)
+[fetch_web] EXT-LIANTIS-HARCELEMENT-2022
+   -> 13_external_secondary/EXT-LIANTIS-HARCELEMENT-2022.md (3587 chars)
+[fetch_web] EXT-SECUREX-CAMERAS
+   -> 13_external_secondary/EXT-SECUREX-CAMERAS.md (6602 chars)
+[fetch_web] EXT-UCM-CAMERAS
+   -> 13_external_secondary/EXT-UCM-CAMERAS.md (1234 chars)
+
+62 real documents in catalog, 18 failed: ['LAW-BE-1996-RETALIATION-FR', 'EU-DIR-2003-88-WTD', 'EU-DIR-2019-1158-WLB', 'EU-REG-2016-679-GDPR', 'EU-REG-2004-883-SOCSEC', 'EU-REG-2008-593-ROME1', 'EU-DIR-2000-78-EQUAL', 'EU-DIR-2006-54-GENDER', 'EU-CHARTER-2012', 'CJEU-C-55-18-CCOO', 'CJEU-C-518-15-MATZAK', 'CJEU-C-580-19-OFFENBACH', 'CJEU-C-684-16-MAXPLANCK', 'CJEU-C-610-18-AFMB', 'CJEU-C-17-19-BOUYGUES', 'GUI-BE-APD-CAMERAS', 'EXT-GROUPS-FRONTALIERS-COVID', 'EXT-GROUPS-CONGE-PARENTAL-ACCUEIL']

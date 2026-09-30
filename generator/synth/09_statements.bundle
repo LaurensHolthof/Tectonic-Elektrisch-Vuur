@@ -1,0 +1,343 @@
+@@@ FILE STM-Q01-01
+---
+folder: 09_statements
+format: docx
+title: Déclaration écrite – Marc Dubois (contestation du licenciement)
+doc_type: employee_statement
+author: Marc Dubois
+author_role: dismissed employee
+date: 2026-03-24
+jurisdiction: BE
+language: fr
+themes: [T1]
+status: final
+signed: true
+formality: signed_statement
+conflict_of_interest: true
+related_employees: [E1042]
+related_questions: [Q01]
+---
+# Déclaration de Marc Dubois – 24 mars 2026
+
+Je conteste le motif grave invoqué le 16 mars 2026.
+
+1. Le 5 mars, mon VPN coupait toutes les dix minutes (ticket INC-20931, ouvert le 2 mars). Je devais finaliser les offres du Q1 pendant le week-end. J'ai copié les fichiers sur mon Drive personnel pour pouvoir travailler. C'était une erreur, pas un vol.
+2. J'ai supprimé les fichiers le 9 mars et je peux le prouver (historique Google).
+3. Mon directeur, Laurent Mertens, savait tout dès le 6 mars. Il m'a laissé travailler toute la semaine suivante pour clôturer mes deals du Q1 (7 contrats signés entre le 9 et le 13 mars), puis j'ai été licencié le lundi suivant.
+4. Les échanges avec DataNova sont des messages privés qu'on a lus sans me prévenir.
+5. En neuf ans, je n'ai jamais reçu le moindre avertissement.
+
+Marc Dubois
+
+@@@ FILE STM-Q01-02
+---
+folder: 09_statements
+format: md
+title: Witness statement – Julie Martens
+doc_type: witness_statement
+author: Julie Martens
+author_role: colleague (Account Manager)
+date: 2026-03-11
+jurisdiction: BE
+language: en
+themes: [T1]
+status: final
+signed: true
+formality: signed_statement
+related_employees: [E1043, E1042]
+related_questions: [Q01]
+---
+# Witness statement – Julie Martens (11/03/2026)
+
+Asked by HR about the week of 2 March.
+
+- Marc complained several times that the VPN kept dropping. On Thursday 5 March he told me "I'll just take everything home and do the offers this weekend".
+- I did not see him copy files. I never heard him say he wanted to take clients to another company.
+- He did say in February that DataNova had approached him and that "the offer was interesting".
+- On Friday 6 March Laurent told me "Marc won't be around long, but first he closes his deals".
+
+Julie Martens
+
+@@@ FILE STM-Q05-01
+---
+folder: 09_statements
+format: md
+title: Verklaring van de verzoeker – Emma Vandenberghe
+doc_type: employee_statement
+author: Emma Vandenberghe
+author_role: complainant
+date: 2025-11-25
+jurisdiction: BE
+language: nl
+themes: [T5]
+status: final
+signed: true
+formality: signed_statement
+conflict_of_interest: true
+related_employees: [E1080, E1014]
+related_questions: [Q05]
+---
+# Verklaring Emma Vandenberghe (25/11/2025, bij PreviSafe)
+
+- Sinds april 2025 maakt Bart in bijna elke stand-up opmerkingen over mijn werk voor het hele team ("dit is weer niet goed", "misschien is dit te complex voor jou").
+- Op 22 juni stuurde hij "wear something nicer for the client tomorrow". Ik voelde me vernederd.
+- In juli werd ik zonder uitleg van het Brabo-project gehaald nadat ik een fout in zijn planning had gemeld.
+- Hij stuurt berichten na 22u en verwacht onmiddellijk antwoord.
+- Ik heb in oktober met Tom (HR) gepraat; hij stelde een bemiddeling voor en zei dat Bart "gewoon direct" is.
+- Ik slaap slecht en was 5 dagen ziek in oktober.
+
+@@@ FILE STM-Q05-02
+---
+folder: 09_statements
+format: md
+title: Verklaring van de betrokken persoon – Bart Willems
+doc_type: employee_statement
+author: Bart Willems
+author_role: accused person (Team Lead)
+date: 2025-12-02
+jurisdiction: BE
+language: nl
+themes: [T5]
+status: final
+signed: true
+formality: signed_statement
+conflict_of_interest: true
+related_employees: [E1014, E1080]
+related_questions: [Q05]
+---
+# Verklaring Bart Willems (02/12/2025, bij PreviSafe)
+
+- Ik ben een directe leidinggevende. Ik geef feedback wanneer het werk niet goed is; dat is mijn job.
+- Emma's deliverables moesten vaak herwerkt worden. Dat ik dat in de stand-up zeg, is transparantie.
+- "Too complex for you" was een **grapje**; iedereen lacht in ons team.
+- De opmerking over kledij ging over de dresscode van de klant (bank). Ik zeg dat ook tegen mannelijke collega's.
+- Ik heb haar van het Brabo-project gehaald omdat de klant ontevreden was.
+- Berichten 's avonds: ik werk soms laat, niemand moet antwoorden.
+- Dries kan bevestigen dat de sfeer goed is.
+
+@@@ FILE STM-Q05-03
+---
+folder: 09_statements
+format: md
+title: Getuigenverklaring – Yasmine El Amrani
+doc_type: witness_statement
+author: Yasmine El Amrani
+author_role: witness (Consultant)
+date: 2025-12-04
+jurisdiction: BE
+language: nl
+themes: [T5]
+status: final
+signed: true
+formality: signed_statement
+related_employees: [E1081, E1080, E1014]
+related_questions: [Q05]
+---
+# Getuigenverklaring Yasmine El Amrani (04/12/2025)
+
+- Ik was aanwezig op de stand-ups van 14 mei, 11 juni en 17 september 2025.
+- Op 11 juni zei Bart voor het team: "Emma, maybe this is too complex for you, let someone else do it." Niemand lachte; Emma werd rood en zweeg.
+- Op 17 september gooide hij haar slides op het scherm en zei "this is what not to do".
+- Ik heb nooit gehoord dat hij zo tegen mannelijke collega's sprak.
+- Ik heb het niet eerder gemeld uit angst voor mijn evaluatie.
+
+@@@ FILE STM-Q05-04
+---
+folder: 09_statements
+format: md
+title: Getuigenverklaring – Dries Hermans
+doc_type: witness_statement
+author: Dries Hermans
+author_role: witness (Senior Consultant, long-time colleague of B. Willems)
+date: 2025-12-09
+jurisdiction: BE
+language: nl
+themes: [T5]
+status: final
+signed: true
+formality: signed_statement
+conflict_of_interest: true
+related_employees: [E1082, E1014, E1080]
+related_questions: [Q05]
+---
+# Getuigenverklaring Dries Hermans (09/12/2025)
+
+- Ik werk al 8 jaar met Bart. Hij is streng maar rechtvaardig.
+- Ik heb **nooit iets gemerkt** van pesterijen.
+- Op de vergaderingen van 11 juni en 17 september was ik niet aanwezig (klantbezoek / verlof).
+- Op 14 mei herinner ik me enkel een discussie over deadlines.
+- Emma is wat onzeker, volgens mij.
+
+@@@ FILE STM-Q02-01
+---
+folder: 09_statements
+format: pdf
+title: Klachtbrief overuren – Sofie Claes
+doc_type: grievance_letter
+author: Sofie Claes
+author_role: employee
+date: 2026-07-01
+jurisdiction: BE
+language: nl
+themes: [T2]
+status: final
+signed: true
+formality: signed_letter
+conflict_of_interest: true
+letterhead: false
+related_employees: [E1057, E1011]
+related_questions: [Q02]
+---
+Berchem, 1 juli 2026
+
+Aan: HR – Tom Verhaegen; cc: Jeroen Maes
+
+**Betreft: betaling van overuren januari – juni 2026**
+
+Sinds mijn "promotie" tot Project Lead werk ik gemiddeld 48 uur per week, inclusief 11 weekenddagen voor go-lives. Deze uren staan in TimeTrack en werden **elke week door Jeroen gevalideerd**. Jeroen vroeg zelf om weekendwerk (Teams-berichten van 23/01, 13/03 en 12/06).
+
+Ik heb geen enkele medewerker onder mij, geen budget en mijn planning wordt door Jeroen opgemaakt. Ik begrijp niet hoe dat een vertrouwenspost is. Mijn loonsverhoging van 3% compenseert geen 264 extra uren.
+
+Ik vraag de betaling van mijn overuren met overloon, of inhaalrust.
+
+Sofie Claes
+
+@@@ FILE STM-Q06-01
+---
+folder: 09_statements
+format: md
+title: Statement – Jan Peeters
+doc_type: employee_statement
+author: Jan Peeters
+author_role: employee under investigation
+date: 2026-06-08
+jurisdiction: BE
+language: en
+themes: [T6]
+status: final
+signed: true
+formality: signed_statement
+conflict_of_interest: true
+related_employees: [E1090]
+related_questions: [Q06]
+---
+# Statement Jan Peeters (08/06/2026)
+
+- I learned on 5 June that IT had read my whole mailbox, including my "Private" folder. Nobody informed me before or after.
+- The journalist is a **personal friend** from university. The e-mails marked PRIVÉ are about dinners and his article on the energy sector.
+- I did **not** send him any budget figures. "The numbers we discussed" refers to public energy prices.
+- Six people had the budget draft. Why was only my mailbox checked?
+- I signed an IT charter saying monitoring follows CCT 81. That was not respected.
+
+@@@ FILE STM-Q07-01
+---
+folder: 09_statements
+format: md
+title: Déclaration – Luc Schmit
+doc_type: employee_statement
+author: Luc Schmit
+author_role: employee
+date: 2026-09-21
+jurisdiction: BE
+language: fr
+themes: [T4]
+status: final
+signed: true
+formality: signed_statement
+conflict_of_interest: true
+related_employees: [E1095, E1013]
+related_questions: [Q07]
+---
+# Déclaration de Luc Schmit (21/09/2026)
+
+- Le lundi 7 septembre j'avais 39,5° de fièvre. J'ai appelé Olivier à 7h52 et envoyé un WhatsApp.
+- J'ai vu le Dr Weber le lundi à 17h. Le mardi je suis resté au lit ; le mercredi 9 j'ai scanné et envoyé le certificat à 16h40.
+- Le règlement de travail dit deux jours ouvrables. Je ne connaissais pas la règle de 24 heures du handbook.
+- En janvier j'ai reçu un avertissement, je l'accepte. Mais cette fois j'ai prévenu immédiatement.
+
+@@@ FILE STM-Q03-01
+---
+folder: 09_statements
+format: md
+title: Motivation letter – remote work from Lyon – Pieter De Smet
+doc_type: employee_statement
+author: Pieter De Smet
+author_role: employee
+date: 2026-08-20
+jurisdiction: BE
+language: en
+themes: [T3]
+status: final
+signed: true
+formality: signed_statement
+conflict_of_interest: true
+related_employees: [E1063]
+related_questions: [Q03]
+---
+# Request – remote work from Lyon (20/08/2026)
+
+Dear Elke, dear HR,
+
+My partner starts a 4-month assignment in Lyon on 1 October. I would like to work fully remotely from Lyon until 31 January 2027. My work (backend development for the Scheldt Energy project) is 100% remote-compatible; I would come to Brussels for the sprint reviews once a month at my own cost.
+
+I understand that the new policy allows international remote work. Tom already told me on Teams it was fine, so I have signed a lease in Lyon starting 28 September.
+
+Pieter
+
+@@@ FILE STM-Q04-01
+---
+folder: 09_statements
+format: md
+title: Réclamation – refus du congé parental – Lina Haddad
+doc_type: employee_statement
+author: Lina Haddad
+author_role: employee
+date: 2026-04-22
+jurisdiction: BE
+language: fr
+themes: [T4]
+status: final
+signed: true
+formality: signed_statement
+conflict_of_interest: true
+related_employees: [E1071, E1013]
+related_questions: [Q04]
+---
+# Réclamation à la HR Director (22/04/2026)
+
+Madame Lemaire,
+
+J'ai demandé mon congé parental 1/5 le 10 mars 2026 par e-mail, Nadia en a accusé réception le 11 mars. Le 20 avril, soit six semaines plus tard, Olivier me répond qu'il « ne peut pas accepter » à cause de la campagne de printemps et invoque la politique de congé.
+
+Je croyais que le congé parental était un droit. J'ai déjà organisé la garde de ma fille le mercredi à partir du 11 mai. Je vous demande de confirmer mon congé.
+
+Lina Haddad
+
+@@@ FILE STM-Q10-01
+---
+folder: 09_statements
+format: md
+title: Contestation de l'évaluation mi-année – Lina Haddad
+doc_type: employee_statement
+author: Lina Haddad
+author_role: employee
+date: 2026-07-24
+jurisdiction: BE
+language: fr
+themes: [T4, T5]
+status: final
+signed: true
+formality: signed_statement
+conflict_of_interest: true
+related_employees: [E1071, E1013]
+related_questions: [Q10]
+---
+# Contestation de mon évaluation mi-année 2026 (24/07/2026)
+
+- Note « Partially meets » alors que j'avais « Exceeds » en 2025.
+- Les seuls reproches concernent mon « indisponibilité le mercredi » : c'est mon jour de congé parental.
+- Mes objectifs n'ont pas été proratisés alors que la politique (§2.2) l'impose.
+- D'après l'export KPI, je livre 1,28 livrable par jour travaillé contre environ 1,05 pour l'équipe.
+- Mon bonus mi-année passe de ~1.450 € à 726 €.
+
+Je demande la révision de la note conformément à la politique (§5).

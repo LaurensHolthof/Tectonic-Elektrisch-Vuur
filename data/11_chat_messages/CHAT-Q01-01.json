@@ -1,0 +1,22 @@
+{
+ "_dataset_note": "Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.",
+ "platform": "Microsoft Teams",
+ "chat": "1:1 Marc Dubois – Julie Martens",
+ "messages": [
+  {
+   "ts": "2026-03-05T17:48:02+01:00",
+   "from": "Marc Dubois",
+   "text": "Le VPN a encore sauté 5 fois 😡 impossible d'ouvrir le CRM"
+  },
+  {
+   "ts": "2026-03-05T17:49:15+01:00",
+   "from": "Julie Martens",
+   "text": "pareil ce matin. t'as relancé le ticket ?"
+  },
+  {
+   "ts": "2026-03-05T17:52:40+01:00",
+   "from": "Marc Dubois",
+   "text": "oui... je prends tout à la maison et je fais les offres ce week-end, sinon on ne boucle jamais le Q1"
+  }
+ ]
+}

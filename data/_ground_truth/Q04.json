@@ -1,0 +1,56 @@
+{
+ "id": "Q04",
+ "question": "Was Olivier Lambert's refusal of Lina Haddad's parental leave request lawful?",
+ "verdict": "unlawful",
+ "expected_answer": "Unlawful. Parental leave is a right; the employer may only postpone it (max 6 months) for justified reasons linked to the functioning of the company, notified in writing within one month of the request (RD 29/10/1997; leave policy v2). Olivier relied on the 2022 policy (superseded on 01/02/2025), refused instead of postponing, answered after 41 days and is not competent (HR only). The formal defect (plain e-mail instead of registered letter / signed duplicate) is weak because HR acknowledged receipt in writing. The HR Director correctly withdrew the refusal; the 3-week shift of the start was agreed. Lina is protected against dismissal.",
+ "key_facts": [
+  "Request 10/03/2026 by e-mail, acknowledged by HR 11/03 (EML-Q04-01, EML-Q04-02, REC-Q04-01)",
+  "Refusal 20/04 citing peak period policy (EML-Q04-03)",
+  "HR Director overrules 28/04; leave from 01/06/2026 (EML-Q04-04, INV-Q04-01, CTR-E1071-AMD-PARENTAL)"
+ ],
+ "conflicts": [
+  {
+   "issue": "Can management refuse parental leave in peak periods?",
+   "sides": {
+    "POL-LEAVE-v1-2022": "yes (superseded)",
+    "POL-LEAVE-v2-2025": "no, only postpone ≤6 months within 1 month",
+    "RD-BE-1997-PARENTAL-FR": "right to parental leave; postponement conditions"
+   },
+   "resolution": "Refusal not allowed.",
+   "winning_docs": [
+    "RD-BE-1997-PARENTAL-FR",
+    "POL-LEAVE-v2-2025"
+   ],
+   "why": "Law ranks first; v1 is superseded."
+  },
+  {
+   "issue": "Was the request validly made?",
+   "sides": {
+    "POL-LEAVE-v2-2025": "registered letter or signed duplicate",
+    "EML-Q04-02": "HR acknowledged receipt in writing"
+   },
+   "resolution": "Receipt is established; employer cannot rely on the form defect.",
+   "winning_docs": [
+    "EML-Q04-02",
+    "INV-Q04-01"
+   ],
+   "why": "Written acknowledgement serves the purpose of proof."
+  }
+ ],
+ "focus_docs": [
+  "RD-BE-1997-PARENTAL-FR",
+  "POL-LEAVE-v1-2022",
+  "POL-LEAVE-v2-2025",
+  "EML-Q04-03"
+ ],
+ "supporting_docs": [
+  "CTR-E1071-AMD-PARENTAL",
+  "CTR-E1071-CONTRACT",
+  "REC-Q04-01",
+  "INV-Q04-01",
+  "STM-Q04-01",
+  "EML-Q04-01",
+  "EML-Q04-02",
+  "EML-Q04-04"
+ ]
+}

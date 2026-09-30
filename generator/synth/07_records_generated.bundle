@@ -1,0 +1,480 @@
+@@@ FILE REC-Q02-01
+---
+folder: 07_official_records
+format: csv
+title: 'Timesheet export H1 2026 – Sofie Claes (E1057)'
+doc_type: timesheet
+author: Timesheet tool (TimeTrack) – export by HR
+author_role: system_record
+date: 2026-07-06
+jurisdiction: BE
+language: en
+themes: [T2]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1057, E1011]
+related_questions: [Q02]
+---
+date,weekday,project,hours,note_location,manager_validation
+2026-01-01,Thu,,0.00,public holiday,validated
+2026-01-02,Fri,PRJ-2231 Antwerp Port Data Lake,9.00,home,validated
+2026-01-05,Mon,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-01-06,Tue,PRJ-2240 Brabo Retail BI,10.00,office,validated
+2026-01-07,Wed,PRJ-2240 Brabo Retail BI,9.00,office,validated
+2026-01-08,Thu,PRJ-2240 Brabo Retail BI,8.75,office,validated
+2026-01-09,Fri,PRJ-2240 Brabo Retail BI,9.25,home,validated
+2026-01-12,Mon,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-01-13,Tue,PRJ-2254 Scheldt Energy Migration,8.00,office,validated
+2026-01-14,Wed,PRJ-2254 Scheldt Energy Migration,9.75,office,validated
+2026-01-15,Thu,PRJ-2254 Scheldt Energy Migration,8.25,office,validated
+2026-01-16,Fri,PRJ-2254 Scheldt Energy Migration,10.00,home,validated
+2026-01-19,Mon,PRJ-2254 Scheldt Energy Migration,9.25,home,validated
+2026-01-20,Tue,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-01-21,Wed,PRJ-2254 Scheldt Energy Migration,10.00,office,validated
+2026-01-22,Thu,PRJ-2231 Antwerp Port Data Lake,9.00,office,validated
+2026-01-23,Fri,PRJ-2231 Antwerp Port Data Lake,9.50,home,validated
+2026-01-24,Sat,PRJ-2231 Antwerp Port Data Lake,6.75,weekend go-live / delivery,validated
+2026-01-25,Sun,PRJ-2231 Antwerp Port Data Lake,6.75,weekend go-live / delivery,validated
+2026-01-26,Mon,PRJ-2231 Antwerp Port Data Lake,10.00,home,validated
+2026-01-27,Tue,PRJ-2231 Antwerp Port Data Lake,9.25,office,validated
+2026-01-28,Wed,PRJ-2231 Antwerp Port Data Lake,10.25,office,validated
+2026-01-29,Thu,PRJ-2231 Antwerp Port Data Lake,9.75,office,validated
+2026-01-30,Fri,PRJ-2231 Antwerp Port Data Lake,10.00,home,validated
+2026-02-02,Mon,PRJ-2240 Brabo Retail BI,9.50,home,validated
+2026-02-03,Tue,PRJ-2240 Brabo Retail BI,9.75,office,validated
+2026-02-04,Wed,PRJ-2240 Brabo Retail BI,10.25,office,validated
+2026-02-05,Thu,PRJ-2240 Brabo Retail BI,10.00,office,validated
+2026-02-06,Fri,PRJ-2240 Brabo Retail BI,7.50,home,validated
+2026-02-09,Mon,PRJ-2254 Scheldt Energy Migration,9.75,home,validated
+2026-02-10,Tue,PRJ-2254 Scheldt Energy Migration,9.75,office,validated
+2026-02-11,Wed,PRJ-2254 Scheldt Energy Migration,9.00,office,validated
+2026-02-12,Thu,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-02-13,Fri,PRJ-2254 Scheldt Energy Migration,8.00,home,validated
+2026-02-16,Mon,,0.00,annual leave,validated
+2026-02-17,Tue,,0.00,annual leave,validated
+2026-02-18,Wed,,0.00,annual leave,validated
+2026-02-19,Thu,,0.00,annual leave,validated
+2026-02-20,Fri,,0.00,annual leave,validated
+2026-02-23,Mon,PRJ-2231 Antwerp Port Data Lake,10.00,home,validated
+2026-02-24,Tue,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-02-25,Wed,PRJ-2231 Antwerp Port Data Lake,8.25,office,validated
+2026-02-26,Thu,PRJ-2231 Antwerp Port Data Lake,10.25,office,validated
+2026-02-27,Fri,PRJ-2240 Brabo Retail BI,9.25,home,validated
+2026-02-28,Sat,PRJ-2240 Brabo Retail BI,6.50,weekend go-live / delivery,validated
+2026-03-02,Mon,PRJ-2240 Brabo Retail BI,9.50,home,validated
+2026-03-03,Tue,PRJ-2240 Brabo Retail BI,7.75,office,validated
+2026-03-04,Wed,PRJ-2240 Brabo Retail BI,9.75,office,validated
+2026-03-05,Thu,PRJ-2240 Brabo Retail BI,9.00,office,validated
+2026-03-06,Fri,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-03-09,Mon,PRJ-2254 Scheldt Energy Migration,9.00,home,validated
+2026-03-10,Tue,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-03-11,Wed,PRJ-2254 Scheldt Energy Migration,9.00,office,validated
+2026-03-12,Thu,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-03-13,Fri,PRJ-2254 Scheldt Energy Migration,9.00,home,validated
+2026-03-14,Sat,PRJ-2254 Scheldt Energy Migration,7.00,weekend go-live / delivery,validated
+2026-03-15,Sun,PRJ-2254 Scheldt Energy Migration,5.50,weekend go-live / delivery,validated
+2026-03-16,Mon,PRJ-2254 Scheldt Energy Migration,9.00,home,validated
+2026-03-17,Tue,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-03-18,Wed,PRJ-2231 Antwerp Port Data Lake,10.25,office,validated
+2026-03-19,Thu,PRJ-2231 Antwerp Port Data Lake,9.00,office,validated
+2026-03-20,Fri,PRJ-2231 Antwerp Port Data Lake,9.25,home,validated
+2026-03-23,Mon,PRJ-2231 Antwerp Port Data Lake,8.25,home,validated
+2026-03-24,Tue,PRJ-2231 Antwerp Port Data Lake,7.75,office,validated
+2026-03-25,Wed,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-03-26,Thu,PRJ-2240 Brabo Retail BI,9.75,office,validated
+2026-03-27,Fri,PRJ-2240 Brabo Retail BI,9.00,home,validated
+2026-03-28,Sat,PRJ-2240 Brabo Retail BI,7.00,weekend go-live / delivery,validated
+2026-03-30,Mon,PRJ-2240 Brabo Retail BI,9.25,home,validated
+2026-03-31,Tue,PRJ-2240 Brabo Retail BI,8.75,office,validated
+2026-04-01,Wed,PRJ-2240 Brabo Retail BI,9.75,office,validated
+2026-04-02,Thu,PRJ-2240 Brabo Retail BI,8.25,office,validated
+2026-04-03,Fri,PRJ-2240 Brabo Retail BI,9.00,home,validated
+2026-04-06,Mon,,0.00,public holiday,validated
+2026-04-07,Tue,PRJ-2254 Scheldt Energy Migration,8.75,office,validated
+2026-04-08,Wed,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-04-09,Thu,PRJ-2254 Scheldt Energy Migration,10.00,office,validated
+2026-04-10,Fri,PRJ-2254 Scheldt Energy Migration,9.75,home,validated
+2026-04-13,Mon,PRJ-2231 Antwerp Port Data Lake,10.00,home,validated
+2026-04-14,Tue,PRJ-2231 Antwerp Port Data Lake,9.25,office,validated
+2026-04-15,Wed,PRJ-2231 Antwerp Port Data Lake,7.75,office,validated
+2026-04-16,Thu,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-04-17,Fri,PRJ-2231 Antwerp Port Data Lake,9.75,home,validated
+2026-04-18,Sat,PRJ-2231 Antwerp Port Data Lake,8.00,weekend go-live / delivery,validated
+2026-04-20,Mon,PRJ-2231 Antwerp Port Data Lake,10.25,home,validated
+2026-04-21,Tue,PRJ-2231 Antwerp Port Data Lake,9.75,office,validated
+2026-04-22,Wed,PRJ-2240 Brabo Retail BI,10.00,office,validated
+2026-04-23,Thu,PRJ-2240 Brabo Retail BI,9.50,office,validated
+2026-04-24,Fri,PRJ-2240 Brabo Retail BI,9.00,home,validated
+2026-04-27,Mon,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-04-28,Tue,PRJ-2240 Brabo Retail BI,10.00,office,validated
+2026-04-29,Wed,PRJ-2240 Brabo Retail BI,9.25,office,validated
+2026-04-30,Thu,PRJ-2240 Brabo Retail BI,9.00,office,validated
+2026-05-01,Fri,,0.00,public holiday,validated
+2026-05-04,Mon,PRJ-2254 Scheldt Energy Migration,9.25,home,validated
+2026-05-05,Tue,PRJ-2254 Scheldt Energy Migration,7.75,office,validated
+2026-05-06,Wed,PRJ-2254 Scheldt Energy Migration,8.75,office,validated
+2026-05-07,Thu,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-05-08,Fri,PRJ-2254 Scheldt Energy Migration,8.75,home,validated
+2026-05-09,Sat,PRJ-2254 Scheldt Energy Migration,7.75,weekend go-live / delivery,validated
+2026-05-11,Mon,PRJ-2231 Antwerp Port Data Lake,9.25,home,validated
+2026-05-12,Tue,PRJ-2231 Antwerp Port Data Lake,10.00,office,validated
+2026-05-13,Wed,PRJ-2231 Antwerp Port Data Lake,9.25,office,validated
+2026-05-14,Thu,,0.00,public holiday,validated
+2026-05-15,Fri,,0.00,annual leave,validated
+2026-05-18,Mon,PRJ-2231 Antwerp Port Data Lake,9.50,home,validated
+2026-05-19,Tue,PRJ-2240 Brabo Retail BI,9.25,office,validated
+2026-05-20,Wed,PRJ-2240 Brabo Retail BI,9.00,office,validated
+2026-05-21,Thu,PRJ-2240 Brabo Retail BI,8.00,office,validated
+2026-05-22,Fri,PRJ-2240 Brabo Retail BI,9.25,home,validated
+2026-05-25,Mon,,0.00,public holiday,validated
+2026-05-26,Tue,,0.00,annual leave,validated
+2026-05-27,Wed,,0.00,annual leave,validated
+2026-05-28,Thu,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-05-29,Fri,PRJ-2254 Scheldt Energy Migration,9.75,home,validated
+2026-05-30,Sat,PRJ-2254 Scheldt Energy Migration,5.50,weekend go-live / delivery,validated
+2026-06-01,Mon,PRJ-2254 Scheldt Energy Migration,10.00,home,validated
+2026-06-02,Tue,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-06-03,Wed,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-06-04,Thu,PRJ-2254 Scheldt Energy Migration,9.25,office,validated
+2026-06-05,Fri,PRJ-2254 Scheldt Energy Migration,9.25,home,validated
+2026-06-08,Mon,PRJ-2231 Antwerp Port Data Lake,9.50,home,validated
+2026-06-09,Tue,PRJ-2231 Antwerp Port Data Lake,9.50,office,validated
+2026-06-10,Wed,PRJ-2231 Antwerp Port Data Lake,9.75,office,validated
+2026-06-11,Thu,PRJ-2231 Antwerp Port Data Lake,10.25,office,validated
+2026-06-12,Fri,PRJ-2231 Antwerp Port Data Lake,8.75,home,validated
+2026-06-13,Sat,PRJ-2231 Antwerp Port Data Lake,5.00,weekend go-live / delivery,validated
+2026-06-14,Sun,PRJ-2231 Antwerp Port Data Lake,5.50,weekend go-live / delivery,validated
+2026-06-15,Mon,PRJ-2240 Brabo Retail BI,10.00,home,validated
+2026-06-16,Tue,PRJ-2240 Brabo Retail BI,7.75,office,validated
+2026-06-17,Wed,PRJ-2240 Brabo Retail BI,9.25,office,validated
+2026-06-18,Thu,PRJ-2240 Brabo Retail BI,9.25,office,validated
+2026-06-19,Fri,PRJ-2240 Brabo Retail BI,9.00,home,validated
+2026-06-22,Mon,PRJ-2240 Brabo Retail BI,10.25,home,validated
+2026-06-23,Tue,PRJ-2240 Brabo Retail BI,7.75,office,validated
+2026-06-24,Wed,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+2026-06-25,Thu,PRJ-2254 Scheldt Energy Migration,9.75,office,validated
+2026-06-26,Fri,PRJ-2254 Scheldt Energy Migration,9.50,home,validated
+2026-06-29,Mon,PRJ-2254 Scheldt Energy Migration,8.75,home,validated
+2026-06-30,Tue,PRJ-2254 Scheldt Energy Migration,9.50,office,validated
+
+@@@ FILE REC-Q02-02
+---
+folder: 07_official_records
+format: csv
+title: 'Badge access log Antwerp office H1 2026 – E1057'
+doc_type: badge_log
+author: Access control system (Facility)
+author_role: system_record
+date: 2026-07-06
+jurisdiction: BE
+language: en
+themes: [T2]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1057]
+related_questions: [Q02]
+---
+date,employee_id,reader,timestamp
+2026-01-06,E1057,ANT-MAIN-IN,2026-01-06 08:38
+2026-01-06,E1057,ANT-MAIN-OUT,2026-01-06 19:22
+2026-01-07,E1057,ANT-MAIN-IN,2026-01-07 07:57
+2026-01-07,E1057,ANT-MAIN-OUT,2026-01-07 17:31
+2026-01-08,E1057,ANT-MAIN-IN,2026-01-08 08:39
+2026-01-08,E1057,ANT-MAIN-OUT,2026-01-08 18:03
+2026-01-13,E1057,ANT-MAIN-IN,2026-01-13 08:26
+2026-01-13,E1057,ANT-MAIN-OUT,2026-01-13 17:11
+2026-01-14,E1057,ANT-MAIN-IN,2026-01-14 07:52
+2026-01-14,E1057,ANT-MAIN-OUT,2026-01-14 18:19
+2026-01-15,E1057,ANT-MAIN-IN,2026-01-15 08:37
+2026-01-15,E1057,ANT-MAIN-OUT,2026-01-15 17:35
+2026-01-20,E1057,ANT-MAIN-IN,2026-01-20 07:55
+2026-01-20,E1057,ANT-MAIN-OUT,2026-01-20 18:09
+2026-01-21,E1057,ANT-MAIN-IN,2026-01-21 07:54
+2026-01-21,E1057,ANT-MAIN-OUT,2026-01-21 18:35
+2026-01-22,E1057,ANT-MAIN-IN,2026-01-22 07:54
+2026-01-22,E1057,ANT-MAIN-OUT,2026-01-22 17:35
+2026-01-27,E1057,ANT-MAIN-IN,2026-01-27 07:59
+2026-01-27,E1057,ANT-MAIN-OUT,2026-01-27 17:56
+2026-01-28,E1057,ANT-MAIN-IN,2026-01-28 08:42
+2026-01-28,E1057,ANT-MAIN-OUT,2026-01-28 19:32
+2026-01-29,E1057,ANT-MAIN-IN,2026-01-29 08:38
+2026-01-29,E1057,ANT-MAIN-OUT,2026-01-29 19:07
+2026-02-03,E1057,ANT-MAIN-IN,2026-02-03 08:26
+2026-02-03,E1057,ANT-MAIN-OUT,2026-02-03 18:57
+2026-02-04,E1057,ANT-MAIN-IN,2026-02-04 08:37
+2026-02-04,E1057,ANT-MAIN-OUT,2026-02-04 19:38
+2026-02-05,E1057,ANT-MAIN-IN,2026-02-05 08:08
+2026-02-05,E1057,ANT-MAIN-OUT,2026-02-05 18:50
+2026-02-10,E1057,ANT-MAIN-IN,2026-02-10 08:24
+2026-02-10,E1057,ANT-MAIN-OUT,2026-02-10 18:53
+2026-02-11,E1057,ANT-MAIN-IN,2026-02-11 08:39
+2026-02-11,E1057,ANT-MAIN-OUT,2026-02-11 18:26
+2026-02-12,E1057,ANT-MAIN-IN,2026-02-12 08:06
+2026-02-12,E1057,ANT-MAIN-OUT,2026-02-12 18:26
+2026-02-24,E1057,ANT-MAIN-IN,2026-02-24 08:10
+2026-02-24,E1057,ANT-MAIN-OUT,2026-02-24 18:17
+2026-02-25,E1057,ANT-MAIN-IN,2026-02-25 07:52
+2026-02-25,E1057,ANT-MAIN-OUT,2026-02-25 16:53
+2026-02-26,E1057,ANT-MAIN-IN,2026-02-26 07:55
+2026-02-26,E1057,ANT-MAIN-OUT,2026-02-26 18:49
+2026-02-28,E1057,ANT-MAIN-IN,2026-02-28 08:14
+2026-02-28,E1057,ANT-MAIN-OUT,2026-02-28 15:21
+2026-03-03,E1057,ANT-MAIN-IN,2026-03-03 08:09
+2026-03-03,E1057,ANT-MAIN-OUT,2026-03-03 16:32
+2026-03-04,E1057,ANT-MAIN-IN,2026-03-04 07:56
+2026-03-04,E1057,ANT-MAIN-OUT,2026-03-04 18:24
+2026-03-05,E1057,ANT-MAIN-IN,2026-03-05 07:59
+2026-03-05,E1057,ANT-MAIN-OUT,2026-03-05 17:36
+2026-03-10,E1057,ANT-MAIN-IN,2026-03-10 07:57
+2026-03-10,E1057,ANT-MAIN-OUT,2026-03-10 17:47
+2026-03-11,E1057,ANT-MAIN-IN,2026-03-11 08:42
+2026-03-11,E1057,ANT-MAIN-OUT,2026-03-11 18:17
+2026-03-12,E1057,ANT-MAIN-IN,2026-03-12 08:23
+2026-03-12,E1057,ANT-MAIN-OUT,2026-03-12 18:40
+2026-03-14,E1057,ANT-MAIN-IN,2026-03-14 08:06
+2026-03-14,E1057,ANT-MAIN-OUT,2026-03-14 15:49
+2026-03-17,E1057,ANT-MAIN-IN,2026-03-17 08:14
+2026-03-17,E1057,ANT-MAIN-OUT,2026-03-17 18:18
+2026-03-18,E1057,ANT-MAIN-IN,2026-03-18 07:53
+2026-03-18,E1057,ANT-MAIN-OUT,2026-03-18 18:54
+2026-03-19,E1057,ANT-MAIN-IN,2026-03-19 08:28
+2026-03-19,E1057,ANT-MAIN-OUT,2026-03-19 18:10
+2026-03-24,E1057,ANT-MAIN-IN,2026-03-24 07:57
+2026-03-24,E1057,ANT-MAIN-OUT,2026-03-24 16:16
+2026-03-25,E1057,ANT-MAIN-IN,2026-03-25 08:27
+2026-03-25,E1057,ANT-MAIN-OUT,2026-03-25 18:35
+2026-03-26,E1057,ANT-MAIN-IN,2026-03-26 07:52
+2026-03-26,E1057,ANT-MAIN-OUT,2026-03-26 18:19
+2026-03-31,E1057,ANT-MAIN-IN,2026-03-31 07:57
+2026-03-31,E1057,ANT-MAIN-OUT,2026-03-31 17:19
+2026-04-01,E1057,ANT-MAIN-IN,2026-04-01 07:57
+2026-04-01,E1057,ANT-MAIN-OUT,2026-04-01 18:20
+2026-04-02,E1057,ANT-MAIN-IN,2026-04-02 08:10
+2026-04-02,E1057,ANT-MAIN-OUT,2026-04-02 17:09
+2026-04-07,E1057,ANT-MAIN-IN,2026-04-07 08:30
+2026-04-07,E1057,ANT-MAIN-OUT,2026-04-07 17:52
+2026-04-08,E1057,ANT-MAIN-IN,2026-04-08 08:08
+2026-04-08,E1057,ANT-MAIN-OUT,2026-04-08 18:08
+2026-04-09,E1057,ANT-MAIN-IN,2026-04-09 07:54
+2026-04-09,E1057,ANT-MAIN-OUT,2026-04-09 18:41
+2026-04-14,E1057,ANT-MAIN-IN,2026-04-14 08:21
+2026-04-14,E1057,ANT-MAIN-OUT,2026-04-14 18:17
+2026-04-15,E1057,ANT-MAIN-IN,2026-04-15 07:54
+2026-04-15,E1057,ANT-MAIN-OUT,2026-04-15 16:27
+2026-04-16,E1057,ANT-MAIN-IN,2026-04-16 08:29
+2026-04-16,E1057,ANT-MAIN-OUT,2026-04-16 18:40
+2026-04-21,E1057,ANT-MAIN-IN,2026-04-21 08:10
+2026-04-21,E1057,ANT-MAIN-OUT,2026-04-21 18:33
+2026-04-22,E1057,ANT-MAIN-IN,2026-04-22 08:39
+2026-04-22,E1057,ANT-MAIN-OUT,2026-04-22 19:22
+2026-04-23,E1057,ANT-MAIN-IN,2026-04-23 08:28
+2026-04-23,E1057,ANT-MAIN-OUT,2026-04-23 18:38
+2026-04-28,E1057,ANT-MAIN-IN,2026-04-28 07:57
+2026-04-28,E1057,ANT-MAIN-OUT,2026-04-28 18:37
+2026-04-29,E1057,ANT-MAIN-IN,2026-04-29 07:51
+2026-04-29,E1057,ANT-MAIN-OUT,2026-04-29 17:45
+2026-04-30,E1057,ANT-MAIN-IN,2026-04-30 08:25
+2026-04-30,E1057,ANT-MAIN-OUT,2026-04-30 18:11
+2026-05-05,E1057,ANT-MAIN-IN,2026-05-05 08:42
+2026-05-05,E1057,ANT-MAIN-OUT,2026-05-05 17:03
+2026-05-06,E1057,ANT-MAIN-IN,2026-05-06 08:14
+2026-05-06,E1057,ANT-MAIN-OUT,2026-05-06 17:34
+2026-05-07,E1057,ANT-MAIN-IN,2026-05-07 08:43
+2026-05-07,E1057,ANT-MAIN-OUT,2026-05-07 18:54
+2026-05-09,E1057,ANT-MAIN-IN,2026-05-09 08:09
+2026-05-09,E1057,ANT-MAIN-OUT,2026-05-09 16:30
+2026-05-12,E1057,ANT-MAIN-IN,2026-05-12 07:52
+2026-05-12,E1057,ANT-MAIN-OUT,2026-05-12 18:31
+2026-05-13,E1057,ANT-MAIN-IN,2026-05-13 08:14
+2026-05-13,E1057,ANT-MAIN-OUT,2026-05-13 18:12
+2026-05-19,E1057,ANT-MAIN-IN,2026-05-19 07:57
+2026-05-19,E1057,ANT-MAIN-OUT,2026-05-19 17:56
+2026-05-20,E1057,ANT-MAIN-IN,2026-05-20 08:24
+2026-05-20,E1057,ANT-MAIN-OUT,2026-05-20 18:05
+2026-05-21,E1057,ANT-MAIN-IN,2026-05-21 07:53
+2026-05-21,E1057,ANT-MAIN-OUT,2026-05-21 16:39
+2026-05-28,E1057,ANT-MAIN-IN,2026-05-28 08:27
+2026-05-28,E1057,ANT-MAIN-OUT,2026-05-28 18:26
+2026-06-02,E1057,ANT-MAIN-IN,2026-06-02 08:43
+2026-06-02,E1057,ANT-MAIN-OUT,2026-06-02 18:35
+2026-06-03,E1057,ANT-MAIN-IN,2026-06-03 08:43
+2026-06-03,E1057,ANT-MAIN-OUT,2026-06-03 18:55
+2026-06-04,E1057,ANT-MAIN-IN,2026-06-04 08:43
+2026-06-04,E1057,ANT-MAIN-OUT,2026-06-04 18:37
+2026-06-09,E1057,ANT-MAIN-IN,2026-06-09 08:45
+2026-06-09,E1057,ANT-MAIN-OUT,2026-06-09 18:54
+2026-06-10,E1057,ANT-MAIN-IN,2026-06-10 08:37
+2026-06-10,E1057,ANT-MAIN-OUT,2026-06-10 19:10
+2026-06-11,E1057,ANT-MAIN-IN,2026-06-11 08:11
+2026-06-11,E1057,ANT-MAIN-OUT,2026-06-11 19:08
+2026-06-16,E1057,ANT-MAIN-IN,2026-06-16 07:54
+2026-06-16,E1057,ANT-MAIN-OUT,2026-06-16 16:26
+2026-06-17,E1057,ANT-MAIN-IN,2026-06-17 08:40
+2026-06-17,E1057,ANT-MAIN-OUT,2026-06-17 18:37
+2026-06-18,E1057,ANT-MAIN-IN,2026-06-18 08:10
+2026-06-18,E1057,ANT-MAIN-OUT,2026-06-18 18:00
+2026-06-23,E1057,ANT-MAIN-IN,2026-06-23 08:14
+2026-06-23,E1057,ANT-MAIN-OUT,2026-06-23 16:33
+2026-06-24,E1057,ANT-MAIN-IN,2026-06-24 08:06
+2026-06-24,E1057,ANT-MAIN-OUT,2026-06-24 18:26
+2026-06-25,E1057,ANT-MAIN-IN,2026-06-25 08:27
+2026-06-25,E1057,ANT-MAIN-OUT,2026-06-25 18:51
+2026-06-30,E1057,ANT-MAIN-IN,2026-06-30 08:43
+2026-06-30,E1057,ANT-MAIN-OUT,2026-06-30 18:48
+
+@@@ FILE REC-Q02-03
+---
+folder: 07_official_records
+format: csv
+title: 'Payroll summary H1 2026 – Sofie Claes'
+doc_type: payroll
+author: Paycore Social Secretariat
+author_role: system_record
+date: 2026-07-02
+jurisdiction: BE
+language: en
+themes: [T2]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1057]
+related_questions: [Q02]
+---
+period,employee_id,name,gross_base_eur,overtime_hours_paid,overtime_premium_eur,meal_vouchers,payroll_category
+2026-01,E1057,Sofie Claes,4553.00,0.00,0.00,21,M1 – position of trust (no overtime)
+2026-02,E1057,Sofie Claes,4553.00,0.00,0.00,20,M1 – position of trust (no overtime)
+2026-03,E1057,Sofie Claes,4553.00,0.00,0.00,20,M1 – position of trust (no overtime)
+2026-04,E1057,Sofie Claes,4553.00,0.00,0.00,19,M1 – position of trust (no overtime)
+2026-05,E1057,Sofie Claes,4553.00,0.00,0.00,21,M1 – position of trust (no overtime)
+2026-06,E1057,Sofie Claes,4553.00,0.00,0.00,19,M1 – position of trust (no overtime)
+
+@@@ FILE REC-Q08-01
+---
+folder: 07_official_records
+format: csv
+title: 'VPN connection log (GlobalProtect) – a.karimi – on-call weeks Apr–Jun 2026'
+doc_type: security_log
+author: IT Security – GlobalProtect gateway
+author_role: system_record
+date: 2026-07-10
+jurisdiction: BE
+language: en
+themes: [T2, T6]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1102, E1005]
+related_questions: [Q08]
+---
+session_start,session_end,user,source_ip_masked,gateway,duration_min,data_transferred,linked_ticket
+2026-04-07 02:41:00,2026-04-07 03:38:00,a.karimi,81.246.96.x,GlobalProtect-BXL,57,195 MB,INC-21807
+2026-04-07 23:38:00,2026-04-08 00:26:00,a.karimi,81.242.73.x,GlobalProtect-BXL,48,174 MB,INC-21814
+2026-04-08 08:30:00,2026-04-08 16:44:00,a.karimi,81.245.68.x,GlobalProtect-BXL,494,408 MB,telework day
+2026-04-08 20:51:00,2026-04-08 21:24:00,a.karimi,81.240.17.x,GlobalProtect-BXL,33,327 MB,INC-21821
+2026-04-09 22:50:00,2026-04-10 00:41:00,a.karimi,81.244.91.x,GlobalProtect-BXL,111,182 MB,INC-21828
+2026-04-11 23:10:00,2026-04-11 23:58:00,a.karimi,81.242.27.x,GlobalProtect-BXL,48,809 MB,INC-21842
+2026-04-12 00:17:00,2026-04-12 00:50:00,a.karimi,81.245.65.x,GlobalProtect-BXL,33,508 MB,INC-21835
+2026-04-27 08:33:00,2026-04-27 16:55:00,a.karimi,81.241.86.x,GlobalProtect-BXL,502,2490 MB,telework day
+2026-04-28 02:09:00,2026-04-28 05:54:00,a.karimi,81.240.241.x,GlobalProtect-BXL,225,47 MB,INC-21849
+2026-04-29 02:03:00,2026-04-29 04:42:00,a.karimi,81.241.180.x,GlobalProtect-BXL,159,640 MB,INC-21856
+2026-04-29 08:57:00,2026-04-29 17:15:00,a.karimi,81.240.23.x,GlobalProtect-BXL,498,591 MB,telework day
+2026-04-30 22:54:00,2026-05-01 01:03:00,a.karimi,81.244.168.x,GlobalProtect-BXL,129,814 MB,INC-21863
+2026-05-02 00:01:00,2026-05-02 00:34:00,a.karimi,81.242.97.x,GlobalProtect-BXL,33,876 MB,INC-21870
+2026-05-02 20:05:00,2026-05-02 20:44:00,a.karimi,81.246.221.x,GlobalProtect-BXL,39,244 MB,INC-21877
+2026-05-25 22:56:00,2026-05-26 01:53:00,a.karimi,81.243.100.x,GlobalProtect-BXL,177,158 MB,INC-21884
+2026-05-27 08:54:00,2026-05-27 17:23:00,a.karimi,81.241.171.x,GlobalProtect-BXL,509,927 MB,telework day
+2026-05-27 20:43:00,2026-05-27 21:34:00,a.karimi,81.242.58.x,GlobalProtect-BXL,51,216 MB,INC-21898
+2026-05-27 22:48:00,2026-05-28 00:09:00,a.karimi,81.241.181.x,GlobalProtect-BXL,81,771 MB,INC-21891
+2026-05-29 00:13:00,2026-05-29 02:52:00,a.karimi,81.246.96.x,GlobalProtect-BXL,159,478 MB,INC-21905
+2026-05-30 02:01:00,2026-05-30 04:34:00,a.karimi,81.242.137.x,GlobalProtect-BXL,153,334 MB,INC-21912
+2026-05-31 02:47:00,2026-05-31 05:11:00,a.karimi,81.245.203.x,GlobalProtect-BXL,144,49 MB,INC-21919
+2026-06-22 08:39:00,2026-06-22 17:19:00,a.karimi,81.247.123.x,GlobalProtect-BXL,520,1619 MB,telework day
+2026-06-22 21:48:00,2026-06-22 23:24:00,a.karimi,81.244.40.x,GlobalProtect-BXL,96,512 MB,INC-21926
+2026-06-24 01:29:00,2026-06-24 03:05:00,a.karimi,81.245.50.x,GlobalProtect-BXL,96,873 MB,INC-21933
+2026-06-24 08:52:00,2026-06-24 17:30:00,a.karimi,81.247.124.x,GlobalProtect-BXL,518,1938 MB,telework day
+2026-06-25 22:17:00,2026-06-26 02:32:00,a.karimi,81.244.19.x,GlobalProtect-BXL,255,122 MB,INC-21940
+2026-06-27 01:37:00,2026-06-27 03:46:00,a.karimi,81.240.35.x,GlobalProtect-BXL,129,580 MB,INC-21947
+2026-06-27 21:59:00,2026-06-27 22:47:00,a.karimi,81.247.55.x,GlobalProtect-BXL,48,435 MB,INC-21954
+2026-06-27 22:51:00,2026-06-28 01:57:00,a.karimi,81.247.245.x,GlobalProtect-BXL,186,593 MB,INC-21961
+
+@@@ FILE REC-Q08-02
+---
+folder: 07_official_records
+format: csv
+title: 'Timesheet corrections log – on-call weeks – Ahmed Karimi'
+doc_type: timesheet
+author: Timesheet tool (TimeTrack) – audit trail
+author_role: system_record
+date: 2026-07-01
+jurisdiction: BE
+language: en
+themes: [T2]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1102, E1016]
+related_questions: [Q08]
+---
+week_starting,employee_id,hours_entered_by_employee,hours_after_correction,corrected_by,correction_comment
+2026-04-06,E1102,43.50,38.00,n.hubert,adjusted – not approved (stand-by covered by allowance)
+2026-04-27,E1102,47.75,38.00,n.hubert,adjusted – not approved (stand-by covered by allowance)
+2026-05-25,E1102,50.75,38.00,n.hubert,adjusted – not approved (stand-by covered by allowance)
+2026-06-22,E1102,51.50,38.00,n.hubert,adjusted – not approved (stand-by covered by allowance)
+
+@@@ FILE REC-Q10-01
+---
+folder: 07_official_records
+format: csv
+title: 'Marketing KPI export Jan–Jun 2026 – Liège team'
+doc_type: kpi_export
+author: Marketing automation platform – export by HR
+author_role: system_record
+date: 2026-07-20
+jurisdiction: BE
+language: en
+themes: [T4, T5]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1071, E1013]
+related_questions: [Q10]
+---
+month,employee_id,name,days_worked,campaign_deliverables,deliverables_per_worked_day,campaigns_led,stakeholder_score_5
+2026-01,E1071,Lina Haddad,21,27,1.29,6,4.7
+2026-01,E1120,Maxime Renard,20,21,1.05,5,3.5
+2026-01,E1121,Chloé Dethier,21,22,1.05,2,4.2
+2026-01,E1122,Sam Kaya,19,19,1.00,6,3.1
+2026-01,E1123,Aurélie Gilson,21,21,1.00,2,4.1
+2026-01,E1124,Noah Lejeune,21,21,1.00,6,3.7
+2026-02,E1071,Lina Haddad,19,24,1.26,6,3.1
+2026-02,E1120,Maxime Renard,18,21,1.17,3,4.8
+2026-02,E1121,Chloé Dethier,20,21,1.05,3,4.2
+2026-02,E1122,Sam Kaya,18,17,0.94,5,4.6
+2026-02,E1123,Aurélie Gilson,20,23,1.15,5,3.8
+2026-02,E1124,Noah Lejeune,20,20,1.00,2,3.6
+2026-03,E1071,Lina Haddad,22,28,1.27,6,3.6
+2026-03,E1120,Maxime Renard,21,20,0.95,3,4.8
+2026-03,E1121,Chloé Dethier,22,21,0.95,6,3.3
+2026-03,E1122,Sam Kaya,21,22,1.05,2,3.7
+2026-03,E1123,Aurélie Gilson,20,21,1.05,6,4.2
+2026-03,E1124,Noah Lejeune,22,26,1.18,3,4.3
+2026-04,E1071,Lina Haddad,20,26,1.30,2,3.6
+2026-04,E1120,Maxime Renard,21,23,1.10,4,3.5
+2026-04,E1121,Chloé Dethier,20,22,1.10,2,3.9
+2026-04,E1122,Sam Kaya,20,19,0.95,6,3.4
+2026-04,E1123,Aurélie Gilson,19,20,1.05,6,3.5
+2026-04,E1124,Noah Lejeune,21,22,1.05,3,4.1
+2026-05,E1071,Lina Haddad,17,22,1.29,2,3.5
+2026-05,E1120,Maxime Renard,18,18,1.00,6,3.3
+2026-05,E1121,Chloé Dethier,16,17,1.06,3,3.5
+2026-05,E1122,Sam Kaya,16,16,1.00,4,3.8
+2026-05,E1123,Aurélie Gilson,16,17,1.06,5,3.3
+2026-05,E1124,Noah Lejeune,17,16,0.94,3,4.9
+2026-06,E1071,Lina Haddad,18,23,1.28,6,4.5
+2026-06,E1120,Maxime Renard,21,24,1.14,3,4.3
+2026-06,E1121,Chloé Dethier,21,20,0.95,6,3.3
+2026-06,E1122,Sam Kaya,22,25,1.14,2,4.8
+2026-06,E1123,Aurélie Gilson,21,23,1.10,6,3.7
+2026-06,E1124,Noah Lejeune,21,20,0.95,6,3.1

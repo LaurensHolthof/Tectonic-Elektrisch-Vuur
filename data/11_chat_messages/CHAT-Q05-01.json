@@ -1,0 +1,47 @@
+{
+ "_dataset_note": "Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.",
+ "platform": "Microsoft Teams",
+ "chat": "1:1 Bart Willems – Emma Vandenberghe",
+ "messages": [
+  {
+   "ts": "2025-04-17T22:41:00+02:00",
+   "from": "Bart Willems",
+   "text": "maybe this is too complex for you"
+  },
+  {
+   "ts": "2025-05-14T10:05:12+02:00",
+   "from": "Bart Willems",
+   "text": "don't embarrass me in front of the client again"
+  },
+  {
+   "ts": "2025-06-22T21:58:40+02:00",
+   "from": "Bart Willems",
+   "text": "wear something nicer for the client tomorrow, it's a bank not a festival"
+  },
+  {
+   "ts": "2025-06-22T22:15:03+02:00",
+   "from": "Emma Vandenberghe",
+   "text": "I'm wearing what I always wear to client meetings?"
+  },
+  {
+   "ts": "2025-06-22T22:16:20+02:00",
+   "from": "Bart Willems",
+   "text": "exactly 😉"
+  },
+  {
+   "ts": "2025-07-08T08:12:44+02:00",
+   "from": "Bart Willems",
+   "text": "You're off Brabo. Dries takes over. No discussion."
+  },
+  {
+   "ts": "2025-09-16T23:09:10+02:00",
+   "from": "Bart Willems",
+   "text": "answer. now."
+  },
+  {
+   "ts": "2025-10-01T22:30:55+02:00",
+   "from": "Bart Willems",
+   "text": "again sloppy. I'll show the team tomorrow what not to do."
+  }
+ ]
+}

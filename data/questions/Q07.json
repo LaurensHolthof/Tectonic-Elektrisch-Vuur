@@ -1,0 +1,53 @@
+{
+ "id": "Q07",
+ "question": "Can Tectonic dismiss Luc Schmit for serious cause for sending his medical certificate late?",
+ "themes": [
+  "T4",
+  "T1"
+ ],
+ "focus_docs": [
+  {
+   "id": "LAW-BE-1978-ART31-FR",
+   "path": "01_legislation/be_federal/LAW-BE-1978-ART31-FR.md",
+   "final_weight": 1.0,
+   "legal_rank": 1
+  },
+  {
+   "id": "POL-HANDBOOK-v3-2026",
+   "path": "05_company_policies/POL-HANDBOOK-v3-2026.docx",
+   "final_weight": 0.765,
+   "legal_rank": 6
+  },
+  {
+   "id": "POL-WORKREG-2025-FR",
+   "path": "05_company_policies/POL-WORKREG-2025-FR.pdf",
+   "final_weight": 0.935,
+   "legal_rank": 5
+  },
+  {
+   "id": "EML-Q07-01",
+   "path": "10_emails/EML-Q07-01.eml",
+   "final_weight": 0.385,
+   "legal_rank": null
+  }
+ ],
+ "supporting_docs": [
+  "LAW-BE-1978-ART35-FR",
+  "CCT-TEC-2025-TELEWORK",
+  "POL-DISCIPLINARY-2024",
+  "POL-SICKNESS-2025",
+  "POL-TELEWORK-v2-2026",
+  "POL-WORKREG-2025-NL",
+  "POL-HANDBOOK-v2-2024",
+  "POL-WORKREG-2019-FR",
+  "CTR-E1095-CONTRACT",
+  "REC-Q07-01",
+  "REC-Q07-02",
+  "REC-Q07-03",
+  "REC-Q07-04",
+  "STM-Q07-01",
+  "EML-Q07-02",
+  "CHAT-Q07-01",
+  "PERF-E1095-2025"
+ ]
+}

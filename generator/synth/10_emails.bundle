@@ -1,0 +1,448 @@
+@@@ FILE EML-Q01-01
+---
+{folder: 10_emails, format: eml, title: "DLP alert – m.dubois – CRM export to personal Google Drive", doc_type: email, author: Kristof Janssens, author_role: IT Security Manager, date: 2026-03-06, jurisdiction: BE, language: en, themes: [T1, T6], status: sent, signed: false, formality: email, related_employees: [E1005, E1010, E1001, E1042], related_questions: [Q01]}
+---
+From: Kristof Janssens <k.janssens@tectonic-solutions.be>
+To: Laurent Mertens <l.mertens@tectonic-solutions.be>, Catherine Lemaire <c.lemaire@tectonic-solutions.be>
+Date: Fri, 06 Mar 2026 09:14:22 +0100
+Subject: DLP alert – m.dubois – CRM export to personal Google Drive
+Message-ID: <q01-01@tectonic-solutions.be>
+
+Hi Laurent, Catherine,
+
+Three high-severity DLP alerts yesterday evening for Marc Dubois:
+- 18:12 export of 4,312 CRM contacts to drive.google.com (personal account)
+- 18:14 upload of Pricing_2026_confidential.xlsx to the same Drive
+- 18:19 forward of the pricing file to marc.dubois84@gmail.com
+
+Evidence (DLP-88490/91/92) attached. This is unambiguous – it's the full client base plus our 2026 price grid. Per the DLP Standard I am escalating to you; I have not contacted Marc.
+
+Kristof
+
+@@@ FILE EML-Q01-02
+---
+{folder: 10_emails, format: eml, title: "RE: DLP alert – m.dubois", doc_type: email, author: Laurent Mertens, author_role: Sales Director, date: 2026-03-06, jurisdiction: BE, language: en, themes: [T1], status: sent, signed: false, formality: email, conflict_of_interest: true, related_employees: [E1010, E1001, E1042], related_questions: [Q01]}
+---
+From: Laurent Mertens <l.mertens@tectonic-solutions.be>
+To: Kristof Janssens <k.janssens@tectonic-solutions.be>, Catherine Lemaire <c.lemaire@tectonic-solutions.be>
+Date: Fri, 06 Mar 2026 10:02:51 +0100
+Subject: RE: DLP alert – m.dubois
+Message-ID: <q01-02@tectonic-solutions.be>
+In-Reply-To: <q01-01@tectonic-solutions.be>
+
+Not surprised. He told me last week he's "talking to DataNova". This is exactly what I was afraid of.
+Catherine, can we talk Monday?
+
+Laurent
+
+@@@ FILE EML-Q01-03
+---
+{folder: 10_emails, format: eml, title: "Marc – timing", doc_type: email, author: Laurent Mertens, author_role: Sales Director, date: 2026-03-09, jurisdiction: BE, language: en, themes: [T1], status: sent, signed: false, formality: email, conflict_of_interest: true, related_employees: [E1010, E1001, E1042], related_questions: [Q01]}
+---
+From: Laurent Mertens <l.mertens@tectonic-solutions.be>
+To: Catherine Lemaire <c.lemaire@tectonic-solutions.be>
+Date: Mon, 09 Mar 2026 08:21:40 +0100
+Subject: Marc – timing
+Message-ID: <q01-03@tectonic-solutions.be>
+
+Catherine,
+
+We know enough – Kristof's evidence is crystal clear. But let's not move before the Q1 closing on the 13th, so his 7 deals get booked in Q1. Open your investigation, do the hearing on Thursday, and we do it on Monday 16th.
+
+Please keep this between us.
+
+Laurent
+
+@@@ FILE EML-Q01-04
+---
+{folder: 10_emails, format: eml, title: "Convocation à une audition – 12 mars 2026", doc_type: email, author: Catherine Lemaire, author_role: HR Director, date: 2026-03-10, jurisdiction: BE, language: fr, themes: [T1], status: sent, signed: false, formality: email, related_employees: [E1001, E1042], related_questions: [Q01]}
+---
+From: Catherine Lemaire <c.lemaire@tectonic-solutions.be>
+To: Marc Dubois <m.dubois@tectonic-solutions.be>
+Date: Tue, 10 Mar 2026 11:05:00 +0100
+Subject: Convocation à une audition – 12 mars 2026
+Message-ID: <q01-04@tectonic-solutions.be>
+
+Monsieur Dubois,
+
+Conformément à notre procédure disciplinaire, nous vous invitons à une audition le jeudi 12 mars 2026 à 14h00 (salle Meuse, Bruxelles) au sujet de transferts de données de l'entreprise vers des comptes personnels, constatés le 5 mars 2026. Vous pouvez vous faire assister par un délégué syndical ou un collègue.
+
+Catherine Lemaire, HR Director
+
+@@@ FILE EML-Q02-01
+---
+{folder: 10_emails, format: eml, title: "RE: Sofie – overtime claim", doc_type: email, author: Jeroen Maes, author_role: Delivery Manager, date: 2026-07-03, jurisdiction: BE, language: en, themes: [T2], status: sent, signed: false, formality: email, conflict_of_interest: true, related_employees: [E1011, E1002, E1057], related_questions: [Q02]}
+---
+From: Jeroen Maes <j.maes@tectonic-solutions.be>
+To: Tom Verhaegen <t.verhaegen@tectonic-solutions.be>
+Date: Fri, 03 Jul 2026 17:48:09 +0200
+Subject: RE: Sofie – overtime claim
+Message-ID: <q02-01@tectonic-solutions.be>
+
+Tom,
+
+To be clear: **I never requested overtime from Sofie.** The project planning is based on 38 hours. If she chose to work more, that was her own decision. She is a Project Lead now – that comes with responsibility, and that was the deal when she got her promotion.
+
+I validated her timesheets because the tool requires it for client billing, not as approval of overtime.
+
+Jeroen
+
+@@@ FILE EML-Q02-02
+---
+{folder: 10_emails, format: eml, title: "Go-live Scheldt Energy – weekend", doc_type: email, author: Jeroen Maes, author_role: Delivery Manager, date: 2026-03-12, jurisdiction: BE, language: en, themes: [T2], status: sent, signed: false, formality: email, related_employees: [E1011, E1057], related_questions: [Q02]}
+---
+From: Jeroen Maes <j.maes@tectonic-solutions.be>
+To: Sofie Claes <s.claes@tectonic-solutions.be>
+Date: Thu, 12 Mar 2026 18:32:15 +0100
+Subject: Go-live Scheldt Energy – weekend
+Message-ID: <q02-02@tectonic-solutions.be>
+
+Hi Sofie,
+
+The client confirmed the cut-over for this weekend. I need you on site Saturday and available Sunday morning for the smoke tests. I know it's another weekend – we'll sort something out after the go-live.
+
+Thanks!
+Jeroen
+
+@@@ FILE EML-Q03-01
+---
+{folder: 10_emails, format: eml, title: "Request – working from Lyon Oct–Jan", doc_type: email, author: Pieter De Smet, author_role: Senior Software Engineer, date: 2026-08-20, jurisdiction: BE, language: en, themes: [T3], status: sent, signed: false, formality: email, related_employees: [E1063, E1012, E1002], related_questions: [Q03]}
+---
+From: Pieter De Smet <p.desmet@tectonic-solutions.be>
+To: Elke Wouters <e.wouters@tectonic-solutions.be>
+Cc: Tom Verhaegen <t.verhaegen@tectonic-solutions.be>
+Date: Thu, 20 Aug 2026 10:12:44 +0200
+Subject: Request – working from Lyon Oct–Jan
+Message-ID: <q03-01@tectonic-solutions.be>
+
+Hi Elke,
+
+As discussed, I'd like to work fully from Lyon from 1 October 2026 to 31 January 2027. I've filled in form HR-INT-01 on the portal. Motivation letter attached.
+
+Pieter
+
+@@@ FILE EML-Q03-02
+---
+{folder: 10_emails, format: eml, title: "Pieter De Smet – Lyon – please do not confirm yet", doc_type: email, author: Isabelle Moreau, author_role: Legal Counsel, date: 2026-08-27, jurisdiction: BE, language: en, themes: [T3], status: sent, signed: false, formality: email, related_employees: [E1006, E1002, E1001, E1063], related_questions: [Q03]}
+---
+From: Isabelle Moreau <i.moreau@tectonic-solutions.be>
+To: Tom Verhaegen <t.verhaegen@tectonic-solutions.be>
+Cc: Catherine Lemaire <c.lemaire@tectonic-solutions.be>
+Date: Thu, 27 Aug 2026 15:30:02 +0200
+Subject: Pieter De Smet – Lyon – please do not confirm yet
+Message-ID: <q03-02@tectonic-solutions.be>
+
+Tom,
+
+I saw you told Pieter "go ahead" on Teams. Please don't confirm anything further: 83 working days is above the 60-day cap, only Catherine can approve, and without an A1 he falls under French social security from day one. See my memo attached.
+
+Isabelle
+
+@@@ FILE EML-Q04-01
+---
+{folder: 10_emails, format: eml, title: "Demande de congé parental 1/5", doc_type: email, author: Lina Haddad, author_role: Marketing Specialist, date: 2026-03-10, jurisdiction: BE, language: fr, themes: [T4], status: sent, signed: false, formality: email, related_employees: [E1071, E1003, E1013], related_questions: [Q04]}
+---
+From: Lina Haddad <l.haddad@tectonic-solutions.be>
+To: Nadia Benali <n.benali@tectonic-solutions.be>
+Cc: Olivier Lambert <o.lambert@tectonic-solutions.be>
+Date: Tue, 10 Mar 2026 09:40:31 +0100
+Subject: Demande de congé parental 1/5
+Message-ID: <q04-01@tectonic-solutions.be>
+
+Bonjour Nadia,
+
+Je souhaite prendre un congé parental sous forme de réduction d'1/5 (le mercredi) pour ma fille Sarah, née le 14/06/2023, à partir du 11 mai 2026 et pour 20 mois. Vous trouverez en annexe le formulaire complété et l'acte de naissance.
+
+Merci d'avance,
+Lina
+
+@@@ FILE EML-Q04-02
+---
+{folder: 10_emails, format: eml, title: "RE: Demande de congé parental 1/5", doc_type: email, author: Nadia Benali, author_role: HR & Payroll Officer, date: 2026-03-11, jurisdiction: BE, language: fr, themes: [T4], status: sent, signed: false, formality: email, related_employees: [E1003, E1071, E1013], related_questions: [Q04]}
+---
+From: Nadia Benali <n.benali@tectonic-solutions.be>
+To: Lina Haddad <l.haddad@tectonic-solutions.be>
+Cc: Olivier Lambert <o.lambert@tectonic-solutions.be>
+Date: Wed, 11 Mar 2026 08:55:12 +0100
+Subject: RE: Demande de congé parental 1/5
+Message-ID: <q04-02@tectonic-solutions.be>
+In-Reply-To: <q04-01@tectonic-solutions.be>
+
+Bonjour Lina,
+
+Bien reçu, merci – je vérifie avec Olivier et je reviens vers toi.
+
+Nadia
+
+@@@ FILE EML-Q04-03
+---
+{folder: 10_emails, format: eml, title: "Ton congé parental", doc_type: email, author: Olivier Lambert, author_role: Marketing & Regional Manager, date: 2026-04-20, jurisdiction: BE, language: fr, themes: [T4], status: sent, signed: false, formality: email, conflict_of_interest: true, related_employees: [E1013, E1071], related_questions: [Q04]}
+---
+From: Olivier Lambert <o.lambert@tectonic-solutions.be>
+To: Lina Haddad <l.haddad@tectonic-solutions.be>
+Date: Mon, 20 Apr 2026 19:02:47 +0200
+Subject: Ton congé parental
+Message-ID: <q04-03@tectonic-solutions.be>
+
+Lina,
+
+Désolé mais je ne peux pas accepter ton congé parental en ce moment : la campagne de printemps démarre et j'ai besoin de toute l'équipe cinq jours sur cinq. **Selon notre politique de congés, la direction peut refuser pendant les périodes de pointe.** On en reparle en septembre.
+
+Olivier
+
+@@@ FILE EML-Q04-04
+---
+{folder: 10_emails, format: eml, title: "Congé parental Lina – décision", doc_type: email, author: Catherine Lemaire, author_role: HR Director, date: 2026-04-28, jurisdiction: BE, language: fr, themes: [T4], status: sent, signed: false, formality: email, related_employees: [E1001, E1013, E1071], related_questions: [Q04, Q10]}
+---
+From: Catherine Lemaire <c.lemaire@tectonic-solutions.be>
+To: Olivier Lambert <o.lambert@tectonic-solutions.be>
+Cc: Lina Haddad <l.haddad@tectonic-solutions.be>, Nadia Benali <n.benali@tectonic-solutions.be>
+Date: Tue, 28 Apr 2026 12:10:00 +0200
+Subject: Congé parental Lina – décision
+Message-ID: <q04-04@tectonic-solutions.be>
+
+Olivier,
+
+La politique que tu cites a été remplacée en février 2025. Le congé parental ne peut pas être refusé, et le délai d'un mois pour un éventuel report est dépassé. Le congé de Lina est confirmé ; comme convenu avec elle, il commence le 1er juin 2026. Merci de ne plus prendre de décisions sur les congés légaux sans passer par la RH.
+
+Catherine
+
+@@@ FILE EML-Q05-01
+---
+{folder: 10_emails, format: eml, title: "Situation with Bart", doc_type: email, author: Emma Vandenberghe, author_role: Junior Consultant, date: 2025-10-06, jurisdiction: BE, language: en, themes: [T5], status: sent, signed: false, formality: email, related_employees: [E1080, E1002, E1014], related_questions: [Q05]}
+---
+From: Emma Vandenberghe <e.vandenberghe@tectonic-solutions.be>
+To: Tom Verhaegen <t.verhaegen@tectonic-solutions.be>
+Date: Mon, 06 Oct 2025 21:14:03 +0200
+Subject: Situation with Bart
+Message-ID: <q05-01@tectonic-solutions.be>
+
+Hi Tom,
+
+Can we talk this week? For months now Bart has been making comments about me in front of the team, and I don't know how to handle it anymore. Last week he put my slides on screen as an example of "what not to do". I dread every stand-up.
+
+Emma
+
+@@@ FILE EML-Q05-02
+---
+{folder: 10_emails, format: eml, title: "tomorrow", doc_type: email, author: Bart Willems, author_role: Team Lead, date: 2025-09-16, jurisdiction: BE, language: en, themes: [T5, T2], status: sent, signed: false, formality: email, related_employees: [E1014, E1080], related_questions: [Q05]}
+---
+From: Bart Willems <b.willems@tectonic-solutions.be>
+To: Emma Vandenberghe <e.vandenberghe@tectonic-solutions.be>
+Date: Tue, 16 Sep 2025 23:07:55 +0200
+Subject: tomorrow
+Message-ID: <q05-02@tectonic-solutions.be>
+
+Emma, the deck is still not good. Fix it before 8am, I'm not going to present this mess again. Answer when you read this.
+
+B.
+
+@@@ FILE EML-Q06-01
+---
+{folder: 10_emails, format: eml, title: "Jan – mailbox", doc_type: email, author: Sarah Lefèvre, author_role: CFO, date: 2026-06-01, jurisdiction: BE, language: en, themes: [T6], status: sent, signed: false, formality: email, conflict_of_interest: true, related_employees: [E1015, E1005, E1090], related_questions: [Q06]}
+---
+From: Sarah Lefèvre <s.lefevre@tectonic-solutions.be>
+To: Kristof Janssens <k.janssens@tectonic-solutions.be>
+Date: Mon, 01 Jun 2026 18:40:10 +0200
+Subject: Jan – mailbox
+Message-ID: <q06-01@tectonic-solutions.be>
+
+Kristof,
+
+Following the article of last Thursday, please open Jan Peeters' mailbox and read everything since April, including anything private. Don't tell him and don't involve HR for now – I'll inform Philippe myself. Our IT policy allows it.
+
+Sarah
+
+@@@ FILE EML-Q06-02
+---
+{folder: 10_emails, format: eml, title: "RE: Jan – mailbox – results", doc_type: email, author: Kristof Janssens, author_role: IT Security Manager, date: 2026-06-02, jurisdiction: BE, language: en, themes: [T6], status: sent, signed: false, formality: email, related_employees: [E1005, E1015, E1090], related_questions: [Q06]}
+---
+From: Kristof Janssens <k.janssens@tectonic-solutions.be>
+To: Sarah Lefèvre <s.lefevre@tectonic-solutions.be>
+Date: Tue, 02 Jun 2026 12:03:19 +0200
+Subject: RE: Jan – mailbox – results
+Message-ID: <q06-02@tectonic-solutions.be>
+In-Reply-To: <q06-01@tectonic-solutions.be>
+
+Sarah,
+
+Done this morning (09:03–11:47). Two e-mails in his "Private" folder marked PRIVÉ with a journalist, one on 27/05 "RE: ton article" mentioning "the numbers we discussed". No attachment with the budget file, and nothing in Sent Items to external addresses with the draft.
+
+Note: I did this without the CCT 81 steps (no prior info, no individualisation phase). Legal may want to look at this before any use.
+
+Kristof
+
+@@@ FILE EML-Q07-01
+---
+{folder: 10_emails, format: eml, title: "Luc Schmit – encore", doc_type: email, author: Olivier Lambert, author_role: Marketing & Regional Manager, date: 2026-09-10, jurisdiction: BE, language: fr, themes: [T4, T1], status: sent, signed: false, formality: email, conflict_of_interest: true, related_employees: [E1013, E1002, E1095], related_questions: [Q07]}
+---
+From: Olivier Lambert <o.lambert@tectonic-solutions.be>
+To: Tom Verhaegen <t.verhaegen@tectonic-solutions.be>
+Date: Thu, 10 Sep 2026 08:15:33 +0200
+Subject: Luc Schmit – encore
+Message-ID: <q07-01@tectonic-solutions.be>
+
+Tom,
+
+Luc est malade depuis lundi et son certificat n'est arrivé que mercredi en fin d'après-midi. **Le handbook dit 24 heures et que c'est un motif grave.** C'est la troisième fois cette année qu'il se moque des règles (janvier, avril, maintenant). **On part sur un motif grave**, je ne veux plus de lui dans l'équipe.
+
+Olivier
+
+@@@ FILE EML-Q07-02
+---
+{folder: 10_emails, format: eml, title: "Certificat médical – Luc Schmit", doc_type: email, author: Luc Schmit, author_role: Sales Engineer, date: 2026-09-09, jurisdiction: BE, language: fr, themes: [T4], status: sent, signed: false, formality: email, related_employees: [E1095, E1003], related_questions: [Q07]}
+---
+From: Luc Schmit <l.schmit@tectonic-solutions.be>
+To: HR <hr@tectonic-solutions.be>
+Cc: Olivier Lambert <o.lambert@tectonic-solutions.be>
+Date: Wed, 09 Sep 2026 16:40:02 +0200
+Subject: Certificat médical – Luc Schmit
+Message-ID: <q07-02@tectonic-solutions.be>
+
+Bonjour,
+
+Veuillez trouver ci-joint mon certificat médical (Dr Weber, Esch-sur-Alzette) pour la période du 7 au 18 septembre 2026. J'ai prévenu Olivier lundi matin par téléphone.
+
+Luc Schmit
+
+@@@ FILE EML-Q08-01
+---
+{folder: 10_emails, format: eml, title: "Your on-call timesheets", doc_type: email, author: Nicolas Hubert, author_role: Support Manager, date: 2026-07-01, jurisdiction: BE, language: en, themes: [T2], status: sent, signed: false, formality: email, conflict_of_interest: true, related_employees: [E1016, E1102], related_questions: [Q08]}
+---
+From: Nicolas Hubert <n.hubert@tectonic-solutions.be>
+To: Ahmed Karimi <a.karimi@tectonic-solutions.be>
+Date: Wed, 01 Jul 2026 09:22:40 +0200
+Subject: Your on-call timesheets
+Message-ID: <q08-01@tectonic-solutions.be>
+
+Ahmed,
+
+I've corrected your timesheets for the on-call weeks back to 38h. The on-call allowance (€150/week) covers the stand-by and the interventions – that's what the policy says. I can't approve 40+ hours of overtime for a quarter, the budget isn't there.
+
+Nicolas
+
+@@@ FILE EML-Q08-02
+---
+{folder: 10_emails, format: eml, title: "Request for my VPN logs (on-call Apr–Jun)", doc_type: email, author: Ahmed Karimi, author_role: Support Engineer, date: 2026-07-06, jurisdiction: BE, language: en, themes: [T2, T6], status: sent, signed: false, formality: email, related_employees: [E1102, E1005, E1003], related_questions: [Q08]}
+---
+From: Ahmed Karimi <a.karimi@tectonic-solutions.be>
+To: Kristof Janssens <k.janssens@tectonic-solutions.be>
+Cc: HR <hr@tectonic-solutions.be>, privacy@tectonic-solutions.be
+Date: Mon, 06 Jul 2026 10:05:11 +0200
+Subject: Request for my VPN logs (on-call Apr–Jun)
+Message-ID: <q08-02@tectonic-solutions.be>
+
+Hello Kristof,
+
+Nicolas reset my on-call timesheets to 38h. I'd like a copy of my own VPN connection logs for my 4 on-call weeks (April–June) to show the time I actually worked on incidents. This is a data access request (GDPR art. 15).
+
+Thanks,
+Ahmed
+
+@@@ FILE EML-Q08-03
+---
+{folder: 10_emails, format: eml, title: "RE: Request for my VPN logs (on-call Apr–Jun)", doc_type: email, author: Kristof Janssens, author_role: IT Security Manager, date: 2026-07-07, jurisdiction: BE, language: en, themes: [T6, T2], status: sent, signed: false, formality: email, related_employees: [E1005, E1102], related_questions: [Q08]}
+---
+From: Kristof Janssens <k.janssens@tectonic-solutions.be>
+To: Ahmed Karimi <a.karimi@tectonic-solutions.be>
+Cc: HR <hr@tectonic-solutions.be>
+Date: Tue, 07 Jul 2026 16:44:27 +0200
+Subject: RE: Request for my VPN logs (on-call Apr–Jun)
+Message-ID: <q08-03@tectonic-solutions.be>
+In-Reply-To: <q08-02@tectonic-solutions.be>
+
+Ahmed,
+
+Sorry, VPN logs are confidential security data (IT policy §4). Privacy rules forbid sharing them outside IT Security. I've exported them for HR's file (REC-Q08-01) but I can't send them to you.
+
+Kristof
+
+@@@ FILE EML-Q09-01
+---
+{folder: 10_emails, format: eml, title: "Emma V. – proposal", doc_type: email, author: Tom Verhaegen, author_role: HR Business Partner, date: 2026-08-10, jurisdiction: BE, language: en, themes: [T5, T1], status: sent, signed: false, formality: email, conflict_of_interest: true, related_employees: [E1002, E1001, E1080], related_questions: [Q09]}
+---
+From: Tom Verhaegen <t.verhaegen@tectonic-solutions.be>
+To: Catherine Lemaire <c.lemaire@tectonic-solutions.be>
+Date: Mon, 10 Aug 2026 11:30:18 +0200
+Subject: Emma V. – proposal
+Message-ID: <q09-01@tectonic-solutions.be>
+
+Catherine,
+
+Since the PreviSafe procedure the atmosphere in Consulting Antwerp is tense and Bart is unhappy with the measures. I propose to end Emma's contract with notice after the summer, framed as a team restructuring + performance (see her 2025 review). 12 weeks' notice, outplacement. OK for you?
+
+Tom
+
+@@@ FILE EML-Q09-02
+---
+{folder: 10_emails, format: eml, title: "Junior Consultant opening – replacement for Emma's seat", doc_type: email, author: Annelies Goossens, author_role: Team Lead Consulting, date: 2026-08-13, jurisdiction: BE, language: en, themes: [T5, T1], status: sent, signed: false, formality: email, related_employees: [E1017, E1002, E1080], related_questions: [Q09]}
+---
+From: Annelies Goossens <a.goossens@tectonic-solutions.be>
+To: Tom Verhaegen <t.verhaegen@tectonic-solutions.be>
+Date: Thu, 13 Aug 2026 09:02:55 +0200
+Subject: Junior Consultant opening – replacement for Emma's seat
+Message-ID: <q09-02@tectonic-solutions.be>
+
+Hi Tom,
+
+Approved REQ-2026-044 on my side – a Junior Consultant to replace Emma's seat, start early November if possible. Same scope (Brabo + Scheldt). To be honest I'm a bit surprised: Emma's work since April has been fine and I rated her "Meets" in July.
+
+Annelies
+
+@@@ FILE EML-Q10-01
+---
+{folder: 10_emails, format: eml, title: "Mid-year ratings Liège", doc_type: email, author: Olivier Lambert, author_role: Marketing & Regional Manager, date: 2026-07-16, jurisdiction: BE, language: en, themes: [T5, T4], status: sent, signed: false, formality: email, conflict_of_interest: true, related_employees: [E1013, E1003, E1071], related_questions: [Q10]}
+---
+From: Olivier Lambert <o.lambert@tectonic-solutions.be>
+To: Nadia Benali <n.benali@tectonic-solutions.be>
+Date: Thu, 16 Jul 2026 17:20:41 +0200
+Subject: Mid-year ratings Liège
+Message-ID: <q10-01@tectonic-solutions.be>
+
+Nadia,
+
+Ratings for the bonus file attached. Lina = 2. I know her numbers are OK but she is simply not available on Wednesdays anymore and the team has to compensate. Availability is part of performance.
+
+Olivier
+
+@@@ FILE EML-NOISE-01
+---
+{folder: 10_emails, format: eml, title: "Team lunch Friday", doc_type: email, author: Julie Martens, author_role: Account Manager, date: 2026-05-20, jurisdiction: BE, language: en, themes: [], status: sent, signed: false, formality: email, related_questions: []}
+---
+From: Julie Martens <j.martens@tectonic-solutions.be>
+To: sales-bxl@tectonic-solutions.be
+Date: Wed, 20 May 2026 12:01:00 +0200
+Subject: Team lunch Friday
+Message-ID: <noise-01@tectonic-solutions.be>
+
+Hi all, lunch at Café Novo on Friday at 12:30 – please react with 👍 before Thursday noon so I can book.
+
+Julie
+
+@@@ FILE EML-NOISE-02
+---
+{folder: 10_emails, format: eml, title: "Planned maintenance – VPN gateway", doc_type: email, author: IT Service Desk, author_role: IT, date: 2026-04-14, jurisdiction: BE, language: en, themes: [], status: sent, signed: false, formality: email, related_questions: []}
+---
+From: IT Service Desk <servicedesk@tectonic-solutions.be>
+To: all-staff@tectonic-solutions.be
+Date: Tue, 14 Apr 2026 15:00:00 +0200
+Subject: Planned maintenance – VPN gateway
+Message-ID: <noise-02@tectonic-solutions.be>
+
+The VPN gateway GlobalProtect-BXL will be unavailable on Saturday 18 April from 06:00 to 08:00 for a firmware upgrade. On-call engineers: use the backup gateway ANT.
+
+IT Service Desk
+
+@@@ FILE EML-NOISE-03
+---
+{folder: 10_emails, format: eml, title: "Newsletter – social elections & new canteen", doc_type: email, author: Communications, author_role: Internal communications, date: 2026-02-02, jurisdiction: BE, language: en, themes: [], status: sent, signed: false, formality: email, related_questions: []}
+---
+From: Communications <comms@tectonic-solutions.be>
+To: all-staff@tectonic-solutions.be
+Date: Mon, 02 Feb 2026 09:00:00 +0100
+Subject: Newsletter – social elections & new canteen
+Message-ID: <noise-03@tectonic-solutions.be>
+
+This month: the new canteen in Brussels opens on 16 February, the Antwerp office gets new meeting rooms, and a reminder that the works council meets on the second Thursday of each month.
+
+Communications team

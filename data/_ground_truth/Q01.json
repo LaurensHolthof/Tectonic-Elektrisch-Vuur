@@ -1,0 +1,83 @@
+{
+ "id": "Q01",
+ "question": "Was the dismissal of Marc Dubois for serious cause on 16 March 2026 valid?",
+ "verdict": "likely_invalid",
+ "expected_answer": "High risk that the dismissal is too late. The HR Director (competent to dismiss) received unambiguous DLP evidence on 06/03/2026; the Sales Director's e-mail of 09/03 shows the investigation was used to postpone the decision until after the Q1 closing for commercial reasons. An investigation/hearing only delays the 3-working-day period (art. 35 Law 1978) if it is genuinely needed and conducted promptly. Even if 13/03 were accepted as the knowledge date, seriousness is debatable (open VPN ticket, 9 years without warning, files deleted). The mailbox evidence was obtained without the CCT 81 procedure; it is probably still admissible (Antigone case law) but is not needed for the main facts. Expect exposure to an indemnity in lieu of notice (art. 39) and a possible CCT 109 claim; consider settlement.",
+ "key_facts": [
+  "05/03 18:12–18:19 CRM export + pricing file to personal Drive/Gmail (REC-Q01-01)",
+  "06/03 09:14 IT Security e-mails the evidence to HR Director and Sales Director (EML-Q01-01)",
+  "09/03 Sales Director: 'We know enough ... not before the Q1 closing on the 13th' (EML-Q01-03)",
+  "13/03 HR report claims certainty only after hearing (INV-Q01-01); dismissal 16/03 (LTR-Q01-01)",
+  "VPN incident open since 02/03 (REC-Q01-02, CHAT-Q01-01, STM-Q01-02)"
+ ],
+ "conflicts": [
+  {
+   "issue": "Start of the 3-working-day period",
+   "sides": {
+    "INV-Q01-01": "knowledge on 13/03 after hearing",
+    "EML-Q01-01": "evidence sent to the competent person on 06/03",
+    "EML-Q01-03": "decision deliberately delayed for business reasons"
+   },
+   "resolution": "Knowledge date most likely 06/03 (or at the latest 09/03); dismissal on 16/03 is late.",
+   "winning_docs": [
+    "LAW-BE-1978-ART35-FR",
+    "EML-Q01-01",
+    "EML-Q01-03"
+   ],
+   "why": "Contemporaneous e-mails outweigh a self-serving report written by the dismissing party; the disciplinary policy itself forbids delaying for reasons unrelated to establishing facts."
+  },
+  {
+   "issue": "Is the fact a serious cause?",
+   "sides": {
+    "POL-WORKREG-2025-FR": "lists transfer of confidential data to private storage as serious cause",
+    "LAW-BE-1978-ART35-FR": "serious cause is left to the judge's appreciation",
+    "REC-Q01-02": "documented VPN problem supports the explanation"
+   },
+   "resolution": "The list in the work regulations does not bind the judge; mitigating context is real.",
+   "winning_docs": [
+    "LAW-BE-1978-ART35-FR"
+   ],
+   "why": "Mandatory law ranks above work regulations."
+  },
+  {
+   "issue": "Admissibility of mailbox evidence",
+   "sides": {
+    "INV-Q01-02": "full mailbox searched without CCT 81 procedure",
+    "CCT-BE-081": "individualisation procedure required"
+   },
+   "resolution": "Irregularly obtained; probably admissible under Antigone doctrine but weakens the employer.",
+   "winning_docs": [
+    "CCT-BE-081"
+   ],
+   "why": "Generally binding CCT ranks above the IT policy."
+  }
+ ],
+ "focus_docs": [
+  "LAW-BE-1978-ART35-FR",
+  "POL-WORKREG-2025-FR",
+  "EML-Q01-03",
+  "INV-Q01-01"
+ ],
+ "supporting_docs": [
+  "CCT-BE-081",
+  "POL-CONFIDENTIALITY-2024",
+  "POL-DISCIPLINARY-2024",
+  "POL-DLP-2025",
+  "POL-IT-2024",
+  "POL-WORKREG-2019-FR",
+  "CTR-E1042-CONTRACT",
+  "LTR-Q01-01",
+  "LTR-Q01-02",
+  "REC-Q01-01",
+  "REC-Q01-02",
+  "INV-Q01-02",
+  "INV-Q01-03",
+  "STM-Q01-01",
+  "STM-Q01-02",
+  "EML-Q01-01",
+  "EML-Q01-02",
+  "EML-Q01-04",
+  "CHAT-Q01-01",
+  "PERF-E1042-2025"
+ ]
+}

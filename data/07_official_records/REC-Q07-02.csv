@@ -1,0 +1,4 @@
+absence_id,employee_id,type,first_day,last_day,manager_informed_at,certificate_received_at,working_days_to_certificate,guaranteed_salary_refused_days,note
+AB-2026-0112,E1095,sickness,2026-01-12,2026-01-16,2026-01-12 08:40,2026-01-15 09:12,3,"2026-01-12, 2026-01-13, 2026-01-14","late certificate – written warning 16/02"
+AB-2026-0388,E1095,sickness (first day without certificate),2026-04-09,2026-04-09,2026-04-09 07:55,,n/a,,"art. 31 §2/1 – 1st use in 2026"
+AB-2026-0911,E1095,sickness,2026-09-07,2026-09-18,2026-09-07 07:52,2026-09-09 16:40,2 (sent on 3rd calendar day),pending,"certificate from LU GP (Dr. Weber); manager proposes dismissal"

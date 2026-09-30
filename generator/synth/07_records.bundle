@@ -1,0 +1,336 @@
+@@@ FILE REC-Q01-01
+---
+folder: 07_official_records
+format: csv
+title: DLP alert log – week 10/2026 (extract)
+doc_type: security_log
+author: Microsoft Purview DLP – export by IT Security
+author_role: system_record
+date: 2026-03-06
+jurisdiction: BE
+language: en
+themes: [T1, T6]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1042, E1005]
+related_questions: [Q01]
+---
+alert_id,timestamp,user,rule,severity,object,destination,records_or_size,status,reviewed_by,reviewed_at
+DLP-88412,2026-03-02 11:20:04,y.elamrani,R2 external forward,low,Proposal_Scheldt_v3.docx,client domain (whitelisted),220 KB,dismissed – false positive,k.janssens,2026-03-02 14:02
+DLP-88457,2026-03-04 16:41:37,s.lefevre,R1 personal cloud,medium,Board_deck_Q1_draft.pptx,onedrive.live.com,4.1 MB,closed – personal OneDrive of CFO authorised,k.janssens,2026-03-05 08:55
+DLP-88490,2026-03-05 18:12:09,m.dubois,R3 CRM mass export,high,CRM export contacts_all.csv,drive.google.com (personal),4312 records,escalated to HR,k.janssens,2026-03-06 09:10
+DLP-88491,2026-03-05 18:14:52,m.dubois,R1 personal cloud,high,Pricing_2026_confidential.xlsx,drive.google.com (personal),1.2 MB,escalated to HR,k.janssens,2026-03-06 09:10
+DLP-88492,2026-03-05 18:19:30,m.dubois,R2 external forward,high,Pricing_2026_confidential.xlsx,marc.dubois84@gmail.com,1.2 MB,escalated to HR,k.janssens,2026-03-06 09:10
+DLP-88503,2026-03-06 10:47:15,j.martens,R2 external forward,low,Offer_Brabo.pdf,client domain (whitelisted),310 KB,dismissed – false positive,k.janssens,2026-03-06 11:30
+
+@@@ FILE REC-Q01-02
+---
+folder: 07_official_records
+format: json
+title: IT service desk ticket INC-20931 – VPN instability (Marc Dubois)
+doc_type: it_ticket
+author: ServiceDesk (ITSM) – export
+author_role: system_record
+date: 2026-03-02
+jurisdiction: BE
+language: en
+themes: [T1]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1042]
+related_questions: [Q01]
+---
+{"ticket": "INC-20931", "opened": "2026-03-02T08:47:00+01:00", "requester": "m.dubois", "category": "Network / VPN",
+ "priority": "P3", "summary": "VPN drops every 10 min at home – cannot open CRM or SharePoint from home",
+ "worklog": [
+  {"at": "2026-03-02T10:15", "by": "helpdesk.l1", "note": "Reinstalled GlobalProtect client remotely. User to test."},
+  {"at": "2026-03-03T17:02", "by": "m.dubois", "note": "Still disconnecting. I need to prepare the Q1 closing files this week, have to work evenings/weekend."},
+  {"at": "2026-03-04T09:30", "by": "helpdesk.l1", "note": "Escalated to network team (possible MTU issue with home router)."},
+  {"at": "2026-03-09T14:40", "by": "network.l2", "note": "MTU fix pushed. User account disabled 16/03, ticket closed."}],
+ "status": "closed", "closed": "2026-03-16T11:00:00+01:00"}
+
+@@@ FILE REC-Q03-01
+---
+folder: 07_official_records
+format: pdf
+title: Form HR-INT-01 – International remote work request – Pieter De Smet
+doc_type: hr_form
+author: Pieter De Smet
+author_role: employee (form submitted on HR portal)
+date: 2026-08-20
+jurisdiction: BE
+language: en
+themes: [T3]
+status: submitted
+signed: true
+formality: hr_form
+related_employees: [E1063, E1012, E1002]
+related_questions: [Q03]
+---
+# Form HR-INT-01 – International remote work request
+
+| Field | Value |
+|---|---|
+| Employee | Pieter De Smet (E1063), Senior Software Engineer |
+| Manager | Elke Wouters |
+| Country / city | France – Lyon (69003) |
+| Period | 01/10/2026 – 31/01/2027 (≈ 83 working days) |
+| Type | Full-time remote work abroad |
+| Days already abroad in 2026 | 4 |
+| Reason | Partner relocated to Lyon for work (4-month assignment) |
+| Client data involved | Yes – via VPN only |
+| Manager opinion | "OK for me from a team perspective" (E. Wouters, 21/08/2026) |
+| HR Director approval | **pending** |
+| A1 certificate | **not requested yet** |
+| Submitted | 20/08/2026 – signed electronically P. De Smet |
+
+@@@ FILE REC-Q04-01
+---
+folder: 07_official_records
+format: csv
+title: HRIS leave request register – parental leave 2026 (extract)
+doc_type: hris_log
+author: HRIS (Workday-style system) – export by HR
+author_role: system_record
+date: 2026-05-02
+jurisdiction: BE
+language: en
+themes: [T4]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1071, E1003, E1013, E1001]
+related_questions: [Q04]
+---
+request_id,employee_id,employee,leave_type,requested_start,requested_end,received_on,channel,acknowledged_by,acknowledged_on,decision,decision_by,decision_on,comment
+PL-2026-007,E1071,Lina Haddad,Parental leave 1/5 (Wednesday),2026-05-11,2027-01-10,2026-03-10,e-mail to HR + manager,n.benali,2026-03-11,refused,o.lambert,2026-04-20,"spring campaign – peak period"
+PL-2026-007,E1071,Lina Haddad,Parental leave 1/5 (Wednesday),2026-06-01,2028-01-31,2026-03-10,e-mail to HR + manager,n.benali,2026-03-11,approved (overrules previous decision),c.lemaire,2026-04-28,"start moved to 01/06/2026, 20 months"
+PL-2026-009,E1122,Sam Kaya,Parental leave full-time,2026-07-01,2026-07-31,2026-04-22,registered letter,n.benali,2026-04-23,approved,c.lemaire,2026-04-24,
+
+@@@ FILE REC-Q07-01
+---
+folder: 07_official_records
+format: png
+title: Certificat médical d'incapacité de travail – Luc Schmit (scan)
+doc_type: medical_certificate
+author: Dr. Anne Weber, médecin généraliste, Esch-sur-Alzette (LU)
+author_role: physician (external)
+date: 2026-09-07
+jurisdiction: LU
+language: fr
+themes: [T4]
+status: final
+signed: true
+formality: medical_certificate
+letterhead: false
+related_employees: [E1095]
+related_questions: [Q07]
+---
+# CERTIFICAT MÉDICAL D'INCAPACITÉ DE TRAVAIL
+
+**Dr. Anne Weber** – Médecin généraliste – 12, rue du Brill – L-4041 Esch-sur-Alzette – Code médecin 1-2345-67
+
+Je soussignée, docteur en médecine, certifie avoir examiné ce jour :
+
+**M. Luc Schmit**, né le 03/11/1988, domicilié rue de l'Alzette 87, L-4011 Esch-sur-Alzette
+
+et constaté qu'il est **dans l'incapacité de travailler** pour cause de **maladie**
+
+du **07/09/2026** au **18/09/2026** inclus.
+
+Sortie autorisée : oui (sauf 10h-12h et 14h-18h). Le patient peut se déplacer pour un contrôle : non.
+
+Fait à Esch-sur-Alzette, le **07/09/2026**
+
+Signature et cachet : *A. Weber*
+
+@@@ FILE REC-Q07-02
+---
+folder: 07_official_records
+format: csv
+title: Absence register 2026 – Luc Schmit (E1095)
+doc_type: hris_log
+author: HRIS – export by HR
+author_role: system_record
+date: 2026-09-11
+jurisdiction: BE
+language: en
+themes: [T4]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1095]
+related_questions: [Q07]
+---
+absence_id,employee_id,type,first_day,last_day,manager_informed_at,certificate_received_at,working_days_to_certificate,guaranteed_salary_refused_days,note
+AB-2026-0112,E1095,sickness,2026-01-12,2026-01-16,2026-01-12 08:40,2026-01-15 09:12,3,"2026-01-12, 2026-01-13, 2026-01-14","late certificate – written warning 16/02"
+AB-2026-0388,E1095,sickness (first day without certificate),2026-04-09,2026-04-09,2026-04-09 07:55,,n/a,,"art. 31 §2/1 – 1st use in 2026"
+AB-2026-0911,E1095,sickness,2026-09-07,2026-09-18,2026-09-07 07:52,2026-09-09 16:40,2 (sent on 3rd calendar day),pending,"certificate from LU GP (Dr. Weber); manager proposes dismissal"
+
+@@@ FILE REC-Q07-03
+---
+folder: 07_official_records
+format: csv
+title: Company mobile call log – Olivier Lambert – 07/09/2026
+doc_type: phone_log
+author: Mobile operator business portal – export
+author_role: system_record
+date: 2026-09-10
+jurisdiction: BE
+language: en
+themes: [T4]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1013, E1095]
+related_questions: [Q07]
+---
+timestamp,direction,number,contact,duration
+2026-09-07 07:52:18,incoming,+352 621 48 xx xx,Luc Schmit,00:03:12
+2026-09-07 08:31:02,outgoing,+32 4 223 xx xx,Liège office reception,00:01:05
+2026-09-07 09:15:44,incoming,+32 2 555 xx xx,Tom Verhaegen,00:06:40
+
+@@@ FILE REC-Q07-04
+---
+folder: 07_official_records
+format: pdf
+title: Avertissement écrit – Luc Schmit (16/02/2026)
+doc_type: written_warning
+author: Olivier Lambert / Tom Verhaegen
+author_role: manager and HR Business Partner
+date: 2026-02-16
+jurisdiction: BE
+language: fr
+themes: [T4, T1]
+status: final
+signed: true
+formality: signed_letter
+related_employees: [E1095, E1013, E1002]
+related_questions: [Q07]
+---
+Liège, le 16 février 2026
+
+**Objet : avertissement écrit**
+
+Monsieur Schmit,
+
+Lors de votre absence pour maladie du 12 au 16 janvier 2026, votre certificat médical nous est parvenu le 15 janvier, soit au-delà du délai de deux jours ouvrables prévu à l'article 8 du règlement de travail. Conformément à l'article 31 de la loi du 3 juillet 1978, le salaire garanti ne vous a pas été payé pour les jours précédant la remise du certificat (12, 13 et 14 janvier).
+
+Par la présente, nous vous adressons un **avertissement écrit**. Nous vous rappelons la procédure : avertir votre responsable avant 9h30 et transmettre votre certificat dans les deux jours ouvrables.
+
+Olivier Lambert, Marketing & Regional Manager – Tom Verhaegen, HR Business Partner
+
+Pour réception : L. Schmit, 16/02/2026
+
+@@@ FILE REC-Q09-01
+---
+folder: 07_official_records
+format: json
+title: Hiring requisition REQ-2026-044 – Junior Consultant Antwerp
+doc_type: hiring_requisition
+author: HRIS recruitment module – export
+author_role: system_record
+date: 2026-08-12
+jurisdiction: BE
+language: en
+themes: [T5, T1]
+status: approved
+signed: false
+formality: system_record
+related_employees: [E1080, E1017, E1002]
+related_questions: [Q09]
+---
+{"requisition": "REQ-2026-044", "created": "2026-08-12", "created_by": "t.verhaegen", "hiring_manager": "a.goossens",
+ "position": "Junior Consultant", "team": "Consulting – Antwerp", "headcount": 1, "type": "replacement",
+ "replaces": "E1080 (seat to be vacated Q4 2026)", "budget_status": "within approved 2026 headcount – no reduction",
+ "target_start": "2026-11-02", "approvals": [{"by": "a.goossens", "on": "2026-08-13"}, {"by": "c.lemaire", "on": "2026-08-14"}],
+ "published": "2026-09-02"}
+
+@@@ FILE REC-Q10-02
+---
+folder: 07_official_records
+format: csv
+title: Bonus calculation 2026 (mid-year component) – Marketing Liège
+doc_type: payroll
+author: HR – Nadia Benali
+author_role: HR & Payroll Officer
+date: 2026-07-25
+jurisdiction: BE
+language: en
+themes: [T5, T4]
+status: draft
+signed: false
+formality: system_record
+related_employees: [E1071, E1013, E1003]
+related_questions: [Q10]
+---
+employee_id,name,annual_gross_eur,target_bonus_pct,midyear_rating,rating_factor,midyear_weight,midyear_bonus_eur,note
+E1071,Lina Haddad,45360,8,2 (Partially meets),0.5,0.4,725.76,"4/5 parental leave since 06/2026 – objectives not pro-rated (to check with HR, policy 2.2)"
+E1120,Maxime Renard,44100,8,3 (Meets),1.0,0.4,1411.20,
+E1121,Chloé Dethier,41580,8,4 (Meets+),1.1,0.4,1463.62,
+E1122,Sam Kaya,43200,8,3 (Meets),1.0,0.4,1382.40,"parental leave July 2026 – objectives pro-rated"
+E1123,Aurélie Gilson,40320,8,3 (Meets),1.0,0.4,1290.24,
+E1124,Noah Lejeune,39600,8,3 (Meets),1.0,0.4,1267.20,
+
+@@@ FILE REC-Q06-01
+---
+folder: 07_official_records
+format: csv
+title: Exchange mailbox audit log – mailbox j.peeters – 02/06/2026
+doc_type: security_log
+author: Microsoft 365 unified audit log – export by IT Security
+author_role: system_record
+date: 2026-06-03
+jurisdiction: BE
+language: en
+themes: [T6]
+status: final
+signed: false
+formality: system_record
+related_employees: [E1090, E1005, E1015]
+related_questions: [Q06]
+---
+timestamp,actor,operation,mailbox,folder,item_subject,logon_type
+2026-06-02 09:03:11,k.janssens,FullAccessGranted,j.peeters,,,Admin
+2026-06-02 09:05:40,k.janssens,FolderBind,j.peeters,Inbox,,Delegate
+2026-06-02 09:12:02,k.janssens,MessageBind,j.peeters,Inbox,RE: Budget 2027 – draft figures,Delegate
+2026-06-02 09:26:57,k.janssens,MessageBind,j.peeters,Sent Items,FW: Budget 2027 – draft figures,Delegate
+2026-06-02 09:48:13,k.janssens,MessageBind,j.peeters,Private,PRIVÉ – rendez-vous jeudi,Delegate
+2026-06-02 10:02:30,k.janssens,MessageBind,j.peeters,Private,PRIVÉ – RE: ton article,Delegate
+2026-06-02 10:40:05,k.janssens,MessageBind,j.peeters,Inbox,Vacation plans – family,Delegate
+2026-06-02 11:15:48,k.janssens,SearchQueryInitiated,j.peeters,All,"journalist OR budget OR De Tijd",Delegate
+2026-06-02 11:47:21,k.janssens,FullAccessRemoved,j.peeters,,,Admin
+
+@@@ FILE REC-Q05-01
+---
+folder: 07_official_records
+format: pdf
+title: Accusé de réception – demande d'intervention psychosociale formelle (PreviSafe)
+doc_type: receipt
+author: PreviSafe Services – prevention adviser psychosocial aspects
+author_role: external prevention adviser
+date: 2025-11-18
+jurisdiction: BE
+language: nl
+themes: [T5]
+status: final
+signed: true
+formality: official_receipt
+letterhead: false
+related_employees: [E1080, E1014]
+related_questions: [Q05, Q09]
+---
+# PreviSafe Services – Externe dienst voor preventie en bescherming op het werk
+
+**Ontvangstbewijs – verzoek tot formele psychosociale interventie**
+
+Datum van ontvangst: **18 november 2025**
+Verzoeker: Emma Vandenberghe (Tectonic Solutions NV, Antwerpen)
+Aard van het verzoek: **formeel verzoek met betrekking tot feiten van grensoverschrijdend gedrag (pesterijen / ongewenst seksueel gedrag)** – art. 32nonies Welzijnswet
+Voorafgaand persoonlijk onderhoud: 12 november 2025
+
+De verzoeker geniet vanaf de datum van indiening de bescherming tegen represailles bedoeld in de wet van 4 augustus 1996.
+
+Mevr. Karen Dewolf, preventieadviseur psychosociale aspecten

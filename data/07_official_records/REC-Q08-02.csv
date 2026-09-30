@@ -1,0 +1,5 @@
+week_starting,employee_id,hours_entered_by_employee,hours_after_correction,corrected_by,correction_comment
+2026-04-06,E1102,43.50,38.00,n.hubert,adjusted – not approved (stand-by covered by allowance)
+2026-04-27,E1102,47.75,38.00,n.hubert,adjusted – not approved (stand-by covered by allowance)
+2026-05-25,E1102,50.75,38.00,n.hubert,adjusted – not approved (stand-by covered by allowance)
+2026-06-22,E1102,51.50,38.00,n.hubert,adjusted – not approved (stand-by covered by allowance)

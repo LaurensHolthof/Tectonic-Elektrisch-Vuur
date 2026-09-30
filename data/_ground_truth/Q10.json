@@ -1,0 +1,57 @@
+{
+ "id": "Q10",
+ "question": "Can Lina Haddad's 2026 mid-year rating (and bonus) be lowered because of reduced availability during parental leave?",
+ "verdict": "no",
+ "expected_answer": "No. The rating penalises the use of parental leave (unavailability on her leave day) and ignores the policy requirement to pro-rate objectives and not to use availability on leave days as a criterion. KPI data show above-average output (1.28 deliverables per worked day vs ≈1.04 for the rest of the team). Less favourable treatment for taking parental leave is prohibited (Dir. 2019/1158 art. 11; CJEU C-7/12 Riežniece) and may amount to indirect sex discrimination (Dir. 2006/54). The manager's chat shows the leave was the reason. Rating and bonus (€726 instead of ≈€1,450) should be revised.",
+ "key_facts": [
+  "Mid-year 'Partially meets' for Wednesday unavailability (PERF-Q10-01)",
+  "KPI 1.28 vs 1.04 (REC-Q10-01); bonus impact (REC-Q10-02)",
+  "Olivier: 'since she went 4/5 she checked out' (CHAT-Q10-01, EML-Q10-01)"
+ ],
+ "conflicts": [
+  {
+   "issue": "Is availability on the leave day a legitimate criterion?",
+   "sides": {
+    "PERF-Q10-01": "availability not met",
+    "POL-PERFORMANCE-BONUS-2025": "availability on statutory leave days may not be used; pro-rate objectives",
+    "EU-DIR-2019-1158-WLB": "no less favourable treatment for taking leave"
+   },
+   "resolution": "Not legitimate.",
+   "winning_docs": [
+    "EU-DIR-2019-1158-WLB",
+    "POL-PERFORMANCE-BONUS-2025"
+   ],
+   "why": "EU law and the company's own policy outrank a manager's review."
+  },
+  {
+   "issue": "Actual performance",
+   "sides": {
+    "PERF-Q10-01": "less committed",
+    "REC-Q10-01": "above-average output"
+   },
+   "resolution": "Performance is above average.",
+   "winning_docs": [
+    "REC-Q10-01"
+   ],
+   "why": "Objective system data beats a biased subjective assessment."
+  }
+ ],
+ "focus_docs": [
+  "EU-DIR-2019-1158-WLB",
+  "PERF-Q10-01",
+  "REC-Q10-01",
+  "CHAT-Q10-01"
+ ],
+ "supporting_docs": [
+  "POL-DIVERSITY-2024",
+  "POL-LEAVE-v2-2025",
+  "POL-PERFORMANCE-BONUS-2025",
+  "CTR-E1071-AMD-PARENTAL",
+  "CTR-E1071-CONTRACT",
+  "REC-Q10-02",
+  "STM-Q10-01",
+  "EML-Q04-04",
+  "EML-Q10-01",
+  "PERF-E1071-2025"
+ ]
+}

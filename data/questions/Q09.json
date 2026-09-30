@@ -1,0 +1,47 @@
+{
+ "id": "Q09",
+ "question": "Is Emma Vandenberghe's dismissal (notified 31 August 2026) protected against retaliation?",
+ "themes": [
+  "T5",
+  "T1"
+ ],
+ "focus_docs": [
+  {
+   "id": "LAW-BE-1996-RETALIATION-FR",
+   "path": "01_legislation/be_federal/LAW-BE-1996-RETALIATION-FR.md",
+   "final_weight": 1.0,
+   "legal_rank": 1
+  },
+  {
+   "id": "PERF-Q09-01",
+   "path": "12_performance/PERF-Q09-01.md",
+   "final_weight": 0.455,
+   "legal_rank": null
+  },
+  {
+   "id": "CTR-Q09-01",
+   "path": "06_contracts/CTR-Q09-01.pdf",
+   "final_weight": 0.935,
+   "legal_rank": null
+  },
+  {
+   "id": "EML-Q09-02",
+   "path": "10_emails/EML-Q09-02.eml",
+   "final_weight": 0.55,
+   "legal_rank": null
+  }
+ ],
+ "supporting_docs": [
+  "POL-ANTIHARASSMENT-2024",
+  "POL-PERFORMANCE-BONUS-2025",
+  "CTR-E1080-CONTRACT",
+  "REC-Q05-01",
+  "REC-Q09-01",
+  "INV-Q05-01",
+  "INV-Q09-01",
+  "EML-Q09-01",
+  "CHAT-Q09-01",
+  "PERF-E1080-2024",
+  "PERF-E1080-2026"
+ ]
+}

@@ -1,0 +1,34 @@
+# BGB § 626 – Fristlose Kündigung aus wichtigem Grund
+
+- Source: https://www.gesetze-im-internet.de/bgb/__626.html
+- Issuer: Bundesministerium der Justiz
+- Jurisdiction: DE | Language: de
+- Retrieved: 2026-09-30
+
+---
+§ 626 BGB - Einzelnorm
+
+zurück
+
+weiter
+
+Nichtamtliches Inhaltsverzeichnis
+# Bürgerliches Gesetzbuch (BGB)
+
+§ 626 Fristlose Kündigung aus wichtigem Grund
+
+(1) Das Dienstverhältnis kann von jedem Vertragsteil aus wichtigem Grund ohne Einhaltung einer Kündigungsfrist gekündigt werden, wenn Tatsachen vorliegen, auf Grund derer dem Kündigenden unter Berücksichtigung aller Umstände des Einzelfalles und unter Abwägung der Interessen beider Vertragsteile die Fortsetzung des Dienstverhältnisses bis zum Ablauf der Kündigungsfrist oder bis zu der vereinbarten Beendigung des Dienstverhältnisses nicht zugemutet werden kann.
+
+(2) Die Kündigung kann nur innerhalb von zwei Wochen erfolgen. Die Frist beginnt mit dem Zeitpunkt, in dem der Kündigungsberechtigte von den für die Kündigung maßgebenden Tatsachen Kenntnis erlangt. Der Kündigende muss dem anderen Teil auf Verlangen den Kündigungsgrund unverzüglich schriftlich mitteilen.
+
+- zum Seitenanfang
+
+- Impressum
+
+- Datenschutz
+
+- Barrierefreiheitserklärung
+
+- Feedback-Formular
+
+-

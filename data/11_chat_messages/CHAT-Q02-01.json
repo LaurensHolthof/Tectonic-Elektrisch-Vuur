@@ -1,0 +1,32 @@
+{
+ "_dataset_note": "Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.",
+ "platform": "Microsoft Teams",
+ "chat": "1:1 Jeroen Maes – Sofie Claes",
+ "messages": [
+  {
+   "ts": "2026-01-23T17:55:00+01:00",
+   "from": "Jeroen Maes",
+   "text": "Sofie, de klant wil de migratie dit weekend. Kan jij zaterdag en zondag? Sorry voor het weekend 🙏"
+  },
+  {
+   "ts": "2026-01-23T18:02:31+01:00",
+   "from": "Sofie Claes",
+   "text": "Ok, weer een weekend... ik schrijf het in TimeTrack"
+  },
+  {
+   "ts": "2026-01-23T18:03:10+01:00",
+   "from": "Jeroen Maes",
+   "text": "👍 top, ik valideer"
+  },
+  {
+   "ts": "2026-03-13T08:40:12+01:00",
+   "from": "Jeroen Maes",
+   "text": "Morgen 8u on site voor de cut-over, zondag stand-by voor de smoke tests"
+  },
+  {
+   "ts": "2026-06-12T16:20:45+02:00",
+   "from": "Jeroen Maes",
+   "text": "Nog één weekend voor Scheldt en dan is het gedaan, beloofd. We regelen iets na de go-live."
+  }
+ ]
+}

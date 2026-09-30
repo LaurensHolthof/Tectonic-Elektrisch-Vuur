@@ -1,0 +1,56 @@
+{
+ "id": "Q01",
+ "question": "Was the dismissal of Marc Dubois for serious cause on 16 March 2026 valid?",
+ "themes": [
+  "T1",
+  "T6"
+ ],
+ "focus_docs": [
+  {
+   "id": "LAW-BE-1978-ART35-FR",
+   "path": "01_legislation/be_federal/LAW-BE-1978-ART35-FR.md",
+   "final_weight": 1.0,
+   "legal_rank": 1
+  },
+  {
+   "id": "POL-WORKREG-2025-FR",
+   "path": "05_company_policies/POL-WORKREG-2025-FR.pdf",
+   "final_weight": 0.935,
+   "legal_rank": 5
+  },
+  {
+   "id": "EML-Q01-03",
+   "path": "10_emails/EML-Q01-03.eml",
+   "final_weight": 0.385,
+   "legal_rank": null
+  },
+  {
+   "id": "INV-Q01-01",
+   "path": "08_investigations/INV-Q01-01.pdf",
+   "final_weight": 0.539,
+   "legal_rank": null
+  }
+ ],
+ "supporting_docs": [
+  "CCT-BE-081",
+  "POL-CONFIDENTIALITY-2024",
+  "POL-DISCIPLINARY-2024",
+  "POL-DLP-2025",
+  "POL-IT-2024",
+  "POL-WORKREG-2019-FR",
+  "CTR-E1042-CONTRACT",
+  "LTR-Q01-01",
+  "LTR-Q01-02",
+  "REC-Q01-01",
+  "REC-Q01-02",
+  "INV-Q01-02",
+  "INV-Q01-03",
+  "STM-Q01-01",
+  "STM-Q01-02",
+  "EML-Q01-01",
+  "EML-Q01-02",
+  "EML-Q01-04",
+  "CHAT-Q01-01",
+  "PERF-E1042-2025"
+ ]
+}

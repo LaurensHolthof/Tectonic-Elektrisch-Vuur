@@ -1,0 +1,102 @@
+@@@ FILE CHAT-Q03-01
+---
+{folder: 11_chat_messages, format: json, title: "Teams chat – Tom Verhaegen / Pieter De Smet – Lyon", doc_type: chat, author: Microsoft Teams export, author_role: system_record, date: 2026-08-22, jurisdiction: BE, language: en, themes: [T3], status: final, signed: false, formality: chat_message, related_employees: [E1002, E1063], related_questions: [Q03]}
+---
+{"platform": "Microsoft Teams", "chat": "1:1 Tom Verhaegen – Pieter De Smet", "messages": [
+ {"ts": "2026-08-22T16:02:10+02:00", "from": "Pieter De Smet", "text": "Hi Tom, did you see my request for Lyon? I need to sign the lease this week 🙈"},
+ {"ts": "2026-08-22T16:40:55+02:00", "from": "Tom Verhaegen", "text": "Sure, go ahead, enjoy Lyon! New policy allows working abroad now 👍"},
+ {"ts": "2026-08-22T16:41:30+02:00", "from": "Pieter De Smet", "text": "Great, thanks!! So I can confirm the flat?"},
+ {"ts": "2026-08-22T16:45:02+02:00", "from": "Tom Verhaegen", "text": "yes no problem, we'll do the paperwork later"}]}
+
+@@@ FILE CHAT-Q05-01
+---
+{folder: 11_chat_messages, format: json, title: "Teams DMs – Bart Willems → Emma Vandenberghe (Apr–Oct 2025, extract submitted to prevention adviser)", doc_type: chat, author: Microsoft Teams export (submitted by E. Vandenberghe), author_role: system_record, date: 2025-11-18, jurisdiction: BE, language: en, themes: [T5], status: final, signed: false, formality: chat_message, related_employees: [E1014, E1080], related_questions: [Q05]}
+---
+{"platform": "Microsoft Teams", "chat": "1:1 Bart Willems – Emma Vandenberghe", "messages": [
+ {"ts": "2025-04-17T22:41:00+02:00", "from": "Bart Willems", "text": "maybe this is too complex for you"},
+ {"ts": "2025-05-14T10:05:12+02:00", "from": "Bart Willems", "text": "don't embarrass me in front of the client again"},
+ {"ts": "2025-06-22T21:58:40+02:00", "from": "Bart Willems", "text": "wear something nicer for the client tomorrow, it's a bank not a festival"},
+ {"ts": "2025-06-22T22:15:03+02:00", "from": "Emma Vandenberghe", "text": "I'm wearing what I always wear to client meetings?"},
+ {"ts": "2025-06-22T22:16:20+02:00", "from": "Bart Willems", "text": "exactly 😉"},
+ {"ts": "2025-07-08T08:12:44+02:00", "from": "Bart Willems", "text": "You're off Brabo. Dries takes over. No discussion."},
+ {"ts": "2025-09-16T23:09:10+02:00", "from": "Bart Willems", "text": "answer. now."},
+ {"ts": "2025-10-01T22:30:55+02:00", "from": "Bart Willems", "text": "again sloppy. I'll show the team tomorrow what not to do."}]}
+
+@@@ FILE CHAT-Q05-02
+---
+{folder: 11_chat_messages, format: json, title: "Teams channel – Consulting Antwerp stand-up (extract)", doc_type: chat, author: Microsoft Teams export, author_role: system_record, date: 2025-09-17, jurisdiction: BE, language: en, themes: [T5], status: final, signed: false, formality: chat_message, related_employees: [E1014, E1080, E1081, E1082], related_questions: [Q05]}
+---
+{"platform": "Microsoft Teams", "channel": "Consulting ANT – daily stand-up", "messages": [
+ {"ts": "2025-06-11T09:31:02+02:00", "from": "Bart Willems", "text": "@Emma Vandenberghe maybe let someone else do the data model, this is clearly too complex for you"},
+ {"ts": "2025-06-11T09:33:40+02:00", "from": "Yasmine El Amrani", "text": "I can pair with Emma on it if needed"},
+ {"ts": "2025-09-17T09:30:15+02:00", "from": "Bart Willems", "text": "Sharing Emma's deck as an example of what not to do 👇 [slides.pptx]"},
+ {"ts": "2025-09-17T09:45:01+02:00", "from": "Dries Hermans", "text": "(joining late, at client)"}]}
+
+@@@ FILE CHAT-Q02-01
+---
+{folder: 11_chat_messages, format: json, title: "Teams chat – Jeroen Maes / Sofie Claes – weekend work", doc_type: chat, author: Microsoft Teams export, author_role: system_record, date: 2026-06-12, jurisdiction: BE, language: nl, themes: [T2], status: final, signed: false, formality: chat_message, related_employees: [E1011, E1057], related_questions: [Q02]}
+---
+{"platform": "Microsoft Teams", "chat": "1:1 Jeroen Maes – Sofie Claes", "messages": [
+ {"ts": "2026-01-23T17:55:00+01:00", "from": "Jeroen Maes", "text": "Sofie, de klant wil de migratie dit weekend. Kan jij zaterdag en zondag? Sorry voor het weekend 🙏"},
+ {"ts": "2026-01-23T18:02:31+01:00", "from": "Sofie Claes", "text": "Ok, weer een weekend... ik schrijf het in TimeTrack"},
+ {"ts": "2026-01-23T18:03:10+01:00", "from": "Jeroen Maes", "text": "👍 top, ik valideer"},
+ {"ts": "2026-03-13T08:40:12+01:00", "from": "Jeroen Maes", "text": "Morgen 8u on site voor de cut-over, zondag stand-by voor de smoke tests"},
+ {"ts": "2026-06-12T16:20:45+02:00", "from": "Jeroen Maes", "text": "Nog één weekend voor Scheldt en dan is het gedaan, beloofd. We regelen iets na de go-live."}]}
+
+@@@ FILE CHAT-Q10-01
+---
+{folder: 11_chat_messages, format: json, title: "Teams chat – Olivier Lambert / Maxime Renard", doc_type: chat, author: Microsoft Teams export, author_role: system_record, date: 2026-07-14, jurisdiction: BE, language: fr, themes: [T4, T5], status: final, signed: false, formality: chat_message, conflict_of_interest: true, related_employees: [E1013, E1071], related_questions: [Q10]}
+---
+{"platform": "Microsoft Teams", "chat": "1:1 Olivier Lambert – Maxime Renard", "messages": [
+ {"ts": "2026-07-14T18:10:05+02:00", "from": "Olivier Lambert", "text": "Je prépare les évaluations. Honnêtement, depuis que Lina est à 4/5 elle a décroché."},
+ {"ts": "2026-07-14T18:11:40+02:00", "from": "Maxime Renard", "text": "Ah bon ? Ses campagnes tournent bien pourtant"},
+ {"ts": "2026-07-14T18:12:22+02:00", "from": "Olivier Lambert", "text": "oui mais le mercredi il n'y a personne. C'est un choix, elle doit l'assumer."}]}
+
+@@@ FILE CHAT-Q01-01
+---
+{folder: 11_chat_messages, format: json, title: "Teams chat – Marc Dubois / Julie Martens – VPN", doc_type: chat, author: Microsoft Teams export, author_role: system_record, date: 2026-03-05, jurisdiction: BE, language: fr, themes: [T1], status: final, signed: false, formality: chat_message, related_employees: [E1042, E1043], related_questions: [Q01]}
+---
+{"platform": "Microsoft Teams", "chat": "1:1 Marc Dubois – Julie Martens", "messages": [
+ {"ts": "2026-03-05T17:48:02+01:00", "from": "Marc Dubois", "text": "Le VPN a encore sauté 5 fois 😡 impossible d'ouvrir le CRM"},
+ {"ts": "2026-03-05T17:49:15+01:00", "from": "Julie Martens", "text": "pareil ce matin. t'as relancé le ticket ?"},
+ {"ts": "2026-03-05T17:52:40+01:00", "from": "Marc Dubois", "text": "oui... je prends tout à la maison et je fais les offres ce week-end, sinon on ne boucle jamais le Q1"}]}
+
+@@@ FILE CHAT-Q08-01
+---
+{folder: 11_chat_messages, format: json, title: "Teams channel – Support on-call pages (Apr–Jun 2026 extract)", doc_type: chat, author: Microsoft Teams export / PagerBot, author_role: system_record, date: 2026-06-28, jurisdiction: BE, language: en, themes: [T2], status: final, signed: false, formality: chat_message, related_employees: [E1102, E1016], related_questions: [Q08]}
+---
+{"platform": "Microsoft Teams", "channel": "Support – on-call", "messages": [
+ {"ts": "2026-04-08T22:14:00+02:00", "from": "PagerBot", "text": "P1 – Brabo Retail BI – ETL failed. On-call: Ahmed Karimi"},
+ {"ts": "2026-04-08T22:31:10+02:00", "from": "Ahmed Karimi", "text": "On it, connected."},
+ {"ts": "2026-04-09T01:05:44+02:00", "from": "Ahmed Karimi", "text": "Fixed, root cause = expired certificate. Going to bed."},
+ {"ts": "2026-05-30T06:02:00+02:00", "from": "PagerBot", "text": "P2 – Scheldt Energy API latency. On-call: Ahmed Karimi"},
+ {"ts": "2026-05-30T06:20:11+02:00", "from": "Ahmed Karimi", "text": "Looking."},
+ {"ts": "2026-06-24T23:40:00+02:00", "from": "PagerBot", "text": "P1 – Antwerp Port Data Lake – ingestion down. On-call: Ahmed Karimi"},
+ {"ts": "2026-06-25T03:12:30+02:00", "from": "Ahmed Karimi", "text": "Back up. 3.5h on this one 😴"},
+ {"ts": "2026-06-25T08:05:02+02:00", "from": "Nicolas Hubert", "text": "Thanks Ahmed 🙏 great job"}]}
+
+@@@ FILE CHAT-Q06-01
+---
+{folder: 11_chat_messages, format: json, title: "Teams chat – Kristof Janssens / Sarah Lefèvre – mailbox review", doc_type: chat, author: Microsoft Teams export, author_role: system_record, date: 2026-06-02, jurisdiction: BE, language: en, themes: [T6], status: final, signed: false, formality: chat_message, related_employees: [E1005, E1015, E1090], related_questions: [Q06]}
+---
+{"platform": "Microsoft Teams", "chat": "1:1 Kristof Janssens – Sarah Lefèvre", "messages": [
+ {"ts": "2026-06-02T09:50:31+02:00", "from": "Kristof Janssens", "text": "In his Private folder now. Reading everything as you asked. Feels a bit wrong tbh"},
+ {"ts": "2026-06-02T09:51:12+02:00", "from": "Sarah Lefèvre", "text": "Policy says we can inspect any mailbox. Keep going."},
+ {"ts": "2026-06-02T11:48:00+02:00", "from": "Kristof Janssens", "text": "Done. Nothing with the budget file itself. Sending summary."}]}
+
+@@@ FILE CHAT-Q07-01
+---
+{folder: 11_chat_messages, format: json, title: "WhatsApp – Luc Schmit → Olivier Lambert – 07/09/2026", doc_type: chat, author: WhatsApp export (provided by L. Schmit), author_role: system_record, date: 2026-09-07, jurisdiction: BE, language: fr, themes: [T4], status: final, signed: false, formality: chat_message, related_employees: [E1095, E1013], related_questions: [Q07]}
+---
+{"platform": "WhatsApp", "chat": "Luc Schmit – Olivier Lambert", "messages": [
+ {"ts": "2026-09-07T07:55:40+02:00", "from": "Luc Schmit", "text": "Comme dit au tel, je suis malade (fièvre). Je vais chez le médecin aujourd'hui et j'envoie le certificat."},
+ {"ts": "2026-09-07T08:30:02+02:00", "from": "Olivier Lambert", "text": "Ok. Envoie vite le certificat."}]}
+
+@@@ FILE CHAT-Q09-01
+---
+{folder: 11_chat_messages, format: json, title: "Teams chat – Tom Verhaegen / Bart Willems", doc_type: chat, author: Microsoft Teams export, author_role: system_record, date: 2026-08-11, jurisdiction: BE, language: nl, themes: [T5, T1], status: final, signed: false, formality: chat_message, conflict_of_interest: true, related_employees: [E1002, E1014, E1080], related_questions: [Q09]}
+---
+{"platform": "Microsoft Teams", "chat": "1:1 Tom Verhaegen – Bart Willems", "messages": [
+ {"ts": "2026-08-11T12:02:10+02:00", "from": "Bart Willems", "text": "Hoe lang moet ik nog die 'maatregelen' van PreviSafe ondergaan? Iedereen weet waarom ik geen teamlead meer ben."},
+ {"ts": "2026-08-11T12:05:44+02:00", "from": "Tom Verhaegen", "text": "Rustig. Emma zal niet lang meer een probleem zijn, ik regel het na de zomer."},
+ {"ts": "2026-08-11T12:06:01+02:00", "from": "Bart Willems", "text": "👍"}]}

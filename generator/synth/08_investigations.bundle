@@ -1,0 +1,333 @@
+@@@ FILE INV-Q01-01
+---
+folder: 08_investigations
+format: pdf
+title: HR investigation report – data transfer by Marc Dubois
+doc_type: investigation_report
+author: Catherine Lemaire
+author_role: HR Director (competent to dismiss)
+date: 2026-03-13
+jurisdiction: BE
+language: en
+themes: [T1, T6]
+status: final
+signed: true
+formality: signed_report
+conflict_of_interest: true
+related_employees: [E1042, E1001, E1010, E1005]
+related_questions: [Q01]
+---
+# HR Investigation Report – Case HR-2026-011 (Marc Dubois)
+
+**Opened:** 9 March 2026 – **Closed:** 13 March 2026 – **Author:** Catherine Lemaire, HR Director
+
+## 1. Trigger
+DLP alerts DLP-88490/91/92 of 5 March 2026 (CRM mass export, upload of pricing file to personal Google Drive, forward to private Gmail), reported by IT Security on 6 March 2026.
+
+## 2. Steps
+- 09/03: case opened; Legal Counsel informed.
+- 10/03: invitation to hearing sent to Mr Dubois (hearing 12/03).
+- 11/03: IT forensic report received (INV-Q01-02).
+- 12/03: hearing of Mr Dubois (minutes INV-Q01-03).
+- 13/03: analysis and conclusion.
+
+## 3. Findings
+1. The transfers are established and admitted.
+2. The data is classified Confidential.
+3. Mr Dubois explains he needed the files to work at home because of VPN problems (ticket INC-20931 confirms a VPN incident from 02/03). However, a **full CRM export** is not needed for the Q1 closing, and forwarding to a private Gmail is not explained by a VPN problem.
+4. The forensic review shows two private e-mails with a recruiter of DataNova (competitor).
+
+## 4. Conclusion
+**The company obtained certainty of the facts and of their seriousness on 13 March 2026**, after hearing Mr Dubois' explanation. The facts are considered a serious breach of trust. Recommendation: dismissal for serious cause, to be notified by Monday 16 March 2026 at the latest.
+
+Signed: Catherine Lemaire, 13/03/2026
+
+@@@ FILE INV-Q01-02
+---
+folder: 08_investigations
+format: pdf
+title: IT forensic report – account m.dubois
+doc_type: forensic_report
+author: Kristof Janssens
+author_role: IT Security Manager
+date: 2026-03-11
+jurisdiction: BE
+language: en
+themes: [T1, T6]
+status: final
+signed: true
+formality: signed_report
+related_employees: [E1042, E1005]
+related_questions: [Q01]
+---
+# IT Forensic Report – m.dubois (request HR-2026-011)
+
+**Requested by:** C. Lemaire (e-mail 09/03/2026) – **Performed:** 10–11/03/2026
+
+## Sources reviewed
+- DLP event details (5/03/2026 18:12–18:19).
+- Browser upload log on laptop TEC-LT-0842.
+- **Full mailbox content** of m.dubois, 01/02–10/03/2026 (keyword search "DataNova", "gmail", "pricing").
+
+*Note: no prior information of the employee or individualisation procedure under CCT 81 was carried out – urgent request from HR.*
+
+## Results
+1. 3 uploads to drive.google.com (personal account marc.dubois84) on 05/03 between 18:12 and 18:16, totalling 4,312 CRM records and 1 pricing file.
+2. 1 e-mail forward of Pricing_2026_confidential.xlsx to marc.dubois84@gmail.com at 18:19.
+3. No further uploads after 05/03.
+4. Mailbox: 2 private e-mails (subject "Opportunité – DataNova", 24/02 and 03/03) with a recruiter at DataNova.
+5. VPN logs show 14 disconnections on 05/03 between 16:00 and 18:10.
+
+Kristof Janssens, IT Security Manager
+
+@@@ FILE INV-Q01-03
+---
+folder: 08_investigations
+format: docx
+title: Procès-verbal d'audition – Marc Dubois (12/03/2026)
+doc_type: hearing_minutes
+author: Catherine Lemaire
+author_role: HR Director
+date: 2026-03-12
+jurisdiction: BE
+language: fr
+themes: [T1]
+status: final
+signed: false
+formality: minutes_not_signed_by_employee
+related_employees: [E1042, E1001, E1043]
+related_questions: [Q01]
+---
+# Procès-verbal d'audition
+
+**Date :** 12 mars 2026, 14h00–15h10 – **Présents :** Catherine Lemaire (HR Director), Marc Dubois, Pierre Janssen (délégué syndical, assistant M. Dubois)
+
+**Faits exposés :** transferts du 5 mars 2026 vers un Google Drive personnel et une adresse Gmail privée.
+
+**Déclarations de M. Dubois :**
+- Il reconnaît les transferts. Son VPN coupait sans cesse depuis le 2 mars (ticket ouvert) et il devait préparer la clôture du Q1 pendant le week-end.
+- Il a exporté « tout le CRM » car il ne pouvait pas filtrer sans VPN stable ; il n'avait « aucune intention » d'utiliser les données ailleurs.
+- Il confirme avoir eu des contacts avec DataNova, « comme beaucoup de commerciaux reçoivent des offres », sans suite.
+- Il a supprimé les fichiers le 9 mars après la résolution du problème VPN et propose de le prouver.
+- Il déclare que M. Mertens lui avait dit début mars : « fais ce qu'il faut pour que les deals du Q1 soient bouclés ».
+
+**Remarque du délégué :** l'employeur connaît les faits depuis le 6 mars ; le délai de trois jours est dépassé.
+
+M. Dubois a refusé de signer le PV (« je veux d'abord le relire avec mon avocat »).
+
+@@@ FILE INV-Q05-01
+---
+folder: 08_investigations
+format: pdf
+title: Advies van de preventieadviseur psychosociale aspecten – formeel verzoek E. Vandenberghe
+doc_type: prevention_adviser_opinion
+author: Karen Dewolf (PreviSafe Services)
+author_role: external prevention adviser psychosocial aspects
+date: 2026-02-10
+jurisdiction: BE
+language: nl
+themes: [T5]
+status: final
+signed: true
+formality: statutory_opinion
+letterhead: false
+related_employees: [E1080, E1014, E1081, E1082]
+related_questions: [Q05, Q09]
+---
+# PreviSafe Services – Advies formeel verzoek tot psychosociale interventie
+
+**Dossier:** PS-2025-1187 – **Verzoeker:** Emma Vandenberghe – **Betrokken persoon:** Bart Willems (teamleider) – **Datum:** 10 februari 2026
+
+## 1. Procedure
+Formeel verzoek ontvangen op 18/11/2025. Gehoord: verzoeker (25/11), betrokkene (02/12), getuigen Yasmine El Amrani (04/12) en Dries Hermans (09/12). Stukken: Teams-berichten april–oktober 2025 (door verzoeker bezorgd, door betrokkene niet betwist), e-mails.
+
+## 2. Feiten
+- Herhaalde kleinerende opmerkingen tijdens stand-ups (o.a. 14/05, 11/06, 17/09/2025), bevestigd door mevr. El Amrani.
+- Berichten "maybe this is too complex for you", "don't embarrass me in front of the client again" (Teams, april–sept. 2025).
+- Opmerking over kledij "wear something nicer for the client tomorrow" (Teams, 22/06/2025).
+- Uitsluiting uit klantproject Brabo Retail na een meningsverschil (juli 2025).
+- Berichten na 22u00 met onmiddellijke vraag tot antwoord (8 keer).
+- Dhr. Hermans verklaart niets gemerkt te hebben, maar was afwezig op 2 van de 3 vermelde vergaderingen.
+
+## 3. Analyse
+De gedragingen zijn **meerdere, gelijkaardige en herhaalde** gedragingen gedurende ongeveer zes maanden, die de waardigheid van de werknemer aantasten en een vijandige omgeving creëren. Zij beantwoorden aan de definitie van **pesterijen** (art. 32ter, 2° Welzijnswet). De opmerking over kledij kan bovendien als **ongewenst gedrag met seksuele connotatie** worden beschouwd. De uitleg van de betrokkene ("grapjes", "normale prestatiebegeleiding") wordt niet gevolgd: prestatiefeedback hoort niet publiek en kleinerend te gebeuren.
+
+## 4. Aanbevolen maatregelen
+1. Dhr. Willems geen hiërarchisch gezag meer laten uitoefenen over de verzoeker.
+2. Opleiding leiderschap en communicatie voor dhr. Willems.
+3. Evaluatie van de verzoeker van juni 2025 door dhr. Willems herbekijken.
+4. Opvolgingsgesprek over 3 maanden.
+
+Karen Dewolf, preventieadviseur psychosociale aspecten
+
+@@@ FILE INV-Q05-02
+---
+folder: 08_investigations
+format: md
+title: HR note – Emma / Bart situation
+doc_type: hr_note
+author: Tom Verhaegen
+author_role: HR Business Partner
+date: 2025-10-09
+jurisdiction: BE
+language: en
+themes: [T5]
+status: informal
+signed: false
+formality: informal_note
+conflict_of_interest: true
+related_employees: [E1080, E1014, E1002]
+related_questions: [Q05]
+---
+# Note to file – 09/10/2025 (TV)
+
+- Emma came to see me after her e-mail of 06/10. Says Bart is "belittling" her in stand-ups.
+- Spoke informally with Bart: he says he is "direct", Emma's work often needs a lot of rework.
+- My impression: **Emma is quite sensitive; Bart is one of our top performers** and the Brabo client loves him.
+- Suggest a **mediation** session between them rather than a formal procedure. I did not mention the prevention adviser to Emma yet.
+- Follow-up in November.
+
+@@@ FILE INV-Q06-01
+---
+folder: 08_investigations
+format: pdf
+title: Internal memo – press leak of budget figures
+doc_type: internal_memo
+author: Sarah Lefèvre
+author_role: CFO
+date: 2026-06-04
+jurisdiction: BE
+language: en
+themes: [T6]
+status: final
+signed: true
+formality: internal_memo
+conflict_of_interest: true
+related_employees: [E1090, E1015, E1005]
+related_questions: [Q06]
+---
+# Memo – Leak of 2027 budget figures (strictly confidential)
+
+**To:** Philippe Dumont (CEO), Catherine Lemaire (HR Director) – **From:** Sarah Lefèvre (CFO)
+
+1. On 28 May 2026 a newspaper published our draft 2027 budget figures ("Tectonic plans 12% cost cut").
+2. Only 6 people had the draft: the Management Committee, Jan Peeters and myself.
+3. On 1 June I asked IT Security to review Jan's mailbox. The review (2 June) found e-mails marked "PRIVÉ" with a journalist of the newspaper, including one titled "RE: ton article" dated 27 May.
+4. The content of these e-mails does not contain the budget file, but mentions "the numbers we discussed".
+5. I propose a dismissal for serious cause. **HR was not involved before the mailbox review; the works council has never been informed about individual mailbox checks.**
+
+Sarah Lefèvre, CFO
+
+@@@ FILE INV-Q02-01
+---
+folder: 08_investigations
+format: md
+title: HR review – overtime claim Sofie Claes
+doc_type: hr_review
+author: Tom Verhaegen
+author_role: HR Business Partner
+date: 2026-07-08
+jurisdiction: BE
+language: en
+themes: [T2]
+status: final
+signed: false
+formality: internal_memo
+conflict_of_interest: true
+related_employees: [E1057, E1011, E1002]
+related_questions: [Q02]
+---
+# HR review – overtime claim S. Claes (08/07/2026)
+
+**Claim:** payment of overtime Jan–Jun 2026 (grievance letter of 01/07).
+
+**HR position:**
+1. Since 01/01/2026 Sofie is Project Lead grade M1. Her contract amendment states the function is a **position of trust**; handbook v3 §4.2: M1+ are exempt from overtime compensation.
+2. The overtime policy requires prior written approval. Jeroen confirms he **never approved overtime in writing** (e-mail 03/07).
+3. Conclusion: **no overtime due**. We can offer 3 extra days off as a goodwill gesture.
+
+**Open points (not assessed):** Sofie has no team members reporting to her; the work regulations annex 2 only lists Management Committee functions as positions of trust.
+
+@@@ FILE INV-Q03-01
+---
+folder: 08_investigations
+format: pdf
+title: Legal memo – international remote work request P. De Smet (Lyon)
+doc_type: legal_memo
+author: Isabelle Moreau
+author_role: Legal Counsel
+date: 2026-08-27
+jurisdiction: BE
+language: en
+themes: [T3]
+status: final
+signed: true
+formality: legal_opinion
+related_employees: [E1063, E1002, E1001]
+related_questions: [Q03]
+---
+# Legal memo – Remote work from Lyon, 01/10/2026–31/01/2027
+
+**To:** Catherine Lemaire, Tom Verhaegen – **From:** Isabelle Moreau, Legal Counsel
+
+1. **Policy:** Telework Policy v2 §3 caps international remote work at **60 working days per calendar year** and requires the **written approval of the HR Director**. The request covers ≈ 83 working days (≈ 61 in 2026 incl. 4 days already used, and 22 in 2027). Tom's Teams message ("sure, go ahead") is not an approval under the policy.
+2. **Social security:** Pieter would work 100% in France. Under art. 11(3)(a) Reg. 883/2004, **French legislation applies** unless the stay qualifies as a posting (art. 12) and an **A1 certificate** is issued by the Belgian ONSS before departure. The cross-border telework framework agreement (<50%) does not apply to 100% work abroad.
+3. **Tax:** stay < 183 days, remuneration paid by a Belgian employer without French permanent establishment → taxation in Belgium likely remains (BE–FR treaty), to be confirmed by payroll.
+4. **Contract:** the CCT 85 telework annex fixes Uccle as place of telework; any change requires a written amendment.
+5. **Recommendation:** approve max 60 working days for 2026 (01/10–≈23/12) subject to A1; the 2027 part only via formal derogation (policy §3.4) with an amended annex.
+
+@@@ FILE INV-Q04-01
+---
+folder: 08_investigations
+format: md
+title: HR Director review – parental leave refusal L. Haddad
+doc_type: hr_review
+author: Catherine Lemaire
+author_role: HR Director
+date: 2026-04-28
+jurisdiction: BE
+language: en
+themes: [T4]
+status: final
+signed: true
+formality: internal_memo
+related_employees: [E1071, E1013, E1003]
+related_questions: [Q04]
+---
+# Review – parental leave request PL-2026-007 (Lina Haddad)
+
+- Request received by e-mail on 10/03/2026, acknowledged by Nadia (HR) on 11/03 in writing.
+- Olivier refused on 20/04 citing the **2022 leave policy**, which was **replaced on 01/02/2025** by leave policy v2.
+- Under the Royal Decree of 29/10/1997 and our policy v2, parental leave cannot be refused; postponement (max 6 months) must be notified **in writing within one month** of the request, i.e. by 10/04/2026. **This deadline was missed.**
+- The request was not sent by registered letter, but our written acknowledgement makes it difficult to argue it was not validly received.
+- **Decision:** refusal withdrawn. Leave starts 01/06/2026 (Lina agreed to the 3-week shift for the campaign). Reminder to all managers: parental leave decisions are taken by HR only.
+
+Catherine Lemaire
+
+@@@ FILE INV-Q09-01
+---
+folder: 08_investigations
+format: pdf
+title: Legal memo – proposed dismissal of E. Vandenberghe
+doc_type: legal_memo
+author: Isabelle Moreau
+author_role: Legal Counsel
+date: 2026-08-20
+jurisdiction: BE
+language: en
+themes: [T5, T1]
+status: final
+signed: true
+formality: legal_opinion
+related_employees: [E1080, E1002, E1014, E1017]
+related_questions: [Q09]
+---
+# Legal memo – proposed dismissal of Emma Vandenberghe
+
+**To:** Tom Verhaegen, Catherine Lemaire – **From:** Isabelle Moreau
+
+1. Emma filed a **formal request for psychosocial intervention on 18/11/2025**. She is protected against retaliation for **12 months** from that date (art. 32tredecies Law of 4/8/1996), i.e. until 18/11/2026.
+2. During that period we must be able to prove that the dismissal is based on **reasons unrelated to the request**. The burden of proof is on the employer.
+3. "Restructuring": the team keeps the same headcount – REQ-2026-044 opens a replacement position. This argument will not hold.
+4. "Performance": the only negative rating is the June 2025 review written by Bart Willems, the accused person, which the prevention adviser recommended to review. Her 2026 mid-year by Annelies is "Meets".
+5. **Risk: high.** Protection indemnity = 6 months' gross salary (≈ €18,900) + possible damages. **I advise against dismissal before 18/11/2026** and without an independent performance record.

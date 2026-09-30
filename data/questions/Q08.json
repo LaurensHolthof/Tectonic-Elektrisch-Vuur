@@ -1,0 +1,50 @@
+{
+ "id": "Q08",
+ "question": "Must Ahmed Karimi be paid for his on-call interventions, and may he use VPN logs to prove his hours?",
+ "themes": [
+  "T2",
+  "T6"
+ ],
+ "focus_docs": [
+  {
+   "id": "CJEU-C-518-15-MATZAK",
+   "path": "02_case_law/CJEU-C-518-15-MATZAK.md",
+   "final_weight": 0.9,
+   "legal_rank": null
+  },
+  {
+   "id": "POL-ONCALL-2025",
+   "path": "05_company_policies/POL-ONCALL-2025.pdf",
+   "final_weight": 0.935,
+   "legal_rank": 6
+  },
+  {
+   "id": "REC-Q08-01",
+   "path": "07_official_records/REC-Q08-01.csv",
+   "final_weight": 0.825,
+   "legal_rank": null
+  },
+  {
+   "id": "EML-Q08-01",
+   "path": "10_emails/EML-Q08-01.eml",
+   "final_weight": 0.385,
+   "legal_rank": null
+  }
+ ],
+ "supporting_docs": [
+  "EU-DIR-2003-88-WTD",
+  "EU-REG-2016-679-GDPR",
+  "CJEU-C-580-19-OFFENBACH",
+  "CCT-TEC-2023-DISCONNECT",
+  "CCT-TEC-2024-WORKTIME",
+  "POL-HYBRID-DISCONNECT-2023",
+  "POL-IT-2024",
+  "POL-OVERTIME-2024",
+  "POL-PRIVACY-NOTICE-EMPLOYEES-2025",
+  "CTR-E1102-ONCALL-ANNEX",
+  "REC-Q08-02",
+  "EML-Q08-02",
+  "EML-Q08-03",
+  "CHAT-Q08-01"
+ ]
+}

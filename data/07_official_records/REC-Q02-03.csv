@@ -1,0 +1,7 @@
+period,employee_id,name,gross_base_eur,overtime_hours_paid,overtime_premium_eur,meal_vouchers,payroll_category
+2026-01,E1057,Sofie Claes,4553.00,0.00,0.00,21,M1 – position of trust (no overtime)
+2026-02,E1057,Sofie Claes,4553.00,0.00,0.00,20,M1 – position of trust (no overtime)
+2026-03,E1057,Sofie Claes,4553.00,0.00,0.00,20,M1 – position of trust (no overtime)
+2026-04,E1057,Sofie Claes,4553.00,0.00,0.00,19,M1 – position of trust (no overtime)
+2026-05,E1057,Sofie Claes,4553.00,0.00,0.00,21,M1 – position of trust (no overtime)
+2026-06,E1057,Sofie Claes,4553.00,0.00,0.00,19,M1 – position of trust (no overtime)

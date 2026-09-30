@@ -1,0 +1,27 @@
+{
+ "_dataset_note": "Synthetic document – Tectonic 2026 hackathon dataset. Company, people and events are fictional.",
+ "platform": "Microsoft Teams",
+ "channel": "Consulting ANT – daily stand-up",
+ "messages": [
+  {
+   "ts": "2025-06-11T09:31:02+02:00",
+   "from": "Bart Willems",
+   "text": "@Emma Vandenberghe maybe let someone else do the data model, this is clearly too complex for you"
+  },
+  {
+   "ts": "2025-06-11T09:33:40+02:00",
+   "from": "Yasmine El Amrani",
+   "text": "I can pair with Emma on it if needed"
+  },
+  {
+   "ts": "2025-09-17T09:30:15+02:00",
+   "from": "Bart Willems",
+   "text": "Sharing Emma's deck as an example of what not to do 👇 [slides.pptx]"
+  },
+  {
+   "ts": "2025-09-17T09:45:01+02:00",
+   "from": "Dries Hermans",
+   "text": "(joining late, at client)"
+  }
+ ]
+}

@@ -1,0 +1,498 @@
+company:
+  name: Tectonic Solutions SA/NV (fictional)
+  enterprise_number: 0799.451.237 (fictional)
+  joint_committee: CP/PC 200
+  sites:
+    BXL: Brussels (fr/en)
+    ANT: Antwerp (nl/en)
+    LGE: Liège (fr/en)
+  headcount: 184
+  prevention_service: PreviSafe Services (fictional external service)
+people:
+  E1001: Catherine Lemaire – HR Director (BXL)
+  E1002: Tom Verhaegen – HR Business Partner (ANT)
+  E1003: Nadia Benali – HR & Payroll Officer, person of trust (BXL)
+  E1004: Philippe Dumont – CEO
+  E1005: Kristof Janssens – IT Security Manager
+  E1006: Isabelle Moreau – Legal Counsel
+  E1010: Laurent Mertens – Sales Director
+  E1011: Jeroen Maes – Delivery Manager (ANT)
+  E1012: Elke Wouters – Engineering Manager
+  E1013: Olivier Lambert – Marketing & Regional Manager Liège
+  E1014: Bart Willems – Team Lead Consulting until 31/03/2026 (ANT)
+  E1015: Sarah Lefèvre – CFO
+  E1016: Nicolas Hubert – Support Manager
+  E1017: Annelies Goossens – Team Lead Consulting from 01/04/2026
+  E1042: Marc Dubois – Senior Account Manager (Q01)
+  E1043: Julie Martens – Account Manager (witness Q01)
+  E1057: Sofie Claes – Project Lead M1 (Q02)
+  E1063: Pieter De Smet – Senior Software Engineer (Q03)
+  E1071: Lina Haddad – Marketing Specialist (Q04, Q10)
+  E1080: Emma Vandenberghe – Junior Consultant (Q05, Q09)
+  E1081: Yasmine El Amrani – Consultant (witness Q05)
+  E1082: Dries Hermans – Senior Consultant (witness Q05)
+  E1090: Jan Peeters – Finance Controller (Q06)
+  E1095: Luc Schmit – Sales Engineer, cross-border worker living in Luxembourg (Q07)
+  E1102: Ahmed Karimi – Support Engineer on-call (Q08)
+themes:
+  T1: Dismissal & serious cause (motif grave / dringende reden)
+  T2: Working time, overtime, stand-by, right to disconnect
+  T3: Telework & cross-border work
+  T4: Leave (parental, sickness, holidays)
+  T5: Harassment, wellbeing, discrimination, retaliation
+  T6: Monitoring of e-mail / IT, privacy
+legal_rank:
+  1: mandatory law (Belgian statutes, EU law)
+  2: CCT declared generally binding (national CNT / sector)
+  3: company-level CCT
+  4: written individual employment contract / signed annex
+  5: work regulations (règlement de travail / arbeidsreglement)
+  6: company policy, handbook or guideline not adopted as work regulations
+questions:
+  Q01:
+    themes:
+    - T1
+    - T6
+    question: Was the dismissal of Marc Dubois for serious cause on 16 March 2026 valid?
+    focus_docs:
+    - LAW-BE-1978-ART35-FR
+    - POL-WORKREG-2025-FR
+    - EML-Q01-03
+    - INV-Q01-01
+    verdict: likely_invalid
+    expected_answer: High risk that the dismissal is too late. The HR Director (competent to dismiss) received unambiguous
+      DLP evidence on 06/03/2026; the Sales Director's e-mail of 09/03 shows the investigation was used to postpone
+      the decision until after the Q1 closing for commercial reasons. An investigation/hearing only delays the 3-working-day
+      period (art. 35 Law 1978) if it is genuinely needed and conducted promptly. Even if 13/03 were accepted as
+      the knowledge date, seriousness is debatable (open VPN ticket, 9 years without warning, files deleted). The
+      mailbox evidence was obtained without the CCT 81 procedure; it is probably still admissible (Antigone case
+      law) but is not needed for the main facts. Expect exposure to an indemnity in lieu of notice (art. 39) and
+      a possible CCT 109 claim; consider settlement.
+    key_facts:
+    - 05/03 18:12–18:19 CRM export + pricing file to personal Drive/Gmail (REC-Q01-01)
+    - 06/03 09:14 IT Security e-mails the evidence to HR Director and Sales Director (EML-Q01-01)
+    - '09/03 Sales Director: ''We know enough ... not before the Q1 closing on the 13th'' (EML-Q01-03)'
+    - 13/03 HR report claims certainty only after hearing (INV-Q01-01); dismissal 16/03 (LTR-Q01-01)
+    - VPN incident open since 02/03 (REC-Q01-02, CHAT-Q01-01, STM-Q01-02)
+    conflicts:
+    - issue: Start of the 3-working-day period
+      sides:
+        INV-Q01-01: knowledge on 13/03 after hearing
+        EML-Q01-01: evidence sent to the competent person on 06/03
+        EML-Q01-03: decision deliberately delayed for business reasons
+      resolution: Knowledge date most likely 06/03 (or at the latest 09/03); dismissal on 16/03 is late.
+      winning_docs:
+      - LAW-BE-1978-ART35-FR
+      - EML-Q01-01
+      - EML-Q01-03
+      why: Contemporaneous e-mails outweigh a self-serving report written by the dismissing party; the disciplinary
+        policy itself forbids delaying for reasons unrelated to establishing facts.
+    - issue: Is the fact a serious cause?
+      sides:
+        POL-WORKREG-2025-FR: lists transfer of confidential data to private storage as serious cause
+        LAW-BE-1978-ART35-FR: serious cause is left to the judge's appreciation
+        REC-Q01-02: documented VPN problem supports the explanation
+      resolution: The list in the work regulations does not bind the judge; mitigating context is real.
+      winning_docs:
+      - LAW-BE-1978-ART35-FR
+      why: Mandatory law ranks above work regulations.
+    - issue: Admissibility of mailbox evidence
+      sides:
+        INV-Q01-02: full mailbox searched without CCT 81 procedure
+        CCT-BE-081: individualisation procedure required
+      resolution: Irregularly obtained; probably admissible under Antigone doctrine but weakens the employer.
+      winning_docs:
+      - CCT-BE-081
+      why: Generally binding CCT ranks above the IT policy.
+  Q02:
+    themes:
+    - T2
+    question: Is Sofie Claes entitled to payment for overtime worked in the first half of 2026?
+    focus_docs:
+    - RD-BE-1965-TRUST-FR
+    - POL-HANDBOOK-v3-2026
+    - REC-Q02-01
+    - EML-Q02-01
+    verdict: entitled
+    expected_answer: 'Likely entitled. The ''position of trust'' label in the 2026 amendment and handbook v3 is
+      not decisive: the RD of 10/02/1965 covers genuine management/trust functions, the work regulations (annex
+      2) and the company CCT of 2024 limit such functions to the Management Committee, and Sofie has no subordinates,
+      budget or control over her planning. Working-time rules and overtime pay (+50%, +100% on Sundays; art. 29
+      Law 1971) apply. Overtime requested or knowingly accepted (Teams requests, weekly validation) must be paid
+      or recovered regardless of the internal prior-approval rule. Timesheets, badge logs and chats outweigh the
+      manager''s later e-mail. About 264 hours above the normal 38-h week in H1 2026, none paid.'
+    key_facts:
+    - Average 48.2 h per full week, 11 weekend days incl. 3 Sundays (REC-Q02-01, REC-Q02-02)
+    - Payroll shows 0 overtime paid (REC-Q02-03)
+    - Jeroen asked for weekend work (CHAT-Q02-01, EML-Q02-02) but later wrote he never requested overtime (EML-Q02-01)
+    - 'Amendment: no hierarchical authority, expenses >€500 need approval (CTR-E1057-AMD-2026)'
+    conflicts:
+    - issue: Is Sofie excluded from working-time rules as a person of trust?
+      sides:
+        CTR-E1057-AMD-2026: contract calls the function a position of trust
+        POL-HANDBOOK-v3-2026: M1+ exempt from overtime compensation
+        POL-WORKREG-2025-FR: only Management Committee functions (annex 2)
+        CCT-TEC-2024-WORKTIME: only Management Committee functions
+        RD-BE-1965-TRUST-FR: exhaustive statutory list of management/trust functions
+      resolution: Not a person of trust; working-time rules apply.
+      winning_docs:
+      - RD-BE-1965-TRUST-FR
+      - CCT-TEC-2024-WORKTIME
+      why: Law and company CCT rank above contract clauses and a handbook; facts (no authority) matter over labels.
+    - issue: Were the hours worked and requested?
+      sides:
+        EML-Q02-01: manager never requested overtime
+        REC-Q02-01: validated timesheets
+        CHAT-Q02-01: manager asked for weekend work
+      resolution: Hours were requested and knowingly accepted.
+      winning_docs:
+      - REC-Q02-01
+      - REC-Q02-02
+      - CHAT-Q02-01
+      why: Corroborated contemporaneous records beat a later statement by an interested party.
+    - issue: Prior written approval rule
+      sides:
+        POL-OVERTIME-2024: unapproved overtime not compensated
+        CCT-TEC-2024-WORKTIME: overtime with employer's even tacit agreement is overtime
+      resolution: Tacit agreement suffices.
+      winning_docs:
+      - CCT-TEC-2024-WORKTIME
+      - LAW-BE-1971-OVERTIME-FR
+      why: Company CCT and law rank above the policy.
+  Q03:
+    themes:
+    - T3
+    question: Can Pieter De Smet work remotely from Lyon (France) from 1 October 2026 to 31 January 2027?
+    focus_docs:
+    - CCT-BE-085
+    - POL-TELEWORK-v2-2026
+    - EU-REG-2004-883-SOCSEC
+    - CHAT-Q03-01
+    verdict: not_as_requested
+    expected_answer: 'Not as requested. The HRBP''s Teams message is not a valid approval: policy v2 requires the
+      HR Director''s written approval. ≈83 working days exceed the 60-day annual cap (derogation only by the HR
+      Director with an amended telework annex; CCT 85 and his annex fix Uccle as place of telework). Working 100%
+      in France means French social security applies (art. 11(3)(a) Reg. 883/2004) unless an A1 posting certificate
+      (art. 12) is obtained before departure; the company CCT forbids starting without this check. Tax likely stays
+      Belgian (<183 days, Belgian employer, no French PE) but must be checked. Workable answer: up to 60 working
+      days in 2026 with A1, the rest only via formal derogation. The archived v1 ban no longer applies.'
+    key_facts:
+    - Request 01/10/2026–31/01/2027, ≈83 working days, A1 not requested (REC-Q03-01)
+    - 'Tom: ''Sure, go ahead'' (CHAT-Q03-01); Legal: do not confirm (EML-Q03-02, INV-Q03-01)'
+    - Pieter already signed a lease relying on Tom's message (STM-Q03-01)
+    conflicts:
+    - issue: Was the request approved?
+      sides:
+        CHAT-Q03-01: HRBP says go ahead
+        POL-TELEWORK-v2-2026: HR Director written approval required
+      resolution: No valid approval.
+      winning_docs:
+      - POL-TELEWORK-v2-2026
+      why: An informal chat by a non-competent person cannot override the approval procedure (though it may create
+        an expectation to handle fairly).
+    - issue: Is working abroad allowed at all?
+      sides:
+        POL-TELEWORK-v1-2023: working abroad banned
+        POL-TELEWORK-v2-2026: up to 60 days/year
+      resolution: v2 applies since 01/02/2026.
+      winning_docs:
+      - POL-TELEWORK-v2-2026
+      why: Superseded document.
+    - issue: Applicable social security
+      sides:
+        EU-REG-2004-883-SOCSEC: lex loci laboris unless posting
+        CTR-E1063-TELEWORK-ANNEX: place of telework is Uccle
+      resolution: French social security unless A1.
+      winning_docs:
+      - EU-REG-2004-883-SOCSEC
+      why: EU regulation is directly applicable mandatory law.
+  Q04:
+    themes:
+    - T4
+    question: Was Olivier Lambert's refusal of Lina Haddad's parental leave request lawful?
+    focus_docs:
+    - RD-BE-1997-PARENTAL-FR
+    - POL-LEAVE-v1-2022
+    - POL-LEAVE-v2-2025
+    - EML-Q04-03
+    verdict: unlawful
+    expected_answer: Unlawful. Parental leave is a right; the employer may only postpone it (max 6 months) for justified
+      reasons linked to the functioning of the company, notified in writing within one month of the request (RD
+      29/10/1997; leave policy v2). Olivier relied on the 2022 policy (superseded on 01/02/2025), refused instead
+      of postponing, answered after 41 days and is not competent (HR only). The formal defect (plain e-mail instead
+      of registered letter / signed duplicate) is weak because HR acknowledged receipt in writing. The HR Director
+      correctly withdrew the refusal; the 3-week shift of the start was agreed. Lina is protected against dismissal.
+    key_facts:
+    - Request 10/03/2026 by e-mail, acknowledged by HR 11/03 (EML-Q04-01, EML-Q04-02, REC-Q04-01)
+    - Refusal 20/04 citing peak period policy (EML-Q04-03)
+    - HR Director overrules 28/04; leave from 01/06/2026 (EML-Q04-04, INV-Q04-01, CTR-E1071-AMD-PARENTAL)
+    conflicts:
+    - issue: Can management refuse parental leave in peak periods?
+      sides:
+        POL-LEAVE-v1-2022: yes (superseded)
+        POL-LEAVE-v2-2025: no, only postpone ≤6 months within 1 month
+        RD-BE-1997-PARENTAL-FR: right to parental leave; postponement conditions
+      resolution: Refusal not allowed.
+      winning_docs:
+      - RD-BE-1997-PARENTAL-FR
+      - POL-LEAVE-v2-2025
+      why: Law ranks first; v1 is superseded.
+    - issue: Was the request validly made?
+      sides:
+        POL-LEAVE-v2-2025: registered letter or signed duplicate
+        EML-Q04-02: HR acknowledged receipt in writing
+      resolution: Receipt is established; employer cannot rely on the form defect.
+      winning_docs:
+      - EML-Q04-02
+      - INV-Q04-01
+      why: Written acknowledgement serves the purpose of proof.
+  Q05:
+    themes:
+    - T5
+    question: Is Emma Vandenberghe's harassment complaint against Bart Willems substantiated?
+    focus_docs:
+    - LAW-BE-1996-HARASS-DEF-FR
+    - INV-Q05-01
+    - STM-Q05-02
+    - CHAT-Q05-01
+    verdict: substantiated
+    expected_answer: Substantiated. Repeated, similar abusive conduct over about six months (public belittling,
+      exclusion from a project, late-night demands) undermining her dignity meets the definition of moral harassment
+      (art. 32ter Law 1996); the clothing remark can be unwanted conduct with a sexual connotation. The prevention
+      adviser's formal opinion (independent statutory procedure) and contemporaneous Teams logs, corroborated by
+      Yasmine, outweigh Bart's statement and the informal HR note. Dries's statement carries little weight (absent
+      from 2 of 3 meetings, long-time colleague). The employer must implement the recommended measures.
+    key_facts:
+    - Formal request 18/11/2025 (REC-Q05-01)
+    - Teams DMs Apr–Oct 2025 (CHAT-Q05-01) and channel messages (CHAT-Q05-02)
+    - 'Adviser opinion 10/02/2026: harassment (INV-Q05-01)'
+    - HR note calls Emma 'sensitive' and suggests mediation (INV-Q05-02)
+    conflicts:
+    - issue: Jokes / performance management or harassment?
+      sides:
+        STM-Q05-02: jokes, normal feedback
+        CHAT-Q05-01: repeated demeaning messages
+        STM-Q05-03: witness corroborates
+        INV-Q05-01: adviser concludes harassment
+      resolution: Harassment.
+      winning_docs:
+      - INV-Q05-01
+      - CHAT-Q05-01
+      - STM-Q05-03
+      why: Independent statutory opinion + contemporaneous records vs statement of the accused.
+    - issue: Weight of HR's informal view and of the second witness
+      sides:
+        INV-Q05-02: Emma sensitive, Bart top performer
+        STM-Q05-04: noticed nothing
+      resolution: Low weight.
+      winning_docs:
+      - INV-Q05-01
+      why: HR note is informal, biased and bypassed the statutory procedure (see superseded 2017 procedure); Dries
+        was absent.
+  Q06:
+    themes:
+    - T6
+    question: Was HR/IT allowed to read Jan Peeters' e-mails in June 2026, and can they use what they found?
+    focus_docs:
+    - CCT-BE-081
+    - POL-IT-2024
+    - GUI-BE-APD-SURVEILLANCE
+    - CTR-Q06-01
+    verdict: not_lawful
+    expected_answer: Not lawful as done. CCT 81 allows monitoring to protect confidential economic interests, but
+      with prior collective and individual information, proportionality and the individualisation procedure; the
+      company skipped all of this, read the full content for two months (not just metadata), searched only Jan among
+      six people with access, and opened e-mails marked private – contrary to the secrecy of communications (art.
+      124 Law 2005), GDPR (art. 5, 88), Bărbulescu, the company's own privacy notice and Jan's signed IT charter.
+      The IT policy's 'any mailbox at any time' clause cannot override these. A labour court might still admit the
+      evidence (Antigone), but it proves little (no budget file sent) and the company is exposed to APD sanctions
+      and damages; a serious-cause dismissal based on it would be very risky.
+    key_facts:
+    - 'CFO: ''read everything, including anything private, don''t tell him'' (EML-Q06-01)'
+    - 'Audit log: full access 09:03–11:47, Private folder opened (REC-Q06-01)'
+    - No budget file found (EML-Q06-02, INV-Q06-01)
+    conflicts:
+    - issue: Could the company read the mailbox without notice?
+      sides:
+        POL-IT-2024: any mailbox at any time
+        POL-PRIVACY-NOTICE-EMPLOYEES-2025: only after informing the employee; private e-mails not opened
+        CTR-Q06-01: monitoring per CCT 81
+        CCT-BE-081: procedure and proportionality
+      resolution: No.
+      winning_docs:
+      - CCT-BE-081
+      - CTR-Q06-01
+      - LAW-BE-2005-SECRECY-FR
+      why: Generally binding CCT and signed contract annex rank above an internal policy; the policy is contradicted
+        by the company's own notice.
+  Q07:
+    themes:
+    - T4
+    - T1
+    question: Can Tectonic dismiss Luc Schmit for serious cause for sending his medical certificate late?
+    focus_docs:
+    - LAW-BE-1978-ART31-FR
+    - POL-HANDBOOK-v3-2026
+    - POL-WORKREG-2025-FR
+    - EML-Q07-01
+    verdict: 'no'
+    expected_answer: No. Art. 31 Law 1978 lets a CCT or the work regulations set the deadline; Tectonic's work regulations
+      say 2 working days from the first day of incapacity. The handbook's 24-hour rule and 'serious cause' wording
+      were not adopted as work regulations and do not prevail. Luc informed his manager immediately (call 07:52
+      + WhatsApp) and sent a valid Luxembourg certificate on Wednesday 09/09 (at most one day late). The legal sanction
+      is refusal of guaranteed salary for the days before sending, not serious cause; one earlier warning does not
+      make this fact serious enough. A serious-cause dismissal would very likely be overturned.
+    key_facts:
+    - Call log 07/09 07:52 (REC-Q07-03), WhatsApp (CHAT-Q07-01)
+    - Certificate LU GP, sent 09/09 16:40 (REC-Q07-01, EML-Q07-02)
+    - Warning 16/02/2026 for a late certificate (REC-Q07-04)
+    conflicts:
+    - issue: Deadline for the certificate
+      sides:
+        POL-HANDBOOK-v3-2026: 24 hours
+        POL-WORKREG-2025-FR: 2 working days
+        POL-SICKNESS-2025: 2 working days
+        LAW-BE-1978-ART31-FR: 2 working days unless CCT/work regulations say otherwise
+      resolution: 2 working days.
+      winning_docs:
+      - LAW-BE-1978-ART31-FR
+      - POL-WORKREG-2025-FR
+      why: Only a CCT or the work regulations can change the legal deadline; the handbook is an internal guideline.
+    - issue: Sanction
+      sides:
+        EML-Q07-01: go for serious cause
+        LAW-BE-1978-ART31-FR: loss of guaranteed salary for days before sending
+      resolution: Salary sanction at most.
+      winning_docs:
+      - LAW-BE-1978-ART31-FR
+      - LAW-BE-1978-ART35-FR
+      why: Proportionality; serious cause requires immediate impossibility of collaboration.
+  Q08:
+    themes:
+    - T2
+    - T6
+    question: Must Ahmed Karimi be paid for his on-call interventions, and may he use VPN logs to prove his hours?
+    focus_docs:
+    - CJEU-C-518-15-MATZAK
+    - POL-ONCALL-2025
+    - REC-Q08-01
+    - EML-Q08-01
+    verdict: partly_yes
+    expected_answer: 'Yes for the active interventions: 41.5 h over 23 interventions (VPN logs, on-call channel)
+      are working time and must be paid or recovered as overtime. The policy''s rule that interventions under 60
+      minutes are covered by the allowance (which would reduce this to 21.0 h) is contrary to the law, to the company
+      CCT on the right to disconnect (art. 2) and to Ahmed''s signed on-call annex, which prevails over the policy.
+      The manager cannot unilaterally erase recorded hours (company CCT 2024 art. 3; C-55/18 time-recording duty).
+      Passive stand-by with a 30-minute remote response time from home is probably not working time under Matzak/Offenbach
+      criteria, so the €150 flat allowance can cover that part. Ahmed is entitled to his own VPN logs under GDPR
+      art. 15; ''privacy'' is not a reason to refuse the data subject.'
+    key_facts:
+    - 23 interventions, 41.5 h, 9 under 60 min (REC-Q08-01)
+    - Timesheets reset to 38 h 'not approved' (REC-Q08-02, EML-Q08-01)
+    - Access request refused (EML-Q08-02, EML-Q08-03)
+    conflicts:
+    - issue: Are interventions working time?
+      sides:
+        POL-ONCALL-2025: first 60 min covered by allowance
+        CTR-E1102-ONCALL-ANNEX: all intervention time is working time
+        CCT-TEC-2023-DISCONNECT: on-call work is working time
+        EML-Q08-01: allowance covers everything
+      resolution: All active intervention time counts.
+      winning_docs:
+      - CTR-E1102-ONCALL-ANNEX
+      - CCT-TEC-2023-DISCONNECT
+      - EU-DIR-2003-88-WTD
+      why: Law, company CCT and contract rank above the policy and a manager's e-mail.
+    - issue: Is passive stand-by working time?
+      sides:
+        CJEU-C-518-15-MATZAK: stand-by with heavy constraints = working time
+        CJEU-C-580-19-OFFENBACH: depends on intensity of constraints
+      resolution: '30 min from home: likely not.'
+      winning_docs:
+      - CJEU-C-580-19-OFFENBACH
+      why: Constraints are moderate.
+    - issue: Access to VPN logs
+      sides:
+        POL-IT-2024: logs confidential, not shared
+        EU-REG-2016-679-GDPR: art. 15 right of access
+        POL-PRIVACY-NOTICE-EMPLOYEES-2025: right to a copy of logs relating to you
+      resolution: Must be provided.
+      winning_docs:
+      - EU-REG-2016-679-GDPR
+      why: EU regulation prevails.
+  Q09:
+    themes:
+    - T5
+    - T1
+    question: Is Emma Vandenberghe's dismissal (notified 31 August 2026) protected against retaliation?
+    focus_docs:
+    - LAW-BE-1996-RETALIATION-FR
+    - PERF-Q09-01
+    - CTR-Q09-01
+    - EML-Q09-02
+    verdict: protected
+    expected_answer: 'Protected. The dismissal falls within 12 months after the formal request of 18/11/2025 (art.
+      32tredecies, Justel: 32terdecies, Law 1996), so the employer must prove reasons unrelated to the complaint.
+      ''Restructuring'' is contradicted by the replacement requisition (same headcount); ''performance'' relies
+      on a June 2025 review written by the accused during the harassment period, which the prevention adviser asked
+      to review, while her latest review (July 2026) is ''Meets''. Chat evidence (''Emma won''t be a problem much
+      longer'') and Legal''s warning make retaliation likely. Outcome: reinstatement request or protection indemnity
+      of 6 months'' gross salary (≈ €18,900), plus possible CCT 109 damages.'
+    key_facts:
+    - Dismissal letter 31/08/2026 citing restructuring + performance (CTR-Q09-01)
+    - Replacement requisition 12/08/2026 (REC-Q09-01, EML-Q09-02)
+    - Legal warned against dismissal (INV-Q09-01); HRBP chat with Bart (CHAT-Q09-01)
+    conflicts:
+    - issue: Reason for dismissal
+      sides:
+        CTR-Q09-01: restructuring + performance
+        REC-Q09-01: replacement hire, no headcount reduction
+        PERF-Q09-01: negative review by the accused
+        PERF-E1080-2026: latest review Meets
+      resolution: Reasons not established; linked to complaint.
+      winning_docs:
+      - LAW-BE-1996-RETALIATION-FR
+      - REC-Q09-01
+      - PERF-E1080-2026
+      why: Burden of proof on employer; tainted review has low credibility (conflict of interest).
+  Q10:
+    themes:
+    - T4
+    - T5
+    question: Can Lina Haddad's 2026 mid-year rating (and bonus) be lowered because of reduced availability during
+      parental leave?
+    focus_docs:
+    - EU-DIR-2019-1158-WLB
+    - PERF-Q10-01
+    - REC-Q10-01
+    - CHAT-Q10-01
+    verdict: 'no'
+    expected_answer: No. The rating penalises the use of parental leave (unavailability on her leave day) and ignores
+      the policy requirement to pro-rate objectives and not to use availability on leave days as a criterion. KPI
+      data show above-average output (1.28 deliverables per worked day vs ≈1.04 for the rest of the team). Less
+      favourable treatment for taking parental leave is prohibited (Dir. 2019/1158 art. 11; CJEU C-7/12 Riežniece)
+      and may amount to indirect sex discrimination (Dir. 2006/54). The manager's chat shows the leave was the reason.
+      Rating and bonus (€726 instead of ≈€1,450) should be revised.
+    key_facts:
+    - Mid-year 'Partially meets' for Wednesday unavailability (PERF-Q10-01)
+    - KPI 1.28 vs 1.04 (REC-Q10-01); bonus impact (REC-Q10-02)
+    - 'Olivier: ''since she went 4/5 she checked out'' (CHAT-Q10-01, EML-Q10-01)'
+    conflicts:
+    - issue: Is availability on the leave day a legitimate criterion?
+      sides:
+        PERF-Q10-01: availability not met
+        POL-PERFORMANCE-BONUS-2025: availability on statutory leave days may not be used; pro-rate objectives
+        EU-DIR-2019-1158-WLB: no less favourable treatment for taking leave
+      resolution: Not legitimate.
+      winning_docs:
+      - EU-DIR-2019-1158-WLB
+      - POL-PERFORMANCE-BONUS-2025
+      why: EU law and the company's own policy outrank a manager's review.
+    - issue: Actual performance
+      sides:
+        PERF-Q10-01: less committed
+        REC-Q10-01: above-average output
+      resolution: Performance is above average.
+      winning_docs:
+      - REC-Q10-01
+      why: Objective system data beats a biased subjective assessment.

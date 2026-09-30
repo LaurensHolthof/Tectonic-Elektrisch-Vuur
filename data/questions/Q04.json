@@ -1,0 +1,43 @@
+{
+ "id": "Q04",
+ "question": "Was Olivier Lambert's refusal of Lina Haddad's parental leave request lawful?",
+ "themes": [
+  "T4"
+ ],
+ "focus_docs": [
+  {
+   "id": "RD-BE-1997-PARENTAL-FR",
+   "path": "01_legislation/be_federal/RD-BE-1997-PARENTAL-FR.md",
+   "final_weight": 1.0,
+   "legal_rank": 1
+  },
+  {
+   "id": "POL-LEAVE-v1-2022",
+   "path": "05_company_policies/archive/POL-LEAVE-v1-2022.pdf",
+   "final_weight": 0.44,
+   "legal_rank": 6
+  },
+  {
+   "id": "POL-LEAVE-v2-2025",
+   "path": "05_company_policies/POL-LEAVE-v2-2025.pdf",
+   "final_weight": 0.935,
+   "legal_rank": 6
+  },
+  {
+   "id": "EML-Q04-03",
+   "path": "10_emails/EML-Q04-03.eml",
+   "final_weight": 0.385,
+   "legal_rank": null
+  }
+ ],
+ "supporting_docs": [
+  "CTR-E1071-AMD-PARENTAL",
+  "CTR-E1071-CONTRACT",
+  "REC-Q04-01",
+  "INV-Q04-01",
+  "STM-Q04-01",
+  "EML-Q04-01",
+  "EML-Q04-02",
+  "EML-Q04-04"
+ ]
+}
