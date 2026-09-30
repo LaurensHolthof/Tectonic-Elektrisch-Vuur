@@ -1,0 +1,18 @@
+{
+  "name": "hylite",
+  "version": "1.0.0",
+  "description": "Hylite — Semantic search engine for workplace policies, legal sources, grounded paragraph annotations, and conflict detection.",
+  "scripts": {
+    "setup": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "concurrently --kill-others-on-fail --names server,client --prefix-colors blue,green \"npm run dev:server\" \"npm run dev:client\"",
+    "build:server": "npm run build --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build:server && npm run build:client",
+    "start:server": "npm run start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

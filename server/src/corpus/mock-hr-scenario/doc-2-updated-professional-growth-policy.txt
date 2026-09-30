@@ -1,0 +1,53 @@
+---
+title: Professional Growth Allowance Policy (Version 3.0 - Active)
+sourceType: internal_hr_policy
+date: 2026-01-15
+jurisdiction: Global
+language: en
+register: corporate_standard
+format: txt
+---
+
+DOCUMENT 2 — UPDATED POLICY
+
+Policy owner: People Operations
+Policy number: HR-LD-301
+Effective date: 15 January 2026
+Review date: 15 January 2027
+Status: Active
+
+1. Purpose and precedence
+
+The Professional Growth Allowance supports role-relevant learning that builds an employee's skills and career development. This policy supersedes the Employee Training and Tuition Reimbursement Policy, Version 1.4, and all earlier learning reimbursement guidance. Requests submitted on or after 15 January 2026 are governed exclusively by this version.
+
+2. Annual allowance
+
+Each eligible employee has a professional development allowance of up to €1,500 per calendar year. The allowance may be used across several approved purchases, but unused funds expire on 31 December and cannot be transferred, paid as cash, or carried into a later year. The applicable year is the year in which the employee enrolls or makes the purchase.
+
+3. Eligibility
+
+Permanent full-time and part-time employees become eligible immediately after successfully completing probation. No additional minimum length of service applies. Interns, agency workers, independent contractors, and employees who have given or received notice of termination are not eligible unless People Operations approves an exception in writing.
+
+4. Eligible expenses
+
+Eligible expenses include instructor-led or self-paced online courses, accredited certificate programs, professional examinations, conferences, workshops, and books directly related to the employee's current role or an agreed development objective. Course fees may include required digital materials. Travel, accommodation, optional hardware, general entertainment subscriptions, and late or cancellation fees are not covered.
+
+5. Approval before commitment
+
+The employee must obtain written approval from their direct manager before enrolling, purchasing, or making any non-refundable commitment. The request must identify the provider, learning objective, dates, total cost, and available allowance balance. Standard requests within the €1,500 annual limit do not require approval from a vice president or People Operations. Approval cannot be granted retroactively after enrollment.
+
+6. Payment and evidence
+
+After manager approval, the employee may request a company virtual card in Workday or pay personally and claim reimbursement. Reimbursement claims must be submitted in Workday within 30 calendar days of payment with the manager's approval, an itemized receipt, and proof of payment. Completion certificates are encouraged for development records but are not a condition of reimbursement unless the course is an examination-preparation program.
+
+7. Currency conversion and taxes
+
+For purchases in another currency, Finance uses the card settlement amount or the Workday exchange rate on the payment date. The euro-equivalent cost counts against the €1,500 limit. Employees are responsible for any personal tax arising from a benefit where local law treats the expense as taxable.
+
+8. Repayment
+
+There is no repayment obligation for an approved course costing €1,500 or less. A separate written agreement may apply only where the company funds an exceptional program above the annual allowance; that agreement must be signed before enrollment.
+
+9. Example
+
+An employee who has passed probation and has not used any of their 2026 allowance may request a €1,400 online data analytics course. The course is eligible if it supports the employee's role or agreed development plan and the direct manager approves it in writing before enrollment. Once approved, €100 remains available for other eligible learning purchased during 2026.

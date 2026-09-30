@@ -1,0 +1,39 @@
+---
+title: Partner Academy Promotional Credit FAQ — Gold Reseller Program
+sourceType: internal_memo
+date: 2025-11-10
+jurisdiction: Global
+language: en
+register: corporate_standard
+format: txt
+---
+
+DOCUMENT 5 — IRRELEVANT / FALSE FOR EMPLOYEE REQUESTS
+
+Document owner: Channel Sales Operations
+Program year: 2026
+Audience: Authorized Gold Reseller partner companies
+
+1. What is the Partner Academy training credit?
+
+The Partner Academy credit is a sales incentive for independent reseller businesses that achieved Gold status in the prior program year. An eligible partner company receives up to €3,000 in promotional training credits for its customer-facing consultants. The credit is not cash, compensation, an employee benefit, or part of Northstar Systems' professional development allowance.
+
+2. Who may use the credit?
+
+Only workers nominated by the authorized reseller's registered Partner Administrator may attend. Northstar Systems employees, interns, contractors engaged directly by Northstar, and members of the public cannot use Partner Academy promotional credits.
+
+3. Which courses are available?
+
+Credits may be applied only to Northstar Partner Academy product-certification courses listed in the reseller portal. External university modules, general data analytics courses, conferences, books, and third-party online learning platforms are outside the partner program.
+
+4. Is manager approval required?
+
+The learner does not need approval from a Northstar Systems line manager. The reseller's Partner Administrator enrolls the learner directly and accepts the program terms on behalf of the reseller company. This rule concerns external partner enrollment only and must not be used for employee learning purchases.
+
+5. How is payment handled?
+
+No employee reimbursement or Workday expense claim is involved. Channel Sales Operations applies the promotional credit to the reseller's portal account. Unused partner credits expire on 31 December 2026 and have no monetary value.
+
+6. Important scope notice
+
+This FAQ is sometimes returned in searches for “training allowance,” “online course,” or “approval.” It does not describe employee eligibility, employee spending limits, or the approval process under the Professional Growth Allowance Policy. Any statement that employees have a €3,000 allowance or may enroll without manager approval is false.

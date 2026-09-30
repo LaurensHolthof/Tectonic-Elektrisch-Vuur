@@ -1,0 +1,44 @@
+---
+title: Wiki RH France — Budget de développement professionnel 2026
+sourceType: internal_hr_policy
+date: 2026-02-02
+jurisdiction: Global
+countryOfOrigin: France
+language: fr
+register: corporate_standard
+format: txt
+---
+
+DOCUMENT 3 — DOCUMENT DANS UNE AUTRE LANGUE
+
+Propriétaire de la page : Équipe People Operations France
+Dernière mise à jour : 2 février 2026
+Statut : En vigueur
+
+Objet
+
+Le budget de développement professionnel permet aux salariés d'acquérir des compétences utiles à leur poste actuel ou à un objectif de développement convenu avec leur responsable. Cette page applique en France la politique mondiale Professional Growth Allowance, version 3.0, en vigueur depuis le 15 janvier 2026. Elle remplace les anciennes consignes relatives au remboursement des formations.
+
+Montant disponible
+
+Chaque salarié éligible dispose d'un budget maximal de 1 500 € par année civile. Le budget peut être réparti entre plusieurs achats approuvés. Le solde non utilisé expire le 31 décembre : il ne peut être ni reporté à l'année suivante, ni versé au salarié sous forme de rémunération.
+
+Salariés éligibles
+
+Les salariés en contrat permanent, à temps plein ou à temps partiel, deviennent éligibles dès la validation de leur période d'essai. Aucune ancienneté supplémentaire n'est exigée. Les stagiaires, prestataires externes et salariés en période de préavis ne sont pas éligibles, sauf dérogation écrite de People Operations.
+
+Dépenses couvertes
+
+Le budget couvre notamment les cours en ligne, qu'ils soient animés par un formateur ou suivis en autonomie, les certifications reconnues, les examens professionnels, les conférences, les ateliers et les ouvrages liés au poste ou au plan de développement. Les frais de voyage, l'hébergement, le matériel informatique facultatif, les abonnements de divertissement et les pénalités d'annulation ne sont pas remboursés.
+
+Autorisation obligatoire
+
+Avant toute inscription, tout achat ou tout engagement non remboursable, le salarié doit obtenir l'accord écrit de son responsable hiérarchique direct. La demande doit préciser le prestataire, l'objectif pédagogique, les dates et le coût total. Pour une demande standard ne dépassant pas 1 500 €, aucune validation d'un vice-président ni de People Operations n'est nécessaire. Une autorisation rétroactive après l'inscription n'est pas possible.
+
+Procédure de paiement
+
+Après l'accord du responsable, le salarié peut demander une carte virtuelle d'entreprise dans Workday ou avancer les frais. En cas d'avance personnelle, la demande de remboursement doit être déposée dans Workday dans les 30 jours calendaires suivant le paiement, accompagnée de l'accord du responsable, d'une facture détaillée et d'une preuve de paiement.
+
+Exemple pratique
+
+Un cours en ligne d'analyse de données coûtant 1 400 € peut être financé sur le budget 2026 si le salarié a terminé sa période d'essai, si le cours est pertinent pour son poste ou son plan de développement et si son responsable direct donne son accord écrit avant l'inscription. Il restera alors 100 € de budget disponible jusqu'au 31 décembre 2026.
