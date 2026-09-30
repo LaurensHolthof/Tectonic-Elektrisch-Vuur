@@ -1,0 +1,40 @@
+---
+title: Internal Email — 2026 Learning Allowance: What Changed and How to Use It
+sourceType: internal_email
+date: 2026-02-05
+jurisdiction: Global
+language: en
+register: informal_internal
+format: txt
+---
+
+DOCUMENT 4 — SUPPORTING EMAIL
+
+From: Maya Chen <maya.chen@northstar.example>
+To: All Employees <all-employees@northstar.example>
+Date: Thursday, 5 February 2026, 10:15 CET
+Subject: Your new €1,500 learning allowance is live
+
+Hi everyone,
+
+The updated Professional Growth Allowance is now live in Workday. We designed the new process to make useful learning easier to access and to remove several restrictions from the old tuition reimbursement policy.
+
+If you are a permanent full-time or part-time employee and have completed probation, you now have up to €1,500 to spend on approved professional development during the calendar year. You no longer have to wait until your one-year anniversary. Any amount you do not use by 31 December expires, so please plan purchases within the year.
+
+Online learning is included. That means a live virtual class, a self-paced course, or a recognized certificate program can qualify when it relates to your job or to a development goal you have agreed with your manager. Conferences, professional exams, workshops, and relevant books can also qualify.
+
+Please discuss the learning with your direct manager and get their approval in writing before you click enroll or pay the provider. For an ordinary request within your remaining €1,500 balance, your manager is the only approver; you do not need VP sign-off. We cannot reimburse a purchase that was made first and approved afterward.
+
+Once your manager has approved the request, choose Learning & Development in Workday. You can ask for a virtual card or pay the cost yourself and submit an expense within 30 days. Attach the approval message, itemized receipt, and proof of payment.
+
+For a practical example, a role-relevant €1,400 online data analytics course can be covered in full when you still have the full allowance available. Get your manager's written approval before enrolling, and the remaining €100 can be used for another eligible item before year-end.
+
+The old €750 cap, twelve-month service requirement, classroom-only rule, and VP approval route no longer apply. If you see those rules in a saved document, please use the active policy in Workday instead.
+
+Questions about whether a course supports your role can go to your manager or learning@northstar.example.
+
+Best,
+
+Maya Chen
+Director, Learning and People Programs
+Northstar Systems

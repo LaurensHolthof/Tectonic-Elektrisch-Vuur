@@ -52,8 +52,8 @@ export const HighlightedText: React.FC<HighlightedTextProps> = ({
       <span
         key={`hl-${i}`}
         className="relative inline"
-        onMouseEnter={() => setActiveTooltip(i)}
-        onMouseLeave={() => setActiveTooltip(null)}
+        onMouseEnter={() => !isRed && setActiveTooltip(i)}
+        onMouseLeave={() => !isRed && setActiveTooltip(null)}
       >
         <mark
           className={`cursor-pointer rounded-sm px-0.5 py-0.5 transition-colors ${
@@ -75,36 +75,25 @@ export const HighlightedText: React.FC<HighlightedTextProps> = ({
           {highlightedChunk}
         </mark>
 
-        {/* Hover Tooltip */}
-        {activeTooltip === i && (
-          isRed ? (
-            <ConflictTooltip
-              reason={hl.hoverReason}
-              currentText={highlightedChunk}
-              currentSourceTitle={sourceTitle}
-              conflictSourceIds={hl.conflictSourceIds}
-              conflictSources={hl.conflictSources}
-              onInspectSource={onOpenSourceDoc}
-            />
-          ) : (
-            <div className="pointer-events-auto absolute bottom-full left-1/2 z-50 mb-2 w-72 -translate-x-1/2 rounded-lg border border-slate-700 bg-slate-900 p-3 text-xs text-white shadow-xl animate-fade-in sm:w-80">
-              <div className="mb-1 flex items-center gap-1.5 font-semibold text-white">
-                <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                <span>Matching source sentence</span>
-              </div>
-              <p className="text-slate-200 leading-snug">{hl.hoverReason}</p>
-              {hl.supportedSourceIds && hl.supportedSourceIds.length > 0 && (
-                <div className="mt-2 pt-2 border-t border-slate-800 text-[11px] text-slate-400 flex items-center justify-between">
-                  <span>Source:</span>
-                  <span className="font-mono text-amber-300 truncate max-w-[150px]">
-                    {hl.supportedSourceIds[0]}
-                  </span>
-                </div>
-              )}
-              {/* Arrow */}
-              <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-slate-900" />
+        {/* Matching-source highlights retain their compact hover explanation. */}
+        {activeTooltip === i && !isRed && (
+          <div className="pointer-events-auto absolute bottom-full left-1/2 z-50 mb-2 w-72 -translate-x-1/2 rounded-lg border border-slate-700 bg-slate-900 p-3 text-xs text-white shadow-xl animate-fade-in sm:w-80">
+            <div className="mb-1 flex items-center gap-1.5 font-semibold text-white">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" />
+              <span>Matching source sentence</span>
             </div>
-          )
+            <p className="text-slate-200 leading-snug">{hl.hoverReason}</p>
+            {hl.supportedSourceIds && hl.supportedSourceIds.length > 0 && (
+              <div className="mt-2 pt-2 border-t border-slate-800 text-[11px] text-slate-400 flex items-center justify-between">
+                <span>Source:</span>
+                <span className="font-mono text-amber-300 truncate max-w-[150px]">
+                  {hl.supportedSourceIds[0]}
+                </span>
+              </div>
+            )}
+            {/* Arrow */}
+            <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-slate-900" />
+          </div>
         )}
       </span>
     );
@@ -121,5 +110,27 @@ export const HighlightedText: React.FC<HighlightedTextProps> = ({
     );
   }
 
-  return <span className="leading-relaxed text-slate-800">{elements}</span>;
+  const conflicts = sorted.filter((highlight) => highlight.color === 'red');
+
+  return (
+    <>
+      <span className="leading-relaxed text-slate-800">{elements}</span>
+
+      {conflicts.length > 0 && (
+        <div className="mt-4 space-y-3">
+          {conflicts.map((highlight, index) => (
+            <ConflictTooltip
+              key={`${highlight.startIndex}-${highlight.endIndex}-${index}`}
+              reason={highlight.hoverReason}
+              currentText={text.slice(highlight.startIndex, highlight.endIndex)}
+              currentSourceTitle={sourceTitle}
+              conflictSourceIds={highlight.conflictSourceIds}
+              conflictSources={highlight.conflictSources}
+              onInspectSource={onOpenSourceDoc}
+            />
+          ))}
+        </div>
+      )}
+    </>
+  );
 };

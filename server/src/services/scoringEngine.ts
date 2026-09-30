@@ -244,7 +244,11 @@ export class ScoringEngine {
       'working from abroad',
       'health insurance',
       'emergency medical',
-      'line manager'
+      'line manager',
+      'professional development',
+      'learning allowance',
+      'online course',
+      'manager approval'
     ].filter(phrase => lowerP.includes(phrase));
 
     if (keyPhrases.length === 0) {
@@ -303,7 +307,17 @@ export class ScoringEngine {
       remotely: ['ausland', 'mobiles', 'remote', 'telework'],
       spain: ['spanien', 'valencia'],
       insurance: ['medical', 'allianz', 'health', 'coverage', 'emergency', 'repatriation', 'krankenversicherung', 'versicherung'],
-      allowance: ['quota', 'entitlement', 'days', 'limit', 'cap', 'anspruch'],
+      professional: ['professionnel', 'professionnelle'],
+      development: ['développement', 'learning', 'formation'],
+      allowance: ['quota', 'entitlement', 'days', 'limit', 'cap', 'anspruch', 'budget'],
+      pay: ['payment', 'paiement', 'financed', 'financé'],
+      online: ['virtual', 'en ligne'],
+      data: ['données'],
+      analytic: ['analysis', 'analyse'],
+      course: ['cours', 'formation', 'class'],
+      manager: ['responsable', 'supervisor', 'hiérarchique'],
+      approval: ['accord', 'autorisation', 'validation'],
+      enroll: ['enrollment', 'inscription', 'inscrire'],
       law: ['statute', 'statutory', 'code', 'bgb', 'act', 'directive', 'nachwg', 'richtlinie']
     };
 
@@ -320,7 +334,8 @@ export class ScoringEngine {
   private tokenize(text: string): string[] {
     const stopWords = new Set([
       'a', 'an', 'and', 'are', 'at', 'be', 'by', 'do', 'does', 'for', 'from',
-      'how', 'in', 'is', 'of', 'on', 'or', 'the', 'to', 'what', 'when', 'with'
+      'how', 'in', 'is', 'of', 'on', 'or', 'the', 'to', 'what', 'when', 'with',
+      'before', 'can', 'i', 'my', 'need', 'use'
     ]);
 
     return (text.toLowerCase().match(/[\p{L}\p{N}]+/gu) || [])

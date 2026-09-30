@@ -1,0 +1,44 @@
+---
+title: Employee Training and Tuition Reimbursement Policy (Version 1.4 - Superseded)
+sourceType: internal_hr_policy
+date: 2023-04-01
+jurisdiction: Global
+language: en
+register: corporate_standard
+format: txt
+---
+
+DOCUMENT 1 — OUTDATED POLICY
+
+Policy owner: Learning and Development
+Policy number: HR-LD-104
+Effective date: 1 April 2023
+Status: Superseded on 15 January 2026
+
+1. Purpose
+
+This policy describes the former reimbursement process for optional education undertaken by employees outside their normal duties. It applies to degree modules, professional examinations, conferences, and instructor-led courses that support an employee's current position.
+
+2. Annual reimbursement limit
+
+Eligible employees may be reimbursed for approved tuition and registration fees up to a maximum of €750 per calendar year. The limit is calculated on the date Finance processes the expense, and unused amounts expire on 31 December. Costs above €750 are the employee's responsibility and may not be carried into the following year.
+
+3. Eligibility
+
+Only permanent full-time employees with at least twelve consecutive months of service may participate. Part-time employees, employees in probation, interns, contractors, and employees serving notice are not eligible for reimbursement under this policy.
+
+4. Covered learning
+
+Reimbursement is limited to classroom-based instruction, accredited university modules, and externally administered professional examinations. Self-paced courses, virtual courses, online learning subscriptions, books, software, travel, and examination resits are excluded, even when they relate to the employee's role.
+
+5. Approval and reimbursement procedure
+
+Employees must obtain written approval from both their department vice president and the Learning and Development Director before registering for any course or examination. A line manager's approval by itself is insufficient. After completing the program with a passing grade, the employee must submit the original receipt, proof of payment, attendance record, and certificate through the legacy ExpensePoint system within 15 days.
+
+6. Repayment
+
+An employee who resigns within twelve months after receiving reimbursement must repay 100% of the amount. No repayment reduction applies based on the number of months that have elapsed.
+
+7. Document control
+
+This version was retained for audit purposes after it was replaced by the Professional Growth Allowance Policy, Version 3.0. It must not be used to decide requests made on or after 15 January 2026.

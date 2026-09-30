@@ -30,29 +30,29 @@ export class Annotator {
       conflictSources?: string[];
     }> = [
       {
-        pattern: /strictly capped at a maximum of 10 business days per calendar year/i,
-        reason: 'OUTDATED POLICY CONFLICT: The 10-day cap is obsolete. The active 2025 Global Flexible Work Policy expands international workations to 30 working days per rolling 12 months.',
-        conflictSources: ['doc-2-updated-international-workation-policy']
+        pattern: /up to a maximum of €750 per calendar year/i,
+        reason: 'OUTDATED POLICY CONFLICT: The former €750 cap was replaced by the active €1,500 Professional Growth Allowance.',
+        conflictSources: ['doc-2-updated-professional-growth-policy']
       },
       {
-        pattern: /restricted to regular full-time employees who have attained at least twelve \(12\) consecutive months of continuous tenure/i,
-        reason: 'OUTDATED ELIGIBILITY CONFLICT: The 12-month tenure restriction was abolished. Employees are eligible immediately after passing their 3-month probation.',
-        conflictSources: ['doc-2-updated-international-workation-policy']
+        pattern: /Only permanent full-time employees with at least twelve consecutive months of service may participate/i,
+        reason: 'OUTDATED ELIGIBILITY CONFLICT: Permanent full-time and part-time employees now qualify immediately after completing probation.',
+        conflictSources: ['doc-2-updated-professional-growth-policy']
       },
       {
-        pattern: /at least sixty \(60\) calendar days prior to the proposed travel date/i,
-        reason: 'OUTDATED ADVANCE NOTICE CONFLICT: Advance notice requirement was reduced from 60 days to 14 calendar days via Workday self-service.',
-        conflictSources: ['doc-2-updated-international-workation-policy']
+        pattern: /Self-paced courses, virtual courses, online learning subscriptions, books, software, travel, and examination resits are excluded/i,
+        reason: 'OUTDATED COVERAGE CONFLICT: The active policy expressly covers role-relevant online and self-paced courses.',
+        conflictSources: ['doc-2-updated-professional-growth-policy']
       },
       {
-        pattern: /from the Department Vice President \(VP\) and the Head of Corporate Risk/i,
-        reason: 'OUTDATED APPROVAL CHAIN: Executive/VP sign-off is no longer required. Standard requests require only Line Manager approval.',
-        conflictSources: ['doc-2-updated-international-workation-policy']
+        pattern: /written approval from both their department vice president and the Learning and Development Director before registering/i,
+        reason: 'OUTDATED APPROVAL CHAIN: A standard request within the allowance requires only the direct manager’s written pre-approval.',
+        conflictSources: ['doc-2-updated-professional-growth-policy']
       },
       {
-        pattern: /solely responsible for procuring private, comprehensive international health and emergency repatriation insurance/i,
-        reason: 'OUTDATED INSURANCE CONFLICT: The company now provides automatic emergency medical and business travel insurance through Allianz at no cost to the employee.',
-        conflictSources: ['doc-2-updated-international-workation-policy']
+        pattern: /must repay 100% of the amount/i,
+        reason: 'OUTDATED REPAYMENT CONFLICT: Approved learning at or below the active €1,500 allowance has no repayment obligation.',
+        conflictSources: ['doc-2-updated-professional-growth-policy']
       },
       {
         pattern: /2 weeks notice/i,
@@ -113,74 +113,59 @@ export class Annotator {
       supportedSources?: string[];
     }> = [
       {
-        pattern: /up to thirty \(30\) working days \(six calendar weeks\) per rolling 12-month period/i,
-        reason: 'CURRENT VALID POLICY: Active annual international workation entitlement.',
-        supportedSources: ['doc-2-updated-international-workation-policy']
+        pattern: /professional development allowance of up to €1,500 per calendar year/i,
+        reason: 'CURRENT VALID POLICY: Active annual professional development allowance.',
+        supportedSources: ['doc-2-updated-professional-growth-policy']
       },
       {
-        pattern: /immediately upon successful completion of their statutory or contractual probationary period \(standard 3 months\)/i,
-        reason: 'CURRENT VALID ELIGIBILITY: Full workation eligibility granted immediately following completion of 3-month probation.',
-        supportedSources: ['doc-2-updated-international-workation-policy']
+        pattern: /Eligible expenses include instructor-led or self-paced online courses/i,
+        reason: 'CURRENT VALID COVERAGE: Role-relevant online courses are eligible expenses.',
+        supportedSources: ['doc-2-updated-professional-growth-policy']
       },
       {
-        pattern: /at least fourteen \(14\) calendar days prior to the intended start date of the travel/i,
-        reason: 'CURRENT VALID TIMELINE: Mandatory 14-day advance notice requirement in Workday.',
-        supportedSources: ['doc-2-updated-international-workation-policy']
+        pattern: /must obtain written approval from their direct manager before enrolling, purchasing, or making any non-refundable commitment/i,
+        reason: 'CURRENT VALID WORKFLOW: Direct-manager approval is required before enrollment or purchase.',
+        supportedSources: ['doc-2-updated-professional-growth-policy']
       },
       {
-        pattern: /approval exclusively from the employee's immediate Line Manager/i,
-        reason: 'CURRENT VALID WORKFLOW: Streamlined single-level Line Manager approval without requiring VP sign-off.',
-        supportedSources: ['doc-2-updated-international-workation-policy']
+        pattern: /Standard requests within the €1,500 annual limit do not require approval from a vice president or People Operations/i,
+        reason: 'CURRENT VALID WORKFLOW: No VP or People Operations approval is needed for a standard in-limit request.',
+        supportedSources: ['doc-2-updated-professional-growth-policy']
       },
       {
-        pattern: /automatically covered under the company’s Global Business Travel and Emergency Medical Assistance insurance program/i,
-        reason: 'CURRENT VALID BENEFIT: Zero-cost emergency medical and hospitalization protection underwritten by Allianz.',
-        supportedSources: ['doc-2-updated-international-workation-policy']
+        pattern: /An employee who has passed probation and has not used any of their 2026 allowance may request a €1,400 online data analytics course/i,
+        reason: 'CURRENT POLICY EXAMPLE: The requested €1,400 online data analytics course fits within the 2026 allowance.',
+        supportedSources: ['doc-2-updated-professional-growth-policy']
       },
       {
-        pattern: /bis zu dreißig \(30\) Arbeitstage \(entspricht sechs Kalenderwochen\) aus einem genehmigten Zielland/i,
-        reason: 'GÜLTIGE REGELUNG: Bestätigter Anspruch auf 30 Arbeitstage Workation pro Jahr.',
-        supportedSources: ['doc-3-german-workation-richtlinie']
+        pattern: /budget maximal de 1 500 € par année civile/i,
+        reason: 'RÈGLE EN VIGUEUR : Confirmation du budget annuel de développement professionnel.',
+        supportedSources: ['doc-3-french-learning-allowance-wiki']
       },
       {
-        pattern: /unmittelbar nach dem erfolgreichen Bestehen der vertraglichen oder gesetzlichen Probezeit/i,
-        reason: 'GÜLTIGE TEILNAHMEVORAUSSETZUNG: Anspruchsberechtigung nach der Probezeit.',
-        supportedSources: ['doc-3-german-workation-richtlinie']
+        pattern: /Avant toute inscription, tout achat ou tout engagement non remboursable, le salarié doit obtenir l'accord écrit de son responsable hiérarchique direct/i,
+        reason: 'RÈGLE EN VIGUEUR : Accord écrit du responsable direct obligatoire avant l’inscription.',
+        supportedSources: ['doc-3-french-learning-allowance-wiki']
       },
       {
-        pattern: /mindestens vierzehn \(14\) Kalendertage vor dem geplanten Beginn/i,
-        reason: 'GÜLTIGE ANTRAGSFRIST: 14 Kalendertage Vorlaufzeit über das HR-Portal.',
-        supportedSources: ['doc-3-german-workation-richtlinie']
+        pattern: /Un cours en ligne d'analyse de données coûtant 1 400 € peut être financé sur le budget 2026/i,
+        reason: 'EXEMPLE VALIDE : Le wiki français confirme que le cours en ligne de 1 400 € peut être financé.',
+        supportedSources: ['doc-3-french-learning-allowance-wiki']
       },
       {
-        pattern: /Ausschließlich die Freigabe durch die jeweilige direkte disziplinarische Führungskraft/i,
-        reason: 'GÜLTIGER GENEHMIGUNGSPROZESS: Nur Freigabe durch die direkte Führungskraft erforderlich.',
-        supportedSources: ['doc-3-german-workation-richtlinie']
+        pattern: /up to €1,500 to spend on approved professional development during the calendar year/i,
+        reason: 'OPERATIONAL CONFIRMATION: People Programs confirms the active annual allowance.',
+        supportedSources: ['doc-4-supporting-email-learning-allowance']
       },
       {
-        pattern: /automatisch und beitragsfrei über die weltweite Auslandsnotfall- und Dienstreisekrankenversicherung/i,
-        reason: 'GÜLTIGER VERSICHERUNGSSCHUTZ: Beitragsfreie Notfall- und Krankenabsicherung über Allianz-Rahmenvertrag.',
-        supportedSources: ['doc-3-german-workation-richtlinie']
+        pattern: /get their approval in writing before you click enroll or pay the provider/i,
+        reason: 'OPERATIONAL CONFIRMATION: The employee announcement restates the manager pre-approval requirement.',
+        supportedSources: ['doc-4-supporting-email-learning-allowance']
       },
       {
-        pattern: /tripled our work-from-abroad allowance from 10 days to 30 working days per rolling 12 months/i,
-        reason: 'OPERATIONAL CONFIRMATION: Official People Ops announcement confirming 30-day workation allowance.',
-        supportedSources: ['doc-4-supporting-email-workation']
-      },
-      {
-        pattern: /cleared your initial 3-month probation period and are in good standing, you are eligible to book a workation immediately/i,
-        reason: 'OPERATIONAL CONFIRMATION: Official People Ops confirmation of eligibility post-probation.',
-        supportedSources: ['doc-4-supporting-email-workation']
-      },
-      {
-        pattern: /submit your request in Workday at least 14 days before you depart, and it only needs your direct manager’s approval/i,
-        reason: 'OPERATIONAL CONFIRMATION: Official People Ops confirmation of 14-day notice and manager sign-off.',
-        supportedSources: ['doc-4-supporting-email-workation']
-      },
-      {
-        pattern: /fully covered under our global emergency business medical insurance with Allianz/i,
-        reason: 'OPERATIONAL CONFIRMATION: Official People Ops confirmation of Allianz emergency medical coverage.',
-        supportedSources: ['doc-4-supporting-email-workation']
+        pattern: /a role-relevant €1,400 online data analytics course can be covered in full/i,
+        reason: 'OPERATIONAL CONFIRMATION: The supporting email confirms full coverage for the example course.',
+        supportedSources: ['doc-4-supporting-email-learning-allowance']
       },
       {
         pattern: /seven weeks before the leave begins, provided the leave is taken for the period up to the child's third birthday/i,

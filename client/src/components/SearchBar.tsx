@@ -17,9 +17,9 @@ export const SearchBar: React.FC<SearchBarProps> = ({
   const [query, setQuery] = useState(initialQuery);
 
   const sampleQueries = [
-    'Work remotely from Spain for 3 weeks',
-    'International workation policy allowance',
-    'Working from abroad insurance coverage'
+    "Can I use my 2026 professional development allowance to pay for a €1,400 online data analytics course, and do I need my manager's approval before I enroll?",
+    'How much is the 2026 learning allowance?',
+    'Do online courses need manager approval?'
   ];
 
   const handleSubmit = (e: React.FormEvent) => {

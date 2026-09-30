@@ -14,7 +14,7 @@ interface ConflictTooltipProps {
 /**
  * ConflictTooltip
  * 
- * Rendered when hovering over a RED highlight.
+ * Rendered inline for every RED highlight.
  * Explains why a sentence conflicts with stronger or more current guidance
  * and links to the contradictory source.
  */
@@ -28,7 +28,7 @@ export const ConflictTooltip: React.FC<ConflictTooltipProps> = ({
 }) => {
   return (
     <div
-      className="pointer-events-auto absolute bottom-full left-1/2 z-50 mb-2.5 w-[48rem] max-w-[calc(100vw-2rem)] -translate-x-1/2 rounded-xl border border-red-500/40 bg-slate-900/95 p-4 text-xs text-white shadow-2xl backdrop-blur animate-fade-in"
+      className="w-full rounded-xl border border-red-500/40 bg-slate-900 p-4 text-xs text-white shadow-sm"
       onClick={(e) => e.stopPropagation()}
     >
       {/* Header */}
@@ -96,9 +96,6 @@ export const ConflictTooltip: React.FC<ConflictTooltipProps> = ({
           ))}
         </div>
       ) : null}
-
-      {/* Bottom Arrow Pointer */}
-      <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-slate-900" />
     </div>
   );
 };

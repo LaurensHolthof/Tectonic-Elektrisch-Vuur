@@ -201,7 +201,9 @@ export const App: React.FC = () => {
                   <ParagraphCard
                     key={paragraph.paragraphId}
                     paragraph={paragraph}
-                    onOpenSourceDoc={(sourceId) => handleOpenSourceDoc(sourceId, paragraph.paragraphIndex)}
+                    onOpenSourceDoc={(sourceId, paragraphIndex) =>
+                      handleOpenSourceDoc(sourceId, paragraphIndex ?? paragraph.paragraphIndex)
+                    }
                   />
                 ))}
                 {visibleResults.length < filteredResults.length && (

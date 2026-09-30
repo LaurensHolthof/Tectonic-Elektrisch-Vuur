@@ -17,7 +17,7 @@ import {
 
 interface ParagraphCardProps {
   paragraph: AnnotatedParagraph;
-  onOpenSourceDoc: (sourceId: string) => void;
+  onOpenSourceDoc: (sourceId: string, paragraphIndex?: number) => void;
 }
 
 const sourceLabels: Record<SourceType, { label: string; icon: React.ElementType }> = {

@@ -35,7 +35,9 @@ class DocumentReader {
         for (const folder of topicFolders) {
             const folderPath = path_1.default.join(this.corpusBasePath, folder);
             const files = fs_1.default.readdirSync(folderPath, { withFileTypes: true })
-                .filter(dirent => dirent.isFile() && !dirent.name.startsWith('.'));
+                .filter(dirent => dirent.isFile() &&
+                !dirent.name.startsWith('.') &&
+                dirent.name.toLowerCase() !== 'question.txt');
             for (const file of files) {
                 const filePath = path_1.default.join(folderPath, file.name);
                 const parsedDoc = this.parseDocumentFile(filePath, folder, file.name);
